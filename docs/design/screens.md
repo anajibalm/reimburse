@@ -12,6 +12,14 @@
 
 Flow and `REDESIGN` are distinct variants. No source marks one complete redesign direction as selected final. Inspect exact frame names/children in Pencil before working from a particular layer.
 
+## PG-02 Desktop polish, issue #3
+
+Owner-directed baseline: saved local Desktop polish is preserved, including 447 added, 89 removed and 262 modified nodes relative to bootstrap commit `1a6af91`. This is not a new foundation redesign. Active state area is `S7pOm`; profile menu specimen is `z3abW3`. Archived/unaligned flows remain outside this scope.
+
+Stress specimen `p1Vshc` retains counts 5/4/3 and total 12. The 299 px chart retains two 4 px gaps; colored area 291 px has widths 121.25 / 97 / 72.75 px, exactly 5/12 / 4/12 / 3/12 (41.7% / 33.3% / 25%). Other chart styling and content are unchanged by this correction. Evidence: [`p1Vshc.png`](../../design/png/pg02-desktop/p1Vshc.png). Live canvas screenshot and bounds inspection found no enabled non-stripe overflow in the stress screen. These are sample data and static visual checks, not interaction tests.
+
+Dependency: Desktop branch starts at bootstrap `1a6af91` (PR #2 OPEN, no GitHub review recorded at inspection), explicitly authorized by the owner. No merge performed.
+
 ## Current inspected coverage
 
 | Screen family | Desktop | Mobile | Evidence / limit |
