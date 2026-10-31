@@ -1,0 +1,118 @@
+/*
+ * Draft visual-token handoff for `foundations.md` and `../../design/reimburse.pen`.
+ * Not imported by `prototype/react-dashboard` or production code. Canvas values and proposals remain review material.
+ */
+:root {
+  /* Color roles */
+  --color-canvas: #f0f1f2;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f7f8fa;
+  --color-ink: #191b20;
+  --color-text: #252a31;
+  --color-muted: #626c78;
+  --color-border: #e3e6ea;
+  --color-field-border: #858d97; /* 3.36:1 against white */
+  --color-primary: #0866d9;
+  --color-primary-strong: #064fa8;
+  --color-primary-soft: #e8f1ff;
+  --color-dark-surface: #17191d;
+  --color-inverse-text: #ffffff;
+  --color-success: #16794b;
+  --color-warning: #986000;
+  --color-danger: #b42318;
+  --color-success-soft: #e9f5ee;
+  --color-warning-soft: #fff5e5;
+  --color-danger-soft: #fdecea;
+  --color-danger-strong-surface: #3b2b2d;
+  --color-danger-strong-text: #ffc5c1;
+  --color-danger-strong-dot: #f17c75;
+
+  /* Typography. Inter is a tentative implementation choice. */
+  --font-ui: Inter, system-ui, sans-serif;
+  --font-size-page-title: 1.75rem;
+  --font-size-amount-large: 2rem;
+  --font-size-section-title: 1.125rem;
+  --font-size-body: 0.9375rem;
+  --font-size-label: 0.8125rem;
+  --font-size-support: 0.75rem;
+
+  /* Spacing scale, implementation estimates */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 40px;
+
+  /* Shape and layout estimates */
+  --radius-control: 8px;
+  --radius-panel: 14px;
+  --radius-shell: 18px;
+  --radius-pill: 999px;
+  --border-hairline: 1px;
+  --layout-rail-width: 196px; /* current Pen frame; draft at 1280px */
+  --layout-content-inset: 24px;
+
+  /* Elevation */
+  --shadow-shell: 0 12px 32px rgb(25 32 42 / 10%);
+
+  /* Foundations/04: Requester handoff; not imported by product screens. */
+  --color-text-primary: #191b20;
+  --color-text-secondary: #626c78;
+  --color-text-disabled: #777d84;
+  --color-text-on-dark: #ffffff;
+  --color-text-on-blue: #ffffff;
+  --color-interaction-hover: #075ec6;
+  --color-interaction-pressed: #0a2f75;
+  --color-focus-ring: #0866d9;
+  --color-border-error: #b42318;
+  --color-scrim: #11121399; /* USULAN BARU: dialog overlay */
+  --status-pending-bg: #fff5e5;
+  --status-pending-text: #986000;
+  --status-pending-dot: #986000;
+  --status-revision-bg: #fdecea;
+  --status-revision-text: #b42318;
+  --status-revision-dot: #b42318;
+  --status-finance-bg: #e8f1ff;
+  --status-finance-text: #0866d9;
+  --status-finance-dot: #0866d9;
+  --status-paid-bg: #e9f5ee;
+  --status-paid-text: #16794b;
+  --status-paid-dot: #16794b;
+  --status-rejected-bg: #fdecea;
+  --status-rejected-text: #b42318;
+  --status-rejected-dot: #b42318;
+  --status-cancelled-bg: #f0f1f2;
+  --status-cancelled-text: #626c78;
+  --status-cancelled-dot: #626c78;
+
+  --font-size-request-id: 10px;
+  --font-size-request-link: 12px;
+  --font-size-caption: 12px;
+  --font-size-mobile-title: 21px;
+  --font-size-mobile-body: 12px;
+  --tracking-body: 0px;
+  --tracking-summary-count: -1.2px;
+  /* USULAN BARU: font-variant-numeric: tabular-nums for amounts. */
+  --space-inline: 4px;
+  --space-control: 12px;
+  --space-row: 16px;
+  --space-panel: 20px;
+  --space-card: 24px;
+  --space-content: 28px;
+  --space-section: 32px;
+  --space-screen: 40px;
+  --space-large-section: 48px;
+  --radius-row: 20px;
+  --radius-card: 24px;
+  --shadow-modal: 0 12px 32px #191b201a; /* USULAN BARU */
+  --shadow-dropdown: 0 8px 24px #191b201a; /* USULAN BARU */
+  --shadow-toast: 0 8px 24px #191b201a; /* USULAN BARU */
+  --z-base: 0;
+  --z-menu: 20; /* USULAN BARU */
+  --z-toast: 30; /* USULAN BARU */
+  --z-modal: 40; /* USULAN BARU */
+  --motion-duration: 180ms; /* USULAN BARU: within board's 150–220ms */
+  --motion-easing: cubic-bezier(0.2, 0, 0, 1); /* USULAN BARU */
+}
