@@ -21,7 +21,7 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 ## Konflik sumber visual
 
 - Canvas `design/reimburse.pen` mendefinisikan `fieldBorder = #858D97` dan menamai `3.36:1` sebagai field boundary; canvas juga mendefinisikan `redesign-control-border = #7F8790`. Foundations/01 menggunakan keterangan nilai pertama. Peran token kedua pada kontrol redesign belum ditetapkan; jangan samakan atau menimpa token tanpa review desain.
-- Canvas memuat flow Requester, screen redesign, dan beberapa state PG-02. Nama “REDESIGN”, status “Belum diselaraskan”, serta variasi desktop/mobile menunjukkan ada varian yang belum diputuskan. Belum ada dasar untuk menetapkan satu varian redesign sebagai desain final atau menganggap semua frame sepasang dan sinkron.
+- Canvas memuat flow Requester, screen redesign, dan state PG-02. Owner sudah menyetujui baseline PG-02 Desktop/Mobile; PR #2 → #4 → #6 telah merged berurutan sesuai otorisasi. Persetujuan itu tidak berlaku otomatis pada flow lama berlabel “Belum diselaraskan”. Kandidat PG-04 Desktop pada issue #7 menunggu review; PG-04 Mobile belum dimulai. Lihat handoff `docs/design/screens.md` untuk node kandidat dan gate review, tanpa menganggap semua varian sepasang atau sinkron.
 
 ## Sumber dan keterlacakan
 
