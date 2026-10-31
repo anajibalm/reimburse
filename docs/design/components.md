@@ -51,7 +51,7 @@
 
 Shared-source board `XyHpr` contains `Component/PG-02 Mobile/Content/Normal` (`cD8aK`) and state content sources: stress `ktDJv`, empty `A0TrpX`, loading `ETo1F`, error `OzT4j`, service disabled `R5pMt`, picker `GZTkJ`, drafts `uejEq`, Wardrobe permission `aXibN`, profile `GQXOn`. Viewports instance these sources; scrolled views use the same source with a vertical offset, not separate content datasets.
 
-Mobile compositions reuse `fFmN2` buttons, `R5NHOj` status badges and `HVFcd` active Dashboard navigation, with scoped typography/shape overrides following reference Foundations. Existing component sources and variables are unchanged. Full-content sources are deliberately long, while screen viewports remain 390 × 844; see [`screens.md`](screens.md) for dimensions, state evidence and static interaction limitations.
+Mobile compositions reuse `fFmN2` buttons, `R5NHOj` status badges and `HVFcd` active Dashboard navigation, with scoped typography/shape overrides following reference Foundations. Existing component sources and variables are unchanged. Mobile source and viewport frame names carry `Data contoh · Requester`; the disclosure is not UI copy. Unread badge `5` is scoped to each Mobile bell; no shared source was modified for it. Profile and picker sheets share bottom alignment and surface/control styling. Full-content sources are deliberately long, while screen viewports remain 390 × 844; see [`screens.md`](screens.md) for dimensions, state evidence and static interaction limitations.
 
 ## Usage boundaries
 
