@@ -76,6 +76,10 @@ Setiap viewport berukuran 390 × 844, diekspor 2× menjadi **780 × 1688**. Gamb
 
 Konten lengkap tetap terlihat di shared-source board `XyHpr`; viewport sengaja memotong konten vertikal. Spesimen setelah scroll memakai offset konten sumber yang sama. Scroll, klik, keyboard, focus trap, dan screen reader belum diimplementasikan atau diuji oleh canvas.
 
+## Persetujuan baseline
+
+Owner menyetujui hasil visual pada commit `8618785` sebagai baseline Mobile. Canvas tersimpan dan 17 render individual diverifikasi ulang tanpa perubahan desain; hasil ekspor ulang identik dengan PNG yang sudah di-commit. Persetujuan visual tidak menyatakan implementasi scroll/interaksi, lolos aksesibilitas runtime, atau izin merge. PR #6 tetap bergantung pada Desktop PR #4.
+
 ## Verifikasi finalisasi
 - JSON tersimpan memuat seluruh 15 viewport dan 10 sumber reusable.
 - Perbandingan rekursif terhadap `113a418`: seluruh node lama identik; tidak ada node lama dihapus; variabel identik.

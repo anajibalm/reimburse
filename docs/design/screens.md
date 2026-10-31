@@ -22,6 +22,8 @@ Dependency: Desktop branch starts at bootstrap `1a6af91` (PR #2 OPEN, no GitHub 
 
 ## PG-02 Mobile, issue #5
 
+**Owner-approved visual baseline:** Mobile polish in commit `8618785` is approved as the Mobile visual baseline. Saved canvas SHA-256: `da17e7b60a92fcc3f1c8cdcdf996ca69c5f5407134b16ae16051279bbbed90dd`. Reverification found all 15 fixed viewports and bell badges consistent with the saved source; fresh 2× exports of all 15 viewports and both full-content extents are byte-identical to the committed PNGs. No additional design changes were made. This approval is not a merge, production acceptance, or runtime interaction/accessibility verification; PR #6 still depends on Desktop PR #4.
+
 [Individual state renders for review](../../design/png/pg02-mobile/README.md): 15 viewport PNGs at 780 × 1688 (2×), plus full normal/stress extents. Final saved JSON was verified to contain all 15 viewports and 10 reusable content sources. Recursive comparison against `113a418` found every pre-existing node and variable unchanged; initial finalization added no design edits. Subsequent owner-requested polish in the same issue/PR removes sample/role helper text from the UI, adds the unread count to each bell, and aligns profile/picker sheets to a common bottom inset.
 
 Based on Desktop commit `113a418`, PR #4, dependent in turn on bootstrap PR #2. Owner authorized the Desktop visual baseline; this does not claim merged or GitHub-approved PRs. New Mobile screens are separate from archived unsynchronized mobile explorations.
