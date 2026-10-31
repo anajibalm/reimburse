@@ -1,6 +1,6 @@
 # Platform Pengajuan Internal — Product Requirements Document
 
-**Versi:** 0.4 · **Status:** Draft review · **Tanggal draft awal:** 2026-10-29
+**Versi:** 0.5 · **Status:** Draft review · **Tanggal draft awal:** 2026-10-29
 **Sumber dokumentasi:** keputusan discovery. Header terdahulu juga mencantumkan `screenshot-2026-10-27_12-54-41.pdf` dan `prototype/checkpoint-v0.html`; kedua file itu tidak ada pada pohon repo yang diperiksa.
 
 > ID lama FR/AC/PG dipertahankan jika masih relevan. Prototype bukan sumber keputusan baru.
@@ -415,26 +415,24 @@ PG-04/PG-17 filter/export CSV/Excel atau detail PDF. Form PG-05/07/09 autosave d
 
 ### Confirmed decisions
 
-- Tepat dua aplikasi: `api` dan `web`.
-- `api` adalah satu Express JS API yang memuat business logic, database access, authorization, dan modul domain internal: identity/organization, master data, workflow, files, notifications, audit, import/export, payments, reimbursement, payment request, dan overtime.
-- `web` adalah satu aplikasi frontend untuk Requester dan Admin; role/permission membedakan UI dan akses.
-- Prototype HTML hanya referensi desain, bukan bagian stack produksi.
+- Tepat dua aplikasi produksi dalam npm monorepo: `apps/api` dan `apps/web`.
+- `apps/api` memuat business logic, authorization, akses database, dan modul internal: identity/organization, master data, workflow, files, notifications, audit, import/export, payments, reimbursement, payment request, dan overtime.
+- `apps/web` adalah satu aplikasi frontend untuk Requester dan Admin; role/permission membedakan UI dan akses. Web berkomunikasi melalui API, tidak mengakses database langsung.
+- Modul Reimbursement, Payment Request, dan Overtime adalah modul internal API, bukan aplikasi atau deployment terpisah. `packages/` hanya ditambahkan bila kode bersama benar-benar diperlukan.
+- Prototype HTML hanya referensi desain, bukan aplikasi produksi atau bagian workspace produksi.
 - Tidak ada integrasi langsung bank/ERP pada MVP.
 
-### Usulan boundary aplikasi
+### Batas workspace dan modul (keputusan final)
 
 ```mermaid
 flowchart LR
- WEB[web: satu TanStack Start\nRequester + Admin] --> API[api: satu Express JS API]
- API --> DOM[Domain modules internal\nReimbursement · Payment Request · Overtime]
- API --> SHARED[Shared modules internal\nIdentity · Master · Workflow · Files · Audit · Notifications · Import/Export · Payments]
- API --> DB[(Database relasional\norganization_id tenant scope)]
- API --> STORAGE[Private file storage\nsigned URL]
- API --> OCR[Replaceable OCR adapter]
- API --> JOB[Background job queue\nabove database]
+ WEB[apps/web: Requester + Admin] --> API[apps/api: business logic · authorization · database]
+ API --> DOM[Modul internal<br/>Reimbursement · Payment Request · Overtime]
+ API --> SHARED[Modul internal bersama<br/>Identity · Master · Workflow · Files · Audit · Notifications · Import/Export · Payments]
+ API --> DB[(Database)]
 ```
 
-Modul internal bukan aplikasi atau deployment terpisah. `web` tidak mengakses database langsung. Semua filter tenant dipaksa di `api`; semua file/export melewati authorization dan organization scope.
+`apps/api` dan `apps/web` adalah dua aplikasi workspace. Modul domain dan modul bersama tetap di dalam aplikasi API; keduanya bukan deployment tersendiri. `packages/` belum diperlukan. `apps/web` tidak mengakses database langsung. Semua filter tenant dipaksa di `apps/api`; semua file/export melewati authorization dan organization scope.
 
 ## 6. Database Schema (awal)
 
@@ -446,15 +444,15 @@ Constraint penting: public ticket `REIM-0001`/`PAY-0001`/`OT-0001` unique per or
 
 ### Confirmed
 
-- Aplikasi `api` dan `web` adalah keputusan final.
-- `web` menggabungkan Requester dan Admin dalam satu aplikasi dengan role/permission.
-- `api` adalah satu API yang memiliki seluruh business logic dan akses database.
+- Tepat dua aplikasi: `apps/api` dan `apps/web`, dalam satu npm monorepo.
+- `apps/web` menggabungkan Requester dan Admin dengan role/permission; seluruh akses data melalui `apps/api`.
+- `apps/api` adalah satu API yang memuat seluruh business logic, authorization, dan akses database.
+- Modul Reimbursement, Payment Request, dan Overtime adalah modul internal `api`, bukan aplikasi/deployment terpisah.
 - Prototype HTML/CSS/JavaScript hanya referensi desain, bukan stack produksi.
 - MVP tidak terhubung langsung ke bank, e-banking, akuntansi, atau ERP.
 
 ### Usulan, perlu keputusan tim developer
 
-- **Monorepo:** usulan struktur monorepo dua aplikasi (`api` dan `web`); starter awal dan detail template mengikuti keahlian tim developer.
 - **Frontend/backend:** usulan awal TypeScript full-stack, misalnya TanStack Start + Express; final mengikuti keahlian tim developer.
 - **Database:** usulan PostgreSQL relasional; semua tabel tenant memakai `organization_id` dan filter tenant dipaksa di server. ORM belum diputuskan.
 - **Penyimpanan file:** usulan storage privat dengan signed URL berumur pendek, misalnya Cloudflare R2 atau layanan S3-compatible. Tidak ada file publik secara default.
@@ -467,7 +465,6 @@ Constraint penting: public ticket `REIM-0001`/`PAY-0001`/`OT-0001` unique per or
 
 ### Perlu verifikasi sebelum implementasi
 
-- Kecocokan struktur monorepo dengan dua aplikasi `api`/`web`.
 - Keahlian tim developer untuk pilihan TypeScript full-stack.
 - Pilihan PostgreSQL ORM.
 - Pilihan storage privat dan kebijakan signed URL.
@@ -487,3 +484,4 @@ Constraint penting: public ticket `REIM-0001`/`PAY-0001`/`OT-0001` unique per or
 - 0.1: PRD discovery lengkap, 10 bagian lama.
 - 0.3: Section 3 diubah menjadi Fase → Fitur → Subfitur (`SF`) → Task (`T`); fase review dipindahkan menjadi Rencana review; user flow dipecah per jalur; screen/FR/state dilengkapi; feature-map disinkronkan.
 - 0.4: Stack dan Architecture disesuaikan menjadi dua aplikasi final (`api` dan `web`); keputusan yang belum final dipindahkan ke bagian usulan tim developer; penyebutan template yang tidak diperlukan dihapus; domain modules, tenant enforcement, storage, OCR, jobs, polling, auth, export, dan deployment ditulis sesuai statusnya.
+- 0.5: Monorepo npm dengan `apps/api` dan `apps/web` ditetapkan sebagai keputusan owner; modul domain tetap internal API; framework dan pilihan implementasi lain tetap terbuka.
