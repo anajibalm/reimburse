@@ -47,6 +47,12 @@
 | `Component/Page/Header` | `gzK11` | Page header. |
 | `Recent status badge 0` | `R5NHOj` | Current canvas source name as observed. |
 
+## PG-02 Mobile additions, issue #5
+
+Shared-source board `XyHpr` contains `Component/PG-02 Mobile/Content/Normal` (`cD8aK`) and state content sources: stress `ktDJv`, empty `A0TrpX`, loading `ETo1F`, error `OzT4j`, service disabled `R5pMt`, picker `GZTkJ`, drafts `uejEq`, Wardrobe permission `aXibN`, profile `GQXOn`. Viewports instance these sources; scrolled views use the same source with a vertical offset, not separate content datasets.
+
+Mobile compositions reuse `fFmN2` buttons, `R5NHOj` status badges and `HVFcd` active Dashboard navigation, with scoped typography/shape overrides following reference Foundations. Existing component sources and variables are unchanged. Full-content sources are deliberately long, while screen viewports remain 390 × 844; see [`screens.md`](screens.md) for dimensions, state evidence and static interaction limitations.
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).
