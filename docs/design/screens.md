@@ -20,6 +20,38 @@ Stress specimen `p1Vshc` retains counts 5/4/3 and total 12. The 299 px chart ret
 
 Dependency: Desktop branch starts at bootstrap `1a6af91` (PR #2 OPEN, no GitHub review recorded at inspection), explicitly authorized by the owner. No merge performed.
 
+## PG-02 Mobile, issue #5
+
+**Owner-approved visual baseline:** Mobile polish in commit `8618785` is approved as the Mobile visual baseline. Saved canvas SHA-256: `da17e7b60a92fcc3f1c8cdcdf996ca69c5f5407134b16ae16051279bbbed90dd`. Reverification found all 15 fixed viewports and bell badges consistent with the saved source; fresh 2× exports of all 15 viewports and both full-content extents are byte-identical to the committed PNGs. No additional design changes were made. This approval is not a merge, production acceptance, or runtime interaction/accessibility verification; PR #6 still depends on Desktop PR #4.
+
+[Individual state renders for review](../../design/png/pg02-mobile/README.md): 15 viewport PNGs at 780 × 1688 (2×), plus full normal/stress extents. Final saved JSON was verified to contain all 15 viewports and 10 reusable content sources. Recursive comparison against `113a418` found every pre-existing node and variable unchanged; initial finalization added no design edits. Subsequent owner-requested polish in the same issue/PR removes sample/role helper text from the UI, adds the unread count to each bell, and aligns profile/picker sheets to a common bottom inset.
+
+Based on Desktop commit `113a418`, PR #4, dependent in turn on bootstrap PR #2. Owner authorized the Desktop visual baseline; this does not claim merged or GitHub-approved PRs. New Mobile screens are separate from archived unsynchronized mobile explorations.
+
+Fixed viewport: 390 × 844. Header 132 px, body viewport 626 px, bottom navigation 86 px. Long content stays at readable size and scrolls vertically in implementation; static canvas uses intentional viewport clipping plus separate scrolled specimens. Full content remains visible in shared-source board `XyHpr` (normal extent `cD8aK`, 390 × 2085; stress `ktDJv`, 390 × 2351). No actual scrolling, navigation, modal handling or keyboard behavior is implemented by the Pen file.
+
+| Mobile state | Viewport / evidence in `design/png/pg02-mobile/` |
+|---|---|
+| Normal with two attention tasks | `JIPY2.png` |
+| Stress with eight attention tasks, first three shown | `ZKFu6.png` |
+| Empty | `r1eeyO.png` |
+| Loading | `xwfXZ.png` |
+| Error + retry | `wH6eU.png` |
+| Service disabled | `ubUWJ.png`, scrolled `Qyayp.png` |
+| Service picker open | `Dbjwn.png` |
+| Drafts, resumable and access-revoked locked | `sKIid.png`, scrolled `CjdB9.png` |
+| Wardrobe permission | `y8W79.png` |
+| Profile menu open | `u99Hlb.png` |
+| Normal status / scroll end | `cG46Q.png`, `s24EP.png` |
+| Stress chart + long Entity / amount | `Od6Qd.png` |
+| Full normal / stress content | `cD8aK.png`, `ktDJv.png` |
+
+Visual decisions: ink prioritizes attention tasks, blue marks actions/services, white separates supporting data; DM Sans and semantic colors inherit reference Foundations. One column follows attention → active services → status → latest requests. Spacing uses 8/12/16/20 px to separate related metadata and tasks. Services retain equal touch targets. Existing badge, primary button and active Mobile navigation sources are instanced; content sources are reusable by viewport and scroll specimens. ENERGY 1 / RHYTHM 2 / MOTION 1; no new visual foundation or motion effects. Icons follow existing Lucide foundation and remain paired with labels or explicit layer names.
+
+Checks: full-content bounds inspection reports no layout problems; viewport clipping is intentional only in the vertical scroll region. Buttons, tabs, header icons, close controls and nav targets are at least 44 px high. Stress chart colored widths 129.1667 / 103.3333 / 77.5 px across 310 px, with two 4 px gaps in a 318 px rail: exact 5/4/3. Sample-data disclosure lives in each Mobile screen/content frame name (`Data contoh · Requester`), not in the product UI. All 15 viewports have one blue unread badge `5` on the bell, replacing the header helper text. Header/viewport/navigation dimensions remain unchanged; existing scroll specimens were realigned to their original sections after removing the disclosure row. Picker and profile use the same x=16, width=358, radius=24, padding=20, scrim/close treatment and 16 px bottom inset (picker y=576, height=252; profile y=658, height=170). Statuses, complete amounts, request IDs, public Finance notes, draft expiry/access-revoked distinctions and service/permission visibility are retained. Wardrobe is absent without permission; Overtime is absent from new-service actions when disabled, while its existing request remains visible.
+
+Static interaction handoff: create → service picker; active service → existing form flow (not modified); Revision → existing detail/revision flow; Upload bukti → existing Payment Request proof flow; latest/draft tabs → their respective specimens; resumable draft → existing draft flow, locked draft has no resume action; all requests → existing PG-04; bell → existing notifications flow; profile → profile sheet, close/scrim/Escape → return focus to trigger; Keluar → existing auth handling; retry → reload dashboard; Wardrobe only with permission. Implement body vertical scrolling with fixed header/nav and retain bottom content padding. Runtime focus trapping, accessible names/announcements, scroll interaction, keyboard and screen-reader checks remain unverified, not canvas PASS claims. No other flow was designed or implemented.
+
 ## Current inspected coverage
 
 | Screen family | Desktop | Mobile | Evidence / limit |
