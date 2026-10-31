@@ -1,4 +1,4 @@
-# Dependencies dan hasil build
+# Dependencies and generated build output across workspaces/prototype
 node_modules/
 dist/
 build/

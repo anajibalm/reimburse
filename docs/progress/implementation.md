@@ -4,14 +4,12 @@
 
 ## Code present and exercised
 
-- `prototype/react-dashboard/` is the only runnable app found. It uses React 19 and Vite 8. The verified command was `npm run dev -- --host 127.0.0.1 --port 4177` from that directory; the server rendered the Requester dashboard at `http://127.0.0.1:4177/`.
+- `prototype/react-dashboard/` is the only runnable UI app found. It uses React 19 and Vite 8. The verified command was `npm run dev -- --host 127.0.0.1 --port 4177` from that directory; the server rendered the Requester dashboard at `http://127.0.0.1:4177/`.
 - `prototype/react-dashboard/src/App.jsx` contains a hard-coded sample dashboard, static sample requests, a two-choice `Semua`/`Aktif` filter toggle that does not filter the rows, and click handlers that display timed toast messages. The page does not implement the request forms or workflow transitions; actions only report that a form or view opened.
 - `prototype/index.html` is a single-file static HTML gallery with hash-routed sample screens and UI simulations. It rendered at `http://127.0.0.1:4178/prototype/index.html#requester`. Its mock buttons and JavaScript are not backend integration or production workflow.
-- `prototype/feature-map.html` is a static feature-map/review page driven by embedded data, not an implementation of its listed features. Its visible header says `PRD 0.3`; the active PRD header says `0.4`. The stale prototype label remains unchanged because application/prototype code is out of scope.
+- `prototype/feature-map.html` is a static feature-map/review page driven by embedded data, not an implementation of its listed features. Its visible header says `PRD 0.3`; the active PRD header is `0.5`. The stale prototype label remains unchanged because application/prototype code is out of scope.
 
-## Not evidenced in repository code
-
-No `api/` or `web/` application exists at repository root. No production service, database schema or migrations, authentication, tenant authorization, private storage, OCR provider, notification service, queue, payment integration, or workflow backend was found. PRD architecture and business requirements remain product specification, not shipped code.
+The root npm workspace declares exactly `apps/api` and `apps/web`; each currently contains package metadata and a boundary README only. They are not runnable production applications and contain no API/frontend implementation. No production service, database schema or migrations, authentication, tenant authorization, private storage, OCR provider, notification service, queue, payment integration, or workflow backend is evidenced. PRD architecture and business requirements remain specification, not shipped code.
 
 Design files and exports demonstrate design coverage only. Current Pencil source is `design/reimburse.pen`; related handoffs live in `docs/design/`. Canvas components and screen frames do not prove interactive or production implementation.
 

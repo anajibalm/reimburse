@@ -1,0 +1,26 @@
+---
+name: Scoped task
+description: One issue with verifiable acceptance
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal and source of truth
+      description: State user outcome and link canonical product/design/technical authority.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance and verification
+      description: List observable outcomes and commands/scenarios that prove them.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Scope boundaries
+      description: List explicit non-goals, risks, dependencies, and unresolved decisions.
+    validations:
+      required: true

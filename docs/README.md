@@ -1,5 +1,7 @@
 # Documentation map
 
+- Agent policy and delivery workflow: [`../AGENTS.md`](../AGENTS.md), [`../CLAUDE.md`](../CLAUDE.md), [`../VIBE_CODING_PROTOCOL.md`](../VIBE_CODING_PROTOCOL.md), and [`../.github/`](../.github/).
+- Workspace boundaries: [`../apps/api/README.md`](../apps/api/README.md) and [`../apps/web/README.md`](../apps/web/README.md); root [`../package.json`](../package.json) defines npm workspaces.
 - Product rules and requirements: [`../PRD.md`](../PRD.md).
 - Open product/design-source conflicts: [`product/open-questions.md`](product/open-questions.md).
 - Current implementation evidence: [`progress/implementation.md`](progress/implementation.md).
