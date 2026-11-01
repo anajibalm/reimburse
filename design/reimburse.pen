@@ -103636,7 +103636,7 @@
           "type": "frame",
           "id": "W6oin",
           "x": 16,
-          "y": 601,
+          "y": 502,
           "name": "Duplicate warning sheet",
           "width": 358,
           "fill": "#FFFFFF",
@@ -103667,6 +103667,112 @@
               "fontFamily": "$ref-font",
               "fontSize": 14,
               "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "a4NQ0",
+              "name": "Invoice terindikasi duplikat · data contoh",
+              "width": "fill_container",
+              "fill": "$ref-canvas",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C2Zhu",
+                  "name": "Nomor invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gsOP6",
+                      "name": "Nomor invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nomor invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aopfw",
+                      "name": "Nomor invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "INV-2026-1042",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NDX4C",
+                  "name": "Tanggal invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MzdIF",
+                      "name": "Tanggal invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tanggal invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "disQQ",
+                      "name": "Tanggal invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "24 Okt 2026",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nyDrl",
+                  "name": "Nominal invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z0THl",
+                      "name": "Nominal invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nominal invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YtIsu",
+                      "name": "Nominal invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "Rp 1.250.000",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "hU50J",
@@ -105131,6 +105237,112 @@
               "fontFamily": "$ref-font",
               "fontSize": 14,
               "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "l1ala9",
+              "name": "Invoice terindikasi duplikat · data contoh",
+              "width": "fill_container",
+              "fill": "$ref-canvas",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H6dD6",
+                  "name": "Nomor invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hJKXk",
+                      "name": "Nomor invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nomor invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R0kRv1",
+                      "name": "Nomor invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "INV-2026-1042",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HVCs9",
+                  "name": "Tanggal invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qLijb",
+                      "name": "Tanggal invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tanggal invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nt2GP",
+                      "name": "Tanggal invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "24 Okt 2026",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gEzNt",
+                  "name": "Nominal invoice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AMblX",
+                      "name": "Nominal invoice label",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nominal invoice",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s2tJoJ",
+                      "name": "Nominal invoice nilai",
+                      "fill": "$ref-ink",
+                      "content": "Rp 1.250.000",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "u63i0t",
@@ -110309,6 +110521,19 @@
             },
             {
               "type": "text",
+              "id": "kU1q9",
+              "name": "Invoice context for evidence",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Invoice 1 · INV-2026-1042 · 24 Okt 2026",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
               "id": "iLxsq",
               "name": "Evidence rules",
               "fill": "$ref-muted",
@@ -110367,6 +110592,22 @@
               "fontFamily": "$ref-font",
               "fontSize": 12,
               "fontWeight": "normal"
+            },
+            {
+              "id": "eJtbE",
+              "type": "ref",
+              "ref": "WQYrQ",
+              "name": "Batal · kembali ke form",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "GvpjL": {
+                  "content": "Batal",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                }
+              }
             }
           ]
         },
@@ -111072,13 +111313,428 @@
               }
             },
             {
-              "id": "g53qO",
-              "type": "ref",
-              "ref": "MYEsT",
-              "name": "Evidence flow content",
-              "width": "fill_container"
+              "type": "frame",
+              "id": "fIM6r",
+              "name": "Form pengajuan · di belakang dialog",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fXo95",
+                  "name": "Draft status",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Draft tersimpan · belum masuk workflow",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CVAyl",
+                  "name": "Information heading",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Informasi pengajuan",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gDbE2",
+                  "name": "Category instruction",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Satu kategori biaya per pengajuan.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "B4DIEZ",
+                  "name": "Context fields",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "xId6i",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Entity",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Entity",
+                          "fontFamily": "$ref-font"
+                        },
+                        "P9sHXg": {
+                          "content": "PT Contoh A",
+                          "fontFamily": "$ref-font",
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    },
+                    {
+                      "id": "vcGVe",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Kategori biaya",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Kategori biaya",
+                          "fontFamily": "$ref-font"
+                        },
+                        "P9sHXg": {
+                          "content": "Transportasi",
+                          "fontFamily": "$ref-font",
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LqdV3",
+                  "name": "Context options",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Z5dW7",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Field · Divisi",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Divisi",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 13
+                        },
+                        "P9sHXg": {
+                          "content": "Brand",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    },
+                    {
+                      "id": "KmJdF",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Field · Periode",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Periode",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 13
+                        },
+                        "P9sHXg": {
+                          "content": "Oktober 2026",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    },
+                    {
+                      "id": "qXnzb",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Field · Proyek / Batch",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Proyek / Batch",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 13
+                        },
+                        "P9sHXg": {
+                          "content": "Affiliate · Period 1",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "RS4N9",
+                  "name": "Invoice heading",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Invoice & bukti",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yS3tK",
+                  "name": "Evidence requirement",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Minimal satu invoice dan bukti utama. Bukti tambahan tidak menambah total.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "BQKYC",
+                  "name": "Invoice fields",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "d6FYC",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Nomor invoice",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Nomor invoice",
+                          "fontFamily": "$ref-font"
+                        },
+                        "P9sHXg": {
+                          "content": "INV-2026-1042",
+                          "fontFamily": "$ref-font",
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    },
+                    {
+                      "id": "z9f3ak",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Tanggal",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Tanggal",
+                          "fontFamily": "$ref-font"
+                        },
+                        "P9sHXg": {
+                          "content": "24 Okt 2026",
+                          "fontFamily": "$ref-font",
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    },
+                    {
+                      "id": "O2F6c",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Nominal",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Nominal",
+                          "fontFamily": "$ref-font"
+                        },
+                        "P9sHXg": {
+                          "content": "Rp 1.250.000",
+                          "fontFamily": "$ref-font",
+                          "fill": "$ref-ink"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "A0qSv",
+                  "x": 24,
+                  "y": 458,
+                  "name": "Primary proof",
+                  "enabled": false,
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 1064,
+                  "content": "Bukti utama · bukti-parkir.pdf · Terunggah",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "inG7D",
+                  "name": "Evidence actions and summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "U4uMe",
+                      "type": "ref",
+                      "ref": "dDnbj",
+                      "name": "Primary evidence saved",
+                      "width": "fill_container",
+                      "descendants": {
+                        "X2OFDZ": {
+                          "content": "bukti-parkir.pdf · 1,2 MB",
+                          "fontFamily": "$ref-font"
+                        },
+                        "wBEwR": {
+                          "content": "Bukti utama tersimpan",
+                          "fontFamily": "$ref-font"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "R3zuh",
+                      "name": "Upload and link options",
+                      "fill": "$ref-blue-action",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tambah bukti utama atau link · Tambah bukti tambahan",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OrrkI",
+                      "name": "OCR review note",
+                      "fill": "$ref-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Periksa hasil OCR; bila OCR gagal, lanjutkan input manual.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$ref-font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wbeMj",
+                      "name": "Total summary",
+                      "fill": "$ref-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Total sementara · Rp 1.250.000 · 1 invoice",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$ref-font",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "yHz87",
+                      "type": "ref",
+                      "ref": "WQYrQ",
+                      "name": "Tambah invoice action",
+                      "height": 44,
+                      "cornerRadius": 999,
+                      "descendants": {
+                        "GvpjL": {
+                          "content": "Tambah invoice",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "XK20E",
+                  "name": "File constraints",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "JPG/JPEG/PNG maks. 10 MB · PDF maks. 25 MB",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "aTel5",
+                  "name": "Draft actions",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "L2UvW",
+                      "type": "ref",
+                      "ref": "WQYrQ",
+                      "name": "Simpan draft",
+                      "height": 44,
+                      "descendants": {
+                        "GvpjL": {
+                          "content": "Simpan draft"
+                        }
+                      }
+                    },
+                    {
+                      "id": "W4LYuf",
+                      "type": "ref",
+                      "ref": "fFmN2",
+                      "name": "Tinjau & kirim",
+                      "height": 44,
+                      "descendants": {
+                        "U7Cbs": {
+                          "content": "Tinjau & kirim"
+                        },
+                        "eq2MD": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "rectangle",
+          "id": "ANi3G",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Picker scrim",
+          "fill": "#11121380",
+          "width": 1440,
+          "height": 960
+        },
+        {
+          "id": "FBbUI",
+          "type": "ref",
+          "ref": "ZbNcU",
+          "name": "Pilih sumber · dialog invoice 1",
+          "layoutPosition": "absolute",
+          "x": 540,
+          "y": 280,
+          "width": 360
         }
       ]
     },
@@ -111111,10 +111767,10 @@
           "layout": "none",
           "children": [
             {
-              "id": "oHX1W",
+              "id": "T5j7v",
               "type": "ref",
-              "ref": "MYEsT",
-              "name": "Evidence flow content · scroll",
+              "ref": "HZlnt",
+              "name": "Form pengajuan · di belakang sheet",
               "x": 0,
               "y": 0,
               "width": 390
@@ -111298,6 +111954,25 @@
               }
             }
           ]
+        },
+        {
+          "type": "rectangle",
+          "id": "dHuhp",
+          "x": 0,
+          "y": 0,
+          "name": "Picker scrim",
+          "fill": "#11121380",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "id": "KKpGM",
+          "type": "ref",
+          "ref": "ZbNcU",
+          "name": "Pilih sumber · bottom sheet invoice 1",
+          "x": 15,
+          "y": 508,
+          "width": 360
         }
       ]
     },

@@ -19,6 +19,10 @@ Issue #9. Data dan identitas pada layar adalah **Data contoh**; nomor/Entity/nom
 | Submit / Pending preview | [z8YBS](z8YBS.png) | [zlyqq](zlyqq.png) |
 | Revision | [WZMW6](WZMW6.png) | [pG0cU](pG0cU.png), [bukti setelah scroll](H5mMn.png) |
 
+## Koreksi usability: sumber bukti dan duplicate
+
+Picker sumber kini berupa [dialog Desktop](TmbX6.png) / [bottom sheet Mobile](WHMQ7.png), menampilkan konteks Invoice 1, INV-2026-1042, 24 Okt 2026; tombol **Batal** kembali ke form. Konfirmasi duplicate di [Desktop](LEdkT.png) dan [Mobile](dMHYP.png) menampilkan nomor invoice, tanggal dan nominal (Rp 1.250.000) sebelum pilihan **Kirim tetap** / **Batal**. Semua nilai adalah data contoh, bukan klaim identitas invoice yang sudah ada.
+
 ## Penutupan gap bukti dan multi-invoice
 
 | State | Desktop | Mobile |
@@ -61,4 +65,4 @@ Form/date/evidence fields dan tombol menggunakan sumber existing `jSgCJ`, `dDnbj
 - Canvas inspector: tidak ada clipping pada konten Desktop yang aktif; Mobile form sengaja terpotong di viewport scroll dan memiliki render setelah scroll.
 - Paket awal 55 screen PNG + 2 source PNG diekspor 2×. Penutupan menambah 14 viewport berpasangan, satu scrolled viewport, satu flow board, dan tiga sumber component yang dirender 2×.
 - File tersimpan diverifikasi memuat seluruh sumber/viewport baru; 10 reusable sources terhubung; nilai total 1.500.000 → 1.250.000 diverifikasi. Posisi board `puIQR` `(33, -7668)` dipertahankan.
-- SHA-256 canvas tersimpan: `c9ccb2e0de1a5eb55e57aaa4bab576bde63be0fb634ef3188b3ee0d59ba7521e`. Draft review ini bukan klaim implementasi atau aksesibilitas produksi.
+- SHA-256 canvas tersimpan setelah koreksi usability: `8e581bcbee0d25fd538e50e2e3ad64f2b86483adefe0c0dbad376a4a63e0a19d`. Kedua dialog duplicate diverifikasi memiliki nomor/tanggal/nominal; sumber picker memakai `WQYrQ` untuk Batal. Baseline Dashboard/PG-04 dan variabel tidak berubah; kedua render pembanding byte-identik. Draft review ini bukan klaim implementasi atau aksesibilitas produksi.
