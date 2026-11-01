@@ -4,7 +4,7 @@
 
 ## Canvas organization — issue #11 (partial)
 
-The first organization pass groups the current PG-02, PG-04, PG-05 and PG-06 specimens in separate Desktop/Mobile frames, and moves reusable source boards to `FOUNDATIONS & COMPONENTS` (`j37CU`). Original IDs and instance targets were preserved. The annotated reimbursement flow remains a separate top-level board, and legacy mixed-flow boards remain in the active file pending classification. No archive was created. See [`design/png/canvas-organization/README.md`](../../design/png/canvas-organization/README.md) for scope, screenshots, verification, and outstanding work. The historical group descriptions below include the previous hierarchy.
+The organization groups current PG-02, PG-04, PG-05 and PG-06 specimens in separate Desktop/Mobile frames and places reusable source boards in `FOUNDATIONS & COMPONENTS` (`j37CU`). `j5omxK` remains active in PG-02 Desktop. Twenty-six legacy screens are grouped by story and device; PG-05/06 legacy awaits review of PR #10 and PG-07–10 remains `Belum diselaraskan`. The reimbursement flow overview is a separate nearby board. Historical specimens `sB9Ft`, `cmfPt`, and `UnqY7`, with their dependencies, are in `design/reimburse-archive.pen`; remaining mixed legacy material stays active pending classification. See [`design/png/canvas-organization/README.md`](../../design/png/canvas-organization/README.md) for screenshots, verification, and limitations. Historical group descriptions below include the previous hierarchy.
 
 ## Canvas groups
 
@@ -14,7 +14,7 @@ The first organization pass groups the current PG-02, PG-04, PG-05 and PG-06 spe
 - PG-02 dashboard state specimens under `AREA/STATES PG-02` (`GmonS`).
 - Separate `REDESIGN` frames for dashboard/forms and an accessibility handoff. Mobile dashboard redesign explicitly says `Belum diselaraskan`.
 
-Flow and `REDESIGN` are distinct variants. No source marks one complete redesign direction as selected final. Inspect exact frame names/children in Pencil before working from a particular layer.
+Flow and `REDESIGN` include distinct variants. The owner confirmed `j5omxK` as the active PG-02 Desktop baseline; keep it with its related PG-02 Desktop states. Other legacy and redesign directions are not thereby approved or retired. Inspect exact frame names/children in Pencil before working from a particular layer.
 
 ## PG-02 Desktop polish, issue #3
 
@@ -60,7 +60,7 @@ Static interaction handoff: create → service picker; active service → existi
 
 **Current delivery:** owner approved the Requester Desktop visual baseline at commit `9bea1db`; Mobile candidate is now included in issue #7 / PR #8 for review. Branch `design/pg04-request-list` starts from merged `main` commit `e5f7682`. Owner authorized merges in sequence #2 → #4 → #6; all three were verified MERGED, and their original heads remain ancestors of main. Main's canvas matched the approved PG-02 checksum `da17e7b60a92fcc3f1c8cdcdf996ca69c5f5407134b16ae16051279bbbed90dd`. Earlier OPEN/dependency notes in this handoff are historical; these dependencies are now merged.
 
-Read references: legacy PG-04 Desktop `cmfPt` and Mobile `UnqY7`, still under the unaligned flow family. Both are preserved, not relabeled as approved. The new Desktop candidate is `k0okVa`, 1440 × 960, following the approved Dashboard shell (248 px Requester rail, selected Pengajuan, inset gray workspace, white list surface, DM Sans, restrained blue actions). It preserves the legacy four request numbers/titles/services/statuses/amounts/next steps; Entity/date metadata comes from approved Dashboard fixtures. Default order is descending date. Six-digit legacy sample identifiers remain unchanged, not a new numbering rule.
+Read references: legacy PG-04 Desktop `cmfPt` and Mobile `UnqY7`, now preserved as historical references in `design/reimburse-archive.pen`, not relabeled as approved. The new Desktop candidate is `k0okVa`, 1440 × 960, following the approved Dashboard shell (248 px Requester rail, selected Pengajuan, inset gray workspace, white list surface, DM Sans, restrained blue actions). It preserves the legacy four request numbers/titles/services/statuses/amounts/next steps; Entity/date metadata comes from approved Dashboard fixtures. Default order is descending date. Six-digit legacy sample identifiers remain unchanged, not a new numbering rule.
 
 [Individual 2× renders and acceptance notes](../../design/png/pg04-desktop/README.md): normal `k0okVa`, filtered `i2vM8K`, no results `EyHtN`, empty `V3myh`, loading `F65id0`, error `T0RTci`, service disabled `my54M`, status menu `ORuMN`, date filter `a2cZo`, export format menu `HKI9M`, export generating `IVTFX`, export error `gFHa4`, export denied `it9Zo`. Sample disclosure is in frame names, not product UI helper text. All ten PRD workflow status tokens are visible in the status-filter specimen; Draft is not a workflow status and remains in the existing Dashboard/form flow.
 

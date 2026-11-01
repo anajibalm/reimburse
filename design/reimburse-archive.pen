@@ -1,0 +1,2820 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "archiveIssue11",
+      "x": 0,
+      "y": 0,
+      "name": "Historical reference · PG-02 Mobile and PG-04 Desktop / Mobile",
+      "width": 4000,
+      "height": 3200,
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "sB9Ft",
+          "x": 80,
+          "y": 140,
+          "name": "REDESIGN/03 Requester dashboard · Mobile · Belum diselaraskan",
+          "clip": true,
+          "width": 390,
+          "height": 1475,
+          "fill": "#F0F1F2",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "wmQeG",
+              "x": 22,
+              "y": 17,
+              "name": "Mobile status time",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 65,
+              "content": "09.41",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "D0JT4v",
+              "x": 297,
+              "y": 17,
+              "name": "Mobile status signal",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 75,
+              "content": "●  Wi-Fi  ▰",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 11,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Shv1v",
+              "x": 20,
+              "y": 56,
+              "name": "Mobile brand glyph",
+              "width": 31,
+              "height": 31,
+              "fill": "#087CF4",
+              "cornerRadius": 9,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "G54RbM",
+              "x": 26,
+              "y": 62,
+              "name": "Mobile brand receipt",
+              "width": 19,
+              "height": 19,
+              "icon": "receipt-text",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "text",
+              "id": "r5QeId",
+              "x": 59,
+              "y": 61,
+              "name": "Mobile brand wordmark",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 150,
+              "content": "Reimburse",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 17,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "oUC6P",
+              "x": 328,
+              "y": 47,
+              "name": "Mobile notification circle",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "f7EyC1",
+              "x": 340,
+              "y": 59,
+              "name": "Mobile notification icon",
+              "width": 20,
+              "height": 20,
+              "icon": "bell",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "text",
+              "id": "agMS9",
+              "x": 20,
+              "y": 111,
+              "name": "Mobile greeting eyebrow",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 330,
+              "content": "DASHBOARD  /  REQUESTER",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "OKY4W",
+              "x": 20,
+              "y": 137,
+              "name": "Mobile greeting",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "Selamat pagi, Maya.",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 32,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "PJazl",
+              "x": 20,
+              "y": 179,
+              "name": "Mobile greeting subline",
+              "fill": "$redesign-text-on-mist",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "Dua pengajuan menunggu tindakanmu.",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Facqu",
+              "x": 10,
+              "y": 212,
+              "name": "Mobile attention dark bento",
+              "width": 370,
+              "height": 320,
+              "fill": "#111213",
+              "cornerRadius": 32,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "vZGdf",
+              "x": 38,
+              "y": 240,
+              "name": "Mobile attention number",
+              "fill": "#D8DDE5",
+              "textGrowth": "fixed-width",
+              "width": 260,
+              "content": "( 01 )  ·  TINDAKAN",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "QzV1I",
+              "x": 38,
+              "y": 266,
+              "name": "Mobile attention heading",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 300,
+              "content": "Perlu perhatian",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "DHzll",
+              "x": 38,
+              "y": 297,
+              "name": "Mobile attention detail",
+              "enabled": false,
+              "fill": "#D8DDE5",
+              "textGrowth": "fixed-width",
+              "width": 300,
+              "content": "Selesaikan langkah berikut agar proses lanjut.",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "vgh1W",
+              "x": 38,
+              "y": 331,
+              "name": "Mobile attention dash 0",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "LVgdH",
+              "x": 63,
+              "y": 331,
+              "name": "Mobile attention dash 1",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "Q8MQg",
+              "x": 88,
+              "y": 331,
+              "name": "Mobile attention dash 2",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "xcw6Z",
+              "x": 113,
+              "y": 331,
+              "name": "Mobile attention dash 3",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "Sh5z6",
+              "x": 138,
+              "y": 331,
+              "name": "Mobile attention dash 4",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "kqyRr",
+              "x": 163,
+              "y": 331,
+              "name": "Mobile attention dash 5",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "aNG9j",
+              "x": 188,
+              "y": 331,
+              "name": "Mobile attention dash 6",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "xxSZh",
+              "x": 213,
+              "y": 331,
+              "name": "Mobile attention dash 7",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "d7ihRp",
+              "x": 238,
+              "y": 331,
+              "name": "Mobile attention dash 8",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "ADR8P",
+              "x": 263,
+              "y": 331,
+              "name": "Mobile attention dash 9",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "wpG90",
+              "x": 288,
+              "y": 331,
+              "name": "Mobile attention dash 10",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "sUopg",
+              "x": 313,
+              "y": 331,
+              "name": "Mobile attention dash 11",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "JEJeS",
+              "x": 338,
+              "y": 331,
+              "name": "Mobile attention dash 12",
+              "width": 11,
+              "height": 1,
+              "fill": "#65686D",
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "NqVyw",
+              "x": 38,
+              "y": 351,
+              "name": "Mobile revision title",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 260,
+              "content": "Parking reimbursement",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "c6a8G",
+              "x": 38,
+              "y": 374,
+              "name": "Mobile revision id",
+              "fill": "#D8DDE5",
+              "textGrowth": "fixed-width",
+              "width": 250,
+              "content": "REIM-000041 · Revision",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "VfktP",
+              "x": 38,
+              "y": 403,
+              "name": "Mobile attention CTA pill",
+              "width": 144,
+              "height": 44,
+              "fill": "#0866D9",
+              "cornerRadius": 22,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "A8DRh",
+              "x": 53,
+              "y": 416,
+              "name": "Mobile attention CTA label",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 116,
+              "content": "Perbaiki bukti",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "aSuiu",
+              "x": 190,
+              "y": 403,
+              "name": "Mobile attention CTA arrow",
+              "width": 44,
+              "height": 44,
+              "fill": "#0866D9",
+              "cornerRadius": 22,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "BkNbL",
+              "x": 202,
+              "y": 415,
+              "name": "Mobile attention CTA icon",
+              "width": 20,
+              "height": 20,
+              "icon": "arrow-up-right",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "frame",
+              "id": "OCWWz",
+              "x": 38,
+              "y": 461,
+              "name": "Mobile vendor proof action row",
+              "metadata": {
+                "type": "a11y-handoff",
+                "semantic": "link",
+                "accessibleName": "Unggah bukti vendor untuk PAY-000018",
+                "target": "314x44",
+                "keyboard": "Enter"
+              },
+              "width": 314,
+              "height": 44,
+              "fill": "#252A31",
+              "cornerRadius": 12,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "Q4amx",
+              "x": 51,
+              "y": 476,
+              "name": "Mobile pending proof link",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 286,
+              "content": "PAY-000018 · Unggah bukti vendor  ↗",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "O6QbV3",
+              "x": 10,
+              "y": 548,
+              "name": "Mobile services white bento",
+              "width": 370,
+              "height": 263,
+              "fill": "#FFFFFF",
+              "cornerRadius": 30,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "C9gcV",
+              "x": 38,
+              "y": 576,
+              "name": "Mobile services number",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 110,
+              "content": "( 02 )",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "yqert",
+              "x": 38,
+              "y": 600,
+              "name": "Mobile services heading",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 300,
+              "content": "Buat pengajuan",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "sxfR3",
+              "x": 38,
+              "y": 641,
+              "name": "Mobile service row 0",
+              "width": 314,
+              "height": 44,
+              "fill": "#E8F3FF",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "qrWbB",
+              "x": 48,
+              "y": 648,
+              "name": "Mobile service icon bubble 0",
+              "width": 29,
+              "height": 29,
+              "fill": "#087CF4",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "dcGSu",
+              "x": 54,
+              "y": 654,
+              "name": "Mobile service icon 0",
+              "width": 17,
+              "height": 17,
+              "icon": "receipt-text",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "text",
+              "id": "RO4eq",
+              "x": 90,
+              "y": 654,
+              "name": "Mobile service title 0",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 210,
+              "content": "Reimbursement",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "U9xreV",
+              "x": 322,
+              "y": 654,
+              "name": "Mobile service arrow 0",
+              "width": 17,
+              "height": 17,
+              "icon": "arrow-up-right",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "frame",
+              "id": "BNObZ",
+              "x": 38,
+              "y": 690,
+              "name": "Mobile service row 1",
+              "width": 314,
+              "height": 44,
+              "fill": "#F7F8FA",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "l8yIL",
+              "x": 48,
+              "y": 697,
+              "name": "Mobile service icon bubble 1",
+              "width": 29,
+              "height": 29,
+              "fill": "#FFFFFF",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "QN6Ki",
+              "x": 54,
+              "y": 703,
+              "name": "Mobile service icon 1",
+              "width": 17,
+              "height": 17,
+              "icon": "wallet",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "text",
+              "id": "kRzJV",
+              "x": 90,
+              "y": 703,
+              "name": "Mobile service title 1",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 210,
+              "content": "Payment Request",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "MxFAa",
+              "x": 322,
+              "y": 703,
+              "name": "Mobile service arrow 1",
+              "width": 17,
+              "height": 17,
+              "icon": "arrow-up-right",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "frame",
+              "id": "P1LSb",
+              "x": 38,
+              "y": 739,
+              "name": "Mobile service row 2",
+              "width": 314,
+              "height": 44,
+              "fill": "#F7F8FA",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "pTVzt",
+              "x": 48,
+              "y": 746,
+              "name": "Mobile service icon bubble 2",
+              "width": 29,
+              "height": 29,
+              "fill": "#FFFFFF",
+              "cornerRadius": 15,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "XRCre",
+              "x": 54,
+              "y": 752,
+              "name": "Mobile service icon 2",
+              "width": 17,
+              "height": 17,
+              "icon": "clock-3",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "text",
+              "id": "AVqvv",
+              "x": 90,
+              "y": 752,
+              "name": "Mobile service title 2",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 210,
+              "content": "Overtime",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "pLAWO",
+              "x": 322,
+              "y": 752,
+              "name": "Mobile service arrow 2",
+              "width": 17,
+              "height": 17,
+              "icon": "arrow-up-right",
+              "library": "lucide",
+              "fill": "#111213"
+            },
+            {
+              "type": "frame",
+              "id": "SVHWh",
+              "x": 10,
+              "y": 827,
+              "name": "Mobile recent white bento",
+              "width": 370,
+              "height": 292,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "KtM6s",
+              "x": 38,
+              "y": 855,
+              "name": "Mobile recent heading",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 290,
+              "content": "Pengajuan terbaru",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "bNi2t",
+              "x": 303,
+              "y": 859,
+              "name": "Mobile recent link",
+              "fill": "#0866D9",
+              "textGrowth": "fixed-width",
+              "width": 56,
+              "content": "Semua  ↗",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "r1tVKW",
+              "x": 38,
+              "y": 900,
+              "name": "Mobile recent item 0",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 220,
+              "content": "Office supplies",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "rmYDa",
+              "x": 38,
+              "y": 924,
+              "name": "Mobile recent meta 0",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 205,
+              "content": "REIM-000038 · 24 Okt",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "TeEIN",
+              "x": 234,
+              "y": 925,
+              "name": "Mobile recent status 0",
+              "fill": "#16794B",
+              "textGrowth": "fixed-width",
+              "width": 120,
+              "content": "Paid",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "drvNY",
+              "x": 38,
+              "y": 958,
+              "name": "Mobile recent separator 1",
+              "enabled": false,
+              "width": 314,
+              "height": 1,
+              "fill": "#D9DDE2",
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "RrDzy",
+              "x": 38,
+              "y": 968,
+              "name": "Mobile recent item 1",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 220,
+              "content": "Overtime · Batch 3",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "fKiJx",
+              "x": 38,
+              "y": 992,
+              "name": "Mobile recent meta 1",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 205,
+              "content": "OT-000012 · 22 Okt",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NGZd4",
+              "x": 234,
+              "y": 993,
+              "name": "Mobile recent status 1",
+              "fill": "#0866D9",
+              "textGrowth": "fixed-width",
+              "width": 120,
+              "content": "Finance Approved",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "WVmLG",
+              "x": 38,
+              "y": 1026,
+              "name": "Mobile recent separator 2",
+              "enabled": false,
+              "width": 314,
+              "height": 1,
+              "fill": "#D9DDE2",
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "XyQ8H",
+              "x": 38,
+              "y": 1036,
+              "name": "Mobile recent item 2",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 220,
+              "content": "Creator fee · Ramadan",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "e3snBM",
+              "x": 38,
+              "y": 1060,
+              "name": "Mobile recent meta 2",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 205,
+              "content": "PAY-000018 · 21 Okt",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "n3HSC",
+              "x": 234,
+              "y": 1061,
+              "name": "Mobile recent status 2",
+              "fill": "#986000",
+              "textGrowth": "fixed-width",
+              "width": 120,
+              "content": "Pending vendor proof",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "j9CaoR",
+              "x": 10,
+              "y": 1135,
+              "name": "Mobile status white bento",
+              "width": 370,
+              "height": 203,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "VTCMq",
+              "x": 38,
+              "y": 1163,
+              "name": "Mobile status heading",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 280,
+              "content": "Status berjalan",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "t37wUt",
+              "x": 38,
+              "y": 1208,
+              "name": "Mobile status dot 0",
+              "width": 7,
+              "height": 7,
+              "fill": "#986000",
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "KepjA",
+              "x": 55,
+              "y": 1202,
+              "name": "Mobile status label 0",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 253,
+              "content": "Pending vendor proof",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ymX4D",
+              "x": 330,
+              "y": 1202,
+              "name": "Mobile status value 0",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 22,
+              "content": "1",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "napEP",
+              "x": 38,
+              "y": 1239,
+              "name": "Mobile status dot 1",
+              "width": 7,
+              "height": 7,
+              "fill": "#0866D9",
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "wl3xv",
+              "x": 55,
+              "y": 1233,
+              "name": "Mobile status label 1",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 253,
+              "content": "Finance Approved",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "cOQ8G",
+              "x": 330,
+              "y": 1233,
+              "name": "Mobile status value 1",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 22,
+              "content": "1",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "idaS7",
+              "x": 38,
+              "y": 1270,
+              "name": "Mobile status dot 2",
+              "width": 7,
+              "height": 7,
+              "fill": "#B42318",
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "Z0t0J",
+              "x": 55,
+              "y": 1264,
+              "name": "Mobile status label 2",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 253,
+              "content": "Revision",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "v8QoTx",
+              "x": 330,
+              "y": 1264,
+              "name": "Mobile status value 2",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 22,
+              "content": "1",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "x5YYG",
+              "x": 38,
+              "y": 1301,
+              "name": "Mobile status dot 3",
+              "width": 7,
+              "height": 7,
+              "fill": "#16794B",
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "k4YwZ",
+              "x": 55,
+              "y": 1295,
+              "name": "Mobile status label 3",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 253,
+              "content": "Paid",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "WbBrr",
+              "x": 330,
+              "y": 1295,
+              "name": "Mobile status value 3",
+              "fill": "#111213",
+              "textGrowth": "fixed-width",
+              "width": 22,
+              "content": "1",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "rW7NB",
+              "x": 18,
+              "y": 1365,
+              "name": "Mobile bottom nav",
+              "width": 354,
+              "height": 71,
+              "fill": "#FFFFFF",
+              "cornerRadius": 35,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "P7g23f",
+              "x": 24,
+              "y": 1371,
+              "name": "Mobile nav active",
+              "width": 166,
+              "height": 59,
+              "fill": "#E8F3FF",
+              "cornerRadius": 30,
+              "layout": "none"
+            },
+            {
+              "type": "icon",
+              "id": "rLRtC",
+              "x": 95,
+              "y": 1381,
+              "name": "Mobile dashboard tab icon",
+              "width": 20,
+              "height": 20,
+              "icon": "layout-dashboard",
+              "library": "lucide",
+              "fill": "#0866D9"
+            },
+            {
+              "type": "text",
+              "id": "MKl3A",
+              "x": 83,
+              "y": 1405,
+              "name": "Mobile dashboard tab text",
+              "fill": "#0866D9",
+              "textGrowth": "fixed-width",
+              "width": 75,
+              "content": "Dashboard",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "icon",
+              "id": "aBCjG",
+              "x": 274,
+              "y": 1381,
+              "name": "Mobile requests tab icon",
+              "width": 20,
+              "height": 20,
+              "icon": "receipt",
+              "library": "lucide",
+              "fill": "#686D73"
+            },
+            {
+              "type": "text",
+              "id": "WHs42",
+              "x": 263,
+              "y": 1405,
+              "name": "Mobile requests tab text",
+              "fill": "#686D73",
+              "textGrowth": "fixed-width",
+              "width": 80,
+              "content": "Pengajuan",
+              "lineHeight": 1.22,
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "d9Jedx",
+              "x": 278,
+              "y": 240,
+              "name": "Mobile dashboard sample note",
+              "fill": "#D8DDE5",
+              "textGrowth": "fixed-width",
+              "width": 80,
+              "content": "Data contoh",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cmfPt",
+          "x": 650,
+          "y": 140,
+          "name": "DASH-02 · PG-04 Daftar Pengajuan · Desktop",
+          "clip": true,
+          "width": 1440,
+          "height": 900,
+          "fill": "$canvas",
+          "children": [
+            {
+              "id": "F2cjXW",
+              "type": "ref",
+              "ref": "OqKxN",
+              "name": "PG-04 Desktop sidebar instance",
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "GT8zr",
+              "name": "PG-04 Desktop main workspace",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "A3o685",
+                  "name": "Desktop list header",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$surface",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "padding": 10,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OFwA1",
+                      "name": "Desktop list brand",
+                      "fill": "$ink",
+                      "content": "Reimburse",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sx9gj",
+                      "name": "Desktop list identity",
+                      "fill": "$muted",
+                      "content": "PT DAM · Data contoh",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tJKHE",
+                  "name": "Desktop list content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 13,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HaU1F",
+                      "name": "Desktop list page heading",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eXgw1",
+                          "name": "Request list title and description",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "r5l7fB",
+                              "name": "Desktop list heading",
+                              "fill": "$ink",
+                              "content": "Pengajuan",
+                              "fontFamily": "$font",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "c9DqdQ",
+                              "name": "Desktop list introduction",
+                              "fill": "$muted",
+                              "content": "Cari status dan langkah berikutnya untuk pengajuanmu.",
+                              "fontFamily": "$font",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Zhb1e",
+                          "type": "ref",
+                          "ref": "fFmN2",
+                          "name": "Desktop list new reimbursement",
+                          "width": 160,
+                          "height": 44,
+                          "descendants": {
+                            "U7Cbs": {
+                              "content": "Buat pengajuan",
+                              "fontSize": 12
+                            },
+                            "eq2MD": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iRLuf",
+                      "name": "Desktop list service filters",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "id": "jPu8w",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list filter Semua",
+                          "fill": "$primarySoft",
+                          "stroke": "$primary",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Semua",
+                              "fill": "$primary"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "L3Ocp",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list filter Reimbursement",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Reimbursement",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "hCCOQ",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list filter Payment Request",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Payment Request",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "M7FZzB",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list filter Overtime",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Overtime",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qzRj2",
+                      "name": "Desktop list filter bar",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "Zd7NY",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list status filter",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Semua status"
+                            }
+                          }
+                        },
+                        {
+                          "id": "f1mVqL",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Desktop list date filter",
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Rentang tanggal"
+                            },
+                            "TpbM0": {
+                              "icon": "calendar-days"
+                            }
+                          }
+                        },
+                        {
+                          "id": "m7Y33t",
+                          "type": "ref",
+                          "ref": "NdxOT",
+                          "name": "Request list search field",
+                          "width": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EaT00",
+                      "name": "Desktop list request collection",
+                      "width": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 12,
+                      "stroke": "$line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ojqkl",
+                          "name": "Desktop list collection summary",
+                          "fill": "$muted",
+                          "content": "4 pengajuan · data contoh",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "id": "AvPnp",
+                          "type": "ref",
+                          "ref": "kohdT",
+                          "name": "Desktop list instance REIM-000041",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "descendants": {
+                            "eskQU": {
+                              "content": "REIM-000041"
+                            },
+                            "W34uH": {
+                              "content": "Reimbursement · Parking reimbursement"
+                            },
+                            "kisLl": {
+                              "content": "Perbaiki bukti transaksi"
+                            },
+                            "t7ncUJ": {
+                              "width": "fill_container"
+                            },
+                            "PwSwL/eEdLP": {
+                              "fill": "$danger"
+                            },
+                            "PwSwL/xbdQq": {
+                              "content": "Revision",
+                              "fill": "$danger",
+                              "fontSize": 10
+                            },
+                            "cj6qz": {
+                              "content": "Rp 1.250.000",
+                              "fontSize": 11
+                            }
+                          }
+                        },
+                        {
+                          "id": "x42nWF",
+                          "type": "ref",
+                          "ref": "kohdT",
+                          "name": "Desktop list instance PAY-000018",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "descendants": {
+                            "eskQU": {
+                              "content": "PAY-000018"
+                            },
+                            "W34uH": {
+                              "content": "Payment Request · Creator fee · Ramadan"
+                            },
+                            "kisLl": {
+                              "content": "Unggah bukti vendor"
+                            },
+                            "t7ncUJ": {
+                              "width": "fill_container"
+                            },
+                            "PwSwL/eEdLP": {
+                              "fill": "$warning"
+                            },
+                            "PwSwL/xbdQq": {
+                              "content": "Pending vendor proof",
+                              "fill": "$warning",
+                              "fontSize": 10
+                            },
+                            "cj6qz": {
+                              "content": "Rp 4.500.000",
+                              "fontSize": 11
+                            }
+                          }
+                        },
+                        {
+                          "id": "mNNSy",
+                          "type": "ref",
+                          "ref": "kohdT",
+                          "name": "Desktop list instance OT-000012",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "descendants": {
+                            "eskQU": {
+                              "content": "OT-000012"
+                            },
+                            "W34uH": {
+                              "content": "Overtime · Batch 3"
+                            },
+                            "kisLl": {
+                              "content": "Menunggu approver"
+                            },
+                            "t7ncUJ": {
+                              "width": "fill_container"
+                            },
+                            "PwSwL/eEdLP": {
+                              "fill": "$primary"
+                            },
+                            "PwSwL/xbdQq": {
+                              "content": "Finance Approved",
+                              "fill": "$primary",
+                              "fontSize": 10
+                            },
+                            "cj6qz": {
+                              "content": "Rp 420.000",
+                              "fontSize": 11
+                            }
+                          }
+                        },
+                        {
+                          "id": "xzED3",
+                          "type": "ref",
+                          "ref": "kohdT",
+                          "name": "Desktop list instance REIM-000038",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "descendants": {
+                            "eskQU": {
+                              "content": "REIM-000038"
+                            },
+                            "W34uH": {
+                              "content": "Reimbursement · Office supplies"
+                            },
+                            "kisLl": {
+                              "content": "Selesai · 24 Okt 2026"
+                            },
+                            "t7ncUJ": {
+                              "width": "fill_container"
+                            },
+                            "PwSwL/eEdLP": {
+                              "fill": "$success"
+                            },
+                            "PwSwL/xbdQq": {
+                              "content": "Paid",
+                              "fill": "$success",
+                              "fontSize": 10
+                            },
+                            "cj6qz": {
+                              "content": "Rp 860.000",
+                              "fontSize": 11
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UnqY7",
+          "x": 2200,
+          "y": 140,
+          "name": "DASH-02 · PG-04 Daftar Pengajuan · Mobile",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "$canvas",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nU5oF",
+              "name": "Mobile list header",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$surface",
+              "stroke": "$line",
+              "strokeWidth": 1,
+              "padding": 10,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zY2fI",
+                  "name": "Mobile list brand",
+                  "fill": "$ink",
+                  "content": "Reimburse",
+                  "fontFamily": "$font",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "r83ym",
+                  "name": "Mobile list identity",
+                  "fill": "$muted",
+                  "content": "Maya A. · PT DAM · Data contoh",
+                  "fontFamily": "$font",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P3ANFX",
+              "name": "Mobile list content",
+              "width": "fill_container",
+              "height": 731,
+              "layout": "vertical",
+              "gap": 11,
+              "padding": [
+                12,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nDmQp",
+                  "name": "Mobile list page heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u2S8e",
+                      "name": "Mobile list heading",
+                      "fill": "$ink",
+                      "content": "Pengajuan",
+                      "fontFamily": "$font",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p097Aq",
+                      "name": "Mobile list introduction",
+                      "fill": "$muted",
+                      "content": "Cari status dan langkah berikutnya untuk pengajuanmu.",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "o5xtD",
+                      "type": "ref",
+                      "ref": "fFmN2",
+                      "name": "Mobile list new reimbursement",
+                      "width": "fill_container",
+                      "height": 44,
+                      "descendants": {
+                        "U7Cbs": {
+                          "content": "Buat pengajuan",
+                          "fontSize": 12
+                        },
+                        "eq2MD": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l0bJS",
+                  "name": "Mobile list service filters",
+                  "width": "fill_container",
+                  "height": 70,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L5MU3",
+                      "name": "Mobile service filters row 1",
+                      "width": "fill_container",
+                      "height": 32,
+                      "gap": 6,
+                      "children": [
+                        {
+                          "id": "e7Iuh",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Mobile list filter Semua",
+                          "fill": "$primarySoft",
+                          "stroke": "$primary",
+                          "width": 178,
+                          "height": 32,
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Semua",
+                              "fill": "$primary"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "WEIeQ",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Mobile list filter Reimbursement",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "width": 178,
+                          "height": 32,
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Reimbursement",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VwxyB",
+                      "name": "Mobile service filters row 2",
+                      "width": "fill_container",
+                      "height": 32,
+                      "gap": 6,
+                      "children": [
+                        {
+                          "id": "D6afL",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Mobile list filter Payment Request",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "width": 178,
+                          "height": 32,
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Payment Request",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "YapUa",
+                          "type": "ref",
+                          "ref": "OIn8U",
+                          "name": "Mobile list filter Overtime",
+                          "fill": "$subtle",
+                          "stroke": "$line",
+                          "width": 178,
+                          "height": 32,
+                          "descendants": {
+                            "NXOOG": {
+                              "content": "Overtime",
+                              "fill": "$text"
+                            },
+                            "TpbM0": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "q3XCy1",
+                  "type": "ref",
+                  "ref": "NdxOT",
+                  "name": "Mobile request list search field",
+                  "width": "fill_container"
+                },
+                {
+                  "type": "frame",
+                  "id": "nvira",
+                  "name": "Mobile list filter bar",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "fBGrS",
+                      "type": "ref",
+                      "ref": "OIn8U",
+                      "name": "Mobile list status filter",
+                      "descendants": {
+                        "NXOOG": {
+                          "content": "Semua status"
+                        }
+                      }
+                    },
+                    {
+                      "id": "C0qf8t",
+                      "type": "ref",
+                      "ref": "OIn8U",
+                      "name": "Mobile list date filter",
+                      "descendants": {
+                        "NXOOG": {
+                          "content": "Rentang tanggal"
+                        },
+                        "TpbM0": {
+                          "icon": "calendar-days"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RSEZo",
+                  "name": "Mobile list request collection",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 12,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nH5zY",
+                      "name": "Mobile list collection summary",
+                      "fill": "$muted",
+                      "content": "4 pengajuan · data contoh",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "id": "UK0nf",
+                      "type": "ref",
+                      "ref": "kohdT",
+                      "name": "Mobile list instance REIM-000041",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "descendants": {
+                        "eskQU": {
+                          "content": "REIM-000041"
+                        },
+                        "W34uH": {
+                          "content": "Reimbursement · Parking reimbursement"
+                        },
+                        "kisLl": {
+                          "content": "Perbaiki bukti transaksi"
+                        },
+                        "t7ncUJ": {
+                          "width": "fill_container"
+                        },
+                        "PwSwL/eEdLP": {
+                          "fill": "$danger"
+                        },
+                        "PwSwL/xbdQq": {
+                          "content": "Revision",
+                          "fill": "$danger",
+                          "fontSize": 11
+                        },
+                        "cj6qz": {
+                          "content": "Rp 1.250.000",
+                          "fontSize": 11
+                        }
+                      }
+                    },
+                    {
+                      "id": "DTqFt",
+                      "type": "ref",
+                      "ref": "kohdT",
+                      "name": "Mobile list instance PAY-000018",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "descendants": {
+                        "eskQU": {
+                          "content": "PAY-000018"
+                        },
+                        "W34uH": {
+                          "content": "Payment Request · Creator fee · Ramadan"
+                        },
+                        "kisLl": {
+                          "content": "Unggah bukti vendor"
+                        },
+                        "t7ncUJ": {
+                          "width": "fill_container"
+                        },
+                        "PwSwL/eEdLP": {
+                          "fill": "$warning"
+                        },
+                        "PwSwL/xbdQq": {
+                          "content": "Pending vendor proof",
+                          "fill": "$warning",
+                          "fontSize": 11
+                        },
+                        "cj6qz": {
+                          "content": "Rp 4.500.000",
+                          "fontSize": 11
+                        }
+                      }
+                    },
+                    {
+                      "id": "WLHYn",
+                      "type": "ref",
+                      "ref": "kohdT",
+                      "name": "Mobile list instance OT-000012",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "descendants": {
+                        "eskQU": {
+                          "content": "OT-000012"
+                        },
+                        "W34uH": {
+                          "content": "Overtime · Batch 3"
+                        },
+                        "kisLl": {
+                          "content": "Menunggu approver"
+                        },
+                        "t7ncUJ": {
+                          "width": "fill_container"
+                        },
+                        "PwSwL/eEdLP": {
+                          "fill": "$primary"
+                        },
+                        "PwSwL/xbdQq": {
+                          "content": "Finance Approved",
+                          "fill": "$primary",
+                          "fontSize": 11
+                        },
+                        "cj6qz": {
+                          "content": "Rp 420.000",
+                          "fontSize": 11
+                        }
+                      }
+                    },
+                    {
+                      "id": "SBvG6",
+                      "type": "ref",
+                      "ref": "kohdT",
+                      "name": "Mobile list instance REIM-000038",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "descendants": {
+                        "eskQU": {
+                          "content": "REIM-000038"
+                        },
+                        "W34uH": {
+                          "content": "Reimbursement · Office supplies"
+                        },
+                        "kisLl": {
+                          "content": "Selesai · 24 Okt 2026"
+                        },
+                        "t7ncUJ": {
+                          "width": "fill_container"
+                        },
+                        "PwSwL/eEdLP": {
+                          "fill": "$success"
+                        },
+                        "PwSwL/xbdQq": {
+                          "content": "Paid",
+                          "fill": "$success",
+                          "fontSize": 11
+                        },
+                        "cj6qz": {
+                          "content": "Rp 860.000",
+                          "fontSize": 11
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "KotIe",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Mobile list navigation",
+              "width": "fill_container",
+              "y": 775
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IenEv",
+          "x": 80,
+          "y": 1900,
+          "name": "Component/Navigation/Mobile/Pengajuan active",
+          "reusable": true,
+          "width": 390,
+          "height": 54,
+          "fill": "$surface",
+          "cornerRadius": 10,
+          "stroke": "$line",
+          "strokeWidth": 1,
+          "gap": 4,
+          "padding": [
+            4,
+            6
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sHllG",
+              "name": "Requests active nav Dashboard",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$surface",
+              "cornerRadius": 7,
+              "layout": "vertical",
+              "gap": 3,
+              "padding": [
+                4,
+                6
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "AlJRj",
+                  "name": "Requests active nav icon Dashboard",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "layout-dashboard",
+                  "library": "lucide",
+                  "fill": "$muted"
+                },
+                {
+                  "type": "text",
+                  "id": "se86Z",
+                  "name": "Requests active nav label Dashboard",
+                  "fill": "$muted",
+                  "content": "Dashboard",
+                  "fontFamily": "$font",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iCliJ",
+              "name": "Requests active nav Pengajuan",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$primarySoft",
+              "cornerRadius": 7,
+              "layout": "vertical",
+              "gap": 3,
+              "padding": [
+                4,
+                6
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "j6uNOt",
+                  "name": "Requests active nav icon Pengajuan",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "receipt",
+                  "library": "lucide",
+                  "fill": "$primary"
+                },
+                {
+                  "type": "text",
+                  "id": "OJ48l",
+                  "name": "Requests active nav label Pengajuan",
+                  "fill": "$primary",
+                  "content": "Pengajuan",
+                  "fontFamily": "$font",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kohdT",
+          "x": 930,
+          "y": 1900,
+          "name": "Component/Request/List row",
+          "reusable": true,
+          "width": 720,
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 10,
+          "padding": [
+            10,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y1WPG",
+              "name": "Request row identity",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eskQU",
+                  "name": "Request row ID",
+                  "fill": "$muted",
+                  "content": "REIM-000041",
+                  "fontFamily": "$font",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "W34uH",
+                  "name": "Request row title",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Reimbursement · Parking reimbursement",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kisLl",
+                  "name": "Request row next step",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Perbaiki bukti transaksi",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t7ncUJ",
+              "name": "Request row status and amount",
+              "width": 290,
+              "gap": 8,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "PwSwL",
+                  "type": "ref",
+                  "ref": "ugMIf",
+                  "name": "Request row status",
+                  "descendants": {
+                    "eEdLP": {
+                      "fill": "$danger"
+                    },
+                    "xbdQq": {
+                      "content": "Revision",
+                      "fill": "$danger",
+                      "fontSize": 11
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "cj6qz",
+                  "name": "Request row amount",
+                  "fill": "$ink",
+                  "content": "Rp 1.250.000",
+                  "fontFamily": "$font",
+                  "fontSize": 11,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ugMIf",
+          "x": 1780,
+          "y": 1900,
+          "name": "Component/Status/Badge",
+          "reusable": true,
+          "fill": "$subtle",
+          "cornerRadius": 999,
+          "stroke": "$line",
+          "strokeWidth": 1,
+          "gap": 6,
+          "padding": [
+            5,
+            9
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "eEdLP",
+              "name": "Status dot",
+              "fill": "$muted",
+              "width": 7,
+              "height": 7
+            },
+            {
+              "type": "text",
+              "id": "xbdQq",
+              "name": "Status label",
+              "fill": "$text",
+              "content": "Status",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OIn8U",
+          "x": 2630,
+          "y": 1900,
+          "name": "Component/Filter/Chip",
+          "reusable": true,
+          "height": 40,
+          "fill": "$subtle",
+          "cornerRadius": 999,
+          "stroke": "$line",
+          "strokeWidth": 1,
+          "gap": 6,
+          "padding": [
+            6,
+            10
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "NXOOG",
+              "name": "Filter label",
+              "fill": "$text",
+              "content": "Semua status",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "TpbM0",
+              "name": "Filter chevron",
+              "width": 12,
+              "height": 12,
+              "icon": "chevron-down",
+              "library": "lucide",
+              "fill": "$muted"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NdxOT",
+          "x": 80,
+          "y": 2550,
+          "name": "Component/Field/Search",
+          "reusable": true,
+          "width": "fill_container(0)",
+          "height": 44,
+          "fill": "$surface",
+          "cornerRadius": 8,
+          "stroke": "$fieldBorder",
+          "strokeWidth": 1,
+          "gap": 7,
+          "padding": [
+            7,
+            10
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "b0RpS",
+              "name": "Search icon",
+              "width": 15,
+              "height": 15,
+              "icon": "search",
+              "library": "lucide",
+              "fill": "$muted"
+            },
+            {
+              "type": "text",
+              "id": "i60qN",
+              "name": "Search hint",
+              "fill": "$muted",
+              "content": "Cari nomor atau nama pengajuan",
+              "fontFamily": "$font",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fFmN2",
+          "x": 930,
+          "y": 2550,
+          "name": "Component/Button/Primary",
+          "reusable": true,
+          "height": 44,
+          "fill": "$primary",
+          "cornerRadius": 8,
+          "stroke": "$primary",
+          "strokeWidth": 1,
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "U7Cbs",
+              "name": "Button label",
+              "fill": "#FFFFFF",
+              "content": "Perbaiki pengajuan",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "eq2MD",
+              "name": "Button arrow",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OqKxN",
+          "x": 1780,
+          "y": 2550,
+          "name": "Component/Navigation/Desktop/Rail/Pengajuan active",
+          "reusable": true,
+          "width": 196,
+          "height": "fill_container(840)",
+          "fill": "$surface",
+          "stroke": "$line",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            26,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "JchGH",
+              "name": "Brand lockup",
+              "gap": 9,
+              "padding": [
+                0,
+                6
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CT8J5",
+                  "name": "Brand mark",
+                  "width": 27,
+                  "height": 27,
+                  "fill": "$primary",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WDtsL",
+                      "name": "Brand monogram",
+                      "fill": "#FFFFFF",
+                      "content": "R",
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MJ5GO",
+                  "name": "Product name",
+                  "fill": "$ink",
+                  "content": "Reimburse",
+                  "fontFamily": "$font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tZea0",
+              "name": "Requester navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "id": "oy2Ij",
+                  "type": "ref",
+                  "ref": "rcSIl",
+                  "name": "Dashboard navigation active",
+                  "fill": "$surface",
+                  "width": "fill_container",
+                  "descendants": {
+                    "M2JUZt": {
+                      "fill": "$muted",
+                      "icon": "layout-dashboard"
+                    },
+                    "hR8CE": {
+                      "fill": "$muted",
+                      "fontWeight": "500",
+                      "content": "Dashboard"
+                    }
+                  }
+                },
+                {
+                  "id": "gnTKd",
+                  "type": "ref",
+                  "ref": "rcSIl",
+                  "name": "Requests navigation",
+                  "width": "fill_container",
+                  "fill": "$primarySoft",
+                  "descendants": {
+                    "M2JUZt": {
+                      "fill": "$primary",
+                      "icon": "receipt"
+                    },
+                    "hR8CE": {
+                      "fill": "$primary",
+                      "fontWeight": "600",
+                      "content": "Pengajuan"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f5sdvf",
+              "name": "Sidebar flexible space",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "cTqAH",
+              "name": "Requester profile",
+              "width": "fill_container",
+              "stroke": "$line",
+              "strokeWidth": {
+                "top": 1
+              },
+              "gap": 9,
+              "padding": [
+                10,
+                6
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sXqzQ",
+                  "name": "Maya avatar with initials",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$primarySoft",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tpjx2",
+                      "name": "Maya avatar initials",
+                      "fill": "$primary",
+                      "content": "MA",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "USHsU",
+                  "name": "Requester identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vioSn",
+                      "name": "Requester name",
+                      "fill": "$ink",
+                      "content": "Maya A.",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LOL9a",
+                      "name": "Requester role",
+                      "fill": "$muted",
+                      "content": "Requester",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rcSIl",
+          "x": 2630,
+          "y": 2550,
+          "name": "Component/Navigation/Requester item",
+          "reusable": true,
+          "width": 184,
+          "height": 40,
+          "fill": "$surface",
+          "cornerRadius": 8,
+          "gap": 12,
+          "padding": [
+            10,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "M2JUZt",
+              "name": "Navigation icon",
+              "width": 18,
+              "height": 18,
+              "icon": "layout-dashboard",
+              "library": "lucide",
+              "fill": "$muted"
+            },
+            {
+              "type": "text",
+              "id": "hR8CE",
+              "name": "Navigation label",
+              "fill": "$text",
+              "content": "Dashboard",
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "canvas": {
+      "type": "color",
+      "value": "#F0F1F2"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "subtle": {
+      "type": "color",
+      "value": "#F7F8FA"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#191B20"
+    },
+    "text": {
+      "type": "color",
+      "value": "#252A31"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#626C78"
+    },
+    "line": {
+      "type": "color",
+      "value": "#E3E6EA"
+    },
+    "primary": {
+      "type": "color",
+      "value": "#0866D9"
+    },
+    "primarySoft": {
+      "type": "color",
+      "value": "#E8F1FF"
+    },
+    "dark": {
+      "type": "color",
+      "value": "#17191D"
+    },
+    "success": {
+      "type": "color",
+      "value": "#16794B"
+    },
+    "warning": {
+      "type": "color",
+      "value": "#986000"
+    },
+    "danger": {
+      "type": "color",
+      "value": "#B42318"
+    },
+    "font": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "fieldBorder": {
+      "type": "color",
+      "value": "#858D97"
+    },
+    "ref-ink": {
+      "type": "color",
+      "value": "#111213"
+    },
+    "ref-charcoal": {
+      "type": "color",
+      "value": "#222325"
+    },
+    "ref-paper": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "ref-canvas": {
+      "type": "color",
+      "value": "#F0F1F2"
+    },
+    "ref-blue": {
+      "type": "color",
+      "value": "#087CF4"
+    },
+    "ref-blue-action": {
+      "type": "color",
+      "value": "#0866D9"
+    },
+    "ref-blue-soft": {
+      "type": "color",
+      "value": "#E8F3FF"
+    },
+    "ref-navy": {
+      "type": "color",
+      "value": "#0A2F75"
+    },
+    "ref-border": {
+      "type": "color",
+      "value": "#D9DDE2"
+    },
+    "ref-muted": {
+      "type": "color",
+      "value": "#686D73"
+    },
+    "ref-success": {
+      "type": "color",
+      "value": "#16794B"
+    },
+    "ref-warning": {
+      "type": "color",
+      "value": "#986000"
+    },
+    "ref-danger": {
+      "type": "color",
+      "value": "#B42318"
+    },
+    "ref-font": {
+      "type": "string",
+      "value": "DM Sans"
+    },
+    "ref-space-1": {
+      "type": "number",
+      "value": 4
+    },
+    "ref-space-2": {
+      "type": "number",
+      "value": 8
+    },
+    "ref-space-3": {
+      "type": "number",
+      "value": 12
+    },
+    "ref-space-4": {
+      "type": "number",
+      "value": 16
+    },
+    "ref-space-6": {
+      "type": "number",
+      "value": 24
+    },
+    "ref-space-8": {
+      "type": "number",
+      "value": 32
+    },
+    "ref-space-12": {
+      "type": "number",
+      "value": 48
+    },
+    "ref-radius-tile": {
+      "type": "number",
+      "value": 16
+    },
+    "ref-radius-surface": {
+      "type": "number",
+      "value": 24
+    },
+    "ref-radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "redesign-text-on-mist": {
+      "type": "color",
+      "value": "#525B65"
+    },
+    "redesign-control-border": {
+      "type": "color",
+      "value": "#7F8790"
+    }
+  },
+  "fileToken": "73eb6bd1-b413-4144-98fe-e1ade22576db"
+}

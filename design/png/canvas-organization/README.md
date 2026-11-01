@@ -1,19 +1,21 @@
 # Canvas organization — issue #11
 
-Review evidence for the saved `reimburse.pen` after the first organization pass. The editable checkpoint is `../../checkpoints/reimburse-editable-2026-11-01_18-10-46.pen` (SHA-256 `8e581bcbee0d25fd538e50e2e3ad64f2b86483adefe0c0dbad376a4a63e0a19d`). The saved organized canvas SHA-256 is `52744c3fe27c1017e485ebc48b1b74fb120de354ab8a56f427dc766dc1ad9eef`.
+Saved active canvas `reimburse.pen` SHA-256: `86cdb9cd59c36557720131fc38bce23d2d8b381b4b2fe85e00777f7ccab0f7ca`. Historical archive `reimburse-archive.pen` SHA-256: `0b254adddd4c0b402322337f471518723ab34ce325294309aea8e93576c7d6d1`. Editable pre-organization checkpoint: `../../checkpoints/reimburse-editable-2026-11-01_18-10-46.pen`.
 
-## Story and component views
+## Story views
 
 - PG-02: [Desktop](o1YSVw.png) · [Mobile](wiJ71.png)
 - PG-04: [Desktop](fEB31.png) · [Mobile](MAUft.png)
-- PG-05: [Desktop](wJ5JI.png) · [Mobile](m10A4.png)
-- PG-06: [Desktop](ne1Ei.png) · [Mobile](VQIXD.png)
-- [Foundations and component sources](j37CU.png)
+- PG-05: [Desktop](wJ5JI.png) · [Mobile](m10A4.png) · legacy [Desktop](a3ajJE.png) / [Mobile](TWz4q.png)
+- PG-06: [Desktop](ne1Ei.png) · [Mobile](VQIXD.png) · legacy [Desktop](B1vyb.png) / [Mobile](pigmf.png)
+- Belum diselaraskan: PG-07 [Desktop](wWqSx.png) / [Mobile](phWwQ.png); PG-08 [Desktop](Dofu2.png) / [Mobile](kyXe7.png); PG-09 [Desktop](OKJKA.png) / [Mobile](w9ev5.png); PG-10 [Desktop](Jp1gV.png) / [Mobile](LzfvV.png)
+- [Foundations and reusable component sources](j37CU.png)
+- [Archive overview](archiveIssue11.png): historical PG-02 Mobile [`sB9Ft`](sB9Ft.png), PG-04 Desktop [`cmfPt`](cmfPt.png), PG-04 Mobile [`UnqY7`](UnqY7.png)
 
-These are static canvas exports at 0.5×, not runtime or accessibility evidence. A whole-document screenshot was inspected in the editor; the existing wide distribution makes that overview too small to read. The annotated reimbursement flow remains a separate top-level board. Legacy flow groups remain in the active file and are not yet reorganized into individual stories.
+Exports are static at 0.5×, not runtime or accessibility evidence. Whole active canvas and archive screenshots were also inspected in the editor; the active screenshot is an overview map, not a detailed screen review.
 
-## Verification and remaining work
+## Verification
 
-Comparison with the checkpoint found all 8,283 original node IDs present, 1,064 reference instances with no missing local targets, unchanged variables, and no changes to existing non-position node properties except the former `Archive` container's name. Six fresh 2× PNG exports (`k0okVa`, `jSSv3`, `TmbX6`, `WHMQ7`, `LEdkT`, `dMHYP`) were byte-identical to their committed baseline PNGs. This sample does not prove every screen renders identically.
+Compared with the pre-organization checkpoint, the union of active and archive files retains all 8,283 original IDs. Each file separately has zero missing local component references. `j5omxK` is in PG-02 Desktop; the three historical specimens are in archive and absent from the active file. All 121 current PG-02/04/05/06 screens compared at 0.5×, 26 legacy screens compared at 0.5×, and the three archived specimens compared at 2× rendered byte-identically before and after their moves. `j5omxK` also compared byte-identically at 2×. This does not cover every unchanged legacy node or prove interaction behavior.
 
-No archive file was created: no candidate has yet been demonstrated to be fully superseded without losing unique content or its role as a reference. See the PR for candidate IDs and review questions. The wider grouping, readable whole-canvas arrangement, story-level placement of legacy flows and annotated flow, and exhaustive render comparisons remain open.
+The old mixed legacy container remains active as `Perlu klasifikasi`; some headings and nested material are still there. PG-05/06 legacy is explicitly pending review of PR #10. The archive is historical reference, not a claim of pixel or content equivalence to newer baselines.
