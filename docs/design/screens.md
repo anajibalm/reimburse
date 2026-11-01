@@ -92,6 +92,14 @@ Saved JSON verification: 27 fixed viewports, ten reusable content sources, share
 
 **Stop gate:** owner approved the visual Mobile baseline; this is not permission to merge. Do not merge PR #8 or proceed to another flow without owner approval.
 
+## Reimbursement PG-05/06 Requester · issue #9
+
+Desktop and Mobile light visual specimens on branch `design/reimbursement-requester-flow` start from merged main `1c93fd4`. The existing WIP `nvoWQ` was extended, and legacy reference flows remain intact. [Render/state index](../../design/png/reimbursement-requester/README.md) covers form/draft, evidence and OCR, revision, duplicate/cancel confirmations, detail/status and Mobile scroll. Reusable sources `HZlnt` (Mobile form), `Kc4qh` (detail), existing `TFVJz`/`Igbr1` Desktop shell, `IenEv` Mobile nav, fields/buttons/evidence/status are used. Desktop 1440×960; Mobile 390×844 with intentional vertical clipping and separate scroll specimens.
+
+PRD owns eligibility, field permissions, 90-day draft and proof rules; no business decisions are inferred from the designs. The unresolved amount-after-Finance-correction question remains in `open-questions.md`. Sample form values are not production data. Requester evidence access remains subject to permission. Duplicate and cancel confirmations show consequences; Revision only marks evidence as editable and keeps context locked. Static `opacity`/disabled specimens require actual authorization and field enforcement at implementation.
+
+Validation evidence: recursive comparison to main finds all pre-existing nodes and variables unchanged; Dashboard Desktop, PG-04 Desktop and Mobile renders are byte-identical to approved evidence. Active Desktop content bounds show no clipping; Mobile viewport clipping is intentional. Design-only limitations and individual state links are listed in the render index: no interaction, OCR, private storage, backend, keyboard or screen-reader behavior has been implemented or verified.
+
 ## Current inspected coverage
 
 | Screen family | Desktop | Mobile | Evidence / limit |

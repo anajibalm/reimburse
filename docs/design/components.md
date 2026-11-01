@@ -76,6 +76,10 @@ Shared toolbar `ruMUp` provides Filter with active count and Urutkan across all 
 
 PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` Pengajuan-active navigation, `NdxOT` search, `R5NHOj` status, `jSgCJ` fields, and `fFmN2` / `WQYrQ` actions. Existing source nodes were not changed. Bottom sheets are static specimens with 44 px options/close targets; the unified filter sheet has an intentionally clipped scroll region and end-position specimens. Full state mapping and render links: [`screens.md`](screens.md) and [`../../design/png/pg04-mobile/README.md`](../../design/png/pg04-mobile/README.md).
 
+## Reimbursement Requester candidates, issue #9
+
+`HZlnt` is a reusable Mobile form content source; `Kc4qh` is a reusable Reimbursement detail content source. Viewports instance these with state-specific descendant overrides. Existing `jSgCJ`, `dDnbj`, `fFmN2`, `WQYrQ`, `R5NHOj`, `TFVJz`, `Igbr1` and `IenEv` sources are unchanged. Revision, evidence and status are visual handoff only: opacity or labels must not replace backend authorization or validation. See [`screens.md`](screens.md) and [state renders](../../design/png/reimbursement-requester/README.md).
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).
