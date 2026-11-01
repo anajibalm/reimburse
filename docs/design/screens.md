@@ -2,6 +2,10 @@
 
 **Status:** checked against active Pencil canvas, 31 Oct 2026. Business requirements and permissions remain in [`../../PRD.md`](../../PRD.md). Active design source: [`../../design/reimburse.pen`](../../design/reimburse.pen). Canvas controls are static; do not infer interaction or implementation.
 
+## Canvas organization — issue #11 (partial)
+
+The first organization pass groups the current PG-02, PG-04, PG-05 and PG-06 specimens in separate Desktop/Mobile frames, and moves reusable source boards to `FOUNDATIONS & COMPONENTS` (`j37CU`). Original IDs and instance targets were preserved. The annotated reimbursement flow remains a separate top-level board, and legacy mixed-flow boards remain in the active file pending classification. No archive was created. See [`design/png/canvas-organization/README.md`](../../design/png/canvas-organization/README.md) for scope, screenshots, verification, and outstanding work. The historical group descriptions below include the previous hierarchy.
+
 ## Canvas groups
 
 - Foundations: `AREA/01 Foundations` (`DDugW`) with `VD4Fy` and `ceXop`.
