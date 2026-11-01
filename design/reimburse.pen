@@ -94314,8 +94314,8 @@
     {
       "type": "frame",
       "id": "puIQR",
-      "x": 3562,
-      "y": -7642,
+      "x": 33,
+      "y": -7668,
       "name": "COMPONENTS/Reimbursement Requester · light · Data contoh",
       "width": 1750,
       "height": 3100,
@@ -110150,6 +110150,3681 @@
           "y": 700,
           "height": 44,
           "enabled": false
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cyWLX",
+      "x": 1903,
+      "y": -7668,
+      "name": "COMPONENTS/Reimbursement · evidence & invoice closure · Data contoh",
+      "width": 2400,
+      "height": 3000,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "J7oSL",
+          "x": 24,
+          "y": 20,
+          "name": "Evidence board title",
+          "fill": "$ref-ink",
+          "content": "Reimbursement · bukti dan invoice · Data contoh",
+          "fontFamily": "$ref-font",
+          "fontSize": 20,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "Ni2at",
+          "x": 24,
+          "y": 72,
+          "name": "Component/Reimbursement/Invoice specimen",
+          "reusable": true,
+          "width": 360,
+          "fill": "#FFFFFF",
+          "cornerRadius": 16,
+          "stroke": "$ref-border",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "mmxS3",
+              "name": "Invoice heading",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Invoice 1",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "poszl",
+              "name": "Invoice number and date",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "INV-2026-1042 · 24 Okt 2026",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "w0r410",
+              "name": "Invoice amount",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Rp 1.250.000",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "id": "KUXzl",
+              "type": "ref",
+              "ref": "dDnbj",
+              "name": "Invoice primary proof",
+              "width": "fill_container",
+              "descendants": {
+                "X2OFDZ": {
+                  "content": "bukti-parkir.pdf · 1,2 MB"
+                },
+                "wBEwR": {
+                  "content": "Bukti utama tersimpan"
+                },
+                "xUm5L": {
+                  "content": "Lihat"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "d3DzFR",
+              "name": "Additional proof note",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Bukti tambahan · foto-parkir.jpg · tidak menambah total",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "JpHD9",
+              "type": "ref",
+              "ref": "WQYrQ",
+              "name": "Action · Hapus invoice",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "GvpjL": {
+                  "content": "Hapus invoice",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZbNcU",
+          "x": 420,
+          "y": 72,
+          "name": "Component/Reimbursement/Evidence source choice",
+          "reusable": true,
+          "width": 360,
+          "fill": "#FFFFFF",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "mtpbW",
+              "name": "Evidence title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Tambah bukti utama",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "iLxsq",
+              "name": "Evidence rules",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "JPG/JPEG/PNG maks. 10 MB · PDF maks. 25 MB",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "gCHGa",
+              "type": "ref",
+              "ref": "fFmN2",
+              "name": "Action · Pilih file",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "U7Cbs": {
+                  "content": "Pilih file",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                },
+                "eq2MD": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "ZjR5X",
+              "type": "ref",
+              "ref": "WQYrQ",
+              "name": "Action · Masukkan link",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "GvpjL": {
+                  "content": "Masukkan link",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "fmZbq",
+              "name": "File picker handoff",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Pilih file membuka pemilih file perangkat.",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qKcNz",
+          "x": 816,
+          "y": 72,
+          "name": "Component/Reimbursement/Evidence link input",
+          "reusable": true,
+          "width": 360,
+          "fill": "#FFFFFF",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "ck07E",
+              "name": "Link heading",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Link bukti utama",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "qYQu2",
+              "type": "ref",
+              "ref": "jSgCJ",
+              "name": "Link bukti field",
+              "width": "fill_container",
+              "descendants": {
+                "g6qurL": {
+                  "content": "Link bukti",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13
+                },
+                "P9sHXg": {
+                  "content": "https://contoh.test/bukti",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fill": "$ref-ink"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "nUeLm",
+              "name": "Link validation help",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Masukkan link yang valid. Link tidak perlu publik.",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "eFa3S",
+              "type": "ref",
+              "ref": "fFmN2",
+              "name": "Action · Lampirkan link",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "U7Cbs": {
+                  "content": "Lampirkan link",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                },
+                "eq2MD": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "LJpH9",
+              "type": "ref",
+              "ref": "WQYrQ",
+              "name": "Action · Batal",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "descendants": {
+                "GvpjL": {
+                  "content": "Batal",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MYEsT",
+          "x": 24,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Pilih sumber · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "XymbZ",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Pilih sumber",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "kWH3s",
+              "type": "ref",
+              "ref": "ZbNcU",
+              "name": "Evidence source selection",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FzLlM",
+          "x": 359,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Input link · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "OXhjx",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Input link",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "sHgJu",
+              "type": "ref",
+              "ref": "qKcNz",
+              "name": "Evidence link form",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lZQ6l",
+          "x": 694,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Link tidak valid · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "dJytP",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Link tidak valid",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "leUiu",
+              "type": "ref",
+              "ref": "qKcNz",
+              "name": "Evidence link form",
+              "width": "fill_container",
+              "descendants": {
+                "qYQu2/a0YHVh": {
+                  "stroke": "$ref-danger"
+                },
+                "qYQu2/P9sHXg": {
+                  "content": "link tidak valid"
+                },
+                "nUeLm": {
+                  "content": "Link tidak valid. Periksa dan masukkan kembali.",
+                  "fill": "$ref-danger"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "m5edAw",
+          "x": 1029,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Link terlampir · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "z9VzoH",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Link terlampir",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "hkUf1",
+              "name": "Evidence feedback",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j3zEj",
+                  "name": "Evidence outcome",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Link terlampir · menunggu validasi Admin",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "pcgWH",
+                  "name": "Evidence outcome help",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Admin akan menyimpan salinan privat sebelum Finance Approved.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "BiR2A",
+                  "type": "ref",
+                  "ref": "dDnbj",
+                  "name": "Evidence row feedback",
+                  "width": "fill_container",
+                  "descendants": {
+                    "X2OFDZ": {
+                      "content": "Link bukti · invoice 1"
+                    },
+                    "wBEwR": {
+                      "content": "Terlampir · menunggu validasi",
+                      "fill": "$ref-warning"
+                    },
+                    "xUm5L": {
+                      "content": "Lihat"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OZ1Bz",
+          "x": 1364,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Upload gagal · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "Jts1r",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Upload gagal",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "P4UUc",
+              "name": "Evidence feedback",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wwtqV",
+                  "name": "Evidence outcome",
+                  "fill": "$ref-danger",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Bukti gagal diunggah",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kQjEN",
+                  "name": "Evidence outcome help",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Coba lagi. Data invoice tetap ada; kirim ditahan sampai bukti utama tersimpan.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "uFr1V",
+                  "type": "ref",
+                  "ref": "dDnbj",
+                  "name": "Evidence row feedback",
+                  "width": "fill_container",
+                  "descendants": {
+                    "X2OFDZ": {
+                      "content": "bukti-parkir.pdf"
+                    },
+                    "wBEwR": {
+                      "content": "Gagal diunggah",
+                      "fill": "$ref-danger"
+                    },
+                    "xUm5L": {
+                      "content": "Coba lagi"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F0TeZ3",
+          "x": 1699,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Dua invoice · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "QwNSU",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Dua invoice",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "YXT4v",
+              "type": "ref",
+              "ref": "Ni2at",
+              "name": "Invoice 1",
+              "width": "fill_container"
+            },
+            {
+              "id": "O4Vhcf",
+              "type": "ref",
+              "ref": "Ni2at",
+              "name": "Invoice 2",
+              "width": "fill_container",
+              "descendants": {
+                "mmxS3": {
+                  "content": "Invoice 2"
+                },
+                "poszl": {
+                  "content": "INV-2026-1043 · 25 Okt 2026"
+                },
+                "w0r410": {
+                  "content": "Rp 250.000"
+                },
+                "KUXzl/X2OFDZ": {
+                  "content": "bukti-taksi.pdf · 0,8 MB"
+                },
+                "d3DzFR": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ajg8j",
+              "name": "Invoice total and actions",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Kgca6",
+                  "name": "Total invoice",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Total sementara · Rp 1.500.000",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hAV8D",
+                  "name": "Total calculation",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Rp 1.250.000 + Rp 250.000 · 2 invoice",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "IAuS2",
+                  "type": "ref",
+                  "ref": "WQYrQ",
+                  "name": "Tambah invoice",
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "GvpjL": {
+                      "content": "Tambah invoice",
+                      "fontFamily": "$ref-font"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GMxKT",
+          "x": 2034,
+          "y": 580,
+          "name": "Component/Reimbursement/Closure content · Invoice kedua dihapus · Data contoh",
+          "reusable": true,
+          "width": 310,
+          "fill": "$ref-canvas",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "gqbej",
+              "name": "State title",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Invoice kedua dihapus",
+              "lineHeight": 1.35,
+              "fontFamily": "$ref-font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "id": "jEAea",
+              "type": "ref",
+              "ref": "Ni2at",
+              "name": "Invoice 1",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "c7fjc",
+              "name": "Invoice total and actions",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D5NnRu",
+                  "name": "Total invoice",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Total sementara · Rp 1.250.000",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "oo20c",
+                  "name": "Total calculation",
+                  "fill": "$ref-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Invoice kedua dihapus · 1 invoice",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "a4hV7",
+                  "type": "ref",
+                  "ref": "WQYrQ",
+                  "name": "Tambah invoice",
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "GvpjL": {
+                      "content": "Tambah invoice",
+                      "fontFamily": "$ref-font"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TmbX6",
+      "x": 4403,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Pilih sumber · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "MeyYr",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "ZC7ao",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "fWUU4",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "g53qO",
+              "type": "ref",
+              "ref": "MYEsT",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WHMQ7",
+      "x": 5943,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Pilih sumber · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lEzx7",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "oHX1W",
+              "type": "ref",
+              "ref": "MYEsT",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WzgdL",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qi3JD",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l5wRGH",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "t9nqKL",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zJ15T",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b0TLnE",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u8DOMX",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T9GQZ",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "N6sja",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EhTds",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "Y5zYzL",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hys3j",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "M5xzmI",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "H0odX",
+      "x": 6433,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Input link · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "kzNQO",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "C4BhQh",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "Pkqdr",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "Q3sc9F",
+              "type": "ref",
+              "ref": "FzLlM",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "J2rv4T",
+      "x": 7973,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Input link · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "t2vg3",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "lHj0h",
+              "type": "ref",
+              "ref": "FzLlM",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wU9Ov",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "diaGH",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zaA8L",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "qnS3C",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mm6oV",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O7paE",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qTeQt",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aFg9P",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "sYgoL",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "htf8k",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "l7Dzmt",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YAbwD",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "YuVCH",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WEyzg",
+      "x": 8463,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Link tidak valid · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "xHGXT",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "xL0iV",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "gRpox",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "l3lBX",
+              "type": "ref",
+              "ref": "lZQ6l",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DhRGj",
+      "x": 10003,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Link tidak valid · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Srfmx",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "m04s4",
+              "type": "ref",
+              "ref": "lZQ6l",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Cn9qu",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "y9R97",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lAw0K",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "DffoL",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "eqAwJ",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tUCcO",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LdsIJ",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ISOwy",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gZkNh",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pvqak",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "tnO9f",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GL4CZ",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "nA5Xq",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TD0BS",
+      "x": 10493,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Link terlampir · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "n0s5k",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "j7syH",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "YjmFe",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "x8zJd",
+              "type": "ref",
+              "ref": "m5edAw",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sDB8A",
+      "x": 12033,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Link terlampir · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XKZwH",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "u2wXP0",
+              "type": "ref",
+              "ref": "m5edAw",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KfJf6",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Yackj",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JJAp5",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "Es1Jl",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "t6N1W",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tXRBt",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bVbFA",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IF3SH",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "R7vgz",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BALac",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "nXVVf",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JGC0P",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "lvHNf",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DCUS8",
+      "x": 12523,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Upload gagal · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "Y8I21",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "hKo7K",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "fesSd",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "byikA",
+              "type": "ref",
+              "ref": "OZ1Bz",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zeqH2",
+      "x": 14063,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Upload gagal · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "DX0gE",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "h21dP",
+              "type": "ref",
+              "ref": "OZ1Bz",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mtN04",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "yr3KA",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lX6P9",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "bwyiu",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "UT6fR",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hZcbl",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FAPa6",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d8JAAn",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "R0a2p",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GUvlq",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "n1lYrC",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t7tBq",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "q74xZJ",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "M8WHfq",
+      "x": 14553,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Dua invoice · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "NOVYh",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Hgg6u",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "R5EB4",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "CZGsG",
+              "type": "ref",
+              "ref": "F0TeZ3",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Yj3GJ",
+      "x": 16093,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Dua invoice · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "j9ZLHx",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "K7JbCl",
+              "type": "ref",
+              "ref": "F0TeZ3",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S9B50",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZXmir",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xSixl",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "I5bAOv",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "s8zfXl",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h2nMU",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mdmz4",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ko61K",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "rYxpV",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z5slF",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "nCtKZ",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p9Xcr",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "isaGY",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QrEls",
+      "x": 16583,
+      "y": -7668,
+      "name": "DESKTOP/PG-05 Invoice kedua dihapus · Data contoh",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "gap": 16,
+      "padding": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "TZ2kR",
+          "type": "ref",
+          "ref": "TFVJz",
+          "name": "Shared sidebar · Pengajuan active",
+          "width": 248,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "space_between",
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "f42wiN": {
+              "fill": "#FFFFFF"
+            },
+            "MgDmc": {
+              "fill": "$ref-muted"
+            },
+            "xQNpQ": {
+              "fill": "$ref-ink",
+              "fontWeight": "500"
+            },
+            "HUt7Q": {
+              "fill": "$ref-ink"
+            },
+            "OwoF7": {
+              "fill": "#FFFFFF"
+            },
+            "B6LcV": {
+              "fill": "#FFFFFF",
+              "fontWeight": "600"
+            },
+            "m8un4g": {
+              "enabled": false
+            },
+            "FuM1u": {
+              "enabled": false
+            },
+            "A19ke": {
+              "enabled": false
+            },
+            "RGS1c": {
+              "enabled": false
+            },
+            "HATso": {
+              "enabled": false
+            },
+            "b7OyR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "g77PkO",
+          "name": "PG-04 inset workspace",
+          "width": "fill_container",
+          "height": 928,
+          "fill": "#EDEDED",
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            28,
+            24
+          ],
+          "children": [
+            {
+              "id": "O8mc9",
+              "type": "ref",
+              "ref": "Igbr1",
+              "name": "Shared Desktop header · Pengajuan",
+              "width": "fill_container",
+              "height": 63,
+              "descendants": {
+                "P5kQ8L": {
+                  "enabled": false
+                },
+                "cyhjq": {
+                  "enabled": true
+                },
+                "xeFpj": {
+                  "content": "Buat reimbursement"
+                },
+                "kpCLO": {
+                  "content": "Catat biaya dan unggah bukti agar Finance dapat memeriksanya."
+                }
+              }
+            },
+            {
+              "id": "tAQqu",
+              "type": "ref",
+              "ref": "GMxKT",
+              "name": "Evidence flow content",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vOAmM",
+      "x": 18123,
+      "y": -7668,
+      "name": "MOBILE/PG-05 Invoice kedua dihapus · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XoaPC",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "XvSsM",
+              "type": "ref",
+              "ref": "GMxKT",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": 0,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H49f5",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "oCAkt",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FbmVK",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "HO7WR",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zT09t",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VjGc0",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hFLWd",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PcnBJ",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hKtgx",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tubGI",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "f1TIf9",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FZQuN",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "ltzDB",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t37lr",
+      "x": 1903,
+      "y": 5996,
+      "name": "FLOW/PG-05/06 Requester · annotated sequence · Data contoh",
+      "width": 1440,
+      "height": 900,
+      "fill": "#FFFFFF",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 36,
+      "children": [
+        {
+          "type": "text",
+          "id": "W26Uzk",
+          "name": "Flow title",
+          "fill": "$ref-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Reimbursement · urutan Requester",
+          "lineHeight": 1.4,
+          "fontFamily": "$ref-font",
+          "fontSize": 28,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "b4YuR",
+          "name": "Flow scope",
+          "fill": "$ref-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Anotasi statis: node terkait tercantum per langkah. Tidak menunjukkan interaksi runtime.",
+          "lineHeight": 1.4,
+          "fontFamily": "$ref-font",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "fcnpx",
+          "name": "01 · Draft dan bukti",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "w4gH7",
+              "name": "Step heading · 01 · Draft dan bukti",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "01 · Draft dan bukti",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Tf3w6",
+              "name": "Step annotation · 01 · Draft dan bukti",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "PG-05 Form: Desktop nvoWQ / Mobile Svvdf. Simpan draft atau autosave; draft tidak masuk workflow. Pilih file atau link: TmbX6 / WHMQ7; validasi link: WEyzg / DhRGj; terlampir: TD0BS / sDB8A; gagal: DCUS8 / zeqH2.",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "REhi1",
+          "name": "02 · Invoice dan tinjau",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "pESoC",
+              "name": "Step heading · 02 · Invoice dan tinjau",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "02 · Invoice dan tinjau",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Z94Ecv",
+              "name": "Step annotation · 02 · Invoice dan tinjau",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Tambah invoice dari satu menjadi dua: M8WHfq / Yj3GJ; hapus invoice kedua: QrEls / vOAmM. Setiap invoice punya bukti utama; bukti tambahan tidak menambah total. Tinjau: P1dlX / giIk1.",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LljOY",
+          "name": "03 · Submit dan duplicate",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "aoFCo",
+              "name": "Step heading · 03 · Submit dan duplicate",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "03 · Submit dan duplicate",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Sbi5t",
+              "name": "Step annotation · 03 · Submit dan duplicate",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Jika duplicate terdeteksi: LEdkT / dMHYP, pilih Kirim tetap atau Batal. Setelah submit: z8YBS / zlyqq, status Pending.",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hdA2Z",
+          "name": "04 · Revision dan resubmit",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Y4MTm2",
+              "name": "Step heading · 04 · Revision dan resubmit",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "04 · Revision dan resubmit",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Zmwqr",
+              "name": "Step annotation · 04 · Revision dan resubmit",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "PG-06 Revision: GJQ5m / YsuVt → PG-05 Revision: WZMW6 / pG0cU / H5mMn → Kirim revisi kembali ke Finance review. Hanya field ditandai yang dapat diubah; bukti lama tetap tersimpan.",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sS3uh",
+          "name": "05 · Cancel dan status",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Jji9M",
+              "name": "Step heading · 05 · Cancel dan status",
+              "fill": "$ref-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "05 · Cancel dan status",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "s04Vt",
+              "name": "Step annotation · 05 · Cancel dan status",
+              "fill": "$ref-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Pending sebelum Admin memproses: Q9PiC / S6el5 → konfirmasi Z1A71B / DgIJE. Setelah Admin memproses: mvU7k / UFlVB, tidak ada aksi cancel. Status terminal tidak bisa diedit.",
+              "lineHeight": 1.4,
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "e9pKCl",
+      "x": 16093,
+      "y": -6744,
+      "name": "MOBILE/PG-05 Dua invoice · total setelah scroll · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HSVsJ",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "A5TYd",
+              "type": "ref",
+              "ref": "F0TeZ3",
+              "name": "Evidence flow content · scroll",
+              "x": 0,
+              "y": -78,
+              "width": 390
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CqNhw",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tET4w",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hAje4",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buat reimbursement",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "PwpvI",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "v001P6",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H8ytu",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T3CpQ",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Moeol",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "afESU",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UhuW2",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "b8YhnO",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q9wuy",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "hT1w7",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
         }
       ]
     }

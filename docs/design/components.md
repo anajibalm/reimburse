@@ -80,6 +80,10 @@ PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` P
 
 `HZlnt` is a reusable Mobile form content source; `Kc4qh` is a reusable Reimbursement detail content source. Viewports instance these with state-specific descendant overrides. Existing `jSgCJ`, `dDnbj`, `fFmN2`, `WQYrQ`, `R5NHOj`, `TFVJz`, `Igbr1` and `IenEv` sources are unchanged. Revision, evidence and status are visual handoff only: opacity or labels must not replace backend authorization or validation. See [`screens.md`](screens.md) and [state renders](../../design/png/reimbursement-requester/README.md).
 
+### Reimbursement evidence/invoice closure
+
+`cyWLX` contains reusable `Ni2at` invoice specimen (nested existing `dDnbj` primary proof), `ZbNcU` file/link choice, `qKcNz` link entry, and seven reusable state content sources. Desktop/Mobile state specimens instance those sources. Two-invoice fixture totals Rp 1.500.000 (Rp 1.250.000 + Rp 250.000); after removing the second invoice Rp 1.250.000. Additional proof contributes zero to total. Existing component sources and variables are unchanged. Flow annotation board `t37lr` names screen IDs and is static; see [render index](../../design/png/reimbursement-requester/README.md).
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).

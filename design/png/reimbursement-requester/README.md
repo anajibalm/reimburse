@@ -19,6 +19,20 @@ Issue #9. Data dan identitas pada layar adalah **Data contoh**; nomor/Entity/nom
 | Submit / Pending preview | [z8YBS](z8YBS.png) | [zlyqq](zlyqq.png) |
 | Revision | [WZMW6](WZMW6.png) | [pG0cU](pG0cU.png), [bukti setelah scroll](H5mMn.png) |
 
+## Penutupan gap bukti dan multi-invoice
+
+| State | Desktop | Mobile |
+|---|---|---|
+| Pilih upload file atau link | [TmbX6](TmbX6.png) | [WHMQ7](WHMQ7.png) |
+| Input link | [H0odX](H0odX.png) | [J2rv4T](J2rv4T.png) |
+| Link tidak valid | [WEyzg](WEyzg.png) | [DhRGj](DhRGj.png) |
+| Link terlampir, menunggu validasi | [TD0BS](TD0BS.png) | [sDB8A](sDB8A.png) |
+| File gagal terunggah | [DCUS8](DCUS8.png) | [zeqH2](zeqH2.png) |
+| Dua invoice, primary proof per invoice | [M8WHfq](M8WHfq.png) | [Yj3GJ](Yj3GJ.png), [total setelah scroll](e9pKCl.png) |
+| Invoice kedua dihapus | [QrEls](QrEls.png) | [vOAmM](vOAmM.png) |
+
+[Anotasi flow draft → tinjau → duplicate → submit → Pending dan Revision → resubmit](t37lr.png). File picker bawaan OS sengaja tidak digambar. Dua invoice contoh: Rp 1.250.000 + Rp 250.000 = Rp 1.500.000; setelah invoice kedua dihapus total Rp 1.250.000. Additional proof tidak menambah total. Link terlampir tetap menunggu validasi dan salinan privat sebelum Finance Approved.
+
 ## Detail/status
 | Status | Desktop | Mobile |
 |---|---|---|
@@ -39,10 +53,12 @@ PRD menetapkan satu kategori, minimal satu invoice dan primary proof, additional
 
 Form/date/evidence fields dan tombol menggunakan sumber existing `jSgCJ`, `dDnbj`, `fFmN2`, `WQYrQ`; header/sidebar `Igbr1`/`TFVJz` dan Mobile nav `IenEv` dipertahankan. Detail Mobile `Kc4qh` dan form Mobile `HZlnt` reusable. Scroll Mobile ditunjukkan dengan fixed viewport 390×844 dan spesimen offset; bukan interaksi berjalan.
 
-**Keterbatasan yang masih perlu review:** pemilihan file/link dan multiple invoice ditunjukkan sebagai teks/aksi visual, bukan dialog/file interaction. Submit berhasil ditunjukkan sebagai spesimen Pending statis, bukan transisi terhubung. Draft expiry dan data akhir setelah koreksi Finance mengikuti PRD/open questions dan belum diubah menjadi aturan baru. Tidak ada bukti fungsi API, permission runtime, penyimpanan privat, OCR, keyboard/focus, screen reader, atau scroll interaktif. Resolusi nilai nominal setelah koreksi Finance tetap terbuka di `docs/product/open-questions.md`.
+**Keterbatasan:** gap visual pemilihan sumber, input/validasi link, attachment/gagal, dua invoice, perubahan total, dan urutan flow ditutup melalui spesimen/anotasi statis; ini bukan dialog/file interaction atau transisi runtime. Submit berhasil ditunjukkan sebagai spesimen Pending statis. Draft expiry dan data akhir setelah koreksi Finance mengikuti PRD/open questions dan belum diubah menjadi aturan baru. Tidak ada bukti fungsi API, permission runtime, penyimpanan privat, OCR, keyboard/focus, screen reader, atau scroll interaktif. Resolusi nilai nominal setelah koreksi Finance tetap terbuka di `docs/product/open-questions.md`.
 
 ## Pemeriksaan
 - Baseline merged main: perbandingan JSON rekursif **0 node existing berubah**, variable sama.
 - PNG pembanding PG-04 Desktop `k0okVa`, Dashboard Desktop `j5omxK`, PG-04 Mobile `jSSv3`: byte-identik dengan baseline.
 - Canvas inspector: tidak ada clipping pada konten Desktop yang aktif; Mobile form sengaja terpotong di viewport scroll dan memiliki render setelah scroll.
-- 55 screen PNG + 2 source PNG diekspor 2×. Draft review ini bukan klaim implementasi atau aksesibilitas produksi.
+- Paket awal 55 screen PNG + 2 source PNG diekspor 2×. Penutupan menambah 14 viewport berpasangan, satu scrolled viewport, satu flow board, dan tiga sumber component yang dirender 2×.
+- File tersimpan diverifikasi memuat seluruh sumber/viewport baru; 10 reusable sources terhubung; nilai total 1.500.000 → 1.250.000 diverifikasi. Posisi board `puIQR` `(33, -7668)` dipertahankan.
+- SHA-256 canvas tersimpan: `c9ccb2e0de1a5eb55e57aaa4bab576bde63be0fb634ef3188b3ee0d59ba7521e`. Draft review ini bukan klaim implementasi atau aksesibilitas produksi.
