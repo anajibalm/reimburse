@@ -1,6 +1,6 @@
 # PG-04 Daftar Pengajuan: Desktop untuk review
 
-Issue #7. Branch `design/pg04-request-list`, dari merged `main` `e5f7682`. **Belum disetujui; Mobile belum dikerjakan.** Tidak ada dark theme atau flow lanjutan.
+Issue #7. Branch `design/pg04-request-list`, dari merged `main` `e5f7682`. Owner menyetujui Desktop pada commit `9bea1db` sebagai baseline; Mobile sekarang tersedia untuk review pada issue/PR yang sama. Tidak ada dark theme atau flow lanjutan.
 
 Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik gambar/tautan untuk ukuran penuh. Semua angka, identitas, Entity, tanggal dan nominal adalah **Data contoh**, ditandai pada nama frame di canvas, bukan helper text UI.
 
@@ -100,4 +100,4 @@ Sidebar dan header kini memakai sumber bersama untuk Dashboard/Pengajuan: `TFVJz
 - SHA-256 kandidat awal sebelum ekstraksi reusable: `f0be21f60eac9d44a5fdefecde398e688447e6d34dd6047e4807b580206bf5cc`. Identitas render terbaru diverifikasi per frame di `../desktop-chrome/regression.json`.
 - Filter, pagination, aksi detail, export, permission enforcement, keyboard/focus dan pembaca layar belum diimplementasikan/diuji. Tidak ada app code, API atau workflow baru.
 
-**Gate:** review Desktop dahulu. Mobile tetap belum dimulai; setelah persetujuan, gunakan viewport tetap dan konten panjang dengan scroll vertikal. Jangan merge PR PG-04 atau lanjut flow lain.
+**Gate terbaru:** Desktop sudah disetujui owner. [Mobile untuk review](../pg04-mobile/README.md) menggunakan viewport tetap dan spesimen scroll vertikal. Jangan merge PR PG-04 atau lanjut flow lain.

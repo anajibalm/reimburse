@@ -54,7 +54,7 @@ Static interaction handoff: create → service picker; active service → existi
 
 ## PG-04 alignment, issue #7: Desktop review gate
 
-**Current delivery:** Requester Desktop only, awaiting owner review. Branch `design/pg04-request-list` starts from merged `main` commit `e5f7682`. Owner authorized merges in sequence #2 → #4 → #6; all three were verified MERGED, and their original heads remain ancestors of main. Main's canvas matched the approved PG-02 checksum `da17e7b60a92fcc3f1c8cdcdf996ca69c5f5407134b16ae16051279bbbed90dd`. Earlier OPEN/dependency notes in this handoff are historical; these dependencies are now merged.
+**Current delivery:** owner approved the Requester Desktop visual baseline at commit `9bea1db`; Mobile candidate is now included in issue #7 / PR #8 for review. Branch `design/pg04-request-list` starts from merged `main` commit `e5f7682`. Owner authorized merges in sequence #2 → #4 → #6; all three were verified MERGED, and their original heads remain ancestors of main. Main's canvas matched the approved PG-02 checksum `da17e7b60a92fcc3f1c8cdcdf996ca69c5f5407134b16ae16051279bbbed90dd`. Earlier OPEN/dependency notes in this handoff are historical; these dependencies are now merged.
 
 Read references: legacy PG-04 Desktop `cmfPt` and Mobile `UnqY7`, still under the unaligned flow family. Both are preserved, not relabeled as approved. The new Desktop candidate is `k0okVa`, 1440 × 960, following the approved Dashboard shell (248 px Requester rail, selected Pengajuan, inset gray workspace, white list surface, DM Sans, restrained blue actions). It preserves the legacy four request numbers/titles/services/statuses/amounts/next steps; Entity/date metadata comes from approved Dashboard fixtures. Default order is descending date. Six-digit legacy sample identifiers remain unchanged, not a new numbering rule.
 
@@ -78,7 +78,17 @@ Owner requested reuse rather than further visual polish. Shared sidebar `TFVJz` 
 
 [Regression evidence](../../design/png/desktop-chrome/README.md): all 23 before/after renders at 2× are byte-identical, including all PG-04 states and Dashboard normal/picker/permission/drafts/empty/loading/error/service-disabled/stress/profile. Re-exported PG-04 PNGs therefore have no artificial binary diff. Dashboard normal and component-board renders are provided separately. Existing local canvas arrangement (frame positions and area labels) was present at task start and retained; no re-layout of the user's canvas organization was performed.
 
-**Stop gate:** PG-04 Mobile is not started. After owner reviews Desktop, Mobile must adapt this candidate to a fixed viewport with vertical scrolling, preserving information/permissions/states. Do not merge the PG-04 PR or continue another flow without owner approval.
+### PG-04 Mobile candidate after Desktop approval
+
+Owner approved Desktop `9bea1db` as the visual baseline. Mobile uses the approved PG-02 shell: 390 × 844 fixed viewport, 132 px header, 626 px vertically scrollable body and 86 px fixed bottom navigation with `IenEv` Pengajuan active. Canvas cannot actually scroll; separate viewport specimens with offsets and full-content sources show long content. No application code, dark theme or other flow is introduced.
+
+Reusable board `ajYH7` holds shared Mobile request row `jzecl` and ten reusable state content sources (`rFEiu`, `rhTLr`, `hyMh8`, `t2zaNe`, `YnFiI`, `hONDQ`, `QRtPs`, `yfSUK`, `GyC3J`, `M28wso`). Source rows instance existing status badge `R5NHOj`; search, buttons and date fields reuse `NdxOT`, `fFmN2`, `WQYrQ`, `jSgCJ`; bottom nav reuses `IenEv`. Four requests preserve Desktop numbers, titles/services, Entity/date, statuses, amounts, next step and 44 px detail targets. Data contoh remains in frame names/handoff.
+
+[25 individual 2× Mobile viewports and full extents](../../design/png/pg04-mobile/README.md) cover normal, filtered, no-results, empty, loading, error, disabled service, export generating/error/denied, filter/service/status/date/sort/export sheets, scrolled rows and pagination. The service-disabled sheet keeps Overtime available as a historical filter while its create picker contains only active Reimbursement/Payment Request. Status sheet covers all PRD workflow tokens and shows its end as a separate static scroll specimen; date sheet retains two labeled fields and primary/secondary actions.
+
+Saved JSON verification: 25 fixed viewports, ten reusable content sources, shared row and correct nav. Every node and variable from approved Desktop commit `9bea1db` is identical; PG-04/Desktop and Dashboard/Desktop renders remain byte-identical. Source board bounds report no clipping; viewport/status sheet clipping is intentional scroll handoff. Controls are static, not proof of touch, scrolling, keyboard, authorization, filtering or export runtime behavior.
+
+**Stop gate:** Mobile is ready for owner review. Do not merge PR #8 or proceed to another flow without owner approval.
 
 ## Current inspected coverage
 

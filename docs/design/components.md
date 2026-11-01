@@ -68,6 +68,12 @@ Sidebar default is Dashboard active; Pengajuan active overrides only selected-it
 
 [Source render, Dashboard render and regression report](../../design/png/desktop-chrome/README.md): 23 before/after 2× PNGs are byte-identical (0 changed pixels). The two board previews are extra instances, not additional product screens. PG-04 Mobile remains untouched and gated on Desktop review.
 
+## PG-04 Mobile additions, issue #7
+
+Board `ajYH7` contains `Component/PG-04 Mobile/Request row` (`jzecl`) and ten reusable content variants for normal, filtered, no-results, empty, loading, error, service-disabled, export generating/error/denied. Row instances override ID, title, Entity/date, nested status, amount and next step, with 44 px detail target. State viewports reference these source contents rather than duplicating list data.
+
+PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` Pengajuan-active navigation, `NdxOT` search, `R5NHOj` status, `jSgCJ` fields, and `fFmN2` / `WQYrQ` actions. Existing source nodes were not changed. Bottom sheets are static specimens with 44 px options/close targets; status options have an intentionally clipped scroll region and end-position specimen. Full state mapping and render links: [`screens.md`](screens.md) and [`../../design/png/pg04-mobile/README.md`](../../design/png/pg04-mobile/README.md).
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).
