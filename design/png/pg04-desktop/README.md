@@ -69,6 +69,12 @@ Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik
 
 <img src="it9Zo.png" width="1440" alt="Izin export tidak tersedia, hubungi Admin; pengajuan masih dapat dilihat" />
 
+## Shared reusable chrome
+
+Sidebar dan header kini memakai sumber bersama untuk Dashboard/Pengajuan: `TFVJz` dan `Igbr1`, dengan varian halaman aktif dan override state. Tidak ada perubahan visual: seluruh 13 render PG-04 serta 10 Dashboard/state pembanding byte-identik sebelum/sesudah ekstraksi.
+
+[Bukti sumber reusable dan Dashboard](../desktop-chrome/README.md) · [Laporan perbandingan 23 frame](../desktop-chrome/regression.json).
+
 ## Dasar informasi dan aturan
 - PRD v0.5: ownership/tenant, status workflow, perubahan akses layanan, pagination, FR-225–228 export mengikuti filter/permission.
 - Layar lama `cmfPt` dan `UnqY7` tetap utuh. Empat nomor, judul/layanan, status, nominal dan next step dipertahankan; Entity/tanggal memakai fixture Dashboard yang disetujui. Urutan default: tanggal terbaru.
@@ -79,11 +85,11 @@ Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik
 
 ## Verifikasi dan batas bukti
 - File canvas tersimpan memuat 13 frame Desktop 1440 × 960, rail Pengajuan aktif, sample disclosure di nama frame.
-- Perbandingan JSON rekursif terhadap `origin/main` `e5f7682`: setiap node lama identik, termasuk semua Foundation/Component, baseline PG-02 dan referensi PG-04 Desktop/Mobile. Variabel tidak berubah.
+- Pada delivery awal, perbandingan JSON terhadap `main` `e5f7682` identik untuk semua node lama. Ekstraksi berikutnya mengubah struktur sidebar/header menjadi refs, bukan tampilan. Foundation, sumber komponen lama, konten bisnis dan referensi PG-04 Mobile tidak diubah; penataan posisi canvas lokal milik owner dipertahankan.
 - Pemeriksaan bounds canvas: tidak ada masalah layout aktif. Skeleton/disabled export dan pagination satu halaman adalah spesimen statis, bukan perilaku yang sudah diimplementasikan.
 - Render individual 2880 × 1920; tidak bergantung pada contact sheet kecil untuk review.
 - `impeccable detect --json reimburse.pen` mengembalikan `[]`. Detektor tidak membuktikan semantik/aksesibilitas runtime.
-- SHA-256 canvas: `f0be21f60eac9d44a5fdefecde398e688447e6d34dd6047e4807b580206bf5cc`.
+- SHA-256 kandidat awal sebelum ekstraksi reusable: `f0be21f60eac9d44a5fdefecde398e688447e6d34dd6047e4807b580206bf5cc`. Identitas render terbaru diverifikasi per frame di `../desktop-chrome/regression.json`.
 - Filter, pagination, aksi detail, export, permission enforcement, keyboard/focus dan pembaca layar belum diimplementasikan/diuji. Tidak ada app code, API atau workflow baru.
 
 **Gate:** review Desktop dahulu. Mobile tetap belum dimulai; setelah persetujuan, gunakan viewport tetap dan konten panjang dengan scroll vertikal. Jangan merge PR PG-04 atau lanjut flow lain.

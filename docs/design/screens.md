@@ -66,6 +66,12 @@ Static handoff: filter/search/date/sort changes recompute results and reset pagi
 
 Checks: saved JSON contains 13 fixed Desktop frames with selected Pengajuan; legacy data and all status tokens retained. Every node from merged main (including Foundations, Components, approved Desktop/Mobile and both PG-04 reference screens) is recursively identical; variables unchanged. Canvas bounds inspection reports no enabled layout problems. PNGs are 2880 × 1920. `impeccable detect --json reimburse.pen` returned `[]`; this is not a substitute for runtime/accessibility testing. Controls are visual specimens only; filters, export, keyboard, focus and authorization are not implemented by Pen. Operate mode, ENERGY 1 / RHYTHM 2 / MOTION 1; no new theme or motion effects.
 
+### Shared chrome extraction before Mobile
+
+Owner requested reuse rather than further visual polish. Shared sidebar `TFVJz` and header `Igbr1` in board `C5b1W` now serve 13 PG-04 Desktop and 10 Dashboard/state screens, with page-active/state overrides. Existing search, badge and button instances outside the extracted chrome remain connected and keep their IDs; the normal PG-04 header's original primary-button instance is retained inside the shared source. The two header variants preserve the approved differences in geometry. Old legacy component specimens are not promoted to replace the approved appearance.
+
+[Regression evidence](../../design/png/desktop-chrome/README.md): all 23 before/after renders at 2× are byte-identical, including all PG-04 states and Dashboard normal/picker/permission/drafts/empty/loading/error/service-disabled/stress/profile. Re-exported PG-04 PNGs therefore have no artificial binary diff. Dashboard normal and component-board renders are provided separately. Existing local canvas arrangement (frame positions and area labels) was present at task start and retained; no re-layout of the user's canvas organization was performed.
+
 **Stop gate:** PG-04 Mobile is not started. After owner reviews Desktop, Mobile must adapt this candidate to a fixed viewport with vertical scrolling, preserving information/permissions/states. Do not merge the PG-04 PR or continue another flow without owner approval.
 
 ## Current inspected coverage
