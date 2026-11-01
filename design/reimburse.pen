@@ -82968,10 +82968,10 @@
       "type": "frame",
       "id": "C5b1W",
       "x": 33,
-      "y": -1244,
+      "y": -1444,
       "name": "COMPONENTS/Desktop shared chrome · Dashboard + Pengajuan",
-      "width": 2200,
-      "height": 1180,
+      "width": 3220,
+      "height": 1380,
       "fill": "#F0F1F2",
       "layout": "none",
       "children": [
@@ -83883,8 +83883,8 @@
     {
       "type": "frame",
       "id": "ajYH7",
-      "x": 10166,
-      "y": 5628,
+      "x": 33,
+      "y": -4422,
       "name": "COMPONENTS/PG-04 Mobile · reusable content · Data contoh",
       "width": 4800,
       "height": 2600,
@@ -84077,182 +84077,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "Y1O8E",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "j37Sw6",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "xYId7",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "znPgR",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "s6T4JX",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "cRAhi",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Qg0nq",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "o9oUa",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "N0r78h",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "QBurC",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "mohDz",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "MGcoh",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "K7EFWm",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "CcQlL",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -84538,180 +84367,57 @@
               }
             },
             {
+              "id": "L23Yc",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container",
+              "descendants": {
+                "Z2Bu6K": {
+                  "content": "3"
+                }
+              }
+            },
+            {
               "type": "frame",
-              "id": "LAytj",
-              "name": "List filters",
+              "id": "Ns6C4",
+              "name": "Active filter chips",
               "width": "fill_container",
               "layout": "vertical",
               "gap": 8,
               "children": [
                 {
-                  "type": "frame",
-                  "id": "z6dmK",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "zCyoT",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Payment Request",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "dn0Vl",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
+                  "id": "jd1Dg",
+                  "type": "ref",
+                  "ref": "xkwe5",
+                  "name": "Removable chip · Payment Request",
+                  "descendants": {
+                    "dZwcm": {
+                      "content": "Payment Request"
                     }
-                  ]
+                  }
                 },
                 {
-                  "type": "frame",
-                  "id": "R5q4Sp",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Wo0m9",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Pending vendor proof",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "v0vuSQ",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
+                  "id": "uyK5m",
+                  "type": "ref",
+                  "ref": "xkwe5",
+                  "name": "Removable chip · Pending vendor proof",
+                  "descendants": {
+                    "dZwcm": {
+                      "content": "Pending vendor proof"
                     }
-                  ]
+                  }
                 },
                 {
-                  "type": "frame",
-                  "id": "pcuVA",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "R05zez",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · 1–31 Okt 2026",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "OGILc",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
+                  "id": "EIb1X",
+                  "type": "ref",
+                  "ref": "xkwe5",
+                  "name": "Removable chip · 1–31 Okt 2026",
+                  "descendants": {
+                    "dZwcm": {
+                      "content": "1–31 Okt 2026"
                     }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "shKhU",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "dx1Nc",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "VotNf",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
+                  }
                 }
               ]
             },
@@ -84903,182 +84609,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "YEH4a",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "ORcdD",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "RLkkQ",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Q2fMSG",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "B0QRTW",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "a1NnDJ",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "E3U96",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "m7wsi8",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "yIzen",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "SfRg6",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DJbnM",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "mb1C7",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "SoXLC",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "blEly",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -85213,182 +84748,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "St876",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "MYes7",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "E77zwv",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "s2Nkn",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "V9ox6",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "HyaHr",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "XnhIs",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "lDyjr",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "H5dTE",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "ZArkr",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "jqCLZ",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "EC3QA",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "PzO1t",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "X34Z0K",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -85523,182 +84887,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "Bp0KB",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "BBbnY",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OKYeP",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "IkwxL",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "kS5xB",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "quEEL",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "De9w7",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "yvgOU",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "HTBbw",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "PpuBs",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "QGYdx",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "XGgAP",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "NKJuW",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "lqAlT",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -85842,182 +85035,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "IksRL",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Mv3O3",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "WOnHR",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "tRHyS",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "WxrJ2",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "FqxAZ",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "iRQOM",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Z8MJ4",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "mWVuz",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "ZFj9u",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "KuGbu",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "VG9Ed",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "veIhH",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "zbiqq",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -86177,182 +85199,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "yqjg0",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "B8zuz",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "HItJv",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Ch5nI",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ICkI4",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "UKns3",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Sgc9a",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "hTyzY",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Hays2",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Z3IEbc",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "lsULf",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OBXuh",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "uqBUY",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "e6ELA7",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -86638,182 +85489,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "XbfMQ",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Q0E6Fo",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OiRbv",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "E1MTuK",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DDhBn",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "p9Qjhc",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "I3KFn",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "b0HiPE",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "NCtnc",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "L8vd70",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "qMZHe",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "av6Ef",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Fs0Zm",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "T5Ess8",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -87125,182 +85805,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "gFf2Q",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "CG0O1",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "aDyjy",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "llNvh",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ll9eC",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "t5nE01",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "reLjI",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ZeVDu",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "cTDXb",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "uizzw",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "oP43N",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Zxh9I",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "xScxF",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "dYmI4",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -87631,182 +86140,11 @@
               }
             },
             {
-              "type": "frame",
-              "id": "aI9Iy",
-              "name": "List filters",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "L8HD9",
-                  "name": "Layanan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "sjVMX",
-                      "name": "Layanan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Layanan · Semua",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "fXJ53",
-                      "name": "Layanan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "EPDIA",
-                  "name": "Status filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ocGKQ",
-                      "name": "Status filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Status · Semua status",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "XIEn5",
-                      "name": "Status filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "IQlmW",
-                  "name": "Tanggal filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Ou4Pt",
-                      "name": "Tanggal filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tanggal · Rentang tanggal",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "JtZCs",
-                      "name": "Tanggal filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "GUF4c",
-                  "name": "Urutkan filter target",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": "$ref-border",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "TDhUf",
-                      "name": "Urutkan filter label",
-                      "fill": "$ref-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Urutkan · Tanggal terbaru",
-                      "lineHeight": 1.35,
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "t8Slc",
-                      "name": "Urutkan filter icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "lucide",
-                      "fill": "$ref-muted"
-                    }
-                  ]
-                }
-              ]
+              "id": "U901D",
+              "type": "ref",
+              "ref": "ruMUp",
+              "name": "Compact filter and sort toolbar",
+              "width": "fill_container"
             },
             {
               "type": "frame",
@@ -88083,14 +86421,930 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "ruMUp",
+          "x": 24,
+          "y": 460,
+          "name": "Component/PG-04 Mobile/Filter toolbar",
+          "reusable": true,
+          "width": 358,
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "n3TkS",
+              "name": "Filter button",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "$ref-border",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "A2qYKP",
+                  "name": "Filter icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "sliders-horizontal",
+                  "library": "lucide",
+                  "fill": "$ref-ink"
+                },
+                {
+                  "type": "text",
+                  "id": "zG6c4",
+                  "name": "Filter label",
+                  "fill": "$ref-ink",
+                  "content": "Filter",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "se4yV",
+                  "name": "Active filter count badge",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$ref-blue-soft",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z2Bu6K",
+                      "name": "Active filter count",
+                      "fill": "$ref-blue-action",
+                      "content": "0",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z1n9J",
+              "name": "Urutkan button",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "$ref-border",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "BSI7H",
+                  "name": "Urutkan icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-down-up",
+                  "library": "lucide",
+                  "fill": "$ref-ink"
+                },
+                {
+                  "type": "text",
+                  "id": "rAkIr",
+                  "name": "Urutkan label",
+                  "fill": "$ref-ink",
+                  "content": "Urutkan",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LvtoT",
+          "x": 24,
+          "y": 560,
+          "name": "Component/PG-04 Mobile/Unified filter sheet",
+          "reusable": true,
+          "clip": true,
+          "width": 358,
+          "height": 728,
+          "fill": "#FFFFFF",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "DiW2y",
+              "name": "Filter sheet header",
+              "width": "fill_container",
+              "height": 44,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wjhli",
+                  "name": "Filter sheet title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Filter pengajuan",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "OO2vn",
+                  "name": "Close filter sheet",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "BK3DS",
+                      "name": "Close filter icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "x",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C7I8k",
+              "name": "Filter sheet scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 532,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y2fPec",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scrollable filter sheet content",
+                  "width": 326,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    12,
+                    0,
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D9bp8S",
+                      "name": "Layanan group",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sYteU",
+                          "name": "Layanan group label",
+                          "fill": "$ref-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Layanan",
+                          "lineHeight": 1.35,
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cjs9R",
+                          "name": "Filter option · Layanan · Semua",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "$ref-blue-soft",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wjC2N",
+                              "name": "Filter option label · Semua",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Semua",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "MRsKJ",
+                              "name": "Selected · Layanan",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$ref-blue-action"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I2Dbju",
+                          "name": "Filter option · Layanan · Reimbursement",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gHNoE",
+                              "name": "Filter option label · Reimbursement",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Reimbursement",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CVDwc",
+                          "name": "Filter option · Layanan · Payment Request",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SaeH9",
+                              "name": "Filter option label · Payment Request",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Payment Request",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "t6Z4o",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Selected active filter check",
+                              "enabled": false,
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$ref-blue-action"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cSJLj",
+                          "name": "Filter option · Layanan · Overtime",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BX8KJ",
+                              "name": "Filter option label · Overtime",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Overtime",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EaQxV",
+                      "name": "Status group",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bOhxt",
+                          "name": "Status group label",
+                          "fill": "$ref-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Status",
+                          "lineHeight": 1.35,
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SgOAi",
+                          "name": "Filter option · Status · Semua status",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "$ref-blue-soft",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "U1f19c",
+                              "name": "Filter option label · Semua status",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Semua status",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "yUb9B",
+                              "name": "Selected · Status",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$ref-blue-action"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UcHCg",
+                          "name": "Filter option · Status · Pending",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s5byvs",
+                              "name": "Filter option label · Pending",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pending",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f3swOw",
+                          "name": "Filter option · Status · Revision",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hamC5",
+                              "name": "Filter option label · Revision",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Revision",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KYGtZ",
+                          "name": "Filter option · Status · Finance Approved",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s0JEu8",
+                              "name": "Filter option label · Finance Approved",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Finance Approved",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QBUum",
+                          "name": "Filter option · Status · Approved",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ssJbA",
+                              "name": "Filter option label · Approved",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Approved",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dcCEy",
+                          "name": "Filter option · Status · Return to Admin",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t6gNq",
+                              "name": "Filter option label · Return to Admin",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Return to Admin",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ja25a",
+                          "name": "Filter option · Status · Maker Done",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zW44c",
+                              "name": "Filter option label · Maker Done",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Maker Done",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "i9qdJ",
+                          "name": "Filter option · Status · Pending vendor proof",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "G6DvKH",
+                              "name": "Filter option label · Pending vendor proof",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pending vendor proof",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "RFKzj",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Selected active filter check",
+                              "enabled": false,
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$ref-blue-action"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GhcRu",
+                          "name": "Filter option · Status · Rejected",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pvXUK",
+                              "name": "Filter option label · Rejected",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Rejected",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n6eenV",
+                          "name": "Filter option · Status · Cancelled",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oLzin",
+                              "name": "Filter option label · Cancelled",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cancelled",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w1dfIk",
+                          "name": "Filter option · Status · Paid",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "G4d9u",
+                              "name": "Filter option label · Paid",
+                              "fill": "$ref-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Paid",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OPcBq",
+                      "name": "Tanggal group",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Bi0ih",
+                          "name": "Tanggal group label",
+                          "fill": "$ref-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tanggal",
+                          "lineHeight": 1.35,
+                          "fontFamily": "$ref-font",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "id": "IubJM",
+                          "type": "ref",
+                          "ref": "jSgCJ",
+                          "name": "Filter field · Tanggal mulai",
+                          "width": "fill_container",
+                          "descendants": {
+                            "g6qurL": {
+                              "content": "Tanggal mulai",
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fill": "$ref-ink"
+                            },
+                            "P9sHXg": {
+                              "content": "1 Okt 2026",
+                              "fontFamily": "$ref-font",
+                              "fontSize": 14,
+                              "fill": "$ref-ink"
+                            }
+                          }
+                        },
+                        {
+                          "id": "i08KE",
+                          "type": "ref",
+                          "ref": "jSgCJ",
+                          "name": "Filter field · Tanggal akhir",
+                          "width": "fill_container",
+                          "descendants": {
+                            "g6qurL": {
+                              "content": "Tanggal akhir",
+                              "fontFamily": "$ref-font",
+                              "fontSize": 13,
+                              "fill": "$ref-ink"
+                            },
+                            "P9sHXg": {
+                              "content": "31 Okt 2026",
+                              "fontFamily": "$ref-font",
+                              "fontSize": 14,
+                              "fill": "$ref-ink"
+                            }
+                          }
+                        },
+                        {
+                          "id": "DczgC",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Hapus tanggal",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": 999,
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Hapus tanggal",
+                              "fontFamily": "$ref-font",
+                              "fontSize": 14
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zJGjW",
+              "name": "Sticky filter actions",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "id": "XolWY",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Apply filters",
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Terapkan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 14
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "i6Zp9m",
+                  "type": "ref",
+                  "ref": "WQYrQ",
+                  "name": "Clear filters",
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "GvpjL": {
+                      "content": "Hapus filter",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 14
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xkwe5",
+          "x": 24,
+          "y": 1350,
+          "name": "Component/PG-04 Mobile/Removable filter chip",
+          "reusable": true,
+          "height": 44,
+          "fill": "$ref-blue-soft",
+          "cornerRadius": 999,
+          "gap": 8,
+          "padding": [
+            0,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dZwcm",
+              "name": "Chip filter label",
+              "fill": "$ref-blue-action",
+              "content": "Payment Request",
+              "fontFamily": "$ref-font",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "aboiA",
+              "name": "Remove filter icon",
+              "width": 16,
+              "height": 16,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "$ref-blue-action"
+            }
+          ]
         }
       ]
     },
     {
       "type": "frame",
       "id": "jSSv3",
-      "x": 12446,
-      "y": 5628,
+      "x": 10186,
+      "y": 5689,
       "name": "MOBILE/PG-04 Normal · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -88307,8 +87561,8 @@
     {
       "type": "frame",
       "id": "SVqzr",
-      "x": 12916,
-      "y": 5628,
+      "x": 10656,
+      "y": 5689,
       "name": "MOBILE/PG-04 Filtered · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -88525,8 +87779,8 @@
     {
       "type": "frame",
       "id": "g29tW",
-      "x": 13386,
-      "y": 5628,
+      "x": 11126,
+      "y": 5689,
       "name": "MOBILE/PG-04 No results · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -88743,8 +87997,8 @@
     {
       "type": "frame",
       "id": "iKaGO",
-      "x": 13856,
-      "y": 5628,
+      "x": 11596,
+      "y": 5689,
       "name": "MOBILE/PG-04 Empty · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -88961,8 +88215,8 @@
     {
       "type": "frame",
       "id": "woVE2",
-      "x": 14326,
-      "y": 5628,
+      "x": 12066,
+      "y": 5689,
       "name": "MOBILE/PG-04 Loading · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -89179,8 +88433,8 @@
     {
       "type": "frame",
       "id": "kZoBb",
-      "x": 14796,
-      "y": 5628,
+      "x": 12536,
+      "y": 5689,
       "name": "MOBILE/PG-04 Error · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -89397,8 +88651,8 @@
     {
       "type": "frame",
       "id": "NSu34",
-      "x": 15266,
-      "y": 5628,
+      "x": 13006,
+      "y": 5689,
       "name": "MOBILE/PG-04 Service disabled · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -89615,8 +88869,8 @@
     {
       "type": "frame",
       "id": "sIy5S",
-      "x": 15736,
-      "y": 5628,
+      "x": 13476,
+      "y": 5689,
       "name": "MOBILE/PG-04 Export generating · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -89833,8 +89087,8 @@
     {
       "type": "frame",
       "id": "EEKmt",
-      "x": 16206,
-      "y": 5628,
+      "x": 13946,
+      "y": 5689,
       "name": "MOBILE/PG-04 Export error · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -90051,8 +89305,8 @@
     {
       "type": "frame",
       "id": "ACAdA",
-      "x": 16676,
-      "y": 5628,
+      "x": 14416,
+      "y": 5689,
       "name": "MOBILE/PG-04 Export denied · 390×844 · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -90269,9 +89523,9 @@
     {
       "type": "frame",
       "id": "WXk4E",
-      "x": 17146,
-      "y": 5628,
-      "name": "MOBILE/PG-04 Service filter bottom sheet · Data contoh · Requester",
+      "x": 14886,
+      "y": 5689,
+      "name": "MOBILE/PG-04 Unified filter · Layanan group · Data contoh · Requester",
       "clip": true,
       "width": 390,
       "height": 844,
@@ -90493,188 +89747,28 @@
           "height": 844
         },
         {
-          "type": "frame",
-          "id": "vPmto",
+          "id": "v0HOf",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Layanan group",
           "x": 16,
-          "y": 556,
-          "name": "Bottom sheet · Service filter",
+          "y": 100,
           "width": 358,
-          "fill": "#FFFFFF",
-          "cornerRadius": 24,
-          "layout": "vertical",
-          "gap": 8,
-          "padding": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "D2FtX",
-              "name": "Sheet heading",
-              "width": "fill_container",
-              "height": 44,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "keXxE",
-                  "name": "Sheet title",
-                  "fill": "$ref-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Layanan",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 18,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "e4AmB8",
-                  "name": "Close sheet target",
-                  "width": 44,
-                  "height": 44,
-                  "fill": "$ref-canvas",
-                  "cornerRadius": 999,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "LvCDE",
-                      "name": "Close sheet icon",
-                      "width": 20,
-                      "height": 20,
-                      "icon": "x",
-                      "library": "lucide",
-                      "fill": "$ref-ink"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "fhW58",
-              "name": "Sheet options",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 4,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "m2lfMr",
-                  "name": "Option · Semua",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "$ref-blue-soft",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "H99uP",
-                      "name": "Option label · Semua",
-                      "fill": "$ref-ink",
-                      "content": "Semua",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "nLtxU",
-                  "name": "Option · Reimbursement",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "F1uaH",
-                      "name": "Option label · Reimbursement",
-                      "fill": "$ref-ink",
-                      "content": "Reimbursement",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "D31j3",
-                  "name": "Option · Payment Request",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Z57kCl",
-                      "name": "Option label · Payment Request",
-                      "fill": "$ref-ink",
-                      "content": "Payment Request",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "m1nc6",
-                  "name": "Option · Overtime",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "BcDU1",
-                      "name": "Option label · Overtime",
-                      "fill": "$ref-ink",
-                      "content": "Overtime",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": 0
             }
-          ]
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "bUJ52",
-      "x": 17616,
-      "y": 5628,
-      "name": "MOBILE/PG-04 Status filter bottom sheet · Data contoh · Requester",
+      "x": 15356,
+      "y": 5689,
+      "name": "MOBILE/PG-04 Unified filter · Status group · Data contoh · Requester",
       "clip": true,
       "width": 390,
       "height": 844,
@@ -90896,388 +89990,28 @@
           "height": 844
         },
         {
-          "type": "frame",
-          "id": "IjxFQ",
+          "id": "crmAB",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Status group",
           "x": 16,
-          "y": 220,
-          "name": "Bottom sheet · Status filter",
-          "clip": true,
+          "y": 100,
           "width": 358,
-          "height": 608,
-          "fill": "#FFFFFF",
-          "cornerRadius": 24,
-          "layout": "vertical",
-          "gap": 8,
-          "padding": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "nxLDT",
-              "name": "Sheet heading",
-              "width": "fill_container",
-              "height": 44,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "H0T1eZ",
-                  "name": "Sheet title",
-                  "fill": "$ref-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Status",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 18,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "fS2pX",
-                  "name": "Close sheet target",
-                  "width": 44,
-                  "height": 44,
-                  "fill": "$ref-canvas",
-                  "cornerRadius": 999,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "s8lHm",
-                      "name": "Close sheet icon",
-                      "width": 20,
-                      "height": 20,
-                      "icon": "x",
-                      "library": "lucide",
-                      "fill": "$ref-ink"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "YlJF1",
-              "name": "All statuses guidance",
-              "fill": "$ref-muted",
-              "content": "Gulir untuk melihat semua status",
-              "fontFamily": "$ref-font",
-              "fontSize": 12,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "frame",
-              "id": "l75m7",
-              "name": "Scrollable status options",
-              "metadata": {
-                "type": "scroll-handoff",
-                "axis": "vertical"
-              },
-              "clip": true,
-              "width": "fill_container",
-              "height": 510,
-              "layout": "vertical",
-              "gap": 4,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Ho8Ky",
-                  "name": "Option · Semua status",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "$ref-blue-soft",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "uHdFn",
-                      "name": "Option label · Semua status",
-                      "fill": "$ref-ink",
-                      "content": "Semua status",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "gIqqg",
-                  "name": "Option · Pending",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "d31YtZ",
-                      "name": "Option label · Pending",
-                      "fill": "$ref-ink",
-                      "content": "Pending",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "zo00y",
-                  "name": "Option · Revision",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "cqqgk",
-                      "name": "Option label · Revision",
-                      "fill": "$ref-ink",
-                      "content": "Revision",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "GlA81",
-                  "name": "Option · Finance Approved",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Z35ulh",
-                      "name": "Option label · Finance Approved",
-                      "fill": "$ref-ink",
-                      "content": "Finance Approved",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "U3RRlB",
-                  "name": "Option · Approved",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Grxiq",
-                      "name": "Option label · Approved",
-                      "fill": "$ref-ink",
-                      "content": "Approved",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "A0XYbg",
-                  "name": "Option · Return to Admin",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "g1YfIF",
-                      "name": "Option label · Return to Admin",
-                      "fill": "$ref-ink",
-                      "content": "Return to Admin",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "WRmfb",
-                  "name": "Option · Maker Done",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "X63tUq",
-                      "name": "Option label · Maker Done",
-                      "fill": "$ref-ink",
-                      "content": "Maker Done",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "TQT9y",
-                  "name": "Option · Pending vendor proof",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "BqmYR",
-                      "name": "Option label · Pending vendor proof",
-                      "fill": "$ref-ink",
-                      "content": "Pending vendor proof",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "S4nGHp",
-                  "name": "Option · Rejected",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "sRsNA",
-                      "name": "Option label · Rejected",
-                      "fill": "$ref-ink",
-                      "content": "Rejected",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ppYXn",
-                  "name": "Option · Cancelled",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "c4QMo3",
-                      "name": "Option label · Cancelled",
-                      "fill": "$ref-ink",
-                      "content": "Cancelled",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "y9ebX9",
-                  "name": "Option · Paid",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "JJ3P2",
-                      "name": "Option label · Paid",
-                      "fill": "$ref-ink",
-                      "content": "Paid",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": -243
             }
-          ]
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "dRKeV",
-      "x": 18086,
-      "y": 5628,
-      "name": "MOBILE/PG-04 Date filter bottom sheet · Data contoh · Requester",
+      "x": 15826,
+      "y": 5689,
+      "name": "MOBILE/PG-04 Unified filter · Tanggal group · Data contoh · Requester",
       "clip": true,
       "width": 390,
       "height": 844,
@@ -91499,158 +90233,27 @@
           "height": 844
         },
         {
-          "type": "frame",
-          "id": "k9Rfv",
+          "id": "ifSE4",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Tanggal group",
           "x": 16,
-          "y": 512,
-          "name": "Bottom sheet · Date filter",
+          "y": 100,
           "width": 358,
-          "fill": "#FFFFFF",
-          "cornerRadius": 24,
-          "layout": "vertical",
-          "gap": 8,
-          "padding": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "hxuCr",
-              "name": "Sheet heading",
-              "width": "fill_container",
-              "height": 44,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "A58Y1R",
-                  "name": "Sheet title",
-                  "fill": "$ref-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Rentang tanggal",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 18,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "g6XDh",
-                  "name": "Close sheet target",
-                  "width": 44,
-                  "height": 44,
-                  "fill": "$ref-canvas",
-                  "cornerRadius": 999,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "N5KkyZ",
-                      "name": "Close sheet icon",
-                      "width": 20,
-                      "height": 20,
-                      "icon": "x",
-                      "library": "lucide",
-                      "fill": "$ref-ink"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "j0wbP",
-              "name": "Sheet options",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 4,
-              "children": [
-                {
-                  "id": "g6yhZw",
-                  "type": "ref",
-                  "ref": "jSgCJ",
-                  "name": "Date field Tanggal mulai",
-                  "width": "fill_container",
-                  "descendants": {
-                    "g6qurL": {
-                      "content": "Tanggal mulai",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13
-                    },
-                    "P9sHXg": {
-                      "content": "1 Okt 2026",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fill": "$ref-ink"
-                    }
-                  }
-                },
-                {
-                  "id": "T1i9mw",
-                  "type": "ref",
-                  "ref": "jSgCJ",
-                  "name": "Date field Tanggal akhir",
-                  "width": "fill_container",
-                  "descendants": {
-                    "g6qurL": {
-                      "content": "Tanggal akhir",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 13
-                    },
-                    "P9sHXg": {
-                      "content": "31 Okt 2026",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fill": "$ref-ink"
-                    }
-                  }
-                },
-                {
-                  "id": "km8Ld",
-                  "type": "ref",
-                  "ref": "fFmN2",
-                  "name": "Terapkan date filter",
-                  "width": "fill_container",
-                  "height": 44,
-                  "cornerRadius": 999,
-                  "descendants": {
-                    "U7Cbs": {
-                      "content": "Terapkan",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14
-                    },
-                    "eq2MD": {
-                      "enabled": false
-                    }
-                  }
-                },
-                {
-                  "id": "urXsG",
-                  "type": "ref",
-                  "ref": "WQYrQ",
-                  "name": "Hapus tanggal",
-                  "width": "fill_container",
-                  "height": 44,
-                  "cornerRadius": 999,
-                  "descendants": {
-                    "GvpjL": {
-                      "content": "Hapus tanggal",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14
-                    }
-                  }
-                }
-              ]
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": -589
             }
-          ]
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "ugfAV",
-      "x": 18556,
-      "y": 5628,
+      "x": 16296,
+      "y": 5689,
       "name": "MOBILE/PG-04 Sort order bottom sheet · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -92000,8 +90603,8 @@
     {
       "type": "frame",
       "id": "oeHMy",
-      "x": 19026,
-      "y": 5628,
+      "x": 16766,
+      "y": 5689,
       "name": "MOBILE/PG-04 Export menu bottom sheet · Data contoh · Requester",
       "clip": true,
       "width": 390,
@@ -92363,9 +90966,9 @@
     {
       "type": "frame",
       "id": "IHevC",
-      "x": 19496,
-      "y": 5628,
-      "name": "MOBILE/PG-04 Service disabled filter bottom sheet · Data contoh · Requester",
+      "x": 17236,
+      "y": 5689,
+      "name": "MOBILE/PG-04 Unified filter · service disabled · Overtime historical · Data contoh · Requester",
       "clip": true,
       "width": 390,
       "height": 844,
@@ -92587,187 +91190,27 @@
           "height": 844
         },
         {
-          "type": "frame",
-          "id": "gU210",
+          "id": "t1yf9D",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Layanan group",
           "x": 16,
-          "y": 556,
-          "name": "Bottom sheet · Service disabled filter",
+          "y": 100,
           "width": 358,
-          "fill": "#FFFFFF",
-          "cornerRadius": 24,
-          "layout": "vertical",
-          "gap": 8,
-          "padding": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "z9Bm0",
-              "name": "Sheet heading",
-              "width": "fill_container",
-              "height": 44,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "uYADb",
-                  "name": "Sheet title",
-                  "fill": "$ref-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Layanan",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 18,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "gwYmV",
-                  "name": "Close sheet target",
-                  "width": 44,
-                  "height": 44,
-                  "fill": "$ref-canvas",
-                  "cornerRadius": 999,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "lBcRr",
-                      "name": "Close sheet icon",
-                      "width": 20,
-                      "height": 20,
-                      "icon": "x",
-                      "library": "lucide",
-                      "fill": "$ref-ink"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "No379",
-              "name": "Sheet options",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 4,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "PO79h",
-                  "name": "Option · Semua",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "$ref-blue-soft",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "N6SUz",
-                      "name": "Option label · Semua",
-                      "fill": "$ref-ink",
-                      "content": "Semua",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "dwHgd",
-                  "name": "Option · Reimbursement",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "C9Ogn",
-                      "name": "Option label · Reimbursement",
-                      "fill": "$ref-ink",
-                      "content": "Reimbursement",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "TnDT1",
-                  "name": "Option · Payment Request",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "sJo5I",
-                      "name": "Option label · Payment Request",
-                      "fill": "$ref-ink",
-                      "content": "Payment Request",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "p1bRFA",
-                  "name": "Option · Overtime",
-                  "width": "fill_container",
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "v7PeU7",
-                      "name": "Option label · Overtime",
-                      "fill": "$ref-ink",
-                      "content": "Overtime",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": 0
             }
-          ]
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "J3IVxP",
-      "x": 19496,
-      "y": 6552,
+      "x": 17236,
+      "y": 6613,
       "name": "MOBILE/PG-04 Normal · scrolled to Request collection · Data contoh",
       "clip": true,
       "width": 390,
@@ -92797,7 +91240,7 @@
               "ref": "rFEiu",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -276
+              "y": -120
             }
           ]
         },
@@ -92984,8 +91427,8 @@
     {
       "type": "frame",
       "id": "MyyEK",
-      "x": 19496,
-      "y": 7476,
+      "x": 17236,
+      "y": 7537,
       "name": "MOBILE/PG-04 Normal · scrolled to Export action target · Data contoh",
       "clip": true,
       "width": 390,
@@ -93015,7 +91458,7 @@
               "ref": "rFEiu",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -930
+              "y": -774
             }
           ]
         },
@@ -93202,8 +91645,8 @@
     {
       "type": "frame",
       "id": "P5aoJ",
-      "x": 19496,
-      "y": 8400,
+      "x": 17236,
+      "y": 8461,
       "name": "MOBILE/PG-04 Filtered · scrolled to Request collection · Data contoh",
       "clip": true,
       "width": 390,
@@ -93233,7 +91676,7 @@
               "ref": "rhTLr",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -162
+              "y": -170
             }
           ]
         },
@@ -93420,8 +91863,8 @@
     {
       "type": "frame",
       "id": "c8p1s",
-      "x": 19496,
-      "y": 9324,
+      "x": 17236,
+      "y": 9385,
       "name": "MOBILE/PG-04 Service disabled · scrolled to Request row · OT-000012 · Data contoh",
       "clip": true,
       "width": 390,
@@ -93638,8 +92081,8 @@
     {
       "type": "frame",
       "id": "dktSx",
-      "x": 19496,
-      "y": 10248,
+      "x": 17236,
+      "y": 10309,
       "name": "MOBILE/PG-04 Export generating · scrolled to Export feedback · Data contoh",
       "clip": true,
       "width": 390,
@@ -93669,7 +92112,7 @@
               "ref": "yfSUK",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -276
+              "y": -120
             }
           ]
         },
@@ -93856,8 +92299,8 @@
     {
       "type": "frame",
       "id": "LP79A",
-      "x": 19496,
-      "y": 11172,
+      "x": 17236,
+      "y": 11233,
       "name": "MOBILE/PG-04 Export error · scrolled to Export feedback · Data contoh",
       "clip": true,
       "width": 390,
@@ -93887,7 +92330,7 @@
               "ref": "GyC3J",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -276
+              "y": -120
             }
           ]
         },
@@ -94074,8 +92517,8 @@
     {
       "type": "frame",
       "id": "n0arg",
-      "x": 19496,
-      "y": 12096,
+      "x": 17236,
+      "y": 12157,
       "name": "MOBILE/PG-04 Export denied · scrolled to Export feedback · Data contoh",
       "clip": true,
       "width": 390,
@@ -94105,7 +92548,7 @@
               "ref": "M28wso",
               "name": "Scrollable PG-04 content",
               "x": 0,
-              "y": -276
+              "y": -120
             }
           ]
         },
@@ -94292,9 +92735,9 @@
     {
       "type": "frame",
       "id": "IA9cX",
-      "x": 17616,
-      "y": 6552,
-      "name": "MOBILE/PG-04 Status sheet · scrolled to final statuses · Data contoh",
+      "x": 15356,
+      "y": 6613,
+      "name": "MOBILE/PG-04 Unified filter · Tanggal group · Data contoh · Requester",
       "clip": true,
       "width": 390,
       "height": 844,
@@ -94516,408 +92959,27 @@
           "height": 844
         },
         {
-          "type": "frame",
-          "id": "g3192",
+          "id": "wqz7P",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Tanggal group",
           "x": 16,
-          "y": 220,
-          "name": "Bottom sheet · Status filter",
-          "clip": true,
+          "y": 100,
           "width": 358,
-          "height": 608,
-          "fill": "#FFFFFF",
-          "cornerRadius": 24,
-          "layout": "vertical",
-          "gap": 8,
-          "padding": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "G9lin",
-              "name": "Sheet heading",
-              "width": "fill_container",
-              "height": 44,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Wok1T",
-                  "name": "Sheet title",
-                  "fill": "$ref-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Status",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 18,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "RWShZ",
-                  "name": "Close sheet target",
-                  "width": 44,
-                  "height": 44,
-                  "fill": "$ref-canvas",
-                  "cornerRadius": 999,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "VBVGZ",
-                      "name": "Close sheet icon",
-                      "width": 20,
-                      "height": 20,
-                      "icon": "x",
-                      "library": "lucide",
-                      "fill": "$ref-ink"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "ICfo3",
-              "name": "All statuses guidance",
-              "fill": "$ref-muted",
-              "content": "Gulir untuk melihat semua status",
-              "fontFamily": "$ref-font",
-              "fontSize": 12,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "frame",
-              "id": "y3Qawu",
-              "name": "Scrollable status options",
-              "metadata": {
-                "type": "scroll-handoff",
-                "axis": "vertical"
-              },
-              "clip": true,
-              "width": "fill_container",
-              "height": 510,
-              "layout": "none",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "lcsJz",
-                  "x": 0,
-                  "y": -22,
-                  "name": "Option · Semua status",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "$ref-blue-soft",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "d21UG",
-                      "name": "Option label · Semua status",
-                      "fill": "$ref-ink",
-                      "content": "Semua status",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "FGh5a",
-                  "x": 0,
-                  "y": 26,
-                  "name": "Option · Pending",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "F4NbJv",
-                      "name": "Option label · Pending",
-                      "fill": "$ref-ink",
-                      "content": "Pending",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "fDt5f",
-                  "x": 0,
-                  "y": 74,
-                  "name": "Option · Revision",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "BjOIk",
-                      "name": "Option label · Revision",
-                      "fill": "$ref-ink",
-                      "content": "Revision",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "E7SXW",
-                  "x": 0,
-                  "y": 122,
-                  "name": "Option · Finance Approved",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "lsLDG",
-                      "name": "Option label · Finance Approved",
-                      "fill": "$ref-ink",
-                      "content": "Finance Approved",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "D8RFQ",
-                  "x": 0,
-                  "y": 170,
-                  "name": "Option · Approved",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "f6g1L",
-                      "name": "Option label · Approved",
-                      "fill": "$ref-ink",
-                      "content": "Approved",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "i1Kufu",
-                  "x": 0,
-                  "y": 218,
-                  "name": "Option · Return to Admin",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "i6I23",
-                      "name": "Option label · Return to Admin",
-                      "fill": "$ref-ink",
-                      "content": "Return to Admin",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "RvlV8",
-                  "x": 0,
-                  "y": 266,
-                  "name": "Option · Maker Done",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "T4AcKW",
-                      "name": "Option label · Maker Done",
-                      "fill": "$ref-ink",
-                      "content": "Maker Done",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "KVDXE",
-                  "x": 0,
-                  "y": 314,
-                  "name": "Option · Pending vendor proof",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "U1dOu3",
-                      "name": "Option label · Pending vendor proof",
-                      "fill": "$ref-ink",
-                      "content": "Pending vendor proof",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Ebb5r",
-                  "x": 0,
-                  "y": 362,
-                  "name": "Option · Rejected",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "muvy7",
-                      "name": "Option label · Rejected",
-                      "fill": "$ref-ink",
-                      "content": "Rejected",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "yQSKj",
-                  "x": 0,
-                  "y": 410,
-                  "name": "Option · Cancelled",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "djurh",
-                      "name": "Option label · Cancelled",
-                      "fill": "$ref-ink",
-                      "content": "Cancelled",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "d4a7C",
-                  "x": 0,
-                  "y": 458,
-                  "name": "Option · Paid",
-                  "width": 326,
-                  "height": 44,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "stqQ0",
-                      "name": "Option label · Paid",
-                      "fill": "$ref-ink",
-                      "content": "Paid",
-                      "fontFamily": "$ref-font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": -589
             }
-          ]
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "MJZ0k",
-      "x": 18086,
-      "y": 6552,
+      "x": 15826,
+      "y": 6613,
       "name": "MOBILE/PG-04 Service disabled · create picker · Data contoh",
       "clip": true,
       "width": 390,
@@ -95237,6 +93299,499 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QU1de",
+      "x": 10656,
+      "y": 6613,
+      "name": "MOBILE/PG-04 Filtered · one chip removed · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SAXis",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "YPYzl",
+              "type": "ref",
+              "ref": "rhTLr",
+              "name": "Scrollable PG-04 content",
+              "x": 0,
+              "y": 0,
+              "descendants": {
+                "L23Yc/Z2Bu6K": {
+                  "content": "2"
+                },
+                "jd1Dg": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hoG65",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "vQgzx",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F1jcj",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pengajuan",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "IpMSp",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "x3Xlg",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dxmha",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Iwb5D",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kODlF",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "h7z9K",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dJp4N",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "cWzfi",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hCRvf",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "d7yahB",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MR7e2",
+      "x": 14886,
+      "y": 6613,
+      "name": "MOBILE/PG-04 Unified filter · active selections · Data contoh",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$ref-canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ahkSo",
+          "x": 0,
+          "y": 132,
+          "name": "Vertical scroll viewport · fixed 626 px",
+          "metadata": {
+            "type": "scroll-handoff",
+            "axis": "vertical",
+            "fixedViewport": true
+          },
+          "clip": true,
+          "width": 390,
+          "height": 626,
+          "layout": "none",
+          "children": [
+            {
+              "id": "qd49E",
+              "type": "ref",
+              "ref": "rhTLr",
+              "name": "Scrollable PG-04 content",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HDln8",
+          "x": 0,
+          "y": 0,
+          "name": "Fixed Mobile header",
+          "width": 390,
+          "height": 132,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "JDj2P",
+              "name": "Header controls",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WWZH3",
+                  "name": "Page title",
+                  "fill": "$ref-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pengajuan",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$ref-font",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "ocnaS",
+                  "name": "Notifikasi · 5 belum dibaca",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "A4Dca",
+                      "name": "Notifikasi · 5 belum dibaca icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DGMpg",
+                      "layoutPosition": "absolute",
+                      "x": 24,
+                      "y": 0,
+                      "name": "Notification unread badge · 5",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "$ref-blue-action",
+                      "cornerRadius": 999,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eRKea",
+                          "name": "Notification unread count",
+                          "fill": "#FFFFFF",
+                          "content": "5",
+                          "fontFamily": "$ref-font",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hqlhd",
+                  "name": "Profil Maya A.",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$ref-canvas",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "vHfeS",
+                      "name": "Profil Maya A. icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$ref-ink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fwxXf",
+              "name": "Create request action row",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "UHNrY",
+                  "type": "ref",
+                  "ref": "fFmN2",
+                  "name": "Buat pengajuan header action",
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "descendants": {
+                    "U7Cbs": {
+                      "content": "Buat pengajuan",
+                      "fontFamily": "$ref-font",
+                      "fontSize": 12
+                    },
+                    "eq2MD": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OTyWi",
+          "x": 0,
+          "y": 758,
+          "name": "Fixed bottom navigation",
+          "width": 390,
+          "height": 86,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "id": "i8qmg",
+              "type": "ref",
+              "ref": "IenEv",
+              "name": "Pengajuan active bottom navigation",
+              "width": "fill_container",
+              "descendants": {
+                "se86Z": {
+                  "fontFamily": "$ref-font"
+                },
+                "OJ48l": {
+                  "fontFamily": "$ref-font"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "M409Fb",
+          "x": 0,
+          "y": 0,
+          "name": "Sheet scrim",
+          "fill": "#11121380",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "id": "DymvU",
+          "type": "ref",
+          "ref": "LvtoT",
+          "name": "Unified filter sheet · Layanan group",
+          "x": 16,
+          "y": 100,
+          "width": 358,
+          "height": 728,
+          "descendants": {
+            "y2fPec": {
+              "y": 0
+            },
+            "cjs9R": {
+              "fill": "#FFFFFF"
+            },
+            "MRsKJ": {
+              "enabled": false
+            },
+            "CVDwc": {
+              "fill": "$ref-blue-soft"
+            },
+            "t6Z4o": {
+              "enabled": true
+            },
+            "SgOAi": {
+              "fill": "#FFFFFF"
+            },
+            "yUb9B": {
+              "enabled": false
+            },
+            "i9qdJ": {
+              "fill": "$ref-blue-soft"
+            },
+            "RFKzj": {
+              "enabled": true
+            }
+          }
         }
       ]
     }

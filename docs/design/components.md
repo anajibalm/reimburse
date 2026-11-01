@@ -72,7 +72,9 @@ Sidebar default is Dashboard active; Pengajuan active overrides only selected-it
 
 Board `ajYH7` contains `Component/PG-04 Mobile/Request row` (`jzecl`) and ten reusable content variants for normal, filtered, no-results, empty, loading, error, service-disabled, export generating/error/denied. Row instances override ID, title, Entity/date, nested status, amount and next step, with 44 px detail target. State viewports reference these source contents rather than duplicating list data.
 
-PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` Pengajuan-active navigation, `NdxOT` search, `R5NHOj` status, `jSgCJ` fields, and `fFmN2` / `WQYrQ` actions. Existing source nodes were not changed. Bottom sheets are static specimens with 44 px options/close targets; status options have an intentionally clipped scroll region and end-position specimen. Full state mapping and render links: [`screens.md`](screens.md) and [`../../design/png/pg04-mobile/README.md`](../../design/png/pg04-mobile/README.md).
+Shared toolbar `ruMUp` provides Filter with active count and Urutkan across all ten content states; removable chips instance `xkwe5`. Unified sheet `LvtoT` contains a scroll viewport with service/status/date; date group `OPcBq` has 16 px spacing and contains `Hapus tanggal`. The fixed footer contains only `Terapkan` / `Hapus filter` at 8 px separation. Sheet viewport height 532 px; scroll is visual handoff, not implementation.
+
+PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` Pengajuan-active navigation, `NdxOT` search, `R5NHOj` status, `jSgCJ` fields, and `fFmN2` / `WQYrQ` actions. Existing source nodes were not changed. Bottom sheets are static specimens with 44 px options/close targets; the unified filter sheet has an intentionally clipped scroll region and end-position specimens. Full state mapping and render links: [`screens.md`](screens.md) and [`../../design/png/pg04-mobile/README.md`](../../design/png/pg04-mobile/README.md).
 
 ## Usage boundaries
 
