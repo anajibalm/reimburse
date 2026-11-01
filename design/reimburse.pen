@@ -74160,7 +74160,7 @@
               "fontWeight": "600"
             },
             "XVVir": {
-              "enabled": false
+              "enabled": true
             },
             "m8un4g": {
               "enabled": false
@@ -74310,10 +74310,7 @@
                     {
                       "type": "frame",
                       "id": "PWRfV",
-                      "x": 402,
-                      "y": 0,
                       "name": "Service tab Overtime",
-                      "enabled": false,
                       "height": 44,
                       "fill": "$ref-canvas",
                       "cornerRadius": 999,
@@ -77965,138 +77962,96 @@
             "blur": 20
           },
           "layout": "vertical",
-          "gap": 4,
-          "padding": 12,
+          "gap": 12,
+          "padding": 16,
           "children": [
             {
-              "type": "frame",
-              "id": "d8Lqh",
-              "name": "Menu option Rentang tanggal",
-              "width": "fill_container",
-              "height": 44,
-              "fill": "$ref-canvas",
-              "cornerRadius": 8,
-              "padding": [
-                0,
-                12
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "tpcOP",
-                  "name": "Option label Rentang tanggal",
-                  "fill": "$ref-ink",
-                  "content": "Rentang tanggal",
-                  "fontFamily": "$ref-font",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                }
-              ]
+              "type": "text",
+              "id": "k0YGHh",
+              "name": "Date range heading",
+              "fill": "$ref-ink",
+              "content": "Rentang tanggal",
+              "fontFamily": "$ref-font",
+              "fontSize": 14,
+              "fontWeight": "600"
             },
             {
-              "type": "frame",
-              "id": "wRLsC",
-              "name": "Menu option Tanggal mulai · 1 Okt 2026",
+              "id": "tD4Mn",
+              "type": "ref",
+              "ref": "jSgCJ",
+              "name": "Date field · Tanggal mulai",
               "width": "fill_container",
-              "height": 44,
-              "fill": "#FFFFFF",
-              "cornerRadius": 8,
-              "padding": [
-                0,
-                12
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "BzCQe",
-                  "name": "Option label Tanggal mulai · 1 Okt 2026",
-                  "fill": "$ref-ink",
-                  "content": "Tanggal mulai · 1 Okt 2026",
+              "descendants": {
+                "g6qurL": {
+                  "content": "Tanggal mulai",
                   "fontFamily": "$ref-font",
                   "fontSize": 13,
-                  "fontWeight": "500"
+                  "fill": "$ref-ink"
+                },
+                "P9sHXg": {
+                  "content": "1 Okt 2026",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fill": "$ref-ink"
                 }
-              ]
+              }
             },
             {
-              "type": "frame",
-              "id": "qoeNY",
-              "name": "Menu option Tanggal akhir · 31 Okt 2026",
+              "id": "GYwo1",
+              "type": "ref",
+              "ref": "jSgCJ",
+              "name": "Date field · Tanggal akhir",
               "width": "fill_container",
-              "height": 44,
-              "fill": "#FFFFFF",
-              "cornerRadius": 8,
-              "padding": [
-                0,
-                12
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "h5kNC",
-                  "name": "Option label Tanggal akhir · 31 Okt 2026",
-                  "fill": "$ref-ink",
-                  "content": "Tanggal akhir · 31 Okt 2026",
+              "descendants": {
+                "g6qurL": {
+                  "content": "Tanggal akhir",
                   "fontFamily": "$ref-font",
                   "fontSize": 13,
-                  "fontWeight": "500"
+                  "fill": "$ref-ink"
+                },
+                "P9sHXg": {
+                  "content": "31 Okt 2026",
+                  "fontFamily": "$ref-font",
+                  "fontSize": 14,
+                  "fill": "$ref-ink"
                 }
-              ]
+              }
             },
             {
-              "type": "frame",
-              "id": "Mn0Cb",
-              "name": "Menu option Terapkan",
+              "id": "kSCcm",
+              "type": "ref",
+              "ref": "fFmN2",
+              "name": "Apply date range · primary",
               "width": "fill_container",
               "height": 44,
-              "fill": "#FFFFFF",
-              "cornerRadius": 8,
-              "padding": [
-                0,
-                12
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "EdV2q",
-                  "name": "Option label Terapkan",
-                  "fill": "$ref-ink",
+              "cornerRadius": 999,
+              "descendants": {
+                "U7Cbs": {
                   "content": "Terapkan",
                   "fontFamily": "$ref-font",
-                  "fontSize": 13,
-                  "fontWeight": "500"
+                  "fontSize": 14
+                },
+                "eq2MD": {
+                  "enabled": false
                 }
-              ]
+              }
             },
             {
-              "type": "frame",
-              "id": "C6Q9Q",
-              "name": "Menu option Hapus tanggal",
+              "id": "Fy57H",
+              "type": "ref",
+              "ref": "WQYrQ",
+              "name": "Clear date range · secondary",
               "width": "fill_container",
               "height": 44,
-              "fill": "#FFFFFF",
-              "cornerRadius": 8,
-              "padding": [
-                0,
-                12
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "g5KZwM",
-                  "name": "Option label Hapus tanggal",
-                  "fill": "$ref-ink",
+              "cornerRadius": 999,
+              "stroke": "$ref-border",
+              "descendants": {
+                "GvpjL": {
                   "content": "Hapus tanggal",
                   "fontFamily": "$ref-font",
-                  "fontSize": 13,
-                  "fontWeight": "500"
+                  "fontSize": 14
                 }
-              ]
+              }
             }
           ]
         }
@@ -79722,7 +79677,7 @@
                       "id": "QFvHY",
                       "name": "Export generating · disabled",
                       "opacity": 0.65,
-                      "width": 120,
+                      "width": 148,
                       "height": 44,
                       "fill": "#FFFFFF",
                       "cornerRadius": 999,
@@ -79740,8 +79695,6 @@
                           "id": "yrUou",
                           "name": "Export control label",
                           "fill": "$ref-ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
                           "content": "Memproses…",
                           "lineHeight": 1.35,
                           "fontFamily": "$ref-font",

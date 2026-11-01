@@ -37,6 +37,10 @@ Issue #7 / PR #8. Refactor struktur saja, bukan polish visual. Mobile belum dike
 - `design/reimburse.pen` memuat board `C5b1W`, kedua sumber reusable (`TFVJz`, `Igbr1`), dan tepat satu instance sidebar + header pada masing-masing 23 layar. Varian aktif dan state overrides diverifikasi dari JSON tersimpan, bukan hanya editor.
 - **462 instance lama di luar chrome** tetap identik beserta ID/ref/propertinya. Original primary-button instance `xaXdi` juga tetap identik. Seluruh sumber komponen lama, variabel dan referensi PG-04 Mobile tidak berubah.
 - Render final setelah Save juga **23/23 byte-identik** terhadap render sebelum ekstraksi; bounds inspection tidak menemukan masalah layout aktif.
-- SHA-256 canvas tersimpan: `8c933f9e4a7bba20dc4458862096dd0787442bb417300e87045c03545b250ff2`.
+- SHA-256 canvas pada ekstraksi shared-chrome: `8c933f9e4a7bba20dc4458862096dd0787442bb417300e87045c03545b250ff2`.
+
+## Polish PG-04 berikutnya
+
+Koreksi owner berikutnya hanya mengubah state Export generating, date popover dan service-disabled. Klaim 23/23 identik di atas khusus ekstraksi shared-chrome, bukan larangan atas tiga koreksi yang diminta. Sumber chrome tidak berubah; **20 render yang tidak ditargetkan tetap byte-identik**, termasuk seluruh 10 Dashboard/state. Lihat `latest_pg04_polish` pada [report](regression.json) dan [galeri terbaru](../pg04-desktop/README.md).
 
 Penataan posisi frame serta dua label area lokal yang ada sebelum tugas dipertahankan. Tidak ada perubahan business rule, Foundation variables, tema, viewport atau Mobile. Ini bukti render statis, bukan verifikasi runtime/keyboard/screen reader.

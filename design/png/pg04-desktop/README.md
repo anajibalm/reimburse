@@ -4,6 +4,14 @@ Issue #7. Branch `design/pg04-request-list`, dari merged `main` `e5f7682`. **Bel
 
 Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik gambar/tautan untuk ukuran penuh. Semua angka, identitas, Entity, tanggal dan nominal adalah **Data contoh**, ditandai pada nama frame di canvas, bukan helper text UI.
 
+## Polish terkini untuk review
+
+- [Export Memproses… satu baris](QFvHY.png): kontrol 148 × 44, label auto satu baris, chevron tetap ada.
+- [Detail popover tanggal](ybrfg.png): field berlabel `Tanggal mulai` / `Tanggal akhir`, primary `Terapkan`, secondary `Hapus tanggal`.
+- [Layanan nonaktif](my54M.png): tab dan filter sidebar Overtime tetap terlihat untuk mencari pengajuan lama. Hanya pilihan membuat pengajuan baru yang menghilangkan Overtime; picker nonaktif yang sudah ada tetap hanya Reimbursement / Payment Request.
+
+Perubahan ini sengaja mengubah tiga state (`IVTFX`, `a2cZo`, `my54M`); 20 render lain identik dengan baseline shared-chrome. Sumber reusable/sidebar/header dan Dashboard tetap utuh.
+
 ## Normal
 [k0okVa.png](k0okVa.png)
 
@@ -37,7 +45,7 @@ Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik
 ## Service disabled
 [my54M.png](my54M.png)
 
-<img src="my54M.png" width="1440" alt="Overtime tidak tersedia untuk pengajuan baru, pengajuan Overtime lama tetap terlihat" />
+<img src="my54M.png" width="1440" alt="Tab dan filter sidebar Overtime tetap tersedia untuk riwayat, sementara pemberitahuan menjelaskan layanan nonaktif untuk pengajuan baru" />
 
 ## Status filter open
 [ORuMN.png](ORuMN.png)
@@ -47,7 +55,7 @@ Setiap PNG diekspor 2× dari viewport 1440 × 960 menjadi **2880 × 1920**. Klik
 ## Date filter open
 [a2cZo.png](a2cZo.png)
 
-<img src="a2cZo.png" width="1440" alt="Rentang tanggal mulai/akhir, Terapkan dan Hapus tanggal" />
+<img src="a2cZo.png" width="1440" alt="Dua field terpisah berlabel Tanggal mulai dan Tanggal akhir, tombol utama Terapkan serta aksi sekunder Hapus tanggal" />
 
 ## Export menu open
 [HKI9M.png](HKI9M.png)
@@ -81,7 +89,7 @@ Sidebar dan header kini memakai sumber bersama untuk Dashboard/Pengajuan: `TFVJz
 - Enam digit pada ID sampel lama dipertahankan sebagai fixture; bukan keputusan baru mengganti format PRD.
 - `Pending vendor proof` hanya pada Payment Request. Revision ditindaklanjuti di detail/form terkait sesuai field yang dibuka; tidak ada pengubahan/cancel langsung dari daftar.
 - Draft tetap di flow Dashboard/form, bukan status workflow baru. PDF tetap di detail; daftar menawarkan CSV/Excel. Tidak mendesain ulang PG-17.
-- Requester hanya melihat pengajuannya sendiri dalam organisasi akun. Pengajuan lama tetap terlihat ketika layanan dinonaktifkan; aksi pengajuan baru harus memakai daftar layanan aktif.
+- Requester hanya melihat pengajuannya sendiri dalam organisasi akun. Pengajuan lama, tab dan filter pencarian layanan tetap tersedia ketika layanan dinonaktifkan; hanya pilihan membuat pengajuan baru yang memakai daftar layanan aktif.
 
 ## Verifikasi dan batas bukti
 - File canvas tersimpan memuat 13 frame Desktop 1440 × 960, rail Pengajuan aktif, sample disclosure di nama frame.

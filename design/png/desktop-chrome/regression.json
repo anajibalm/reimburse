@@ -1,7 +1,19 @@
 {
   "scope": "Desktop shared sidebar/header extraction; transient before/after renders at 2x",
   "frames_compared": 23,
-  "saved_canvas_sha256": "8c933f9e4a7bba20dc4458862096dd0787442bb417300e87045c03545b250ff2",
+  "extraction_canvas_sha256": "8c933f9e4a7bba20dc4458862096dd0787442bb417300e87045c03545b250ff2",
+  "latest_pg04_polish": {
+    "canvas_sha256": "c78209ebf9b5269a2092fc2aa1417406154d1d5ccad904464a6f842ee7856ae7",
+    "intentionally_changed_frames": ["IVTFX", "a2cZo", "my54M"],
+    "unaffected_frames_byte_identical": 20,
+    "all_shared_component_sources_unchanged": true,
+    "all_foundation_variables_unchanged": true,
+    "render_sha256": {
+      "IVTFX": "7d3a12bc1648def1da7a371f3115a358b187bf7b24fba13cbfb226d3110fa5a1",
+      "a2cZo": "86ce827d19fdabcdb25ee4f45d5f3069a1f6b4b7750469fa334cf1f88245f00b",
+      "my54M": "c1e61d5dc0fa59e89035214ced45b2bf3763628c5f603de4c29715bd69c58a28"
+    }
+  },
   "saved_screen_instance_pairs_verified": 23,
   "existing_refs_outside_chrome_preserved": 462,
   "fresh_post_save_render_matches_before": true,
