@@ -53,6 +53,29 @@ Shared-source board `XyHpr` contains `Component/PG-02 Mobile/Content/Normal` (`c
 
 Mobile compositions reuse `fFmN2` buttons, `R5NHOj` status badges and `HVFcd` active Dashboard navigation, with scoped typography/shape overrides following reference Foundations. Existing component sources and variables are unchanged. Mobile source and viewport frame names carry `Data contoh · Requester`; the disclosure is not UI copy. Unread badge `5` is scoped to each Mobile bell; no shared source was modified for it. Profile and picker sheets share bottom alignment and surface/control styling. Full-content sources are deliberately long, while screen viewports remain 390 × 844; see [`screens.md`](screens.md) for dimensions, state evidence and static interaction limitations.
 
+## Shared Desktop chrome, issue #7 / PR #8
+
+Board `C5b1W` (`COMPONENTS/Desktop shared chrome · Dashboard + Pengajuan`) contains two shared sources:
+
+| Source | ID | Use |
+|---|---|---|
+| `Component/Desktop/Requester sidebar` | `TFVJz` | 23 screen instances: 10 Dashboard/state screens and 13 PG-04 Desktop screens. Page-active colors, greeting/count, service sub-selection, optional Wardrobe, and profile-open state are descendant overrides. |
+| `Component/Desktop/Page header · page variants` | `Igbr1` | Same 23 screens. Dashboard variant `P5kQ8L` and Pengajuan variant `cyhjq` toggle via `enabled`; instance names and the saved descendant `enabled` overrides identify the page. Variants preserve approved, different header geometry rather than forcing one visual arrangement. |
+
+The original PG-04 header subtree (`cyhjq`) was moved into the source; its existing primary-button instance `xaXdi` remains connected to `fFmN2`. Original Dashboard header elements were moved from `j5omxK` into the Dashboard variant. Other extracted headers are connected instances of the shared source, not flattened button copies. Existing search/status/action instances outside chrome retain their original IDs and references. Legacy `Odk8q`, `OqKxN`, `gzK11` specimens and other already-correct component sources/instances are not replaced or restyled.
+
+Sidebar default is Dashboard active; Pengajuan active overrides only selected-item fills/weights. Optional permission/menu nodes are disabled by default and enabled only by the matching state overrides. Header Dashboard is 1160 × 91 at workspace origin; Pengajuan is 1112 × 63 within the existing list layout. No typography, copy, business data, viewport or Foundation variables change. Preserve Dashboard picker-shadow stacking: the shared header must precede the picker/content nodes.
+
+[Source render, Dashboard render and regression report](../../design/png/desktop-chrome/README.md): 23 before/after 2× PNGs are byte-identical (0 changed pixels). The two board previews are extra instances, not additional product screens. PG-04 Mobile remains untouched and gated on Desktop review.
+
+## PG-04 Mobile additions, issue #7
+
+Board `ajYH7` contains `Component/PG-04 Mobile/Request row` (`jzecl`) and ten reusable content variants for normal, filtered, no-results, empty, loading, error, service-disabled, export generating/error/denied. Row instances override ID, title, Entity/date, nested status, amount and next step, with 44 px detail target. State viewports reference these source contents rather than duplicating list data.
+
+Shared toolbar `ruMUp` provides Filter with active count and Urutkan across all ten content states; removable chips instance `xkwe5`. Unified sheet `LvtoT` contains a scroll viewport with service/status/date; date group `OPcBq` has 16 px spacing and contains `Hapus tanggal`. The fixed footer contains only `Terapkan` / `Hapus filter` at 8 px separation. Sheet viewport height 532 px; scroll is visual handoff, not implementation.
+
+PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` Pengajuan-active navigation, `NdxOT` search, `R5NHOj` status, `jSgCJ` fields, and `fFmN2` / `WQYrQ` actions. Existing source nodes were not changed. Bottom sheets are static specimens with 44 px options/close targets; the unified filter sheet has an intentionally clipped scroll region and end-position specimens. Full state mapping and render links: [`screens.md`](screens.md) and [`../../design/png/pg04-mobile/README.md`](../../design/png/pg04-mobile/README.md).
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).

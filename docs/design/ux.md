@@ -19,7 +19,7 @@
 - Desktop memakai rail Requester yang sama pada dashboard, daftar, form, dan detail; layar aktif konsisten.
 - Mobile memakai header ringkas dan bottom navigation; dashboard dan daftar punya state aktif yang sesuai.
 - Judul layar menyebut tugas/layanan; detail selalu menampilkan nomor pengajuan dan status.
-- Dashboard dan daftar hanya memuat layanan yang diaktifkan untuk akun. Sample Pen menandai semua layanan sebagai Data contoh.
+- Aksi pengajuan baru hanya memuat layanan yang diaktifkan untuk akun. Pengajuan lama tetap terlihat dan dapat ditindaklanjuti setelah akses layanan berubah, sesuai PRD. Pada baseline PG-02 dan kandidat PG-04, keterangan `Data contoh` berada di nama frame/handoff, bukan helper text dalam UI.
 
 ## Urutan tugas
 
