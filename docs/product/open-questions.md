@@ -7,6 +7,11 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 - PRD mewajibkan Entity secara eksplisit untuk Reimbursement. Form Payment Request dan Overtime pada desain juga menampilkan Entity. Belum ada aturan PRD yang menetapkan apakah Entity wajib untuk dua layanan tersebut, Entity mana yang boleh dipilih tiap Requester, atau apakah akses dibatasi per Entity.
 - Asumsi desain lama mengusulkan satu organisasi dengan beberapa Entity: label generik `Entity`, nama tampilan per organisasi, dan kolom Entity di form/baris walau hanya ada satu. Dashboard aktif masih menampilkan nama contoh `PT Contoh A/B/C`; belum jelas apakah itu placeholder lama atau arah tampilan yang masih dipilih.
 
+## Payment Request: template dan konfirmasi rekening
+
+- PRD menetapkan field wajib mengikuti template aktif berdasarkan recipient dan Quotation, tetapi tidak merinci daftar field/dokumen untuk tiap kombinasi KOL, Talent, dan Freelance. Varian desain menunjukkan pilihan dan ketergantungan template, bukan menetapkan daftar field baru.
+- PRD menyatakan Requester hanya mengonfirmasi rekening dan KTP/rekening hanya untuk Admin, tetapi tidak menetapkan secara eksplisit apakah konfirmasi yang belum dilakukan memblokir Tinjau atau Submit. Desain tidak menetapkan aturan pemblokiran; keputusan produk tetap diperlukan.
+
 ## Nilai dan status yang ditampilkan
 
 - [`../../PRD.md`](../../PRD.md) tidak menentukan apakah nominal pada dashboard/daftar harus tetap jumlah yang dikirim Requester atau berubah setelah koreksi Finance/Admin. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; belum ada keputusan produk yang menyelaraskan keduanya.
