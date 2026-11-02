@@ -81319,7 +81319,7 @@
                   "name": "Foundations/01 Tokens",
                   "clip": true,
                   "width": 1520,
-                  "height": 860,
+                  "height": 1050,
                   "fill": "$canvas",
                   "layout": "none",
                   "children": [
@@ -82335,6 +82335,116 @@
                       "fontFamily": "$font",
                       "fontSize": 11,
                       "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GWrQ6",
+                      "x": 32,
+                      "y": 872,
+                      "name": "Annotation · Unresolved control border tokens",
+                      "width": 1456,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZvhZD",
+                          "name": "Annotation title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Unresolved: control border tokens",
+                          "fontFamily": "$font",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VTvG3",
+                          "name": "Token row · fieldBorder",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "iwNKO",
+                              "name": "Token swatch · fieldBorder",
+                              "width": 120,
+                              "height": 16,
+                              "fill": "$fieldBorder",
+                              "cornerRadius": 4,
+                              "stroke": "$line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "pg5Wm",
+                              "name": "Token label · fieldBorder",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "fieldBorder = #858D97 · 3.36:1 non-text boundary on white",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$font",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h77GyB",
+                          "name": "Token row · redesign-control-border",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "aQm7s",
+                              "name": "Token swatch · redesign-control-border",
+                              "width": 120,
+                              "height": 16,
+                              "fill": "$redesign-control-border",
+                              "cornerRadius": 4,
+                              "stroke": "$line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "rW2lx",
+                              "name": "Token label · redesign-control-border",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "redesign-control-border = #7F8790",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$font",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "L6jYc",
+                          "name": "Annotation statement",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Role mapping of these two tokens is unresolved. One decision is required before implementation. Both tokens are preserved; neither replaces the other by inference.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -86407,6 +86517,343 @@
                           ]
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fawD6",
+                  "x": 3766,
+                  "y": 364,
+                  "name": "Component/Status/Badge · with subtext",
+                  "reusable": true,
+                  "width": 290,
+                  "fill": "$subtle",
+                  "cornerRadius": 999,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    7,
+                    11
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kdMsq",
+                      "name": "Line 1 · Status token",
+                      "fill": "$status-neutral-1",
+                      "content": "Pending",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ty9IE",
+                      "name": "Line 2 · Explanation",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "menunggu Admin mulai memproses",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vgxDh",
+                  "x": 3766,
+                  "y": 428,
+                  "name": "Specimen · Status badge with subtext · 10 PRD status",
+                  "height": 566,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "id": "vxKLP",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Pending",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Pending",
+                          "fill": "$status-neutral-1"
+                        },
+                        "ty9IE": {
+                          "content": "menunggu Admin mulai memproses"
+                        }
+                      }
+                    },
+                    {
+                      "id": "jS8nT",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Revision",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Revision",
+                          "fill": "$warning"
+                        },
+                        "ty9IE": {
+                          "content": "ada field yang perlu diperbaiki"
+                        }
+                      }
+                    },
+                    {
+                      "id": "JsWtY",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Finance Approved",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Finance Approved",
+                          "fill": "$status-neutral-2"
+                        },
+                        "ty9IE": {
+                          "content": "validasi Finance selesai, belum persetujuan bisnis"
+                        }
+                      }
+                    },
+                    {
+                      "id": "b28Vtk",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Approved",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Approved",
+                          "fill": "$status-neutral-2"
+                        },
+                        "ty9IE": {
+                          "content": "disetujui, menunggu penyiapan pembayaran"
+                        }
+                      }
+                    },
+                    {
+                      "id": "MBWJF",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Return to Admin",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Return to Admin",
+                          "fill": "$status-neutral-2"
+                        },
+                        "ty9IE": {
+                          "content": "dikembalikan ke Admin, tidak ada aksi Requester"
+                        }
+                      }
+                    },
+                    {
+                      "id": "YOiCC",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Maker Done",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Maker Done",
+                          "fill": "$status-neutral-2"
+                        },
+                        "ty9IE": {
+                          "content": "pembayaran disiapkan, belum dibayar"
+                        }
+                      }
+                    },
+                    {
+                      "id": "t7bjrL",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Pending vendor proof",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Pending vendor proof",
+                          "fill": "$warning"
+                        },
+                        "ty9IE": {
+                          "content": "menunggu bukti vendor dari Requester"
+                        }
+                      }
+                    },
+                    {
+                      "id": "eb12a",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Rejected",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Rejected",
+                          "fill": "$danger"
+                        },
+                        "ty9IE": {
+                          "content": "final, tidak dapat diedit"
+                        }
+                      }
+                    },
+                    {
+                      "id": "h975J",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Cancelled",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Cancelled",
+                          "fill": "$muted"
+                        },
+                        "ty9IE": {
+                          "content": "dibatalkan, nomor pengajuan tetap dipakai"
+                        }
+                      }
+                    },
+                    {
+                      "id": "UsBIM",
+                      "type": "ref",
+                      "ref": "fawD6",
+                      "name": "Status badge · Paid",
+                      "descendants": {
+                        "kdMsq": {
+                          "content": "Paid",
+                          "fill": "$success"
+                        },
+                        "ty9IE": {
+                          "content": "pembayaran selesai"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tgrf0",
+                  "x": 3766,
+                  "y": 1016,
+                  "name": "Note · Status colour grammar",
+                  "width": 700,
+                  "height": 100,
+                  "fill": "$surface",
+                  "cornerRadius": 10,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QpS1C",
+                      "name": "Note title",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NOTE · STATUS COLOUR GRAMMAR",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gms3Q",
+                      "name": "Note body",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "warning = Requester must act; success = paid; danger = rejected; neutral-1 = queued, awaiting Admin; neutral-2 = processed, awaiting another party; muted = cancelled. Blue is reserved for interactive action. Status text is authoritative; colour is supplementary.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c3kAg4",
+                  "x": 3042,
+                  "y": 830,
+                  "name": "Note · Badge contrast guard",
+                  "width": 700,
+                  "fill": "$surface",
+                  "cornerRadius": 10,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PVrn6",
+                      "name": "Note title",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NOTE · BADGE CONTRAST GUARD",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "n1ksst",
+                      "name": "Note body",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "status-neutral-1 measures 4.60:1 on $subtle, a 0.10 margin over the 4.5:1 threshold for 12px text. Any opacity or alpha compositing applied to a parent will push it below threshold. Rule: opacity, fade, or disabled alpha must never be applied to a subtree that contains a status badge. Use a solid tone change instead. If opacity is unavoidable, status-neutral-1 must be darkened to #61707A (4.82:1) first, and this note updated.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Nsqcb",
+                  "x": 3042,
+                  "y": 952,
+                  "name": "Note · Next step is never empty",
+                  "width": 700,
+                  "fill": "$surface",
+                  "cornerRadius": 10,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XM4zQ",
+                      "name": "Note title",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NOTE · NEXT STEP IS NEVER EMPTY",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "rKyQB",
+                      "name": "Note body",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Four statuses share status-neutral-2: Finance Approved, Approved, Return to Admin, Maker Done. In the PG-04 list row they are only distinguishable by the next-step column. Therefore the next-step field must never be empty. Return to Admin has no Requester action; its next step reads as waiting on Admin, which is what separates it from Maker Done and Approved. Status colour is supplementary; next-step text carries the difference.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -140849,6 +141296,725 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "x5aDgA",
+      "x": 0,
+      "y": 1677,
+      "name": "REVIEW/README · Approval status",
+      "clip": true,
+      "width": 1200,
+      "height": 636,
+      "fill": "$surface",
+      "cornerRadius": 16,
+      "stroke": "$line",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "V0sX7",
+          "name": "Board header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            0,
+            22,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "y8L3JG",
+              "name": "Board title",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "REVIEW/README · Approval status",
+              "fontFamily": "$font",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "letterSpacing": -0.2
+            },
+            {
+              "type": "text",
+              "id": "lSBZ7",
+              "name": "Board subtitle",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Status persetujuan tiap story beserta bukti node pada canvas ini.",
+              "lineHeight": 1.3,
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gZIH3",
+          "name": "Approval table",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AojQj",
+              "name": "Table header row",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                0,
+                0,
+                10,
+                0
+              ],
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vok1g",
+                  "name": "Header cell · Story · Screen",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "STORY · SCREEN",
+                  "fontFamily": "$font",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "t5lXcO",
+                  "name": "Header cell · Status",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "STATUS",
+                  "fontFamily": "$font",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "IysTJ",
+                  "name": "Header cell · Evidence",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "EVIDENCE",
+                  "fontFamily": "$font",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.6
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ztSwV",
+              "name": "Table rule · header",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "Fy3uP",
+              "name": "Row · PG-02 Dashboard Desktop",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SD052",
+                  "name": "Story · PG-02 Dashboard Desktop",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-02 Dashboard Desktop",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "YVZFg",
+                  "name": "Status · PG-02 Dashboard Desktop",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Approved",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "uEoy8",
+                  "name": "Evidence · PG-02 Dashboard Desktop",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "j5omxK, S7pOm",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d8yHUq",
+              "name": "Table rule · 1",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "Lj9KC",
+              "name": "Row · PG-02 Dashboard Mobile",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vaJCs",
+                  "name": "Story · PG-02 Dashboard Mobile",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-02 Dashboard Mobile",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "A91UTl",
+                  "name": "Status · PG-02 Dashboard Mobile",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Approved",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "K7DTE",
+                  "name": "Evidence · PG-02 Dashboard Mobile",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "15 viewports, XyHpr",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a9MCv",
+              "name": "Table rule · 2",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "E1lDs",
+              "name": "Row · PG-04 Daftar Pengajuan Desktop",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t76Sq",
+                  "name": "Story · PG-04 Daftar Pengajuan Desktop",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-04 Daftar Pengajuan Desktop",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "WBA02",
+                  "name": "Status · PG-04 Daftar Pengajuan Desktop",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Approved",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "H60tz",
+                  "name": "Evidence · PG-04 Daftar Pengajuan Desktop",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "k0okVa + 12 states",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EGTPM",
+              "name": "Table rule · 3",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "waYSo",
+              "name": "Row · PG-04 Daftar Pengajuan Mobile",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b66kT",
+                  "name": "Story · PG-04 Daftar Pengajuan Mobile",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-04 Daftar Pengajuan Mobile",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "WHsWr",
+                  "name": "Status · PG-04 Daftar Pengajuan Mobile",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Approved, PR not merged",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "NmSLN",
+                  "name": "Evidence · PG-04 Daftar Pengajuan Mobile",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "jSSv3 + 26 viewports",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XIfMg",
+              "name": "Table rule · 4",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "UNSSE",
+              "name": "Row · PG-05/06 Reimbursement Requester",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zI4Fc",
+                  "name": "Story · PG-05/06 Reimbursement Requester",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-05/06 Reimbursement Requester",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "JC5P9",
+                  "name": "Status · PG-05/06 Reimbursement Requester",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Candidate",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "uSuqH",
+                  "name": "Evidence · PG-05/06 Reimbursement Requester",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "HZlnt, Kc4qh, cyWLX, t37lr",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X14BJ2",
+              "name": "Table rule · 5",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "vSavw",
+              "name": "Row · PG-07/08 Payment Request",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eRgKc",
+                  "name": "Story · PG-07/08 Payment Request",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-07/08 Payment Request",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "F6SCw",
+                  "name": "Status · PG-07/08 Payment Request",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Candidate, unsynchronized",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ETbqx",
+                  "name": "Evidence · PG-07/08 Payment Request",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "U6Y5wA, OiW1x, QVApG, LEe0N",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UyEai",
+              "name": "Table rule · 6",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "A5HdXy",
+              "name": "Row · PG-09/10 Overtime",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aGl5w",
+                  "name": "Story · PG-09/10 Overtime",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-09/10 Overtime",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "xdzSv",
+                  "name": "Status · PG-09/10 Overtime",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Candidate, unsynchronized",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "c7ha1",
+                  "name": "Evidence · PG-09/10 Overtime",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "L8zWo, gD2YW, uZBOo, WAOjq",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Qw9OY",
+              "name": "Table rule · 7",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "QXgjx",
+              "name": "Row · PG-01 Login",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qInOS",
+                  "name": "Story · PG-01 Login",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-01 Login",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "v5rop2",
+                  "name": "Status · PG-01 Login",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Not designed",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Xc8Kr",
+                  "name": "Evidence · PG-01 Login",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "—",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Tb2l3",
+              "name": "Table rule · 8",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$line"
+            },
+            {
+              "type": "frame",
+              "id": "sXp74",
+              "name": "Row · PG-03, PG-11–19 Admin",
+              "width": "fill_container",
+              "gap": 25,
+              "padding": [
+                13,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ADpLj",
+                  "name": "Story · PG-03, PG-11–19 Admin",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 380,
+                  "content": "PG-03, PG-11–19 Admin",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "GMmK2",
+                  "name": "Status · PG-03, PG-11–19 Admin",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Not designed",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oNf4u",
+                  "name": "Evidence · PG-03, PG-11–19 Admin",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 406,
+                  "content": "—",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wSYuO",
+          "name": "Board footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "KEPj8",
+              "name": "Footer note · approval meaning",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Approved = baseline visual yang disetujui. Candidate = belum disetujui dan masih dapat berubah.",
+              "lineHeight": 1.35,
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "v7vOr",
+              "name": "Footer note · not designed",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Not designed = belum ada layar pada canvas ini. Board ini bukti baca-saja, bukan pengganti PRD.",
+              "lineHeight": 1.35,
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "tofLB",
+              "name": "Footer note · grammar pointer",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Badge colour grammar and next-step rules are recorded in h1ssGO under Tgrf0.",
+              "lineHeight": 1.35,
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
@@ -141015,6 +142181,14 @@
     "redesign-control-border": {
       "type": "color",
       "value": "#7F8790"
+    },
+    "status-neutral-1": {
+      "type": "color",
+      "value": "#65737C"
+    },
+    "status-neutral-2": {
+      "type": "color",
+      "value": "#4D5662"
     }
   },
   "fileToken": "41aa55c7-976d-476b-9f7a-c6bf8813b532"
