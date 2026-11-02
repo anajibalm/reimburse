@@ -114,6 +114,14 @@ Payment Request specimens show one recipient-choice control, recipient variants 
 
 Saved-canvas verification compared every pre-existing node's non-child properties and variables with merged `main`: unchanged, no original IDs missing. All local reference targets resolve. Four representative baseline renders (`k0okVa`, `jSSv3`, `TmbX6`, `WHMQ7`) matched existing PNGs; this is not an exhaustive render regression. Mobile viewport clipping is an intentional scroll handoff; runtime scroll, focus, validation, uploads and authorization remain unverified.
 
+## Admin Finance review candidates · issue #15
+
+The saved canvas groups the Admin Finance queue and three-service review candidates by story and viewport: PG-04 Desktop `h1VqYU` / Narrow `AMw0P`, PG-06 `k3Z6yT` / `QkNNL`, PG-08 `zVZZY` / `U6TVT`, and PG-10 `V1JYpe` / `RP4Zo`. The [render index](../../design/png/admin-finance-review/README.md) covers main screens, Revision, corrections, Finance decisions, evidence and narrow examples. These are static candidates, not approved UI or working authorization.
+
+Admin Finance specimens separate public Revision instructions from internal notes and show rejected/approved confirmation, missing Approver, restricted documents, vendor proof validation and private evidence-copy requirements. Correction examples preserve old/new values and require a reason; Overtime fixture changes `(2 + 2) × Rp105.000 = Rp420.000` to `(2 + 2) × Rp100.000 = Rp400.000`. Configured tax values are not invented. Approver, Maker and Releaser actions are outside this batch.
+
+Three missing editable specimens were recreated from existing sources: invalid vendor proof `Fwsmh` → `Y9z8O`, validated proof `dMvX0` → `Z31zwX`, and filtered result row `Xpc1p` → `bIgtn` inside `Wjjux`. See the render index for saved-file verification and limitations. Requester baseline IDs, original non-child node properties, variables and local component references were verified unchanged; eight render samples were byte-identical, not an exhaustive regression.
+
 ## Current inspected coverage
 
 | Screen family | Desktop | Mobile | Evidence / limit |

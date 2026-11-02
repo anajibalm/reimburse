@@ -12,6 +12,10 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 - PRD menetapkan field wajib mengikuti template aktif berdasarkan recipient dan Quotation, tetapi tidak merinci daftar field/dokumen untuk tiap kombinasi KOL, Talent, dan Freelance. Varian desain menunjukkan pilihan dan ketergantungan template, bukan menetapkan daftar field baru.
 - PRD menyatakan Requester hanya mengonfirmasi rekening dan KTP/rekening hanya untuk Admin, tetapi tidak menetapkan secara eksplisit apakah konfirmasi yang belum dilakukan memblokir Tinjau atau Submit. Desain tidak menetapkan aturan pemblokiran; keputusan produk tetap diperlukan.
 
+## Finance queue: age warning
+
+- PRD meminta age warning pada antrean Finance, tetapi belum menetapkan ambang usia atau aturan peringatan. Contoh usia dalam desain tidak menetapkan ambang atau kebijakan baru.
+
 ## Nilai dan status yang ditampilkan
 
 - [`../../PRD.md`](../../PRD.md) tidak menentukan apakah nominal pada dashboard/daftar harus tetap jumlah yang dikirim Requester atau berubah setelah koreksi Finance/Admin. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; belum ada keputusan produk yang menyelaraskan keduanya.
