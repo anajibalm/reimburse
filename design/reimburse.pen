@@ -132297,7 +132297,7 @@
           "id": "m4tUMY",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-04 / Desktop · queue",
+          "name": "WIP / ADMIN / PG-04 / Desktop · queue · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -132313,65 +132313,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "l2tdT",
-              "name": "Admin Finance sidebar",
+              "id": "KFUvd",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "mC4rp",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Wa5m6",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wGZJs",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "YPDkl",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -132517,10 +132464,23 @@
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "REIM-000041 · Reimbursement · Pending",
+                          "content": "REIM-000041 · Reimbursement",
                           "fontFamily": "DM Sans",
                           "fontSize": 15,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "id": "L3n6ad",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#E3F0FF",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fill": "#07519C"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -132555,10 +132515,23 @@
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "PAY-000018 · Payment Request · Pending vendor proof",
+                          "content": "PAY-000018 · Payment Request",
                           "fontFamily": "DM Sans",
                           "fontSize": 15,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "id": "UaBdS",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#FFF4D6",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending vendor proof",
+                              "fill": "#805700"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -132593,10 +132566,23 @@
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "OT-000012 · Overtime · Pending",
+                          "content": "OT-000012 · Overtime",
                           "fontFamily": "DM Sans",
                           "fontSize": 15,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "id": "L502QK",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#E3F0FF",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fill": "#07519C"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -132653,7 +132639,7 @@
           "id": "ySHpr",
           "x": 1560,
           "y": 100,
-          "name": "WIP / ADMIN / PG-04 / Desktop · Loading",
+          "name": "WIP / ADMIN / PG-04 / Desktop · Loading · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -132669,65 +132655,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "IGGHU",
-              "name": "Admin Finance sidebar",
+              "id": "S613yg",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "VYbT4",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "I2SbbE",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "IZsaQ",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "qyxKe",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -132816,7 +132749,7 @@
           "id": "rh6iv",
           "x": 3080,
           "y": 100,
-          "name": "WIP / ADMIN / PG-04 / Desktop · Empty",
+          "name": "WIP / ADMIN / PG-04 / Desktop · Empty · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -132832,65 +132765,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "TD4SR",
-              "name": "Admin Finance sidebar",
+              "id": "gRlrM",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "H91eS",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "WlSp8",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Q6WiQ",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "w4G8B",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -132979,7 +132859,7 @@
           "id": "Wjjux",
           "x": 4600,
           "y": 100,
-          "name": "WIP / ADMIN / PG-04 / Desktop · Filtered",
+          "name": "WIP / ADMIN / PG-04 / Desktop · Filtered · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -132995,65 +132875,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "c8PK3",
-              "name": "Admin Finance sidebar",
+              "id": "R1p9Kz",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "N8560R",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Y02yh",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "s7XSvz",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "X2QQX",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -133161,10 +132988,23 @@
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "PAY-000018 · Payment Request · Pending vendor proof",
+                          "content": "PAY-000018 · Payment Request",
                           "fontFamily": "DM Sans",
                           "fontSize": 15,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "id": "BdC9S",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#FFF4D6",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending vendor proof",
+                              "fill": "#805700"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -133191,7 +133031,7 @@
           "id": "DDinh",
           "x": 40,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-04 / Desktop · Error",
+          "name": "WIP / ADMIN / PG-04 / Desktop · Error · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -133207,65 +133047,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "G9V7zj",
-              "name": "Admin Finance sidebar",
+              "id": "S3UnK",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "xgUYy",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "LZmyQ",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "M82A2",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "v3BOS9",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -133365,7 +133152,7 @@
           "id": "m2JEo",
           "x": 1560,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-04 / Desktop · Age warning",
+          "name": "WIP / ADMIN / PG-04 / Desktop · Age warning · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -133381,65 +133168,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "UqSXH",
-              "name": "Admin Finance sidebar",
+              "id": "Ju34C",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "T95NN0",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Wi8W7",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Sndma",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "INunn",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -133563,7 +133297,7 @@
           "id": "jSaaB",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-04 / Narrow · Antrean Finance",
+          "name": "WIP / ADMIN / PG-04 / Narrow · Antrean Finance · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -133571,52 +133305,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "n4YTlU",
+              "id": "Y2IxK",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "n6EZwU",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "hmsly",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Antrean Finance"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "tcYa2",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -133625,7 +133332,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -133712,16 +133419,342 @@
                           ]
                         },
                         {
+                          "type": "frame",
+                          "id": "YISmE",
+                          "name": "Queue request list",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "id": "LM6f3",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean REIM-000041",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "REIM-000041"
+                                },
+                                "xnuWx": {
+                                  "content": "Reimbursement · Parking reimbursement"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 3 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 1.250.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            },
+                            {
+                              "id": "q1fKUD",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean PAY-000018",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "PAY-000018"
+                                },
+                                "xnuWx": {
+                                  "content": "Payment Request · Creator fee"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 2 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending vendor proof",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 4.500.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            },
+                            {
+                              "id": "o9tfL",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean OT-000012",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "OT-000012"
+                                },
+                                "xnuWx": {
+                                  "content": "Overtime · Batch 3"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 1 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 420.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bVMzc",
+          "x": 510,
+          "y": 100,
+          "name": "WIP / ADMIN / PG-04 / Narrow · queue scrolled · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "CBTMr",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Antrean Finance"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "q7Dnf",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fkoOx",
+                  "x": 0,
+                  "y": -455,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bnUbv",
+                      "name": "Review surface",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 20,
+                      "children": [
+                        {
                           "type": "text",
-                          "id": "MuxCy",
-                          "name": "Queue samples",
+                          "id": "jMb14",
+                          "name": "Queue heading",
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "REIM-000041 · Pending\nPAY-000018 · Pending vendor proof\nOT-000012 · Pending",
+                          "content": "Antrean pengajuan",
                           "fontFamily": "DM Sans",
-                          "fontSize": 14,
+                          "fontSize": 20,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "id": "ILH82",
+                          "type": "ref",
+                          "ref": "NdxOT",
+                          "name": "Cari pengajuan",
+                          "width": "fill_container"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nblO8",
+                          "name": "Queue filter controls",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "id": "UGagP",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Layanan",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Layanan"
+                                }
+                              }
+                            },
+                            {
+                              "id": "c4bU5",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Status",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Status"
+                                }
+                              }
+                            },
+                            {
+                              "id": "H0eNmf",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Konteks",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Konteks"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Kggdx",
+                          "name": "Queue request list",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "id": "pKQqA",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean REIM-000041",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "REIM-000041"
+                                },
+                                "xnuWx": {
+                                  "content": "Reimbursement · Parking reimbursement"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 3 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 1.250.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            },
+                            {
+                              "id": "Qqi58",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean PAY-000018",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "PAY-000018"
+                                },
+                                "xnuWx": {
+                                  "content": "Payment Request · Creator fee"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 2 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending vendor proof",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 4.500.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            },
+                            {
+                              "id": "HpqIG",
+                              "type": "ref",
+                              "ref": "jzecl",
+                              "name": "Antrean OT-000012",
+                              "width": "fill_container",
+                              "descendants": {
+                                "qMndP": {
+                                  "content": "OT-000012"
+                                },
+                                "xnuWx": {
+                                  "content": "Overtime · Batch 3"
+                                },
+                                "vKfBC": {
+                                  "content": "PT Contoh A · Usia 1 hari"
+                                },
+                                "c51tc": {
+                                  "fill": "#E3F0FF"
+                                },
+                                "c51tc/U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                },
+                                "f5qoc": {
+                                  "content": "Rp 420.000"
+                                },
+                                "pkgrS": {
+                                  "content": "Periksa pengajuan"
+                                }
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
@@ -133760,7 +133793,7 @@
           "id": "Kr0gH",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Desktop · reimbursement",
+          "name": "WIP / ADMIN / PG-06 / Desktop · reimbursement · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -133776,65 +133809,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "I4oKnU",
-              "name": "Admin Finance sidebar",
+              "id": "C7FUo",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "UG5It",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "zHmNA",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "HLuQE",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wUp9v",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -133901,16 +133881,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "L9S8Yv",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "PaKPd",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#E3F0FF",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending",
+                          "fill": "#07519C"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -133922,6 +133903,18 @@
                       "content": "Invoice INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
                       "fontFamily": "DM Sans",
                       "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TffO5",
+                      "name": "Assigned approver",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Approver · Sari A.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
                       "fontWeight": "normal"
                     },
                     {
@@ -134032,7 +134025,7 @@
           "id": "M18Zn4",
           "x": 1560,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Revision",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -134048,65 +134041,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "TfXLF",
-              "name": "Admin Finance sidebar",
+              "id": "vIpA2",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "U5xFep",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Xo486",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "eicAd",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "dFcbT",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -134227,7 +134167,7 @@
                           "content": "Instruksi publik · wajib"
                         },
                         "P9sHXg": {
-                          "content": "Jelaskan perubahan yang diminta",
+                          "content": "Mohon unggah invoice yang terbaca jelas.",
                           "fontSize": 14
                         }
                       }
@@ -134304,7 +134244,7 @@
           "id": "a5jkj",
           "x": 3080,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Koreksi Finance",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -134320,65 +134260,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "U3UZH",
-              "name": "Admin Finance sidebar",
+              "id": "bZWhZ",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "UVRr7",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "LfZbT",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "d7QuB",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "WoqMh",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -134560,7 +134447,7 @@
           "id": "SpqpD",
           "x": 4600,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Reject",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -134576,65 +134463,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "ErCpp",
-              "name": "Admin Finance sidebar",
+              "id": "QgnPt",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "xqhiv",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "A5ikIZ",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "eWDE0",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "jEPN3",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -134788,7 +134622,7 @@
           "id": "AvxAT",
           "x": 40,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Finance Approved",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Finance Approved · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -134804,65 +134638,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "otw0x",
-              "name": "Admin Finance sidebar",
+              "id": "FYg2A",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "V4JDs",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "U3WU4",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "qIF24",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "viXhN",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -134940,6 +134721,18 @@
                       "fontWeight": "normal"
                     },
                     {
+                      "id": "Z9eP2",
+                      "type": "ref",
+                      "ref": "G1vZd",
+                      "name": "Decision summary · shared",
+                      "width": "fill_container",
+                      "descendants": {
+                        "yoc5m": {
+                          "content": "REIM-000041 · INV-2026-1042\nNominal hasil pemeriksaan · Rp1.250.000\nTujuan · Approver Sari A."
+                        }
+                      }
+                    },
+                    {
                       "type": "frame",
                       "id": "LRoh4",
                       "name": "Actions",
@@ -134983,7 +134776,7 @@
           "id": "PRHXV",
           "x": 1560,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Approver belum tersedia",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Approver belum tersedia · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -134999,65 +134792,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "fLvKN",
-              "name": "Admin Finance sidebar",
+              "id": "faAsS",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "sFLnz",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wQV4T",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "rPxmr",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "J5O0T",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -135164,7 +134904,7 @@
           "id": "QdWeP",
           "x": 3080,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Revision",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -135180,65 +134920,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "pmggU",
-              "name": "Admin Finance sidebar",
+              "id": "oUisX",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "rtUxQ",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "b2UHss",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xcGoW",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "W0QWez",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -135314,6 +135001,18 @@
                       "fontWeight": "normal"
                     },
                     {
+                      "id": "wIt95",
+                      "type": "ref",
+                      "ref": "G1vZd",
+                      "name": "Decision summary · shared",
+                      "width": "fill_container",
+                      "descendants": {
+                        "yoc5m": {
+                          "content": "Field dibuka · Invoice dan bukti\nInstruksi publik · Mohon unggah invoice yang terbaca jelas."
+                        }
+                      }
+                    },
+                    {
                       "type": "frame",
                       "id": "x3uCN",
                       "name": "Confirmation actions",
@@ -135357,7 +135056,7 @@
           "id": "dRbB4",
           "x": 4600,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Koreksi Finance",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -135373,65 +135072,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "l4Dop",
-              "name": "Admin Finance sidebar",
+              "id": "bCcXN",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "kLrMj",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "k6bx0z",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "D1e7ei",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "pURhx",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -135550,7 +135196,7 @@
           "id": "NORQW",
           "x": 40,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Reject",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Konfirmasi Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -135566,65 +135212,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "VENSC",
-              "name": "Admin Finance sidebar",
+              "id": "wEXN0",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "qrgKv",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "EPjom",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wPsPt",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "ViX6f",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -135743,7 +135336,7 @@
           "id": "i8by7",
           "x": 3080,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-06 / Desktop · Link belum disalin privat",
+          "name": "WIP / ADMIN / PG-06 / Desktop · Link belum disalin privat · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -135759,65 +135352,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "wXu2E",
-              "name": "Admin Finance sidebar",
+              "id": "coJwl",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "ysLK4",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "lS5Xy",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Y9sYBe",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "lBZch",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -135884,16 +135424,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "WXklA",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "QF1fx",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#E3F0FF",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending",
+                          "fill": "#07519C"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -136063,7 +135604,7 @@
           "id": "E2LETd",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Narrow · Revision reimbursement",
+          "name": "WIP / ADMIN / PG-06 / Narrow · Revision reimbursement · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -136071,52 +135612,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "AISqr",
+              "id": "J04gp",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "fWCCY",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Revision reimbursement",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wt1TV",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Revision reimbursement"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "n7EIHt",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -136125,7 +135639,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -136245,7 +135759,7 @@
           "id": "pSkHH",
           "x": 510,
           "y": 100,
-          "name": "WIP / ADMIN / PG-06 / Narrow · Detail",
+          "name": "WIP / ADMIN / PG-06 / Narrow · Detail · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -136253,52 +135767,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "Oonth",
+              "id": "M8O0b",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "l23j9k",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Pemeriksaan Reimbursement",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "eccsX",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "vSn9S",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -136307,7 +135794,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -136333,16 +135820,17 @@
                       "padding": 20,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "qki8q",
-                          "name": "Status",
-                          "fill": "#075DD8",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Pending",
-                          "fontFamily": "DM Sans",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "id": "WSb8r",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#E3F0FF",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fill": "#07519C"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -136380,6 +135868,17 @@
                           "name": "Finance actions",
                           "gap": 8,
                           "children": [
+                            {
+                              "id": "B7zwP1",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Koreksi Finance",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Koreksi"
+                                }
+                              }
+                            },
                             {
                               "id": "AxuPY",
                               "type": "ref",
@@ -136455,7 +135954,7 @@
           "id": "L4uNC",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Desktop · payment",
+          "name": "WIP / ADMIN / PG-08 / Desktop · payment · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -136471,65 +135970,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "JQxpF",
-              "name": "Admin Finance sidebar",
+              "id": "aSwJN",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "NZwHy",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Axwgn",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "loGPF",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "rks0s",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -136596,16 +136042,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "hlzuZ",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "krLuK",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#E3F0FF",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending",
+                          "fill": "#07519C"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -136766,7 +136213,7 @@
           "id": "LjcEB",
           "x": 1560,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Revision",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -136782,65 +136229,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "rfSAP",
-              "name": "Admin Finance sidebar",
+              "id": "JFiRq",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "HxL0I",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Tgj1b",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "uTceK",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "ohnaO",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -137038,7 +136432,7 @@
           "id": "HDq48",
           "x": 3080,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Koreksi Finance",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -137054,65 +136448,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "gXGJi",
-              "name": "Admin Finance sidebar",
+              "id": "Mo26q",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "EEKY6",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Mj3Li",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Jk60Z",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xqjxF",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -137294,7 +136635,7 @@
           "id": "xpoXz",
           "x": 4600,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Reject",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -137310,65 +136651,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "Xk7wP",
-              "name": "Admin Finance sidebar",
+              "id": "QEBqS",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Z6VXP",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "t3RUtC",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Hh2PK",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "LMXrr",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -137522,7 +136810,7 @@
           "id": "c0W2bn",
           "x": 40,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Finance Approved",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Finance Approved · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -137538,65 +136826,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "kSARr",
-              "name": "Admin Finance sidebar",
+              "id": "gIJkc",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "l9CeKm",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "NN3Th",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "rqqLY",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "zwlHq",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -137717,7 +136952,7 @@
           "id": "F1maXE",
           "x": 1560,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Approver belum tersedia",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Approver belum tersedia · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -137733,65 +136968,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "W7vf1t",
-              "name": "Admin Finance sidebar",
+              "id": "xatz8",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "U94DM",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "me2BT",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "F6ZRi",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xyQPL",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -137898,7 +137080,7 @@
           "id": "iPcOE",
           "x": 3080,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Revision",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -137914,65 +137096,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "i7R4UH",
-              "name": "Admin Finance sidebar",
+              "id": "UEUrq",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "yULUZ",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "yScG9",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wHdVG",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "dDsrz",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -138091,7 +137220,7 @@
           "id": "WAO0I",
           "x": 4600,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Koreksi Finance",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -138107,65 +137236,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "ohEcT",
-              "name": "Admin Finance sidebar",
+              "id": "rFHvp",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "nbTtT",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "TA3e3",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "TDn4g",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "iVgCa",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -138284,7 +137360,7 @@
           "id": "OkzZU",
           "x": 40,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Reject",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Konfirmasi Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -138300,65 +137376,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "kyqst",
-              "name": "Admin Finance sidebar",
+              "id": "PjEEx",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "VRiz1",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "x7rqCj",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "g5PYI",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Ey5aS",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -138477,7 +137500,7 @@
           "id": "HP1TH",
           "x": 1560,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Pending vendor proof",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Pending vendor proof · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -138493,65 +137516,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "y02Fc",
-              "name": "Admin Finance sidebar",
+              "id": "n3xj5S",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "n2UdQ",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "w2P3z",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xdrPJ",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "HqdDz",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -138618,16 +137588,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "poCn1",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending vendor proof · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "taZBi",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#FFF4D6",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending vendor proof",
+                          "fill": "#805700"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -138812,7 +137783,7 @@
           "id": "Y9z8O",
           "x": 3080,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Bukti tidak valid",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Bukti tidak valid · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -138828,65 +137799,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "cGfyx",
-              "name": "Admin Finance sidebar",
+              "id": "eqeyv",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "pHvDT",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "q5R7v",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "K8RmCv",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "r8CKz",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -138953,16 +137871,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "c54oHO",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending vendor proof · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "CFjdt",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#FFF4D6",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending vendor proof",
+                          "fill": "#805700"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -139149,7 +138068,7 @@
           "id": "Z31zwX",
           "x": 4600,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-08 / Desktop · Bukti tervalidasi",
+          "name": "WIP / ADMIN / PG-08 / Desktop · Bukti tervalidasi · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -139165,65 +138084,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "RLEOs",
-              "name": "Admin Finance sidebar",
+              "id": "Vuqrx",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "iqtaI",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "bAfh4",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "XB6Pk",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "S8LRi",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -139290,16 +138156,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "FqlJt",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending vendor proof · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "T1SHA",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#FFF4D6",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending vendor proof",
+                          "fill": "#805700"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -139510,7 +138377,7 @@
           "id": "QB9Kq",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Narrow · Revision payment request",
+          "name": "WIP / ADMIN / PG-08 / Narrow · Revision payment request · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -139518,52 +138385,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "f5ECx",
+              "id": "L4sG2D",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "EHGtN",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Revision payment request",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "vYAMY",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Revision payment request"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "HyKjN",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -139572,7 +138412,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -139692,7 +138532,7 @@
           "id": "eGvPW",
           "x": 510,
           "y": 100,
-          "name": "WIP / ADMIN / PG-08 / Narrow · Detail",
+          "name": "WIP / ADMIN / PG-08 / Narrow · Detail · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -139700,52 +138540,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "lx4w2",
+              "id": "B6WHG",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "BvGkO",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Pemeriksaan Payment Request",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "eJOJH",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Payment Request"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "wbgdR",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -139754,7 +138567,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -139780,16 +138593,17 @@
                       "padding": 20,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "xM3e4",
-                          "name": "Status",
-                          "fill": "#075DD8",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Pending",
-                          "fontFamily": "DM Sans",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "id": "jf6tY",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#E3F0FF",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fill": "#07519C"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -139816,6 +138630,33 @@
                           "fontWeight": "normal"
                         },
                         {
+                          "id": "xjs7l",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Buka dokumen sensitif",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Lihat KTP / rekening · Admin"
+                            }
+                          }
+                        },
+                        {
+                          "id": "EdEFJ",
+                          "type": "ref",
+                          "ref": "bEhaY",
+                          "name": "Tax treatment",
+                          "width": "fill_container",
+                          "descendants": {
+                            "yDbtP": {
+                              "content": "Tax treatment · dipilih Admin"
+                            },
+                            "orwNG": {
+                              "content": "Pilih aturan aktif",
+                              "fontSize": 14
+                            }
+                          }
+                        },
+                        {
                           "id": "aA6x1",
                           "type": "ref",
                           "ref": "dDnbj",
@@ -139839,6 +138680,17 @@
                           "name": "Finance actions",
                           "gap": 8,
                           "children": [
+                            {
+                              "id": "YHgUc",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Koreksi Finance",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Koreksi"
+                                }
+                              }
+                            },
                             {
                               "id": "Zkpqx",
                               "type": "ref",
@@ -139914,7 +138766,7 @@
           "id": "r9jGF",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Desktop · overtime",
+          "name": "WIP / ADMIN / PG-10 / Desktop · overtime · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -139930,65 +138782,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "viBK6",
-              "name": "Admin Finance sidebar",
+              "id": "P4e98",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "tSuFP",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "oXbjF",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "tZehJ",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xRJ0k",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -140055,16 +138854,17 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "ngF9I",
-                      "name": "Status",
-                      "fill": "#075DD8",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pending · Data contoh",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "id": "URMJF",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#E3F0FF",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending",
+                          "fill": "#07519C"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -140198,7 +138998,7 @@
           "id": "KXoh7",
           "x": 1560,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Revision",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -140214,65 +139014,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "DGpFB",
-              "name": "Admin Finance sidebar",
+              "id": "cubSy",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "L38cNx",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "crHi2",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "c15J1",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Q3Yzb",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -140470,7 +139217,7 @@
           "id": "ziAcH",
           "x": 3080,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Koreksi Finance",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -140486,65 +139233,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "uvRHn",
-              "name": "Admin Finance sidebar",
+              "id": "CeoWh",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "i5xrC",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "j9XhLU",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "jJmxO",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "PHdrZ",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -140726,7 +139420,7 @@
           "id": "i75GmN",
           "x": 4600,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Reject",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -140742,65 +139436,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "bxvus",
-              "name": "Admin Finance sidebar",
+              "id": "R3sIqE",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Z34NR",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "O1b9n",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "bIT19",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "rkXVo",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -140954,7 +139595,7 @@
           "id": "G5wCu",
           "x": 40,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Finance Approved",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Finance Approved · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -140970,65 +139611,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "GiHBl",
-              "name": "Admin Finance sidebar",
+              "id": "gOvZb",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "oFAA0",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "a4Zj1g",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "X8AbQy",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "wylzn",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -141149,7 +139737,7 @@
           "id": "Y0Wq2g",
           "x": 1560,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Approver belum tersedia",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Approver belum tersedia · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -141165,65 +139753,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "D36bqC",
-              "name": "Admin Finance sidebar",
+              "id": "KKlIE",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Z3Q4WK",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "IEsjE",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "s7WCKr",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "H3Jo9",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -141330,7 +139865,7 @@
           "id": "wKRJG",
           "x": 3080,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Revision",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Revision · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -141346,65 +139881,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "T3fDXW",
-              "name": "Admin Finance sidebar",
+              "id": "kfPwl",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "yOjRc",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "i5vS0v",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "MocBO",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "U1njgo",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -141523,7 +140005,7 @@
           "id": "nC77g",
           "x": 4600,
           "y": 1140,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Koreksi Finance",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Koreksi Finance · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -141539,65 +140021,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "D1bIaw",
-              "name": "Admin Finance sidebar",
+              "id": "flGzK",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "PATib",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "AqMsG",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "v60VDb",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "yrIaR",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -141716,7 +140145,7 @@
           "id": "lRCK9",
           "x": 40,
           "y": 2180,
-          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Reject",
+          "name": "WIP / ADMIN / PG-10 / Desktop · Konfirmasi Reject · Data contoh",
           "clip": true,
           "width": 1440,
           "height": 960,
@@ -141732,65 +140161,12 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "pkeEl",
-              "name": "Admin Finance sidebar",
+              "id": "LK9Vf",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
               "width": 248,
-              "height": 960,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 28,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "o6jYsD",
-                  "name": "Brand",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Reimburse",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 22,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "lgXM7",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ADMIN / FINANCE",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "v2JeH9",
-                  "name": "Active navigation",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Antrean pengajuan",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "S31Alk",
-                  "name": "Account",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Data contoh",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
+              "height": 960
             },
             {
               "type": "frame",
@@ -141933,7 +140309,7 @@
           "id": "d4R5Dc",
           "x": 40,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Narrow · Revision overtime",
+          "name": "WIP / ADMIN / PG-10 / Narrow · Revision overtime · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -141941,52 +140317,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "DM5qM",
+              "id": "qEIri",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "NCYJM",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Revision overtime",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "aN8oN",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Revision overtime"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "AaJmH",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -141995,7 +140344,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -142115,7 +140464,7 @@
           "id": "WeO1A",
           "x": 510,
           "y": 100,
-          "name": "WIP / ADMIN / PG-10 / Narrow · Detail",
+          "name": "WIP / ADMIN / PG-10 / Narrow · Detail · Data contoh",
           "clip": true,
           "width": 390,
           "height": 844,
@@ -142123,52 +140472,25 @@
           "layout": "none",
           "children": [
             {
-              "type": "frame",
-              "id": "GTMJJ",
+              "id": "LIOW3",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
               "x": 0,
               "y": 0,
-              "name": "Fixed header",
               "width": 390,
-              "height": 72,
-              "fill": "#FFFFFF",
-              "layout": "vertical",
-              "gap": 4,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "hdaIi",
-                  "name": "Title",
-                  "fill": "#20242A",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Pemeriksaan Overtime",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "mxSwp",
-                  "name": "Role",
-                  "fill": "#66717C",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Admin · Finance",
-                  "fontFamily": "DM Sans",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Overtime"
                 }
-              ]
+              }
             },
             {
               "type": "frame",
               "id": "e4uwKv",
               "x": 0,
-              "y": 72,
+              "y": 96,
               "name": "Vertical scroll viewport",
               "metadata": {
                 "type": "scroll-handoff",
@@ -142177,7 +140499,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 772,
+              "height": 748,
               "layout": "none",
               "children": [
                 {
@@ -142203,16 +140525,17 @@
                       "padding": 20,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "p6zCyp",
-                          "name": "Status",
-                          "fill": "#075DD8",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Pending",
-                          "fontFamily": "DM Sans",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "id": "CnHwN",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Status badge",
+                          "fill": "#E3F0FF",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fill": "#07519C"
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -142263,6 +140586,17 @@
                           "gap": 8,
                           "children": [
                             {
+                              "id": "i6tiL",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Koreksi Finance",
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Koreksi"
+                                }
+                              }
+                            },
+                            {
                               "id": "F0tzKy",
                               "type": "ref",
                               "ref": "WQYrQ",
@@ -142305,6 +140639,212 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YHDDV",
+      "x": 216430,
+      "y": 0,
+      "name": "COMPONENTS / Admin Finance shell",
+      "width": 300,
+      "layout": "vertical",
+      "padding": 20,
+      "children": [
+        {
+          "type": "frame",
+          "id": "fTzqJ",
+          "name": "Component / Admin Finance sidebar",
+          "reusable": true,
+          "width": 248,
+          "height": 960,
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "C7eMN",
+              "type": "ref",
+              "ref": "TFVJz",
+              "name": "Approved sidebar · Admin variant",
+              "width": 248,
+              "height": 960,
+              "descendants": {
+                "evi58": {
+                  "content": "Admin\nFinance"
+                },
+                "fHPk9": {
+                  "content": "Tinjau pengajuan yang masuk."
+                },
+                "MgDmc": {
+                  "icon": "list-checks"
+                },
+                "xQNpQ": {
+                  "content": "Antrean"
+                },
+                "HUt7Q": {
+                  "enabled": false
+                },
+                "u2xdur": {
+                  "enabled": false
+                },
+                "FPZ6J": {
+                  "enabled": false
+                },
+                "UWkw6": {
+                  "enabled": false
+                },
+                "XVVir": {
+                  "enabled": false
+                },
+                "YkAv1": {
+                  "content": "A"
+                },
+                "V8k4YB": {
+                  "content": "Admin"
+                },
+                "ypDkX": {
+                  "content": "Finance"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G1vZd",
+          "name": "Component / Admin Finance decision summary",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "#F3F5F7",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 6,
+          "padding": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "yoc5m",
+              "name": "Decision summary text",
+              "fill": "#20242A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ringkasan keputusan",
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RmBEi",
+      "x": 216850,
+      "y": 0,
+      "name": "COMPONENTS / Admin Finance narrow header",
+      "width": 430,
+      "layout": "vertical",
+      "padding": 20,
+      "children": [
+        {
+          "type": "frame",
+          "id": "yLJBd",
+          "name": "Component / Admin Finance narrow header",
+          "reusable": true,
+          "width": 390,
+          "height": 96,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            10,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "L0AEe",
+              "name": "Brand and role",
+              "width": "fill_container",
+              "height": 34,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sOuNg",
+                  "name": "Approved brand mark",
+                  "width": 200,
+                  "height": 34,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "f6aDa",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Brand symbol",
+                      "width": 34,
+                      "height": 34,
+                      "fill": "#087CF4",
+                      "cornerRadius": 10,
+                      "layout": "none"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "XXDbr",
+                      "x": 7,
+                      "y": 7,
+                      "name": "Brand receipt icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "receipt-text",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EISbW",
+                      "x": 43,
+                      "y": 4,
+                      "name": "Brand wordmark",
+                      "fill": "#111213",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Reimburse",
+                      "lineHeight": 1.18,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "IKLbo",
+                  "name": "Admin role",
+                  "fill": "#66717C",
+                  "content": "Admin · Finance",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "e4rWfs",
+              "name": "Narrow page title",
+              "fill": "#20242A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Antrean Finance",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "700"
             }
           ]
         }
