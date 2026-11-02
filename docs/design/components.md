@@ -84,6 +84,10 @@ PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` P
 
 `cyWLX` contains reusable `Ni2at` invoice specimen (nested existing `dDnbj` primary proof), `ZbNcU` file/link choice, `qKcNz` link entry, and seven reusable state content sources. Desktop/Mobile state specimens instance those sources. Two-invoice fixture totals Rp 1.500.000 (Rp 1.250.000 + Rp 250.000); after removing the second invoice Rp 1.250.000. Additional proof contributes zero to total. Existing component sources and variables are unchanged. Flow annotation board `t37lr` names screen IDs and is static; see [render index](../../design/png/reimbursement-requester/README.md).
 
+## Payment Request and Overtime review corrections · issue #13
+
+Board `o0h9YD` contains the reusable Overtime date entry `IF8Ci`, with distinct date/start/end controls, evidence row and calculated duration/subtotal. PG-09 one-date and two-date form specimens instance it with date-specific overrides. Requester detail sources `F07dGp` (Payment Request) and `amQuh` (Overtime) compose the approved PG-06 `Kc4qh` detail pattern, including status, read-only summary, evidence and history; PG-08/10 main and workflow-status specimens instance them. Cancellation confirmation and validation states stay separate. These remain static candidates, not runtime or authorization evidence.
+
 ## Usage boundaries
 
 - Canvas variables include `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Their control mapping differs or remains unresolved; see [`foundations.md`](foundations.md).

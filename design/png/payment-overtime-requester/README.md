@@ -1,6 +1,6 @@
 # Payment Request and Overtime Requester · issue #13
 
-Static light design candidates, not approved baselines or production behavior. Saved canvas SHA-256: `6ed152e9a90eb4038ef011de215e9c5447dbd3eaab74e98c2e18095b883a8ebd`. Mobile viewports are 390×844 with intentional clipped vertical scroll; scroll and interactions are not implemented in the canvas.
+Static light design candidates, not approved baselines or production behavior. Saved canvas SHA-256: `e05fcc854a53cb5c0e15411464f16e585dbf305f8aa4ec50d82daf4724d26be5`. Mobile viewports are 390×844 with intentional clipped vertical scroll; scroll and interactions are not implemented in the canvas.
 
 ## Main screens
 
@@ -10,6 +10,12 @@ Static light design candidates, not approved baselines or production behavior. S
 | PG-08 Payment Request detail | [Pending vendor proof](ndXmd.png) | [Pending vendor proof](GlDnt.png) | [Desktop](QVApG.png) · [Mobile](LEe0N.png) |
 | PG-09 Overtime form | [form](vgz3I.png) | [form](KOKNM.png) | [Desktop](L8zWo.png) · [Mobile](gD2YW.png) |
 | PG-10 Overtime detail | [detail](YLNgQ.png) | [detail](X8Q07.png) | [Desktop](uZBOo.png) · [Mobile](WAOjq.png) |
+
+## Subsequent review corrections
+
+- PG-07 uses one recipient-choice control and presents Tax treatment as read-only Admin-selected information.
+- PG-09 date entries use reusable source `IF8Ci`: separate date/start/end inputs, proof filename and action, mapped dates, duration and subtotal. [Shared sources](o0h9YD.png).
+- PG-08/10 main details and workflow-status specimens use reusable sources `F07dGp` / `amQuh`, composed from the approved PG-06 detail pattern. Confirmation and form-validation specimens remain separate. Main detail specimens include identity, status badge, read-only summary, viewable proof and history; PG-08 has a single vendor-proof upload action.
 
 ## Four requested corrections
 
