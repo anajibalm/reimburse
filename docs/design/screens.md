@@ -106,6 +106,14 @@ Scope closure: board `cyWLX` contains reusable invoice `Ni2at`, evidence-source 
 
 Validation evidence: recursive comparison to initial main found all pre-existing nodes and variables unchanged; subsequent closure comparison against `603e904` found all prior nodes unchanged except owner-moved `puIQR` position, and variables identical. Dashboard Desktop, PG-04 Desktop and Mobile renders are byte-identical to approved evidence. Active Desktop content bounds show no clipping; Mobile viewport clipping is intentional. Design-only limitations and individual state links are listed in the render index: no interaction, OCR, private storage, backend, keyboard or screen-reader behavior has been implemented or verified.
 
+## Payment Request / Overtime Requester candidates · issue #13
+
+The saved light canvas groups candidates as PG-07 Desktop `U6Y5wA` / Mobile `OiW1x`, PG-08 `QVApG` / `LEe0N`, PG-09 `L8zWo` / `gD2YW`, and PG-10 `uZBOo` / `WAOjq`. These are review candidates, not owner-approved screens. [Render index](../../design/png/payment-overtime-requester/README.md) identifies principal screens, important states and limitations.
+
+Payment Request specimens show recipient choices `UJEkg`, Admin-selected tax, bank confirmation before/after without exposing KTP/account details, document revision and Pending vendor proof. Template fields follow active configuration; the canvas does not define per-recipient requirements or an unconfirmed-bank submission gate. Overtime specimens show one and two entries with shared evidence mapping; `(2 jam + 2 jam) × Rp105.000/jam = Rp420.000` is sample data. Both service families show Requester Revision, status and cancellation specimens; permissions and interactions are static handoff, not implemented controls. Business gaps remain in [`../product/open-questions.md`](../product/open-questions.md).
+
+Saved-canvas verification compared every pre-existing node's non-child properties and variables with merged `main`: unchanged, no original IDs missing. All local reference targets resolve. Four representative baseline renders (`k0okVa`, `jSSv3`, `TmbX6`, `WHMQ7`) matched existing PNGs; this is not an exhaustive render regression. Mobile viewport clipping is an intentional scroll handoff; runtime scroll, focus, validation, uploads and authorization remain unverified.
+
 ## Current inspected coverage
 
 | Screen family | Desktop | Mobile | Evidence / limit |
