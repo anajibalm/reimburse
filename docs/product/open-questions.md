@@ -18,7 +18,8 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 
 ## Nilai dan status yang ditampilkan
 
-- [`../../PRD.md`](../../PRD.md) tidak menentukan apakah nominal pada dashboard/daftar harus tetap jumlah yang dikirim Requester atau berubah setelah koreksi Finance/Admin. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; belum ada keputusan produk yang menyelaraskan keduanya.
+- **TERJAWAB — nominal dashboard/daftar:** keputusan PG-06 menetapkan total setelah koreksi sebagai nilai otoritatif; nominal invoice dan riwayat tetap nilai asli sebagai pembanding. Rujukan: [`foundations.md`, “PG-06 ringkasan pemeriksaan · draft handoff`](../design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; catatan tersebut dipertahankan sebagai riwayat, dan perbedaan kini diselesaikan oleh keputusan ini.
+
 - PRD memakai status `Return to Admin` dan `Maker Done`, tetapi tidak menetapkan label khusus Requester. Catatan UX lama mengusulkan “Sedang ditinjau” dan “Pembayaran disiapkan”. Pilihan label itu belum masuk PRD.
 - Bentuk dashboard (angka status vs. jumlah proses berjalan), penyajian Draft, stepper riwayat aktual, penempatan Cancel, dan menu profil/logout tercatat pada desain lama. Perlakukan sebagai eksplorasi/arah visual, bukan aturan bisnis, kecuali tertulis dalam PRD.
 
