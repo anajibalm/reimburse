@@ -46,6 +46,16 @@ warna semantik atau biru aksi. Keduanya diukur pada `$subtle` `#F7F8FA`:
 Total variabel kanvas menjadi 43. Nilai tetap draft sampai diuji pada layar
 produk.
 
+## PG-06 ringkasan pemeriksaan · draft handoff
+
+Owner-directed PG-06 refactor uses existing Foundations/01 ink `#191B20`, muted `#626C78`, line `#E3E6EA`, warning `#986000` and warning-soft `#FFF5E5`. Amounts are 22/700, section titles 16/700, key labels 13/400, values 14/500 and helper text 12/400. This is local PG-06 alignment, not a change to Approved foundation boards or global canvas variables. No 28/700 amount or 14/600 value proposal is applied.
+
+Draft token `$warning-line` maps to `--warning-line: #98600040` in `tokens.css`: the existing warning hue at approximately 25% alpha, not a new palette. The PG-06 private-copy alert uses this literal locally because no global canvas variable may be added/changed in this pass; warning-soft also maps to the existing CSS handoff color. Alert: 1px border, radius 8px, padding 12px, info icon 16px, text 13/400, immediately before Simpan salinan privat.
+
+**Warning grammar extension, draft for owner review:** warning means a party must act before the workflow can continue, not only the Requester. Here Admin Finance must validate and save the private evidence copy. This does not change status names, Pending's neutral badge, permissions or button logic; existing Approved specimens are untouched.
+
+Key-value rows retain a fixed 140px Desktop / 110px Narrow label column and a filling value column, both left aligned; labels wrap within their own column. Rows use 8px gaps and 6px vertical padding. Sections are separated by 20px; 1px line dividers mark only 1|2 and 3|4. Invoice amount is omitted when equal to the displayed request total. Public/internal and correction-audit helpers belong next to their corresponding actions, not in request information.
+
 ## Frame sizes observed
 
 Canvas frames use multiple sizes. Examples directly observed in the active file:

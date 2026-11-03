@@ -2,23 +2,25 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-Saved source for the latest PG-06 visual polish, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `bb185b815c0455fee073ca43a28064f744030c0dfdc1cc9f61a0094648d07b41`. Disk/live root fingerprints match: `k3Z6yT: a70dcee0`, `QkNNL: efbeaea`. This pass is compared with `a28b2aa`; `63f0590` remains an earlier historical baseline, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; this polish only changes the two PG-06 roots.
+Saved source for the PG-06 ringkasan pemeriksaan refactor, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `bc4db1cab8cbe62b58a7c144bea798f23eb6a6b60b2a288b417868de3a15ea33`. Disk/live root fingerprints match: `k3Z6yT: e682afbd`, `QkNNL: b9a225fe`. This pass is compared with `b7eeba9`; earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
 
 ## PG-06 Ready for Owner Review
 
-| Owner review task | Desktop 2× | Narrow 2× |
+| Owner review task | Desktop | Narrow |
 | --- | --- | --- |
 | Request identity and detail | [Kr0gH](Kr0gH.png) | [pSkHH](pSkHH.png) |
 | Confirm correction: old/new/total/reason | [dRbB4](dRbB4.png) | [FyrQ7](FyrQ7.png) |
 | Saved correction and audit | [IPbJL](IPbJL.png) | [Fdupv](Fdupv.png) |
-| Full state gallery, 14 Desktop / 17 narrow viewports | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
-| End-scroll evidence | Not applicable | [Detail · El9ow](El9ow.png) · [Correction confirmation · d0R8t](d0R8t.png) · [Saved correction/audit · phpZn](phpZn.png) |
+| Full state gallery, 14 Desktop / 18 Narrow specimens | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
+| Private-copy gate and actions after scroll | Not applicable | [MFCrl](MFCrl.png) |
 
-Exactly **eleven versioned PNGs** were refreshed for this polish: `Kr0gH`, `pSkHH`, `dRbB4`, `FyrQ7`, `IPbJL`, `Fdupv`, `k3Z6yT`, `QkNNL`, `El9ow`, `d0R8t`, `phpZn`. Desktop entries are 2880×1920; narrow entries 780×1688; galleries 12320×8560 / 5800×5820. The direct Desktop root export was capped at 8192 px; its final gallery is composited in sRGB from native 2× child renders at the exact saved canvas positions, without upscaling. Temporary child renders are not additional versioned evidence.
+Exactly **nine PNGs** were exported from the matched saved source in this refactor: `Kr0gH`, `pSkHH`, `dRbB4`, `FyrQ7`, `IPbJL`, `Fdupv`, `k3Z6yT`, `QkNNL`, `MFCrl`. No other specimen was re-exported. Desktop individual entries are 2880×1920; Narrow entries 780×1688; Narrow gallery 5800×5820, all exact 2×. **Desktop gallery limitation:** the requested 2× direct export is capped by the exporter at 8192×5692; it is not a full 2× gallery. No upscale or extra child exports/compositing were used in this pass. Existing individual scroll PNGs `El9ow`, `d0R8t`, `phpZn` remain from `b7eeba9`; use the updated gallery for their current appearance. Scroll positions count as specimens, not additional business states.
 
-Visual polish: ← Antrean and consistent request identity; Desktop main information/invoice area plus companion total/Approver/decision panel; prominent labelled total; one-column narrow layout with full-width primary actions; Teruskan ke Approver with Finance Approved explained as Finance validation, not business approval or Paid; destructive-secondary Reject and consistent Minta Revision. Correction confirmation separates old/new/request total/reason, offers Kembali mengedit without discarding input, and states that correction keeps Pending without forwarding. Saved correction has a top notice and Riwayat koreksi with sample actor Dina S. · Admin Finance, time, old/new amounts and reason. Original invoice remains Rp1.250.000 and its file is unchanged; corrected request total is Rp1.200.000. Pending styling follows neutral grammar through local overrides only. The galleries include the other affected states; their individual older PNGs were **not** refreshed. Owner should assess these changes, not reapprove the global foundation.
+Refactor: two-column key-value rows with fixed 140px Desktop / 110px Narrow labels and filling values; amounts 22/700 and section titles 16/700 per Foundations. Invoice amount is omitted when equal to the request total. Desktop main area contains total, details and evidence; its companion contains Approver, gate and actions. Narrow follows this sequence vertically. Correction-audit and public/internal helpers are separated next to their respective actions. The private-copy alert immediately precedes Simpan salinan privat, using existing warning colors and the draft warning-line token documented in [foundations](../../../docs/design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Warning now covers any party required to act before continuation, not only Requester. No new palette or global canvas-variable change.
 
-Verification after owner Save: 24 static content/gate checks passed. Enabled non-scroll bounds findings: `k3Z6yT` **0**, `QkNNL` **0**, across 31 PG-06 viewports. Seven narrow scroll-content intersections with their fixed viewports are intentional and excluded, not hidden defects elsewhere. All eleven final PNG dimensions equal 2× their saved nodes. Saved totals are 85 reusable sources, 1,778 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is not changed in this pass. Only the two PG-06 root subtrees differ from `a28b2aa`; other roots, reusable definitions and variables are unchanged. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
+**Desktop confirmations are dedicated pages/states, not modal dialogs:** `QdWeP` (Revision), `dRbB4` (correction), `NORQW` (Reject), `AvxAT` (Finance Approved) retain the Admin sidebar, request header, ← Antrean and an in-workspace confirmation panel. Do not infer modal scrims, dialog overlays or focus traps. `FyrQ7` / `d0R8t` show the same Narrow correction confirmation at initial/end-scroll positions. The three saved-correction specimens all show total Rp1.200.000; Rp1.250.000 remains the original invoice/history value. Owner approval is still pending.
+
+Verification rerun after owner Save: enabled non-scroll bounds findings `k3Z6yT` **0**, `QkNNL` **0**, across 32 PG-06 specimens; `MFCrl` independently **0**. Eight Narrow scroll-content intersections with their fixed viewports are intentional and excluded. Saved totals: 85 reusable sources, 1,783 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is unchanged. Only the two PG-06 root subtrees differ from `b7eeba9`; other roots, reusable definitions and variables are unchanged. PNG dimensions and the Desktop exporter cap are recorded above. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
 
 ## PG-04 existing Finance queue
 
@@ -46,7 +48,7 @@ Existing badge grammar `fawD6`/`vgxDh`, approval evidence board `x5aDgA`, and un
 
 ## Earlier individual state snapshots
 
-Except for the eleven PNGs explicitly listed in the PG-06 polish package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
+Except for the nine PNGs explicitly listed in the current PG-06 refactor package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
 
 - Queue [filtered results](Wjjux.png); [private evidence copy required](i8by7.png).
 - Revision: [Reimbursement](M18Zn4.png), [Payment Request](LjcEB.png), [Overtime](KXoh7.png). Public instruction and internal note are separate visual fields.
