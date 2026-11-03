@@ -90,6 +90,6 @@ PNG exports were captured from `../reimburse.pen`. Frame names/IDs reflect expor
 ## Admin Finance review
 
 Render index: [`admin-finance-review/README.md`](admin-finance-review/README.md).
-PG-06 **Ready for Owner Review**, bukan Approved: [tiga pasangan entry point dan dua galeri](admin-finance-review/README.md#pg-06-ready-for-owner-review). Hanya delapan PNG PG-06 yang diperbarui 3 Nov 2026; paket PG-04/08/10 tetap bukti existing.
+PG-06 **Ready for Owner Review**, bukan Approved: [tiga pasangan entry point dan dua galeri](admin-finance-review/README.md#pg-06-ready-for-owner-review). Paket polish 3 Nov 2026 memperbarui sebelas PNG PG-06 (termasuk tiga viewport scroll-akhir Narrow); paket PG-04/08/10 tetap bukti existing.
 
 Legacy PNGs moved, not deleted: [`../png-arsip/`](../png-arsip/).
