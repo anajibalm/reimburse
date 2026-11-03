@@ -167,12 +167,33 @@
 }
 
 .pg06-review .private-copy-alert {
-  margin-block: 24px 12px;
+  margin-block: 0;
   padding: 12px 16px;
   gap: 8px;
   background: var(--color-warning-soft);
   border: 1px solid var(--warning-line);
 }
+
+/* Latest locked layout: alert precedes both decision controls. */
+.pg06-review .action-groups { display: flex; flex-direction: column; row-gap: 24px; }
+.pg06-review .decision-group { display: flex; flex-direction: column; row-gap: 12px; }
+.pg06-review .action-groups[data-private-copy="missing"] { row-gap: 12px; }
+.pg06-review .action-groups[data-private-copy="missing"] .secondary-group { padding-block-end: 12px; }
+.pg06-review .approver-helper { margin-block-start: 8px; margin-inline-start: 156px; font-size: 12px; line-height: 18px; color: #6b7280; }
+.pg06-review[data-layout="narrow"] .approver-helper { margin-inline-start: 0; }
+.pg06-review .difference-value { color: var(--status-neutral-2); }
+.pg06-review .difference-row,
+.pg06-review .audit-details { background: none; padding: 0; row-gap: 12px; }
+.pg06-review .amount-and-status { display: flex; gap: 12px; align-items: baseline; }
+.pg06-review .amount-and-status .hero-amount { flex: 1; min-width: 0; }
+.pg06-review .pending-chip { flex-shrink: 0; margin-inline-start: 0; }
+.pg06-review .correction-card { align-self: start; height: auto; min-height: 0; }
+.pg06-review .correction-comparison { display: flex; align-items: start; gap: 32px; }
+.pg06-review[data-layout="narrow"] .correction-comparison { flex-direction: column; gap: 24px; }
+.pg06-review .previous-amount { font-size: 16px; color: #6b7280; text-decoration: line-through; }
+.pg06-review[data-layout="narrow"] .previous-amount { font-size: 14px; }
+.pg06-review .correction-reason-label { font-size: 13px; line-height: 18px; color: var(--color-muted); }
+.pg06-review .correction-reason-value { font-size: 14px; line-height: 20px; color: #111; }
 
 /* The implementation must set disabled, not merely paint an enabled button. */
 .pg06-review .finance-forward:disabled {

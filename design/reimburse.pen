@@ -134386,7 +134386,12 @@
                   "fill": "$surface",
                   "cornerRadius": 16,
                   "gap": 32,
-                  "padding": 24,
+                  "padding": [
+                    0,
+                    24,
+                    24,
+                    24
+                  ],
                   "children": [
                     {
                       "type": "frame",
@@ -134395,6 +134400,12 @@
                       "width": "fill_container",
                       "fill": "#00000000",
                       "layout": "vertical",
+                      "padding": [
+                        24,
+                        0,
+                        0,
+                        0
+                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -134422,7 +134433,7 @@
                               "name": "Amount and status",
                               "width": "fill_container",
                               "gap": 12,
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "id": "lJHYH",
@@ -134742,28 +134753,28 @@
                                       "id": "XnJHj",
                                       "name": "Section 4 · Approver and forwarding gate",
                                       "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 16,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "YYgK0",
+                                          "name": "Key label · Approver",
+                                          "fill": "$muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": 140,
+                                          "content": "Approver",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13
+                                        },
                                         {
                                           "type": "frame",
                                           "id": "ByIeA",
                                           "name": "Approver key-value row",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "layout": "vertical",
+                                          "gap": 8,
                                           "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "YYgK0",
-                                              "name": "Key label · Approver",
-                                              "fill": "$muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": 140,
-                                              "content": "Approver",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$font",
-                                              "fontSize": 13
-                                            },
                                             {
                                               "type": "text",
                                               "id": "QNyuS",
@@ -134776,20 +134787,20 @@
                                               "fontFamily": "$font",
                                               "fontSize": 14,
                                               "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "NhIhB",
+                                              "name": "Forwarding consequence",
+                                              "fill": "#6B7280",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "lineHeight": 1.5,
+                                              "fontFamily": "$font",
+                                              "fontSize": 12
                                             }
                                           ]
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "NhIhB",
-                                          "name": "Forwarding consequence",
-                                          "fill": "$muted",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
-                                          "lineHeight": 1.5,
-                                          "fontFamily": "$font",
-                                          "fontSize": 12
                                         }
                                       ]
                                     }
@@ -134876,6 +134887,12 @@
                       "width": 320,
                       "fill": "#00000000",
                       "layout": "vertical",
+                      "padding": [
+                        24,
+                        0,
+                        0,
+                        0
+                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -134963,7 +134980,7 @@
                               "name": "Action group (b) · decisions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 12,
                               "children": [
                                 {
                                   "id": "cxdvw",
@@ -135176,7 +135193,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -135185,7 +135202,7 @@
                       "name": "Form title and description",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "text",
@@ -135380,12 +135397,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -135596,7 +135607,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -135605,7 +135616,7 @@
                       "name": "Form title and description",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "text",
@@ -135798,12 +135809,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -136014,7 +136019,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -136162,12 +136167,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -136380,7 +136379,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -136390,7 +136389,7 @@
                       "width": "fill_container",
                       "height": "fill_container",
                       "layout": "vertical",
-                      "gap": 16,
+                      "gap": 32,
                       "children": [
                         {
                           "type": "frame",
@@ -136398,7 +136397,7 @@
                           "name": "Form title and description",
                           "width": "fill_container",
                           "layout": "vertical",
-                          "gap": 8,
+                          "gap": 12,
                           "children": [
                             {
                               "type": "text",
@@ -136625,12 +136624,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -136840,7 +136833,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -136849,7 +136842,7 @@
                       "name": "Form title and description",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "text",
@@ -136939,28 +136932,28 @@
                               "id": "J9chur",
                               "name": "Approver unavailable and status gate",
                               "width": "fill_container",
-                              "layout": "vertical",
-                              "gap": 8,
+                              "gap": 16,
                               "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zG1SA",
+                                  "name": "Key label · Approver",
+                                  "fill": "$muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": 140,
+                                  "content": "Approver",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13
+                                },
                                 {
                                   "type": "frame",
                                   "id": "S9l4Q8",
                                   "name": "Approver key-value · unavailable",
                                   "width": "fill_container",
-                                  "gap": 16,
+                                  "layout": "vertical",
+                                  "gap": 8,
                                   "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "zG1SA",
-                                      "name": "Key label · Approver",
-                                      "fill": "$muted",
-                                      "textGrowth": "fixed-width",
-                                      "width": 140,
-                                      "content": "Approver",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "$font",
-                                      "fontSize": 13
-                                    },
                                     {
                                       "type": "text",
                                       "id": "Rkdxe",
@@ -136973,20 +136966,20 @@
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "500"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "O8SGI4",
+                                      "name": "Explanation",
+                                      "fill": "#6B7280",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 12
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "O8SGI4",
-                                  "name": "Explanation",
-                                  "fill": "$muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$font",
-                                  "fontSize": 12
                                 }
                               ]
                             }
@@ -137000,12 +136993,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -137196,7 +137183,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -137206,7 +137193,7 @@
                       "width": "fill_container",
                       "height": "fill_container",
                       "layout": "vertical",
-                      "gap": 16,
+                      "gap": 32,
                       "children": [
                         {
                           "type": "frame",
@@ -137214,7 +137201,7 @@
                           "name": "Form title and description",
                           "width": "fill_container",
                           "layout": "vertical",
-                          "gap": 8,
+                          "gap": 12,
                           "children": [
                             {
                               "type": "text",
@@ -137583,12 +137570,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -137797,22 +137778,19 @@
                   "id": "KFH2a",
                   "name": "Confirmation panel",
                   "width": "fill_container",
-                  "height": "fill_container",
                   "fill": "#00000000",
                   "cornerRadius": 24,
-                  "gap": 16,
-                  "padding": 24,
+                  "gap": 32,
                   "children": [
                     {
                       "type": "frame",
                       "id": "D7gfhe",
                       "name": "Correction comparison · main",
                       "width": "fill_container",
-                      "height": "fill_container",
                       "fill": "$surface",
                       "cornerRadius": 16,
                       "layout": "vertical",
-                      "gap": 24,
+                      "gap": 32,
                       "padding": 24,
                       "children": [
                         {
@@ -138088,8 +138066,73 @@
                           "id": "mrdIj",
                           "name": "Nominal correction comparison",
                           "width": "fill_container",
-                          "gap": 24,
+                          "gap": 32,
+                          "alignItems": "end",
                           "children": [
+                            {
+                              "type": "frame",
+                              "id": "KPK9P",
+                              "name": "Confirmation hero · corrected request total",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QAiKr",
+                                  "name": "Hero total label",
+                                  "fill": "$muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Total pengajuan setelah koreksi",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "eRt2x",
+                                  "name": "Hero amount and status",
+                                  "width": "fill_container",
+                                  "gap": 12,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "y41Z2",
+                                      "type": "ref",
+                                      "ref": "GRgG6",
+                                      "name": "Total pengajuan setelah koreksi",
+                                      "width": "fill_container",
+                                      "gap": 4,
+                                      "descendants": {
+                                        "OSBgR": {
+                                          "content": "Rp 1.200.000",
+                                          "fontFamily": "$font",
+                                          "fontSize": 28,
+                                          "fill": "$ink",
+                                          "fontWeight": "700",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "lineHeight": 1.2142857142857142
+                                        },
+                                        "heZsY": {
+                                          "content": "Total pengajuan setelah koreksi",
+                                          "fontFamily": "$font",
+                                          "fontSize": 13,
+                                          "fill": "$muted",
+                                          "fontWeight": "400",
+                                          "textGrowth": "auto",
+                                          "width": 100,
+                                          "lineHeight": 1.3846153846153846,
+                                          "enabled": false
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
                             {
                               "id": "a1UKU3",
                               "type": "ref",
@@ -138101,12 +138144,12 @@
                                 "OSBgR": {
                                   "content": "Rp 1.250.000",
                                   "fontFamily": "$font",
-                                  "fontSize": 13,
-                                  "fill": "$ink",
+                                  "fontSize": 16,
+                                  "fill": "#6B7280",
                                   "fontWeight": "500",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "lineHeight": 1.3846153846153846
+                                  "lineHeight": 1.5
                                 },
                                 "heZsY": {
                                   "content": "Nominal sebelumnya",
@@ -138119,34 +138162,58 @@
                                   "lineHeight": 1.3846153846153846
                                 }
                               }
+                            },
+                            {
+                              "id": "lhRix",
+                              "type": "ref",
+                              "ref": "R5NHOj",
+                              "name": "Pending · local neutral",
+                              "fill": "$subtle",
+                              "descendants": {
+                                "U0zly": {
+                                  "content": "Pending",
+                                  "fill": "$status-neutral-1",
+                                  "fontFamily": "DM Sans",
+                                  "lineHeight": 1.5
+                                }
+                              }
                             }
                           ]
                         },
                         {
-                          "type": "text",
-                          "id": "P7O1g",
-                          "name": "Correction reason label",
-                          "fill": "$muted",
-                          "textGrowth": "fixed-width",
+                          "type": "frame",
+                          "id": "A9SUk",
+                          "name": "Correction reason · label and value",
                           "width": "fill_container",
-                          "content": "Alasan koreksi",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "DM Sans",
-                          "fontSize": 13,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "PhJba",
-                          "name": "Correction reason",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Nominal disesuaikan dengan invoice.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "DM Sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P7O1g",
+                              "name": "Correction reason label",
+                              "fill": "$muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Alasan koreksi",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "PhJba",
+                              "name": "Correction reason",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nominal disesuaikan dengan invoice.",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         },
                         {
                           "type": "text",
@@ -138168,92 +138235,12 @@
                       "id": "t0e2wX",
                       "name": "Correction total and confirmation · companion",
                       "width": 320,
-                      "height": "fill_container",
                       "fill": "$surface",
                       "cornerRadius": 16,
                       "layout": "vertical",
-                      "gap": 16,
+                      "gap": 32,
                       "padding": 24,
                       "children": [
-                        {
-                          "type": "frame",
-                          "id": "KPK9P",
-                          "name": "Confirmation hero · corrected request total",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "QAiKr",
-                              "name": "Hero total label",
-                              "fill": "$muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Total pengajuan setelah koreksi",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "eRt2x",
-                              "name": "Hero amount and status",
-                              "width": "fill_container",
-                              "gap": 12,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "id": "y41Z2",
-                                  "type": "ref",
-                                  "ref": "GRgG6",
-                                  "name": "Total pengajuan setelah koreksi",
-                                  "width": "fill_container",
-                                  "gap": 4,
-                                  "descendants": {
-                                    "OSBgR": {
-                                      "content": "Rp 1.200.000",
-                                      "fontFamily": "$font",
-                                      "fontSize": 28,
-                                      "fill": "$ink",
-                                      "fontWeight": "700",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "lineHeight": 1.2142857142857142
-                                    },
-                                    "heZsY": {
-                                      "content": "Total pengajuan setelah koreksi",
-                                      "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fill": "$muted",
-                                      "fontWeight": "400",
-                                      "textGrowth": "auto",
-                                      "width": 100,
-                                      "lineHeight": 1.3846153846153846,
-                                      "enabled": false
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "lhRix",
-                                  "type": "ref",
-                                  "ref": "R5NHOj",
-                                  "name": "Pending · local neutral",
-                                  "fill": "$subtle",
-                                  "descendants": {
-                                    "U0zly": {
-                                      "content": "Pending",
-                                      "fill": "$status-neutral-1",
-                                      "fontFamily": "DM Sans",
-                                      "lineHeight": 1.5
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
                         {
                           "type": "text",
                           "id": "jAMMq",
@@ -138482,7 +138469,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -138492,7 +138479,7 @@
                       "width": "fill_container",
                       "height": "fill_container",
                       "layout": "vertical",
-                      "gap": 16,
+                      "gap": 32,
                       "children": [
                         {
                           "type": "frame",
@@ -138500,7 +138487,7 @@
                           "name": "Form title and description",
                           "width": "fill_container",
                           "layout": "vertical",
-                          "gap": 8,
+                          "gap": 12,
                           "children": [
                             {
                               "type": "text",
@@ -138830,12 +138817,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -139079,7 +139060,7 @@
                               "name": "Amount and status",
                               "width": "fill_container",
                               "gap": 12,
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "id": "B0NXh7",
@@ -139556,7 +139537,7 @@
                       "name": "Section 6 · Finance actions",
                       "width": 320,
                       "layout": "vertical",
-                      "gap": 24,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "frame",
@@ -139565,6 +139546,12 @@
                           "width": "fill_container",
                           "layout": "vertical",
                           "gap": 12,
+                          "padding": [
+                            0,
+                            0,
+                            12,
+                            0
+                          ],
                           "children": [
                             {
                               "id": "c9rSD",
@@ -139632,11 +139619,50 @@
                         },
                         {
                           "type": "frame",
+                          "id": "B79B1",
+                          "name": "Section 5 · Private-copy warning · draft warning-line",
+                          "width": "fill_container",
+                          "fill": "#FFF5E5",
+                          "cornerRadius": 8,
+                          "stroke": "#98600040",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "VxaZg",
+                              "name": "Info · private copy required",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "info",
+                              "library": "lucide",
+                              "fill": "$warning"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GPgrR",
+                              "name": "Link policy",
+                              "fill": "$warning",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Validasi dan simpan salinan privat sebelum meneruskan. Status berikutnya Finance Approved, bukan business approval atau Paid.",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$font",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "v53lCN",
                           "name": "Action group (b) · decisions",
                           "width": "fill_container",
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 12,
                           "children": [
                             {
                               "id": "vft4u",
@@ -139663,88 +139689,33 @@
                               }
                             },
                             {
-                              "type": "frame",
-                              "id": "A9SUk",
-                              "name": "Inline private-copy gate and disabled primary",
+                              "id": "UEtsn",
+                              "type": "ref",
+                              "ref": "fFmN2",
+                              "enabled": true,
+                              "name": "Finance Approved · Disabled · private-copy-required",
                               "width": "fill_container",
-                              "layout": "vertical",
-                              "gap": 12,
+                              "height": 44,
                               "padding": [
-                                8,
-                                0,
-                                0,
-                                0
+                                12,
+                                16
                               ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "B79B1",
-                                  "name": "Section 5 · Private-copy warning · draft warning-line",
-                                  "width": "fill_container",
-                                  "fill": "#FFF5E5",
-                                  "cornerRadius": 8,
-                                  "stroke": "#98600040",
-                                  "strokeWidth": 1,
-                                  "gap": 8,
-                                  "padding": [
-                                    12,
-                                    16
-                                  ],
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "VxaZg",
-                                      "name": "Info · private copy required",
-                                      "width": 16,
-                                      "height": 16,
-                                      "icon": "info",
-                                      "library": "lucide",
-                                      "fill": "$warning"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "GPgrR",
-                                      "name": "Link policy",
-                                      "fill": "$warning",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Validasi dan simpan salinan privat sebelum meneruskan. Status berikutnya Finance Approved, bukan business approval atau Paid.",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "$font",
-                                      "fontSize": 13
-                                    }
-                                  ]
+                              "fill": "$subtle",
+                              "stroke": "$line",
+                              "strokeWidth": 1,
+                              "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
+                              "descendants": {
+                                "U7Cbs": {
+                                  "content": "Teruskan ke Approver",
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 14,
+                                  "lineHeight": 1.4285714285714286,
+                                  "fill": "$muted"
                                 },
-                                {
-                                  "id": "UEtsn",
-                                  "type": "ref",
-                                  "ref": "fFmN2",
-                                  "enabled": true,
-                                  "name": "Finance Approved · Disabled · private-copy-required",
-                                  "width": "fill_container",
-                                  "height": 44,
-                                  "padding": [
-                                    12,
-                                    16
-                                  ],
-                                  "fill": "$subtle",
-                                  "stroke": "$line",
-                                  "strokeWidth": 1,
-                                  "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
-                                  "descendants": {
-                                    "U7Cbs": {
-                                      "content": "Teruskan ke Approver",
-                                      "fontFamily": "DM Sans",
-                                      "fontSize": 14,
-                                      "lineHeight": 1.4285714285714286,
-                                      "fill": "$muted"
-                                    },
-                                    "eq2MD": {
-                                      "enabled": false
-                                    }
-                                  }
+                                "eq2MD": {
+                                  "enabled": false
                                 }
-                              ]
+                              }
                             }
                           ]
                         }
@@ -139908,7 +139879,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -139917,7 +139888,7 @@
                       "name": "Form title and description",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "text",
@@ -140127,12 +140098,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -140343,7 +140308,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -140352,7 +140317,7 @@
                       "name": "Form title and description",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": 12,
                       "children": [
                         {
                           "type": "text",
@@ -140560,12 +140525,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -140776,7 +140735,7 @@
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
@@ -140939,12 +140898,6 @@
                       "name": "Form final field to actions · 24px",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "frame",
@@ -141212,7 +141165,7 @@
                               "name": "Amount and status",
                               "width": "fill_container",
                               "gap": 12,
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "id": "D4Sddk",
@@ -141548,37 +141501,45 @@
                                               }
                                             }
                                           ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "oWZ0a",
+                                      "name": "Key value · Selisih",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "gap": 16,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "jbOOe",
+                                          "name": "Key label · Selisih",
+                                          "fill": "$muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": 140,
+                                          "content": "Selisih",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13
                                         },
                                         {
-                                          "type": "frame",
-                                          "id": "oWZ0a",
-                                          "name": "Invoice difference · only when unequal",
+                                          "type": "text",
+                                          "id": "XerKQ",
+                                          "name": "Key value · Selisih",
+                                          "metadata": {
+                                            "type": "typography-handoff",
+                                            "fontVariantNumeric": "tabular-nums"
+                                          },
+                                          "fill": "$status-neutral-2",
+                                          "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "fill": "$subtle",
-                                          "cornerRadius": 4,
-                                          "padding": [
-                                            4,
-                                            8
-                                          ],
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "XerKQ",
-                                              "name": "Invoice difference",
-                                              "metadata": {
-                                                "type": "typography-handoff",
-                                                "fontVariantNumeric": "tabular-nums"
-                                              },
-                                              "fill": "$muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Selisih Rp 50.000",
-                                              "lineHeight": 1.5,
-                                              "fontFamily": "$font",
-                                              "fontSize": 12,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
+                                          "content": "Rp 50.000",
+                                          "lineHeight": 1.4285714285714286,
+                                          "fontFamily": "$font",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
                                         }
                                       ]
                                     },
@@ -141587,28 +141548,28 @@
                                       "id": "YOGJc",
                                       "name": "Section 4 · Approver and forwarding gate",
                                       "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 16,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "suvBw",
+                                          "name": "Key label · Approver",
+                                          "fill": "$muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": 140,
+                                          "content": "Approver",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13
+                                        },
                                         {
                                           "type": "frame",
                                           "id": "D0wLVP",
                                           "name": "Approver key-value row",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "layout": "vertical",
+                                          "gap": 8,
                                           "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "suvBw",
-                                              "name": "Key label · Approver",
-                                              "fill": "$muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": 140,
-                                              "content": "Approver",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$font",
-                                              "fontSize": 13
-                                            },
                                             {
                                               "type": "text",
                                               "id": "H8w7r",
@@ -141621,20 +141582,20 @@
                                               "fontFamily": "$font",
                                               "fontSize": 14,
                                               "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "Iobl2",
+                                              "name": "Forwarding consequence",
+                                              "fill": "#6B7280",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "lineHeight": 1.5,
+                                              "fontFamily": "$font",
+                                              "fontSize": 12
                                             }
                                           ]
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "Iobl2",
-                                          "name": "Forwarding consequence",
-                                          "fill": "$muted",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
-                                          "lineHeight": 1.5,
-                                          "fontFamily": "$font",
-                                          "fontSize": 12
                                         }
                                       ]
                                     }
@@ -141740,11 +141701,9 @@
                                         "sourceCopy": "Dina S. · Admin Finance\n24 Okt 2026 · 10.30\n\nAlasan koreksi\nNominal disesuaikan dengan invoice."
                                       },
                                       "width": "fill_container",
-                                      "fill": "#F3F5F7",
-                                      "cornerRadius": 8,
+                                      "fill": "#00000000",
                                       "layout": "vertical",
-                                      "gap": 8,
-                                      "padding": 16,
+                                      "gap": 12,
                                       "children": [
                                         {
                                           "type": "frame",
@@ -142035,7 +141994,7 @@
                               "name": "Action group (b) · decisions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 12,
                               "children": [
                                 {
                                   "id": "xKNJC",
@@ -142701,7 +142660,7 @@
                               "name": "Amount and status",
                               "width": "fill_container",
                               "gap": 12,
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "id": "DYPXT",
@@ -143063,7 +143022,7 @@
                                           "type": "text",
                                           "id": "ZoQMK",
                                           "name": "Forwarding consequence",
-                                          "fill": "$muted",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
@@ -143242,7 +143201,7 @@
                               "name": "Action group (b) · decisions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 12,
                               "children": [
                                 {
                                   "id": "Dtlsw",
@@ -143433,7 +143392,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -143442,7 +143401,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -143719,12 +143678,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -143921,7 +143874,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -144153,12 +144106,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -144355,7 +144302,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -144364,7 +144311,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -144730,12 +144677,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -144932,7 +144873,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -144941,7 +144882,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -144973,76 +144914,76 @@
                             },
                             {
                               "type": "frame",
-                              "id": "PDSDs",
-                              "name": "Confirmation hero · corrected request total",
-                              "width": "fill_container",
-                              "layout": "vertical",
-                              "gap": 4,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "Gpjxo",
-                                  "name": "Hero total label",
-                                  "fill": "$muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Total pengajuan setelah koreksi",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "$font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "E0WFl",
-                                  "name": "Hero amount and status",
-                                  "width": "fill_container",
-                                  "gap": 12,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "id": "D3blH",
-                                      "type": "ref",
-                                      "ref": "GRgG6",
-                                      "name": "Total pengajuan setelah koreksi",
-                                      "width": "fill_container",
-                                      "gap": 4,
-                                      "descendants": {
-                                        "OSBgR": {
-                                          "content": "Rp 1.200.000",
-                                          "fontFamily": "$font",
-                                          "fontSize": 28,
-                                          "fill": "$ink",
-                                          "fontWeight": "700",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "lineHeight": 1.2142857142857142
-                                        },
-                                        "heZsY": {
-                                          "content": "Total pengajuan setelah koreksi",
-                                          "fontFamily": "$font",
-                                          "fontSize": 13,
-                                          "fill": "$muted",
-                                          "fontWeight": "400",
-                                          "textGrowth": "auto",
-                                          "width": 100,
-                                          "lineHeight": 1.3846153846153846,
-                                          "enabled": false
-                                        }
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
                               "id": "dSk7e",
                               "name": "Labeled correction values",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 24,
                               "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "PDSDs",
+                                  "name": "Confirmation hero · corrected request total",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Gpjxo",
+                                      "name": "Hero total label",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Total pengajuan setelah koreksi",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "E0WFl",
+                                      "name": "Hero amount and status",
+                                      "width": "fill_container",
+                                      "gap": 12,
+                                      "alignItems": "end",
+                                      "children": [
+                                        {
+                                          "id": "D3blH",
+                                          "type": "ref",
+                                          "ref": "GRgG6",
+                                          "name": "Total pengajuan setelah koreksi",
+                                          "width": "fill_container",
+                                          "gap": 4,
+                                          "descendants": {
+                                            "OSBgR": {
+                                              "content": "Rp 1.200.000",
+                                              "fontFamily": "$font",
+                                              "fontSize": 28,
+                                              "fill": "$ink",
+                                              "fontWeight": "700",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "lineHeight": 1.2142857142857142
+                                            },
+                                            "heZsY": {
+                                              "content": "Total pengajuan setelah koreksi",
+                                              "fontFamily": "$font",
+                                              "fontSize": 13,
+                                              "fill": "$muted",
+                                              "fontWeight": "400",
+                                              "textGrowth": "auto",
+                                              "width": 100,
+                                              "lineHeight": 1.3846153846153846,
+                                              "enabled": false
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
                                 {
                                   "id": "m5ewbV",
                                   "type": "ref",
@@ -145054,12 +144995,12 @@
                                     "OSBgR": {
                                       "content": "Rp 1.250.000",
                                       "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fill": "$ink",
+                                      "fontSize": 14,
+                                      "fill": "#6B7280",
                                       "fontWeight": "500",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "lineHeight": 1.3846153846153846
+                                      "lineHeight": 1.4285714285714286
                                     },
                                     "heZsY": {
                                       "content": "Nominal sebelumnya",
@@ -145072,7 +145013,17 @@
                                       "lineHeight": 1.3846153846153846
                                     }
                                   }
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JxVDK",
+                              "name": "Correction reason · label and value",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
                                 {
                                   "type": "text",
                                   "id": "gK2Oe",
@@ -145083,20 +145034,19 @@
                                   "content": "Alasan koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "600"
+                                  "fontSize": 13
                                 },
                                 {
                                   "type": "text",
                                   "id": "n25yo",
                                   "name": "Correction reason",
-                                  "fill": "$text",
+                                  "fill": "#111111",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
                                   "content": "Nominal disesuaikan dengan invoice.",
-                                  "lineHeight": 1.45,
+                                  "lineHeight": 1.4285714285714286,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 15,
+                                  "fontSize": 14,
                                   "fontWeight": "normal"
                                 }
                               ]
@@ -145359,12 +145309,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -145561,7 +145505,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -145570,7 +145514,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -145897,12 +145841,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -146096,7 +146034,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -146105,7 +146043,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -146327,12 +146265,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -146529,7 +146461,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -146538,7 +146470,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -146765,7 +146697,7 @@
                                           "type": "text",
                                           "id": "v8GI3N",
                                           "name": "Explanation",
-                                          "fill": "$muted",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
@@ -146785,12 +146717,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -146961,7 +146887,6 @@
                           "fill": "$surface",
                           "cornerRadius": 16,
                           "layout": "vertical",
-                          "gap": 16,
                           "padding": 20,
                           "children": [
                             {
@@ -146990,7 +146915,7 @@
                                   "name": "Amount and status",
                                   "width": "fill_container",
                                   "gap": 12,
-                                  "alignItems": "center",
+                                  "alignItems": "end",
                                   "children": [
                                     {
                                       "id": "PUg9T",
@@ -147475,7 +147400,7 @@
                               "name": "Section 6 · Finance actions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 24,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "frame",
@@ -147484,6 +147409,12 @@
                                   "width": "fill_container",
                                   "layout": "vertical",
                                   "gap": 12,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    12,
+                                    0
+                                  ],
                                   "children": [
                                     {
                                       "id": "sw5Kr",
@@ -147551,11 +147482,50 @@
                                 },
                                 {
                                   "type": "frame",
+                                  "id": "mcv9J",
+                                  "name": "Section 5 · Private-copy warning · draft warning-line",
+                                  "width": "fill_container",
+                                  "fill": "#FFF5E5",
+                                  "cornerRadius": 8,
+                                  "stroke": "#98600040",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    12,
+                                    16
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "jTS29",
+                                      "name": "Info · private copy required",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "info",
+                                      "library": "lucide",
+                                      "fill": "$warning"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "s0vo5",
+                                      "name": "Link policy",
+                                      "fill": "$warning",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
                                   "id": "uWyr7",
                                   "name": "Action group (b) · decisions",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 16,
+                                  "gap": 12,
                                   "children": [
                                     {
                                       "id": "iW2Pv",
@@ -147582,88 +147552,33 @@
                                       }
                                     },
                                     {
-                                      "type": "frame",
-                                      "id": "JxVDK",
-                                      "name": "Inline private-copy gate and disabled primary",
+                                      "id": "r95q6",
+                                      "type": "ref",
+                                      "ref": "fFmN2",
+                                      "enabled": true,
+                                      "name": "Finance Approved · Disabled · private-copy-required",
                                       "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 12,
+                                      "height": 44,
                                       "padding": [
-                                        8,
-                                        0,
-                                        0,
-                                        0
+                                        12,
+                                        16
                                       ],
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "mcv9J",
-                                          "name": "Section 5 · Private-copy warning · draft warning-line",
-                                          "width": "fill_container",
-                                          "fill": "#FFF5E5",
-                                          "cornerRadius": 8,
-                                          "stroke": "#98600040",
-                                          "strokeWidth": 1,
-                                          "gap": 8,
-                                          "padding": [
-                                            12,
-                                            16
-                                          ],
-                                          "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "jTS29",
-                                              "name": "Info · private copy required",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "info",
-                                              "library": "lucide",
-                                              "fill": "$warning"
-                                            },
-                                            {
-                                              "type": "text",
-                                              "id": "s0vo5",
-                                              "name": "Link policy",
-                                              "fill": "$warning",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$font",
-                                              "fontSize": 13
-                                            }
-                                          ]
+                                      "fill": "$subtle",
+                                      "stroke": "$line",
+                                      "strokeWidth": 1,
+                                      "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
+                                      "descendants": {
+                                        "U7Cbs": {
+                                          "content": "Teruskan ke Approver",
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "lineHeight": 1.4285714285714286,
+                                          "fill": "$muted"
                                         },
-                                        {
-                                          "id": "r95q6",
-                                          "type": "ref",
-                                          "ref": "fFmN2",
-                                          "enabled": true,
-                                          "name": "Finance Approved · Disabled · private-copy-required",
-                                          "width": "fill_container",
-                                          "height": 44,
-                                          "padding": [
-                                            12,
-                                            16
-                                          ],
-                                          "fill": "$subtle",
-                                          "stroke": "$line",
-                                          "strokeWidth": 1,
-                                          "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
-                                          "descendants": {
-                                            "U7Cbs": {
-                                              "content": "Teruskan ke Approver",
-                                              "fontFamily": "DM Sans",
-                                              "fontSize": 14,
-                                              "lineHeight": 1.4285714285714286,
-                                              "fill": "$muted"
-                                            },
-                                            "eq2MD": {
-                                              "enabled": false
-                                            }
-                                          }
+                                        "eq2MD": {
+                                          "enabled": false
                                         }
-                                      ]
+                                      }
                                     }
                                   ]
                                 }
@@ -149251,7 +149166,7 @@
                                   "name": "Amount and status",
                                   "width": "fill_container",
                                   "gap": 12,
-                                  "alignItems": "center",
+                                  "alignItems": "end",
                                   "children": [
                                     {
                                       "id": "O3IdB",
@@ -149588,37 +149503,45 @@
                                                   }
                                                 }
                                               ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "d9kq3g",
+                                          "name": "Key value · Selisih",
+                                          "width": "fill_container",
+                                          "fill": "#00000000",
+                                          "gap": 16,
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "s07No",
+                                              "name": "Key label · Selisih",
+                                              "fill": "$muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": 120,
+                                              "content": "Selisih",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$font",
+                                              "fontSize": 13
                                             },
                                             {
-                                              "type": "frame",
-                                              "id": "d9kq3g",
-                                              "name": "Invoice difference · only when unequal",
+                                              "type": "text",
+                                              "id": "gbq4f",
+                                              "name": "Key value · Selisih",
+                                              "metadata": {
+                                                "type": "typography-handoff",
+                                                "fontVariantNumeric": "tabular-nums"
+                                              },
+                                              "fill": "$status-neutral-2",
+                                              "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "fill": "$subtle",
-                                              "cornerRadius": 4,
-                                              "padding": [
-                                                4,
-                                                8
-                                              ],
-                                              "children": [
-                                                {
-                                                  "type": "text",
-                                                  "id": "gbq4f",
-                                                  "name": "Invoice difference",
-                                                  "metadata": {
-                                                    "type": "typography-handoff",
-                                                    "fontVariantNumeric": "tabular-nums"
-                                                  },
-                                                  "fill": "$muted",
-                                                  "textGrowth": "fixed-width",
-                                                  "width": "fill_container",
-                                                  "content": "Selisih Rp 50.000",
-                                                  "lineHeight": 1.5,
-                                                  "fontFamily": "$font",
-                                                  "fontSize": 12,
-                                                  "fontWeight": "500"
-                                                }
-                                              ]
+                                              "content": "Rp 50.000",
+                                              "lineHeight": 1.4285714285714286,
+                                              "fontFamily": "$font",
+                                              "fontSize": 14,
+                                              "fontWeight": "500"
                                             }
                                           ]
                                         },
@@ -149668,7 +149591,7 @@
                                               "type": "text",
                                               "id": "da167",
                                               "name": "Forwarding consequence",
-                                              "fill": "$muted",
+                                              "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
@@ -149771,11 +149694,9 @@
                                             "sourceCopy": "Dina S. · Admin Finance\n24 Okt 2026 · 10.30\n\nAlasan koreksi\nNominal disesuaikan dengan invoice."
                                           },
                                           "width": "fill_container",
-                                          "fill": "#F3F5F7",
-                                          "cornerRadius": 8,
+                                          "fill": "#00000000",
                                           "layout": "vertical",
-                                          "gap": 8,
-                                          "padding": 16,
+                                          "gap": 12,
                                           "children": [
                                             {
                                               "type": "frame",
@@ -150065,7 +149986,7 @@
                                   "name": "Action group (b) · decisions",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 16,
+                                  "gap": 12,
                                   "children": [
                                     {
                                       "id": "IWR5x",
@@ -150178,7 +150099,7 @@
                   "type": "frame",
                   "id": "AwyjR",
                   "x": 0,
-                  "y": -264,
+                  "y": -260,
                   "name": "Scroll content",
                   "width": 390,
                   "layout": "vertical",
@@ -150279,7 +150200,7 @@
                               "name": "Amount and status",
                               "width": "fill_container",
                               "gap": 12,
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "id": "SYjDZ",
@@ -150641,7 +150562,7 @@
                                           "type": "text",
                                           "id": "gYGst",
                                           "name": "Forwarding consequence",
-                                          "fill": "$muted",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
@@ -150820,7 +150741,7 @@
                               "name": "Action group (b) · decisions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 12,
                               "children": [
                                 {
                                   "id": "pAUth",
@@ -150931,7 +150852,7 @@
                   "type": "frame",
                   "id": "KHCQb",
                   "x": 0,
-                  "y": -55,
+                  "y": -87,
                   "name": "Scroll content",
                   "width": 390,
                   "layout": "vertical",
@@ -151011,7 +150932,7 @@
                           "fill": "#FFFFFF",
                           "cornerRadius": 20,
                           "layout": "vertical",
-                          "gap": 16,
+                          "gap": 24,
                           "padding": 20,
                           "children": [
                             {
@@ -151020,7 +150941,7 @@
                               "name": "Form title and description",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 8,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "text",
@@ -151052,76 +150973,76 @@
                             },
                             {
                               "type": "frame",
-                              "id": "q4xt0D",
-                              "name": "Confirmation hero · corrected request total",
-                              "width": "fill_container",
-                              "layout": "vertical",
-                              "gap": 4,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "tcK08",
-                                  "name": "Hero total label",
-                                  "fill": "$muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Total pengajuan setelah koreksi",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "$font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "zaWov",
-                                  "name": "Hero amount and status",
-                                  "width": "fill_container",
-                                  "gap": 12,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "id": "B7x8T",
-                                      "type": "ref",
-                                      "ref": "GRgG6",
-                                      "name": "Total pengajuan setelah koreksi",
-                                      "width": "fill_container",
-                                      "gap": 4,
-                                      "descendants": {
-                                        "OSBgR": {
-                                          "content": "Rp 1.200.000",
-                                          "fontFamily": "$font",
-                                          "fontSize": 28,
-                                          "fill": "$ink",
-                                          "fontWeight": "700",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "lineHeight": 1.2142857142857142
-                                        },
-                                        "heZsY": {
-                                          "content": "Total pengajuan setelah koreksi",
-                                          "fontFamily": "$font",
-                                          "fontSize": 13,
-                                          "fill": "$muted",
-                                          "fontWeight": "400",
-                                          "textGrowth": "auto",
-                                          "width": 100,
-                                          "lineHeight": 1.3846153846153846,
-                                          "enabled": false
-                                        }
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
                               "id": "Xv8sq",
                               "name": "Labeled correction values",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 16,
+                              "gap": 24,
                               "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "q4xt0D",
+                                  "name": "Confirmation hero · corrected request total",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "tcK08",
+                                      "name": "Hero total label",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Total pengajuan setelah koreksi",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "zaWov",
+                                      "name": "Hero amount and status",
+                                      "width": "fill_container",
+                                      "gap": 12,
+                                      "alignItems": "end",
+                                      "children": [
+                                        {
+                                          "id": "B7x8T",
+                                          "type": "ref",
+                                          "ref": "GRgG6",
+                                          "name": "Total pengajuan setelah koreksi",
+                                          "width": "fill_container",
+                                          "gap": 4,
+                                          "descendants": {
+                                            "OSBgR": {
+                                              "content": "Rp 1.200.000",
+                                              "fontFamily": "$font",
+                                              "fontSize": 28,
+                                              "fill": "$ink",
+                                              "fontWeight": "700",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "lineHeight": 1.2142857142857142
+                                            },
+                                            "heZsY": {
+                                              "content": "Total pengajuan setelah koreksi",
+                                              "fontFamily": "$font",
+                                              "fontSize": 13,
+                                              "fill": "$muted",
+                                              "fontWeight": "400",
+                                              "textGrowth": "auto",
+                                              "width": 100,
+                                              "lineHeight": 1.3846153846153846,
+                                              "enabled": false
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
                                 {
                                   "id": "Z8SVxs",
                                   "type": "ref",
@@ -151133,12 +151054,12 @@
                                     "OSBgR": {
                                       "content": "Rp 1.250.000",
                                       "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fill": "$ink",
+                                      "fontSize": 14,
+                                      "fill": "#6B7280",
                                       "fontWeight": "500",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "lineHeight": 1.3846153846153846
+                                      "lineHeight": 1.4285714285714286
                                     },
                                     "heZsY": {
                                       "content": "Nominal sebelumnya",
@@ -151151,7 +151072,17 @@
                                       "lineHeight": 1.3846153846153846
                                     }
                                   }
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AGz0c",
+                              "name": "Correction reason · label and value",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
                                 {
                                   "type": "text",
                                   "id": "A0Km53",
@@ -151162,20 +151093,19 @@
                                   "content": "Alasan koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "600"
+                                  "fontSize": 13
                                 },
                                 {
                                   "type": "text",
                                   "id": "a5JV6A",
                                   "name": "Correction reason",
-                                  "fill": "$text",
+                                  "fill": "#111111",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
                                   "content": "Nominal disesuaikan dengan invoice.",
-                                  "lineHeight": 1.45,
+                                  "lineHeight": 1.4285714285714286,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 15,
+                                  "fontSize": 14,
                                   "fontWeight": "normal"
                                 }
                               ]
@@ -151438,12 +151368,6 @@
                               "name": "Form final field to actions · 24px",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "padding": [
-                                8,
-                                0,
-                                0,
-                                0
-                              ],
                               "children": [
                                 {
                                   "type": "frame",
@@ -151560,7 +151484,7 @@
                   "type": "frame",
                   "id": "QQZ3G",
                   "x": 0,
-                  "y": -686,
+                  "y": -656,
                   "name": "Scroll content",
                   "width": 390,
                   "layout": "vertical",
@@ -151690,7 +151614,7 @@
                                   "name": "Amount and status",
                                   "width": "fill_container",
                                   "gap": 12,
-                                  "alignItems": "center",
+                                  "alignItems": "end",
                                   "children": [
                                     {
                                       "id": "X9dnh6",
@@ -152027,37 +151951,45 @@
                                                   }
                                                 }
                                               ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "F2RXZG",
+                                          "name": "Key value · Selisih",
+                                          "width": "fill_container",
+                                          "fill": "#00000000",
+                                          "gap": 16,
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "Pcf5b",
+                                              "name": "Key label · Selisih",
+                                              "fill": "$muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": 120,
+                                              "content": "Selisih",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$font",
+                                              "fontSize": 13
                                             },
                                             {
-                                              "type": "frame",
-                                              "id": "F2RXZG",
-                                              "name": "Invoice difference · only when unequal",
+                                              "type": "text",
+                                              "id": "mwps7",
+                                              "name": "Key value · Selisih",
+                                              "metadata": {
+                                                "type": "typography-handoff",
+                                                "fontVariantNumeric": "tabular-nums"
+                                              },
+                                              "fill": "$status-neutral-2",
+                                              "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "fill": "$subtle",
-                                              "cornerRadius": 4,
-                                              "padding": [
-                                                4,
-                                                8
-                                              ],
-                                              "children": [
-                                                {
-                                                  "type": "text",
-                                                  "id": "mwps7",
-                                                  "name": "Invoice difference",
-                                                  "metadata": {
-                                                    "type": "typography-handoff",
-                                                    "fontVariantNumeric": "tabular-nums"
-                                                  },
-                                                  "fill": "$muted",
-                                                  "textGrowth": "fixed-width",
-                                                  "width": "fill_container",
-                                                  "content": "Selisih Rp 50.000",
-                                                  "lineHeight": 1.5,
-                                                  "fontFamily": "$font",
-                                                  "fontSize": 12,
-                                                  "fontWeight": "500"
-                                                }
-                                              ]
+                                              "content": "Rp 50.000",
+                                              "lineHeight": 1.4285714285714286,
+                                              "fontFamily": "$font",
+                                              "fontSize": 14,
+                                              "fontWeight": "500"
                                             }
                                           ]
                                         },
@@ -152107,7 +152039,7 @@
                                               "type": "text",
                                               "id": "hps4I",
                                               "name": "Forwarding consequence",
-                                              "fill": "$muted",
+                                              "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
@@ -152210,11 +152142,9 @@
                                             "sourceCopy": "Dina S. · Admin Finance\n24 Okt 2026 · 10.30\n\nAlasan koreksi\nNominal disesuaikan dengan invoice."
                                           },
                                           "width": "fill_container",
-                                          "fill": "#F3F5F7",
-                                          "cornerRadius": 8,
+                                          "fill": "#00000000",
                                           "layout": "vertical",
-                                          "gap": 8,
-                                          "padding": 16,
+                                          "gap": 12,
                                           "children": [
                                             {
                                               "type": "frame",
@@ -152504,7 +152434,7 @@
                                   "name": "Action group (b) · decisions",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 16,
+                                  "gap": 12,
                                   "children": [
                                     {
                                       "id": "t9ePjO",
@@ -152617,7 +152547,7 @@
                   "type": "frame",
                   "id": "ohifc",
                   "x": 0,
-                  "y": -456,
+                  "y": -348,
                   "name": "Scroll content",
                   "width": 390,
                   "layout": "vertical",
@@ -152697,7 +152627,6 @@
                           "fill": "$surface",
                           "cornerRadius": 16,
                           "layout": "vertical",
-                          "gap": 16,
                           "padding": 20,
                           "children": [
                             {
@@ -152726,7 +152655,7 @@
                                   "name": "Amount and status",
                                   "width": "fill_container",
                                   "gap": 12,
-                                  "alignItems": "center",
+                                  "alignItems": "end",
                                   "children": [
                                     {
                                       "id": "whAzK",
@@ -153211,7 +153140,7 @@
                               "name": "Section 6 · Finance actions",
                               "width": "fill_container",
                               "layout": "vertical",
-                              "gap": 24,
+                              "gap": 12,
                               "children": [
                                 {
                                   "type": "frame",
@@ -153220,6 +153149,12 @@
                                   "width": "fill_container",
                                   "layout": "vertical",
                                   "gap": 12,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    12,
+                                    0
+                                  ],
                                   "children": [
                                     {
                                       "id": "rOort",
@@ -153287,11 +153222,50 @@
                                 },
                                 {
                                   "type": "frame",
+                                  "id": "DOKOE",
+                                  "name": "Section 5 · Private-copy warning · draft warning-line",
+                                  "width": "fill_container",
+                                  "fill": "#FFF5E5",
+                                  "cornerRadius": 8,
+                                  "stroke": "#98600040",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    12,
+                                    16
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "DhWwO",
+                                      "name": "Info · private copy required",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "info",
+                                      "library": "lucide",
+                                      "fill": "$warning"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "uiyT8",
+                                      "name": "Link policy",
+                                      "fill": "$warning",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
                                   "id": "gbCsz",
                                   "name": "Action group (b) · decisions",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 16,
+                                  "gap": 12,
                                   "children": [
                                     {
                                       "id": "T8yhP",
@@ -153318,88 +153292,33 @@
                                       }
                                     },
                                     {
-                                      "type": "frame",
-                                      "id": "AGz0c",
-                                      "name": "Inline private-copy gate and disabled primary",
+                                      "id": "g7cGc",
+                                      "type": "ref",
+                                      "ref": "fFmN2",
+                                      "enabled": true,
+                                      "name": "Finance Approved · Disabled · private-copy-required",
                                       "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 12,
+                                      "height": 44,
                                       "padding": [
-                                        8,
-                                        0,
-                                        0,
-                                        0
+                                        12,
+                                        16
                                       ],
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "DOKOE",
-                                          "name": "Section 5 · Private-copy warning · draft warning-line",
-                                          "width": "fill_container",
-                                          "fill": "#FFF5E5",
-                                          "cornerRadius": 8,
-                                          "stroke": "#98600040",
-                                          "strokeWidth": 1,
-                                          "gap": 8,
-                                          "padding": [
-                                            12,
-                                            16
-                                          ],
-                                          "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "DhWwO",
-                                              "name": "Info · private copy required",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "info",
-                                              "library": "lucide",
-                                              "fill": "$warning"
-                                            },
-                                            {
-                                              "type": "text",
-                                              "id": "uiyT8",
-                                              "name": "Link policy",
-                                              "fill": "$warning",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$font",
-                                              "fontSize": 13
-                                            }
-                                          ]
+                                      "fill": "$subtle",
+                                      "stroke": "$line",
+                                      "strokeWidth": 1,
+                                      "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
+                                      "descendants": {
+                                        "U7Cbs": {
+                                          "content": "Teruskan ke Approver",
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "lineHeight": 1.4285714285714286,
+                                          "fill": "$muted"
                                         },
-                                        {
-                                          "id": "g7cGc",
-                                          "type": "ref",
-                                          "ref": "fFmN2",
-                                          "enabled": true,
-                                          "name": "Finance Approved · Disabled · private-copy-required",
-                                          "width": "fill_container",
-                                          "height": 44,
-                                          "padding": [
-                                            12,
-                                            16
-                                          ],
-                                          "fill": "$subtle",
-                                          "stroke": "$line",
-                                          "strokeWidth": 1,
-                                          "context": "Visible disabled specimen, not hidden. Native disabled attribute is required in implementation until the private copy is saved; this static canvas does not execute button logic.",
-                                          "descendants": {
-                                            "U7Cbs": {
-                                              "content": "Teruskan ke Approver",
-                                              "fontFamily": "DM Sans",
-                                              "fontSize": 14,
-                                              "lineHeight": 1.4285714285714286,
-                                              "fill": "$muted"
-                                            },
-                                            "eq2MD": {
-                                              "enabled": false
-                                            }
-                                          }
+                                        "eq2MD": {
+                                          "enabled": false
                                         }
-                                      ]
+                                      }
                                     }
                                   ]
                                 }

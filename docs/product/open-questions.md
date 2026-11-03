@@ -21,6 +21,7 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 - **TERJAWAB — nominal dashboard/daftar:** keputusan PG-06 menetapkan total setelah koreksi sebagai nilai otoritatif; nominal invoice dan riwayat tetap nilai asli sebagai pembanding. Rujukan: [`foundations.md`, “PG-06 ringkasan pemeriksaan · draft handoff`](../design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Keputusan ini mengikat tampilan PG-06; PRD belum diubah. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; catatan tersebut dipertahankan sebagai riwayat, dan perbedaan kini diselesaikan oleh keputusan ini.
 - PRD memakai status `Return to Admin` dan `Maker Done`, tetapi tidak menetapkan label khusus Requester. Catatan UX lama mengusulkan “Sedang ditinjau” dan “Pembayaran disiapkan”. Pilihan label itu belum masuk PRD.
 - Bentuk dashboard (angka status vs. jumlah proses berjalan), penyajian Draft, stepper riwayat aktual, penempatan Cancel, dan menu profil/logout tercatat pada desain lama. Perlakukan sebagai eksplorasi/arah visual, bukan aturan bisnis, kecuali tertulis dalam PRD.
+- Arah tanda selisih nominal (over-claim vs under-claim) belum ditetapkan PRD. Fixture hanya menunjukkan dua nilai pembanding; fixture tidak menyatakan tanda `+` atau `-` maupun arah selisih.
 
 ## Batas layar dan nomor contoh
 

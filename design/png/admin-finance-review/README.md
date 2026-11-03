@@ -2,14 +2,14 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-Saved source for the PG-06 two-pass rhythm/P0 package, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `6cabfdb0b472fe26bd8be1d535a4e169be56c72514aeaeb94ea53508e1ae718f`. Disk/live root fingerprints match: `k3Z6yT: 29422159`, `QkNNL: c7086bac`. This package is compared with `1296b9c`; earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
+Saved source for the PG-06 spacing/alignment polish, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `2766b3bd5f42b409d14f1821fc5e8c51cd711131c020dc8e4948ffd2496489b4`; observed disk mtime `2026-11-03 22:12:06 +0700`. Disk/live root fingerprints match: `k3Z6yT: 38b29b1d`, `QkNNL: 1831ed5b`. This package is compared with HEAD at verification (`15b66a0`); earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
 
 ## PG-06 Ready for Owner Review
 
-| Refreshed specimen | Desktop | Narrow |
+| Specimen | Desktop refreshed | Narrow specimen |
 | --- | --- | --- |
 | Review | [Kr0gH](Kr0gH.png) | [pSkHH](pSkHH.png) |
-| Revision form | [M18Zn4](M18Zn4.png) | [E2LETd](E2LETd.png) |
+| Revision form | [M18Zn4](M18Zn4.png) | [E2LETd](E2LETd.png) · **not re-exported** |
 | Correction form | [a5jkj](a5jkj.png) | [Wym3I](Wym3I.png) |
 | Reject form | [SpqpD](SpqpD.png) | [Uumk3](Uumk3.png) |
 | Finance Approved confirmation | [AvxAT](AvxAT.png) | [jTy7R](jTy7R.png) |
@@ -18,22 +18,29 @@ Saved source for the PG-06 two-pass rhythm/P0 package, 3 Nov 2026: `design/reimb
 | Correction confirmation | [dRbB4](dRbB4.png) | [FyrQ7](FyrQ7.png) |
 | Reject confirmation | [NORQW](NORQW.png) | [b84ip](b84ip.png) |
 | Inline private-copy gate | [i8by7](i8by7.png) | [Ngiia](Ngiia.png) |
-| Revision validation | [BVkTP](BVkTP.png) | [TMFSr](TMFSr.png) |
-| Correction validation | [CYzIN](CYzIN.png) | [k99ii](k99ii.png) |
-| Reject validation | [DNK1L](DNK1L.png) | [AqkVX](AqkVX.png) |
+| Revision validation | [BVkTP](BVkTP.png) | [TMFSr](TMFSr.png) · **not re-exported** |
+| Correction validation | [CYzIN](CYzIN.png) | [k99ii](k99ii.png) · **not re-exported** |
+| Reject validation | [DNK1L](DNK1L.png) | [AqkVX](AqkVX.png) · **not re-exported** |
 | Saved correction/audit | [IPbJL](IPbJL.png) | [Fdupv](Fdupv.png) |
 | End-scroll views | Not applicable | [Detail El9ow](El9ow.png) · [Correction d0R8t](d0R8t.png) · [History phpZn](phpZn.png) · [Gate MFCrl](MFCrl.png) |
 | Full gallery: 14 Desktop / 18 Narrow | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
 
-Exactly **34 changed PNGs** are refreshed: the 32 specimens and two galleries listed above. Every specimen changed; no other story/service export was refreshed. Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries 12320×8560 / 5800×5820, all native 2×. The direct Desktop gallery export hits the 8192px cap, so its final PNG is composed in sRGB from the 14 already-refreshed native 2× Desktop PNGs and the cached 2× story heading. The heading has identical source data to the unchanged heading in `1296b9c`; it was not re-exported. No image was upscaled. Scroll positions are specimens, not new business states.
+This pass re-exported exactly **30 PNGs**: 14 Desktop specimens, 14 Narrow specimens and two galleries. Separately, **34 PNGs differ against `1296b9c`**; the baseline comparison count and this pass's export count describe different scopes and do not replace one another. Full story coverage remains 14 Desktop / 18 Narrow specimens. Four Narrow specimens were not re-exported because they contain no Selisih row: `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), and `AqkVX` (Reject validation). No other story/service export was refreshed.
 
-**Pass 1, layout only:** copy, color, opacity and enabled-state on 906 existing nodes checked with zero differences before Pass 2. Rhythm is 32px Desktop / 24px Narrow, labels 140px / 120px with 16px value gap, row gap 12px. Titles 16/600; hero 28/700/34 by the latest owner brief. Approver is the last details row with its status gate, not in the action column. Secondary/decision action groups are separated.
+- Desktop (14): `Kr0gH`, `M18Zn4`, `a5jkj`, `SpqpD`, `AvxAT`, `PRHXV`, `QdWeP`, `dRbB4`, `NORQW`, `i8by7`, `BVkTP`, `CYzIN`, `DNK1L`, `IPbJL`.
+- Narrow (14): `pSkHH`, `Wym3I`, `Uumk3`, `Lobuu`, `FyrQ7`, `b84ip`, `jTy7R`, `LeyaV`, `Ngiia`, `Fdupv`, `El9ow`, `d0R8t`, `phpZn`, `MFCrl`.
+- Galleries (2): `k3Z6yT`, `QkNNL`.
+- Unchanged/not exported (no Selisih row): `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), `AqkVX` (Reject validation).
 
-**Pass 2, P0/state:** every specimen shows invoice amount at 13/500; difference badges appear only for unequal amounts. Corrected hero is singular; audit values are 13/500. There is one helper below secondary actions. The private-copy alert attaches to a **visible disabled** forwarding primary, not the copy-save button; file name is invoice-parkir.pdf and the missing-copy state is amber. `MFCrl` ends with that primary, not Reject. Old Desktop gate companion `O4I60g` is removed; `i8by7` remains an inline blocked variation of the same review page, not a separate destination. See [Foundations and renderer limitations](../../../docs/design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Global variables and Approved source definitions remain unchanged.
+ Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries 12320×8560 / 5800×5820, all native 2×. The direct Desktop gallery export hits the 8192px cap, so its final PNG is composed in sRGB from the 14 already-refreshed native 2× Desktop PNGs and the cached 2× story heading. The heading has identical source data to the unchanged heading in the verification HEAD; it was not re-exported. No image was upscaled. Scroll positions are specimens, not new business states.
+
+**Latest polish, presentation only:** section rhythm remains 32px Desktop / 24px Narrow, divider spacing 16/16 and 12/12, title/content gap 12px. Kr0gH column gap is 32px; total label and right action box both start at y=24. Approver helper uses 156px Desktop indentation / none Narrow. Selisih is a plain neutral-2 key-value row, and audit rows have no nested gray surface; audit amounts stay 13/500. Correction values use horizontal Desktop / vertical Narrow order, corrected 28/700 and gray struck-through previous value, with no right-card hero. Correction cards size to content while the workspace still fills height.
+
+Alert now precedes the entire decision group, with 12px to the first control and 12px between Reject and Teruskan; group A is 24px before the alert. MFCrl file/save/group gaps are 16/24. Status, enabled-state and copy remain unchanged except the word-preserving Selisih label/value split. Global variables and Approved source definitions remain unchanged.
 
 **Desktop confirmations are dedicated pages/states, not modal dialogs:** `QdWeP` (Revision), `dRbB4` (correction), `NORQW` (Reject), `AvxAT` (Finance Approved) retain the Admin sidebar and now use a breadcrumb, explicit confirmation page title and a height-filling workspace body. Do not infer modal scrims, dialog overlays or focus traps. `FyrQ7` / `d0R8t` show the same Narrow correction confirmation at initial/end-scroll positions. The three saved-correction specimens all show total Rp1.200.000; Rp1.250.000 remains the original invoice/history value. Owner approval is still pending.
 
-Verification rerun after owner Save: enabled non-scroll bounds findings `k3Z6yT` **0**, `QkNNL` **0**, across 32 PG-06 specimens; `MFCrl` independently **0**. Thirteen Narrow scroll-content intersections with their fixed viewports are intentional and excluded. Saved totals: 85 reusable sources, 1,761 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is unchanged. Only the two PG-06 root subtrees differ from `1296b9c`; other roots, reusable definitions and variables are unchanged. PNG dimensions and composition are recorded above. **Baseline alignment and tabular numeral rendering are not verified:** the Pen schema lacks these properties; exact CSS is provided as an unimported draft handoff in tokens.css. Disabled buttons are visual specimens with explicit layer-state names, not tested runtime controls. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
+Final verification: enabled non-scroll bounds findings `k3Z6yT` **0**, `QkNNL` **0**, across 32 PG-06 specimens; `MFCrl` independently **0**. Thirteen Narrow scroll-content intersections with their fixed viewports are intentional and excluded. Saved totals: 85 reusable sources, 1,761 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is unchanged. Only the two PG-06 root subtrees differ from the verification HEAD; other roots, reusable definitions and variables are unchanged. Disk reconciliation: 11,277 → 11,280 nodes including document (11,276 → 11,279 stored nodes). New IDs are only text labels `Pcf5b`, `jbOOe`, `s07No`; no deleted IDs. Frame count HEAD/disk is 4667/4667, with identical frame ID sets. Desktop subtree: 204 frames, HEAD/disk frame-set hash `7e8bf8c8`; Narrow: 354, hash `e7705927`, matching the previously reported live numbers. No wrapper frames were created. Complete text-content diff: new labels are “Selisih”; `XerKQ`, `gbq4f`, `mwps7` change “Selisih Rp 50.000” to “Rp 50.000”. No other text-content or instance-content override changes. PNG dimensions and composition are recorded above. **Baseline alignment and tabular numeral rendering are not verified:** the Pen schema lacks these properties; exact CSS is provided as an unimported draft handoff in tokens.css. Disabled buttons are visual specimens with explicit layer-state names, not tested runtime controls. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
 
 ## PG-04 existing Finance queue
 
@@ -61,7 +68,7 @@ Existing badge grammar `fawD6`/`vgxDh`, approval evidence board `x5aDgA`, and un
 
 ## Earlier individual state snapshots
 
-Except for the 34 PNGs explicitly listed in the current PG-06 two-pass package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
+Except for the 30 PNGs explicitly listed as refreshed in the current PG-06 polish package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
 
 - Queue [filtered results](Wjjux.png); [private evidence copy required](i8by7.png).
 - Revision: [Reimbursement](M18Zn4.png), [Payment Request](LjcEB.png), [Overtime](KXoh7.png). Public instruction and internal note are separate visual fields.
