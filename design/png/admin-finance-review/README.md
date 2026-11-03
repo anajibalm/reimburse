@@ -2,25 +2,38 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-Saved source for the PG-06 ringkasan pemeriksaan refactor, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `bc4db1cab8cbe62b58a7c144bea798f23eb6a6b60b2a288b417868de3a15ea33`. Disk/live root fingerprints match: `k3Z6yT: e682afbd`, `QkNNL: b9a225fe`. This pass is compared with `b7eeba9`; earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
+Saved source for the PG-06 two-pass rhythm/P0 package, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `6cabfdb0b472fe26bd8be1d535a4e169be56c72514aeaeb94ea53508e1ae718f`. Disk/live root fingerprints match: `k3Z6yT: 29422159`, `QkNNL: c7086bac`. This package is compared with `1296b9c`; earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
 
 ## PG-06 Ready for Owner Review
 
-| Owner review task | Desktop | Narrow |
+| Refreshed specimen | Desktop | Narrow |
 | --- | --- | --- |
-| Request identity and detail | [Kr0gH](Kr0gH.png) | [pSkHH](pSkHH.png) |
-| Confirm correction: old/new/total/reason | [dRbB4](dRbB4.png) | [FyrQ7](FyrQ7.png) |
-| Saved correction and audit | [IPbJL](IPbJL.png) | [Fdupv](Fdupv.png) |
-| Full state gallery, 14 Desktop / 18 Narrow specimens | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
-| Private-copy gate and actions after scroll | Not applicable | [MFCrl](MFCrl.png) |
+| Review | [Kr0gH](Kr0gH.png) | [pSkHH](pSkHH.png) |
+| Revision form | [M18Zn4](M18Zn4.png) | [E2LETd](E2LETd.png) |
+| Correction form | [a5jkj](a5jkj.png) | [Wym3I](Wym3I.png) |
+| Reject form | [SpqpD](SpqpD.png) | [Uumk3](Uumk3.png) |
+| Finance Approved confirmation | [AvxAT](AvxAT.png) | [jTy7R](jTy7R.png) |
+| Missing Approver | [PRHXV](PRHXV.png) | [LeyaV](LeyaV.png) |
+| Revision confirmation | [QdWeP](QdWeP.png) | [Lobuu](Lobuu.png) |
+| Correction confirmation | [dRbB4](dRbB4.png) | [FyrQ7](FyrQ7.png) |
+| Reject confirmation | [NORQW](NORQW.png) | [b84ip](b84ip.png) |
+| Inline private-copy gate | [i8by7](i8by7.png) | [Ngiia](Ngiia.png) |
+| Revision validation | [BVkTP](BVkTP.png) | [TMFSr](TMFSr.png) |
+| Correction validation | [CYzIN](CYzIN.png) | [k99ii](k99ii.png) |
+| Reject validation | [DNK1L](DNK1L.png) | [AqkVX](AqkVX.png) |
+| Saved correction/audit | [IPbJL](IPbJL.png) | [Fdupv](Fdupv.png) |
+| End-scroll views | Not applicable | [Detail El9ow](El9ow.png) · [Correction d0R8t](d0R8t.png) · [History phpZn](phpZn.png) · [Gate MFCrl](MFCrl.png) |
+| Full gallery: 14 Desktop / 18 Narrow | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
 
-Exactly **nine PNGs** were exported from the matched saved source in this refactor: `Kr0gH`, `pSkHH`, `dRbB4`, `FyrQ7`, `IPbJL`, `Fdupv`, `k3Z6yT`, `QkNNL`, `MFCrl`. No other specimen was re-exported. Desktop individual entries are 2880×1920; Narrow entries 780×1688; Narrow gallery 5800×5820, all exact 2×. **Desktop gallery limitation:** the requested 2× direct export is capped by the exporter at 8192×5692; it is not a full 2× gallery. No upscale or extra child exports/compositing were used in this pass. Existing individual scroll PNGs `El9ow`, `d0R8t`, `phpZn` remain from `b7eeba9`; use the updated gallery for their current appearance. Scroll positions count as specimens, not additional business states.
+Exactly **34 changed PNGs** are refreshed: the 32 specimens and two galleries listed above. Every specimen changed; no other story/service export was refreshed. Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries 12320×8560 / 5800×5820, all native 2×. The direct Desktop gallery export hits the 8192px cap, so its final PNG is composed in sRGB from the 14 already-refreshed native 2× Desktop PNGs and the cached 2× story heading. The heading has identical source data to the unchanged heading in `1296b9c`; it was not re-exported. No image was upscaled. Scroll positions are specimens, not new business states.
 
-Refactor: two-column key-value rows with fixed 140px Desktop / 110px Narrow labels and filling values; amounts 22/700 and section titles 16/700 per Foundations. Invoice amount is omitted when equal to the request total. Desktop main area contains total, details and evidence; its companion contains Approver, gate and actions. Narrow follows this sequence vertically. Correction-audit and public/internal helpers are separated next to their respective actions. The private-copy alert immediately precedes Simpan salinan privat, using existing warning colors and the draft warning-line token documented in [foundations](../../../docs/design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Warning now covers any party required to act before continuation, not only Requester. No new palette or global canvas-variable change.
+**Pass 1, layout only:** copy, color, opacity and enabled-state on 906 existing nodes checked with zero differences before Pass 2. Rhythm is 32px Desktop / 24px Narrow, labels 140px / 120px with 16px value gap, row gap 12px. Titles 16/600; hero 28/700/34 by the latest owner brief. Approver is the last details row with its status gate, not in the action column. Secondary/decision action groups are separated.
 
-**Desktop confirmations are dedicated pages/states, not modal dialogs:** `QdWeP` (Revision), `dRbB4` (correction), `NORQW` (Reject), `AvxAT` (Finance Approved) retain the Admin sidebar, request header, ← Antrean and an in-workspace confirmation panel. Do not infer modal scrims, dialog overlays or focus traps. `FyrQ7` / `d0R8t` show the same Narrow correction confirmation at initial/end-scroll positions. The three saved-correction specimens all show total Rp1.200.000; Rp1.250.000 remains the original invoice/history value. Owner approval is still pending.
+**Pass 2, P0/state:** every specimen shows invoice amount at 13/500; difference badges appear only for unequal amounts. Corrected hero is singular; audit values are 13/500. There is one helper below secondary actions. The private-copy alert attaches to a **visible disabled** forwarding primary, not the copy-save button; file name is invoice-parkir.pdf and the missing-copy state is amber. `MFCrl` ends with that primary, not Reject. Old Desktop gate companion `O4I60g` is removed; `i8by7` remains an inline blocked variation of the same review page, not a separate destination. See [Foundations and renderer limitations](../../../docs/design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Global variables and Approved source definitions remain unchanged.
 
-Verification rerun after owner Save: enabled non-scroll bounds findings `k3Z6yT` **0**, `QkNNL` **0**, across 32 PG-06 specimens; `MFCrl` independently **0**. Eight Narrow scroll-content intersections with their fixed viewports are intentional and excluded. Saved totals: 85 reusable sources, 1,783 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is unchanged. Only the two PG-06 root subtrees differ from `b7eeba9`; other roots, reusable definitions and variables are unchanged. PNG dimensions and the Desktop exporter cap are recorded above. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
+**Desktop confirmations are dedicated pages/states, not modal dialogs:** `QdWeP` (Revision), `dRbB4` (correction), `NORQW` (Reject), `AvxAT` (Finance Approved) retain the Admin sidebar and now use a breadcrumb, explicit confirmation page title and a height-filling workspace body. Do not infer modal scrims, dialog overlays or focus traps. `FyrQ7` / `d0R8t` show the same Narrow correction confirmation at initial/end-scroll positions. The three saved-correction specimens all show total Rp1.200.000; Rp1.250.000 remains the original invoice/history value. Owner approval is still pending.
+
+Verification rerun after owner Save: enabled non-scroll bounds findings `k3Z6yT` **0**, `QkNNL` **0**, across 32 PG-06 specimens; `MFCrl` independently **0**. Thirteen Narrow scroll-content intersections with their fixed viewports are intentional and excluded. Saved totals: 85 reusable sources, 1,761 refs, 43 variables; zero missing refs. No new source was created, so `components.md` is unchanged. Only the two PG-06 root subtrees differ from `1296b9c`; other roots, reusable definitions and variables are unchanged. PNG dimensions and composition are recorded above. **Baseline alignment and tabular numeral rendering are not verified:** the Pen schema lacks these properties; exact CSS is provided as an unimported draft handoff in tokens.css. Disabled buttons are visual specimens with explicit layer-state names, not tested runtime controls. No runtime interaction, authorization, audit persistence, upload/OCR, keyboard/focus or screen-reader behavior was tested. Owner approval is still required; do not merge.
 
 ## PG-04 existing Finance queue
 
@@ -48,7 +61,7 @@ Existing badge grammar `fawD6`/`vgxDh`, approval evidence board `x5aDgA`, and un
 
 ## Earlier individual state snapshots
 
-Except for the nine PNGs explicitly listed in the current PG-06 refactor package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
+Except for the 34 PNGs explicitly listed in the current PG-06 two-pass package above, the links below are existing historical exports. Use the updated PG-06 root galleries for the current state variations; do not assume these individual snapshots were regenerated.
 
 - Queue [filtered results](Wjjux.png); [private evidence copy required](i8by7.png).
 - Revision: [Reimbursement](M18Zn4.png), [Payment Request](LjcEB.png), [Overtime](KXoh7.png). Public instruction and internal note are separate visual fields.

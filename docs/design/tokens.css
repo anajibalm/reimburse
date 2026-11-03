@@ -121,3 +121,62 @@
   --motion-duration: 180ms; /* USULAN BARU: within board's 150–220ms */
   --motion-easing: cubic-bezier(0.2, 0, 0, 1); /* USULAN BARU */
 }
+
+/* PG-06 owner-directed draft handoff, not imported by a product app.
+ * These selectors specify renderer features absent from the Pen schema.
+ * Global tokens and Approved canvas source definitions remain unchanged.
+ */
+.pg06-review {
+  --pg06-label-width: 140px;
+  --pg06-section-rhythm: 32px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pg06-review[data-layout="narrow"] {
+  --pg06-label-width: 120px;
+  --pg06-section-rhythm: 24px;
+}
+
+.pg06-review .key-value-row {
+  display: grid;
+  grid-template-columns: var(--pg06-label-width) minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: baseline;
+}
+
+.pg06-review .key-value-fields { row-gap: 12px; }
+.pg06-review .key-label { font-size: 13px; line-height: 18px; }
+.pg06-review .field-value { font-size: 14px; line-height: 20px; }
+.pg06-review .section-heading { font-size: 16px; font-weight: 600; margin-block-end: 12px; }
+.pg06-review .hero-amount { font-size: 28px; font-weight: 700; line-height: 34px; }
+.pg06-review .invoice-amount,
+.pg06-review .audit-amount { font-size: 13px; font-weight: 500; line-height: 18px; }
+
+.pg06-review .section-divider {
+  height: 1px;
+  margin-block: calc(var(--pg06-section-rhythm) / 2);
+  border: 0;
+  background: #eee;
+}
+
+.pg06-review .secondary-helper {
+  max-width: 60ch;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6b7280;
+}
+
+.pg06-review .private-copy-alert {
+  margin-block: 24px 12px;
+  padding: 12px 16px;
+  gap: 8px;
+  background: var(--color-warning-soft);
+  border: 1px solid var(--warning-line);
+}
+
+/* The implementation must set disabled, not merely paint an enabled button. */
+.pg06-review .finance-forward:disabled {
+  background: var(--color-surface-subtle);
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
+}
