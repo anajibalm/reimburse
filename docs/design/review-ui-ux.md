@@ -21,7 +21,7 @@ Ketiganya tercatat di [open-questions.md][questions]. Ini memblokir finalisasi p
 
 | Keputusan | Masalah bagi UI | Keputusan minimal yang diperlukan |
 | --- | --- | --- |
-| Nominal yang ditampilkan | Dashboard/daftar dan detail bisa mengacu pada nilai berbeda sesudah koreksi Finance. | **Butuh keputusan produk:** apakah nominal Dashboard/daftar mengikuti nilai saat dikirim atau nilai hasil koreksi, serta penjelasan pembandingnya. Jangan memilih diam-diam dari fixture terminal. |
+| Nominal yang ditampilkan | Keputusan tampilan sudah diambil di kanvas PG-06: total setelah koreksi adalah nilai otoritatif; nominal invoice dan riwayat tetap nilai asli sebagai pembanding. Yang masih terbuka hanya semantik nominal pada Dashboard/daftar. | **Masih terbuka:** tetapkan bagaimana Dashboard/daftar merepresentasikan keputusan PG-06. Jangan perlakukan ini sebagai kontradiksi dengan tampilan koreksi di PG-06 atau memilih dari fixture terminal. |
 | Gate konfirmasi rekening | Belum jelas apakah rekening yang belum dikonfirmasi menghalangi Tinjau atau Submit Payment Request. | **Butuh keputusan produk:** tindakan mana yang diblokir dan pesan pemulihannya. PRD tetap membatasi KTP/rekening ke Admin; jangan membuka data sensitif untuk menyelesaikan ambiguitas ini. |
 | Lebar format nomor | Contoh empat dan enam digit tidak konsisten antara daftar dan detail. | **Butuh keputusan produk:** lebar representasi nomor publik yang digunakan UI. Prefix, sequence per organisasi/layanan, dan nomor yang tidak berubah tetap mengikuti PRD. Jangan menetapkan padding baru dari contoh. |
 
