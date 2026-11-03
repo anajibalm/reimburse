@@ -1,6 +1,6 @@
 # Design foundations
 
-**Status:** handoff for review, 31 Oct 2026. The active design source is [`../../design/reimburse.pen`](../../design/reimburse.pen). PRD owns product rules. This file records the current canvas structure and key visual foundations; it does not turn static screens into implemented behavior.
+**Status:** handoff for review, 2 Nov 2026. The active design source is [`../../design/reimburse.pen`](../../design/reimburse.pen). PRD owns product rules. This file records the current canvas structure and key visual foundations; it does not turn static screens into implemented behavior.
 
 ## Active canvas
 
@@ -23,7 +23,28 @@ Foundations/01 displays these values: canvas `#F0F1F2`, surface `#FFFFFF`, elect
 
 The live canvas defines `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Foundations/01 labels the first `3.36:1 on white` and describes it as meeting the 3:1 non-text boundary threshold. The role and screen mapping of the second token have not been reconciled. Preserve both until design review; do not replace them by inference. The light `line = #E3E6EA` variable is separate from field-border values.
 
+Anotasi `GWrQ6` (`Annotation · Unresolved control border tokens`) ditambahkan ke
+`VD4Fy` untuk mencatat kedua token tersebut beserta pernyataan bahwa pemetaannya
+belum diputuskan. Tidak ada nilai variabel yang diubah. Karena blok anotasi
+menambah tinggi, `VD4Fy` tumbuh 860 → 1050 px dan export
+`reference/FOUNDATIONS-01-Visual-direction-and-tokens.png` diperbarui.
+
 Canvas Foundations/01 also records selected status contrast values: success 4.85:1, warning 4.85:1, and danger 5.75:1 on tinted surfaces. These are canvas notes, not a fresh contrast audit of every rendered screen, state, opacity, or export.
+
+## Token status netral
+
+Dua variabel ditambahkan untuk membedakan status yang menunggu tanpa memakai
+warna semantik atau biru aksi. Keduanya diukur pada `$subtle` `#F7F8FA`:
+
+| Variabel | Nilai | Kontras | Dipakai |
+|---|---|---:|---|
+| `status-neutral-1` | `#65737C` | 4.60:1 | `Pending` (antre, belum diproses Admin) |
+| `status-neutral-2` | `#4D5662` | 7.00:1 | `Finance Approved`, `Approved`, `Return to Admin`, `Maker Done` |
+
+`status-neutral-1` hanya memiliki margin 0.10 di atas ambang 4.5:1 untuk teks
+12 px; opacity atau alpha tidak boleh diterapkan pada subtree yang memuat badge.
+Total variabel kanvas menjadi 43. Nilai tetap draft sampai diuji pada layar
+produk.
 
 ## Frame sizes observed
 

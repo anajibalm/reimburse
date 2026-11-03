@@ -1,6 +1,6 @@
 # Reusable components
 
-**Source:** active Pencil canvas [`../../design/reimburse.pen`](../../design/reimburse.pen). **Observed after the PR #16 correction pass:** 84 reusable component sources, 1,585 `ref` instances, and no references to missing source components. Earlier counts describe prior canvas snapshots.
+**Source:** active Pencil canvas [`../../design/reimburse.pen`](../../design/reimburse.pen). **Observed in the saved PG-06 owner review package, 3 Nov 2026:** 85 reusable component sources, 1,694 `ref` instances, and no references to missing source components. Before the PG-06 pass, commit `63f0590` contained 85 sources and 1,595 refs. The source definitions are unchanged; new PG-06 specimens instance existing sources. Earlier counts describe prior canvas snapshots.
 
 ## Current source IDs
 
@@ -46,6 +46,7 @@
 | `Component/Sidebar/Rail` | `Odk8q` | Sidebar rail. |
 | `Component/Page/Header` | `gzK11` | Page header. |
 | `Recent status badge 0` | `R5NHOj` | Current canvas source name as observed. |
+| `Component/Status/Badge · with subtext` | `fawD6` | Status badge dengan dua baris: token status PRD dan subteks penjelas. Tata bahasa warna di `screens.md`. |
 
 ## PG-02 Mobile additions, issue #5
 
@@ -97,6 +98,28 @@ Board `o0h9YD` contains the reusable Overtime date entry `IF8Ci`, with distinct 
 | `Component / Admin Finance decision summary` | `G1vZd` | Shared confirmation summary used by Revision `QdWeP` and Finance Approved `AvxAT`. |
 
 Desktop Admin screens continue to instance approved page header `Igbr1`; queue/review status labels instance `R5NHOj`. Narrow queue rows instance `jzecl`, and correction/document actions reuse `WQYrQ`; Payment Request tax treatment reuses `bEhaY`. Sample disclosure is in frame names/handoff, not UI copy. These references establish canvas reuse only, not runtime behavior or authorization.
+
+## Status badge grammar · issue #15 / PR #16
+
+`fawD6` (`Component/Status/Badge · with subtext`) menambahkan baris subteks pada
+badge status. Specimen `vgxDh` memuat 10 instance, satu per status PRD. `ugMIf`
+dan 25 instance lamanya tidak diubah; `fawD6` adalah sumber terpisah.
+
+Tata bahasa warna: `$warning` = Requester harus bertindak (`Revision`,
+`Pending vendor proof`); `$success` = lunas (`Paid`); `$danger` = ditolak
+(`Rejected`); `$muted` = dibatalkan (`Cancelled`); `status-neutral-1` = antre
+(`Pending`); `status-neutral-2` = diproses, menunggu pihak lain (`Finance
+Approved`, `Approved`, `Return to Admin`, `Maker Done`). `$primary` dan `$text`
+tidak dipakai sebagai label badge.
+
+Dua note di `h1ssGO`: `c3kAg4` mencatat `status-neutral-1` 4.60:1 (margin 0.10 di
+atas ambang) sehingga opacity tidak boleh diterapkan pada subtree badge; `Nsqcb`
+mencatat kolom next step wajib terisi karena empat status berbagi
+`status-neutral-2`. `Tgrf0` memuat kutipan tata bahasa warna tersebut.
+
+`x5aDgA` (`REVIEW/README · Approval status`) adalah board bukti-baca yang
+mendaftar status persetujuan tiap story beserta node buktinya. Board ini tidak
+menggantikan PRD dan tidak menetapkan approval baru.
 
 ## Usage boundaries
 

@@ -27,6 +27,10 @@
   --color-danger-strong-text: #ffc5c1;
   --color-danger-strong-dot: #f17c75;
 
+  /* Status netral, issue #15 / PR #16. Keduanya draft. */
+  --status-neutral-1: #65737c; /* antre; 4.60:1 pada #f7f8fa */
+  --status-neutral-2: #4d5662; /* diproses, menunggu pihak lain; 7.00:1 pada #f7f8fa */
+
   /* Typography. Inter is a tentative implementation choice. */
   --font-ui: Inter, system-ui, sans-serif;
   --font-size-page-title: 1.75rem;

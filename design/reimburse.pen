@@ -134218,9 +134218,9 @@
       "id": "k3Z6yT",
       "x": 188530,
       "y": 0,
-      "name": "ADMIN FINANCE / PG-06 / Desktop",
+      "name": "ADMIN FINANCE / PG-06 / Desktop · Ready for Owner Review",
       "width": 6160,
-      "height": 3240,
+      "height": 4280,
       "layout": "none",
       "children": [
         {
@@ -134344,10 +134344,10 @@
                       "type": "text",
                       "id": "C2GB3",
                       "name": "Context",
-                      "fill": "#20242A",
+                      "fill": "$text",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Invoice INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
+                      "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
                       "fontFamily": "DM Sans",
                       "fontSize": 15,
                       "fontWeight": "normal"
@@ -134798,7 +134798,7 @@
                       "width": "fill_container",
                       "descendants": {
                         "g6qurL": {
-                          "content": "Nominal invoice sebelumnya"
+                          "content": "Nominal sebelumnya · tidak diubah"
                         },
                         "P9sHXg": {
                           "content": "Rp1.250.000",
@@ -134833,7 +134833,7 @@
                           "content": "Alasan koreksi · wajib"
                         },
                         "P9sHXg": {
-                          "content": "Jelaskan koreksi",
+                          "content": "Nominal disesuaikan dengan invoice.",
                           "fontSize": 14
                         }
                       }
@@ -135004,7 +135004,7 @@
                           "content": "Alasan penolakan · wajib"
                         },
                         "P9sHXg": {
-                          "content": "Jelaskan alasan penolakan",
+                          "content": "Bukti transaksi tidak sesuai dengan invoice.",
                           "fontSize": 14
                         }
                       }
@@ -135455,7 +135455,7 @@
                       "width": "fill_container",
                       "descendants": {
                         "yoc5m": {
-                          "content": "Field dibuka · Invoice dan bukti\nInstruksi publik · Mohon unggah invoice yang terbaca jelas."
+                          "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nField dibuka · Invoice dan bukti\nInstruksi publik · Mohon unggah invoice yang terbaca jelas.\nCatatan internal tidak dikirim ke Requester."
                         }
                       }
                     },
@@ -135483,7 +135483,7 @@
                           "name": "Konfirmasi",
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Konfirmasi"
+                              "content": "Kirim Revision"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -135600,6 +135600,18 @@
                       "fontWeight": "normal"
                     },
                     {
+                      "id": "Y1B9S",
+                      "type": "ref",
+                      "ref": "G1vZd",
+                      "name": "Decision summary · shared",
+                      "width": "fill_container",
+                      "descendants": {
+                        "yoc5m": {
+                          "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042\nNominal lama · Rp1.250.000\nNominal baru · Rp1.200.000\nTotal setelah koreksi · Rp1.200.000\nAlasan · Nominal disesuaikan dengan invoice."
+                        }
+                      }
+                    },
+                    {
                       "type": "frame",
                       "id": "scW7S",
                       "name": "Confirmation actions",
@@ -135623,7 +135635,7 @@
                           "name": "Konfirmasi",
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Konfirmasi"
+                              "content": "Simpan koreksi"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -135740,6 +135752,18 @@
                       "fontWeight": "normal"
                     },
                     {
+                      "id": "Vem8L",
+                      "type": "ref",
+                      "ref": "G1vZd",
+                      "name": "Decision summary · shared",
+                      "width": "fill_container",
+                      "descendants": {
+                        "yoc5m": {
+                          "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nAlasan publik · Bukti transaksi tidak sesuai dengan invoice.\nPengajuan menjadi Rejected dan tidak dapat diedit."
+                        }
+                      }
+                    },
+                    {
                       "type": "frame",
                       "id": "J56nZ4",
                       "name": "Confirmation actions",
@@ -135757,16 +135781,14 @@
                           }
                         },
                         {
-                          "id": "WRIAq",
+                          "id": "fiCgD",
                           "type": "ref",
-                          "ref": "fFmN2",
-                          "name": "Konfirmasi",
+                          "ref": "yMFz0",
+                          "name": "Tolak pengajuan · destructive confirmation",
+                          "height": 44,
                           "descendants": {
-                            "U7Cbs": {
-                              "content": "Konfirmasi"
-                            },
-                            "eq2MD": {
-                              "enabled": false
+                            "D3xtJ": {
+                              "content": "Tolak pengajuan"
                             }
                           }
                         }
@@ -135887,10 +135909,10 @@
                       "type": "text",
                       "id": "xS3kX",
                       "name": "Context",
-                      "fill": "#20242A",
+                      "fill": "$text",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Invoice INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
+                      "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
                       "fontFamily": "DM Sans",
                       "fontSize": 15,
                       "fontWeight": "normal"
@@ -136021,6 +136043,898 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "BVkTP",
+          "x": 40,
+          "y": 3220,
+          "name": "CANDIDATE / ADMIN / PG-06 / Desktop · Validasi Revision · instruksi wajib · Data contoh",
+          "clip": true,
+          "width": 1440,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "cornerRadius": 32,
+          "gap": 16,
+          "padding": [
+            0,
+            16,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "C0skez",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
+              "width": 248,
+              "height": 960
+            },
+            {
+              "type": "frame",
+              "id": "mbJ0k",
+              "name": "PG-04 inset workspace",
+              "width": "fill_container",
+              "height": 928,
+              "fill": "#EDEDED",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "id": "qDZGB",
+                  "type": "ref",
+                  "ref": "Igbr1",
+                  "name": "Shared Desktop header · Pengajuan",
+                  "width": "fill_container",
+                  "height": 63,
+                  "descendants": {
+                    "P5kQ8L": {
+                      "enabled": false
+                    },
+                    "cyhjq": {
+                      "enabled": true
+                    },
+                    "xeFpj": {
+                      "content": "Pemeriksaan reimbursement"
+                    },
+                    "kpCLO": {
+                      "content": "REIM-000041 · Pending"
+                    },
+                    "xaXdi": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "nq6cy",
+                  "name": "Finance Revision form",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m190G",
+                      "name": "Title",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Revision",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 22,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dug1Q",
+                      "name": "Public context",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pilih field yang dibuka dan tulis instruksi yang dapat dibaca Requester.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m1IAu0",
+                      "name": "Revision selection",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "BZU2p",
+                          "name": "Selected checkbox",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "square-check",
+                          "library": "lucide",
+                          "fill": "#075DD8"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZP3m8",
+                          "name": "Selected fields",
+                          "fill": "#20242A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Invoice dan bukti",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "m0VI67",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Instruksi publik · wajib",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Instruksi publik · wajib"
+                        },
+                        "a0YHVh": {
+                          "stroke": "$danger"
+                        },
+                        "P9sHXg": {
+                          "content": "",
+                          "fill": "$danger",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "F6QphR",
+                      "name": "Inline error · required decision field",
+                      "fill": "$danger",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Instruksi publik wajib diisi. Jelaskan field yang perlu diperbaiki.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "E4tHI",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Catatan internal · hanya Admin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Catatan internal · hanya Admin"
+                        },
+                        "P9sHXg": {
+                          "content": "Opsional",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "TNDpT",
+                      "name": "Privacy hint",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Instruksi publik dikirim ke Requester. Catatan internal tidak dibagikan.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L1gAf",
+                      "name": "Actions",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "XqxOi",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Batal",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Batal"
+                            }
+                          }
+                        },
+                        {
+                          "id": "tuz43",
+                          "type": "ref",
+                          "ref": "fFmN2",
+                          "name": "Tinjau Revision",
+                          "descendants": {
+                            "U7Cbs": {
+                              "content": "Tinjau Revision"
+                            },
+                            "eq2MD": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CYzIN",
+          "x": 1560,
+          "y": 3220,
+          "name": "CANDIDATE / ADMIN / PG-06 / Desktop · Validasi Koreksi · alasan wajib · Data contoh",
+          "clip": true,
+          "width": 1440,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "cornerRadius": 32,
+          "gap": 16,
+          "padding": [
+            0,
+            16,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "bZXZd",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
+              "width": 248,
+              "height": 960
+            },
+            {
+              "type": "frame",
+              "id": "H8bgA",
+              "name": "PG-04 inset workspace",
+              "width": "fill_container",
+              "height": 928,
+              "fill": "#EDEDED",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "id": "g1T4p",
+                  "type": "ref",
+                  "ref": "Igbr1",
+                  "name": "Shared Desktop header · Pengajuan",
+                  "width": "fill_container",
+                  "height": 63,
+                  "descendants": {
+                    "P5kQ8L": {
+                      "enabled": false
+                    },
+                    "cyhjq": {
+                      "enabled": true
+                    },
+                    "xeFpj": {
+                      "content": "Pemeriksaan reimbursement"
+                    },
+                    "kpCLO": {
+                      "content": "REIM-000041 · Pending"
+                    },
+                    "xaXdi": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "nKeb2",
+                  "name": "Finance Koreksi Finance form",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hrg0u",
+                      "name": "Title",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Koreksi Finance",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 22,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wL2o2",
+                      "name": "Audit hint",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nilai lama, nilai baru, actor, waktu dan alasan tersimpan dalam audit.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "avlam",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Nilai sebelumnya",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Nominal sebelumnya · tidak diubah"
+                        },
+                        "P9sHXg": {
+                          "content": "Rp1.250.000",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "id": "W4AG7R",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Nilai baru",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Nominal invoice baru"
+                        },
+                        "P9sHXg": {
+                          "content": "Rp1.200.000",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "id": "Y3PI3v",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Alasan koreksi · wajib",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Alasan koreksi · wajib"
+                        },
+                        "a0YHVh": {
+                          "stroke": "$danger"
+                        },
+                        "P9sHXg": {
+                          "content": "",
+                          "fill": "$danger",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "kULv9",
+                      "name": "Inline error · required decision field",
+                      "fill": "$danger",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Alasan koreksi wajib diisi sebelum melanjutkan.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wAeCz",
+                      "name": "Calculation",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Total contoh setelah koreksi · Rp1.200.000",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Kvqhx",
+                      "name": "Actions",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "AXU9q",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Batal",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Batal"
+                            }
+                          }
+                        },
+                        {
+                          "id": "Z6SbJ3",
+                          "type": "ref",
+                          "ref": "fFmN2",
+                          "name": "Tinjau koreksi",
+                          "descendants": {
+                            "U7Cbs": {
+                              "content": "Tinjau koreksi"
+                            },
+                            "eq2MD": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DNK1L",
+          "x": 3080,
+          "y": 3220,
+          "name": "CANDIDATE / ADMIN / PG-06 / Desktop · Validasi Reject · alasan wajib · Data contoh",
+          "clip": true,
+          "width": 1440,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "cornerRadius": 32,
+          "gap": 16,
+          "padding": [
+            0,
+            16,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "Vjpav",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
+              "width": 248,
+              "height": 960
+            },
+            {
+              "type": "frame",
+              "id": "M1JWmr",
+              "name": "PG-04 inset workspace",
+              "width": "fill_container",
+              "height": 928,
+              "fill": "#EDEDED",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "id": "aj93G",
+                  "type": "ref",
+                  "ref": "Igbr1",
+                  "name": "Shared Desktop header · Pengajuan",
+                  "width": "fill_container",
+                  "height": 63,
+                  "descendants": {
+                    "P5kQ8L": {
+                      "enabled": false
+                    },
+                    "cyhjq": {
+                      "enabled": true
+                    },
+                    "xeFpj": {
+                      "content": "Pemeriksaan reimbursement"
+                    },
+                    "kpCLO": {
+                      "content": "REIM-000041 · Pending"
+                    },
+                    "xaXdi": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "d1cGT",
+                  "name": "Finance Reject form",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ws8lh",
+                      "name": "Title",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Reject",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 22,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nfzJc",
+                      "name": "Reject consequence",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pengajuan yang ditolak tidak dapat diedit kembali.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "iLNrG",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Alasan penolakan · wajib",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Alasan penolakan · wajib"
+                        },
+                        "a0YHVh": {
+                          "stroke": "$danger"
+                        },
+                        "P9sHXg": {
+                          "content": "",
+                          "fill": "$danger",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "H5mtUo",
+                      "name": "Inline error · required decision field",
+                      "fill": "$danger",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Alasan penolakan wajib diisi sebelum melanjutkan.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "zUDY2",
+                      "type": "ref",
+                      "ref": "jSgCJ",
+                      "name": "Catatan internal · hanya Admin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "g6qurL": {
+                          "content": "Catatan internal · hanya Admin"
+                        },
+                        "P9sHXg": {
+                          "content": "Opsional",
+                          "fontSize": 14
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WnkZv",
+                      "name": "Actions",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "E76J7m",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Batal",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Batal"
+                            }
+                          }
+                        },
+                        {
+                          "id": "OMPn3",
+                          "type": "ref",
+                          "ref": "fFmN2",
+                          "name": "Tinjau penolakan",
+                          "descendants": {
+                            "U7Cbs": {
+                              "content": "Tinjau penolakan"
+                            },
+                            "eq2MD": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IPbJL",
+          "x": 4600,
+          "y": 3220,
+          "name": "CANDIDATE / ADMIN / PG-06 / Desktop · Koreksi tersimpan dan audit · Data contoh",
+          "clip": true,
+          "width": 1440,
+          "height": 960,
+          "fill": "#FFFFFF",
+          "cornerRadius": 32,
+          "gap": 16,
+          "padding": [
+            0,
+            16,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "z6sUxU",
+              "type": "ref",
+              "ref": "fTzqJ",
+              "name": "Admin Finance sidebar · shared",
+              "width": 248,
+              "height": 960
+            },
+            {
+              "type": "frame",
+              "id": "D3LZq",
+              "name": "PG-04 inset workspace",
+              "width": "fill_container",
+              "height": 928,
+              "fill": "#EDEDED",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "id": "DFqLA",
+                  "type": "ref",
+                  "ref": "Igbr1",
+                  "name": "Shared Desktop header · Pengajuan",
+                  "width": "fill_container",
+                  "height": 63,
+                  "descendants": {
+                    "P5kQ8L": {
+                      "enabled": false
+                    },
+                    "cyhjq": {
+                      "enabled": true
+                    },
+                    "xeFpj": {
+                      "content": "Pemeriksaan reimbursement"
+                    },
+                    "kpCLO": {
+                      "content": "REIM-000041 · Pending"
+                    },
+                    "xaXdi": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "q0p0DW",
+                  "name": "Finance reimbursement surface",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QFQyX",
+                      "name": "Heading",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ringkasan pemeriksaan",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 22,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "rmnVd",
+                      "type": "ref",
+                      "ref": "R5NHOj",
+                      "name": "Status badge",
+                      "fill": "#E3F0FF",
+                      "descendants": {
+                        "U0zly": {
+                          "content": "Pending",
+                          "fill": "#07519C"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "yAlrr",
+                      "name": "Context",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Requester · Maya A. · PT Contoh A\nInvoice · INV-2026-1042 · 24 Okt 2026 · Rp1.200.000",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vFPU0",
+                      "name": "Assigned approver",
+                      "fill": "#20242A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Approver · Sari A.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "jxaup",
+                      "type": "ref",
+                      "ref": "dDnbj",
+                      "name": "Bukti dapat dibuka",
+                      "width": "fill_container",
+                      "descendants": {
+                        "X2OFDZ": {
+                          "content": "invoice-parkir.pdf"
+                        },
+                        "wBEwR": {
+                          "content": "Bukti utama · tersedia"
+                        },
+                        "xUm5L": {
+                          "content": "Lihat"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ZABF7",
+                      "type": "ref",
+                      "ref": "G1vZd",
+                      "name": "Correction audit · shared summary",
+                      "width": "fill_container",
+                      "descendants": {
+                        "yoc5m": {
+                          "content": "REIM-000041 · Parking reimbursement\nInvoice · INV-2026-1042\nNominal lama · Rp1.250.000\nNominal baru / total · Rp1.200.000\nAlasan · Nominal disesuaikan dengan invoice.\nActor · Admin Finance · 24 Okt 2026, 10.30\nStatus tetap Pending; koreksi dicatat dalam audit."
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "JMa0M",
+                      "name": "Correction",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Koreksi tersimpan. Nilai sebelumnya dan alasan tetap tersedia dalam audit.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wcA4X",
+                      "name": "Notes",
+                      "fill": "#66717C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Instruksi publik untuk Requester terpisah dari catatan internal.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mVMp8",
+                      "name": "Finance actions",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "LTBOt",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Koreksi Finance",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Koreksi"
+                            }
+                          }
+                        },
+                        {
+                          "id": "W4xhJ",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Minta Revision",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Minta Revision"
+                            }
+                          }
+                        },
+                        {
+                          "id": "xKNJC",
+                          "type": "ref",
+                          "ref": "WQYrQ",
+                          "name": "Reject",
+                          "descendants": {
+                            "GvpjL": {
+                              "content": "Reject"
+                            }
+                          }
+                        },
+                        {
+                          "id": "Rpbtj",
+                          "type": "ref",
+                          "ref": "fFmN2",
+                          "name": "Finance Approved",
+                          "descendants": {
+                            "U7Cbs": {
+                              "content": "Finance Approved"
+                            },
+                            "eq2MD": {
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -136029,9 +136943,9 @@
       "id": "QkNNL",
       "x": 194810,
       "y": 0,
-      "name": "ADMIN FINANCE / PG-06 / Narrow",
+      "name": "ADMIN FINANCE / PG-06 / Narrow · Ready for Owner Review",
       "width": 2900,
-      "height": 1050,
+      "height": 2910,
       "layout": "none",
       "children": [
         {
@@ -136111,6 +137025,18 @@
                       "gap": 14,
                       "padding": 20,
                       "children": [
+                        {
+                          "id": "XwKZb",
+                          "type": "ref",
+                          "ref": "G1vZd",
+                          "name": "Request identity · shared summary",
+                          "width": "fill_container",
+                          "descendants": {
+                            "yoc5m": {
+                              "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi"
+                            }
+                          }
+                        },
                         {
                           "type": "text",
                           "id": "vriM6",
@@ -136267,6 +137193,18 @@
                       "padding": 20,
                       "children": [
                         {
+                          "id": "d9Xnk",
+                          "type": "ref",
+                          "ref": "G1vZd",
+                          "name": "Request identity · shared summary",
+                          "width": "fill_container",
+                          "descendants": {
+                            "yoc5m": {
+                              "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042 · 24 Okt 2026\nApprover · Sari A."
+                            }
+                          }
+                        },
+                        {
                           "id": "WSb8r",
                           "type": "ref",
                           "ref": "R5NHOj",
@@ -136363,6 +137301,2311 @@
                               "enabled": false
                             }
                           }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Wym3I",
+          "x": 980,
+          "y": 100,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Koreksi Finance · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "ELq3D",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "SzOHg",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HW6EZ",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QjhXj",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TREqG",
+                          "name": "Koreksi Finance content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wPpoP",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Koreksi Finance",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "UqJk0",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "HjQkI",
+                              "name": "Audit hint",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nilai lama, nilai baru, actor, waktu dan alasan tersimpan dalam audit.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "B1mJL",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Nilai sebelumnya",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Nominal sebelumnya · tidak diubah"
+                                },
+                                "P9sHXg": {
+                                  "content": "Rp1.250.000",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "id": "zh5KZ",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Nilai baru",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Nominal invoice baru"
+                                },
+                                "P9sHXg": {
+                                  "content": "Rp1.200.000",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "id": "FIJ58",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Alasan koreksi · wajib",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Alasan koreksi · wajib"
+                                },
+                                "P9sHXg": {
+                                  "content": "Nominal disesuaikan dengan invoice.",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "N2lBe",
+                              "name": "Calculation",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Total contoh setelah koreksi · Rp1.200.000",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qTMfC",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "ePI0J",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "nEhIt",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Tinjau koreksi",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Tinjau koreksi"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Uumk3",
+          "x": 1450,
+          "y": 100,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Reject · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "vahLz",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "HdPpe",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AxUlD",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hGP7k",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B3IXe",
+                          "name": "Reject content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TuEGA",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Reject",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "nOgB6",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "GvJbd",
+                              "name": "Reject consequence",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pengajuan yang ditolak tidak dapat diedit kembali.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "Gys5I",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Alasan penolakan · wajib",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Alasan penolakan · wajib"
+                                },
+                                "P9sHXg": {
+                                  "content": "Bukti transaksi tidak sesuai dengan invoice.",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "id": "hxWC6",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Catatan internal · hanya Admin",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Catatan internal · hanya Admin"
+                                },
+                                "P9sHXg": {
+                                  "content": "Opsional",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "coc75",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "aT03R",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "i9L6qN",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Tinjau penolakan",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Tinjau penolakan"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Lobuu",
+          "x": 1920,
+          "y": 100,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Konfirmasi Revision · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "DItG9",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "jCpMy",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "D8Sh3",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V2JKo",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KrJQL",
+                          "name": "Konfirmasi Revision content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R9jbh",
+                              "name": "Confirmation title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Konfirmasi Revision",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "o9kcC",
+                              "name": "Consequences",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Field terpilih dibuka untuk Requester; instruksi publik akan dikirim.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "N0OicU",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Decision summary · shared",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nField dibuka · Invoice dan bukti\nInstruksi publik · Mohon unggah invoice yang terbaca jelas.\nCatatan internal tidak dikirim ke Requester."
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D2T8H",
+                              "name": "Confirmation actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "ANjjH",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "r5D4Ag",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Konfirmasi",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Kirim Revision"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FyrQ7",
+          "x": 2390,
+          "y": 100,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Konfirmasi Koreksi Finance · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "gTVdJ",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "RDULS",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NwA6U",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qEG1e",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YVaNc",
+                          "name": "Konfirmasi Koreksi Finance content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UijT8",
+                              "name": "Confirmation title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Konfirmasi Koreksi Finance",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zWkOX",
+                              "name": "Consequences",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nilai lama, nilai baru dan alasan akan dicatat dalam audit.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "oXxR0",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Decision summary · shared",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042\nNominal lama · Rp1.250.000\nNominal baru · Rp1.200.000\nTotal setelah koreksi · Rp1.200.000\nAlasan · Nominal disesuaikan dengan invoice."
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NyqDQ",
+                              "name": "Confirmation actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "U010Wu",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "VZvWr",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Konfirmasi",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Simpan koreksi"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b84ip",
+          "x": 40,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Konfirmasi Reject · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "G7ZRK",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "N0bD5",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JJvPA",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D8NkK",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bh4HN",
+                          "name": "Konfirmasi Reject content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UaRML",
+                              "name": "Confirmation title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Konfirmasi Reject",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OeFHl",
+                              "name": "Consequences",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pengajuan yang ditolak tidak dapat diedit. Alasan penolakan akan dicatat.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "GqDGZ",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Decision summary · shared",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nAlasan publik · Bukti transaksi tidak sesuai dengan invoice.\nPengajuan menjadi Rejected dan tidak dapat diedit."
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AyHJ3",
+                              "name": "Confirmation actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "WFbJ6",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "MTrUn",
+                                  "type": "ref",
+                                  "ref": "yMFz0",
+                                  "name": "Tolak pengajuan · destructive confirmation",
+                                  "height": 44,
+                                  "descendants": {
+                                    "D3xtJ": {
+                                      "content": "Tolak pengajuan"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jTy7R",
+          "x": 510,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Konfirmasi Finance Approved · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "o8zZk",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "MWOrw",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XLx7Z",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G3js6S",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QPk4K",
+                          "name": "Konfirmasi Finance Approved content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IrIK4",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Konfirmasi Finance Approved",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "flnqL",
+                              "name": "Explanation",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Validasi Finance selesai. Pengajuan akan diteruskan kepada Approver yang ditetapkan.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "PEHc0",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Decision summary · shared",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · INV-2026-1042\nNominal hasil pemeriksaan · Rp1.250.000\nTujuan · Approver Sari A."
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ubM4r",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "VjxoI",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Kembali",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Kembali"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "JL7ya",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Finance Approved",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Finance Approved"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LeyaV",
+          "x": 980,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Approver belum tersedia · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "SzT2f",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "d6Ft1",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FwUEz",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Mug2F",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "H9JNKR",
+                          "name": "Approver belum tersedia content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Blb6a",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Approver belum tersedia",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "GIxrK",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "v8GI3N",
+                              "name": "Explanation",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kwI8p",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "f8BPO",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Kembali",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Kembali"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ngiia",
+          "x": 1450,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Link belum disalin privat · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "UoUOt",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "w2xsva",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HNSXi",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qSWlS",
+                      "name": "State content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "b32je",
+                          "name": "Link belum disalin privat content · Desktop paired",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V6Hxn",
+                              "name": "Heading",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ringkasan pemeriksaan",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "wR9Qn",
+                              "type": "ref",
+                              "ref": "R5NHOj",
+                              "name": "Status badge",
+                              "fill": "#E3F0FF",
+                              "descendants": {
+                                "U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "l8lJG",
+                              "name": "Context",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · Entity · PT Contoh A\nKategori · Transportasi\nInvoice · INV-2026-1042 · 24 Okt 2026 · Rp1.250.000",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "cA2mn",
+                              "type": "ref",
+                              "ref": "dDnbj",
+                              "name": "Bukti dapat dibuka",
+                              "width": "fill_container",
+                              "descendants": {
+                                "X2OFDZ": {
+                                  "content": "Bukti dari tautan"
+                                },
+                                "wBEwR": {
+                                  "content": "Belum ada salinan privat"
+                                },
+                                "xUm5L": {
+                                  "content": "Lihat"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "vCuqT",
+                              "name": "Correction",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Koreksi Finance harus menyertakan alasan dan jejak audit.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z22qCs",
+                              "name": "Notes",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Instruksi publik untuk Requester terpisah dari catatan internal.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "s0vo5",
+                              "name": "Link policy",
+                              "fill": "#805700",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XRLjK",
+                              "name": "Finance actions",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "id": "sBgXS",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Simpan salinan privat",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Simpan salinan privat"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "sw5Kr",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Koreksi Finance",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Koreksi"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "A1Rho",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Minta Revision",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Minta Revision"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "iW2Pv",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Reject",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Reject"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "r95q6",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "enabled": false,
+                                  "name": "Finance Approved",
+                                  "width": 140,
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Finance Approved"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TMFSr",
+          "x": 1920,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Validasi Revision · instruksi wajib · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "ZDRXK",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Qzue1",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rWr5M",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TCyin",
+                      "name": "Validation content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p3eTsD",
+                          "name": "Validasi Revision · instruksi wajib content",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hzquu",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Revision",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "B9xxEl",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "V2HRuD",
+                              "name": "Public context",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pilih field yang dibuka dan tulis instruksi yang dapat dibaca Requester.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "z8lM6",
+                              "name": "Revision selection",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "bIv5H",
+                                  "name": "Selected checkbox",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "square-check",
+                                  "library": "lucide",
+                                  "fill": "#075DD8"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bsGrv",
+                                  "name": "Selected fields",
+                                  "fill": "#20242A",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Invoice dan bukti",
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "PY4lZ",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Instruksi publik · wajib",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Instruksi publik · wajib"
+                                },
+                                "a0YHVh": {
+                                  "stroke": "$danger"
+                                },
+                                "P9sHXg": {
+                                  "content": "",
+                                  "fill": "$danger",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "sSOIQ",
+                              "name": "Inline error · required decision field",
+                              "fill": "$danger",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Instruksi publik wajib diisi. Jelaskan field yang perlu diperbaiki.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "Y9ZK4",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Catatan internal · hanya Admin",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Catatan internal · hanya Admin"
+                                },
+                                "P9sHXg": {
+                                  "content": "Opsional",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "n18xxb",
+                              "name": "Privacy hint",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Instruksi publik dikirim ke Requester. Catatan internal tidak dibagikan.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lXFM4",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "x8b6KH",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "t0oeJ0",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Tinjau Revision",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Tinjau Revision"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k99ii",
+          "x": 2390,
+          "y": 1030,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Validasi Koreksi · alasan wajib · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "E54bYI",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ikLpJ",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E97opW",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RfVUA",
+                      "name": "Validation content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZpgRT",
+                          "name": "Validasi Koreksi · alasan wajib content",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x878mk",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Koreksi Finance",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "tEAVE",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "vSnTR",
+                              "name": "Audit hint",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nilai lama, nilai baru, actor, waktu dan alasan tersimpan dalam audit.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "FsD0w",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Nilai sebelumnya",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Nominal sebelumnya · tidak diubah"
+                                },
+                                "P9sHXg": {
+                                  "content": "Rp1.250.000",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "id": "ENP8R",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Nilai baru",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Nominal invoice baru"
+                                },
+                                "P9sHXg": {
+                                  "content": "Rp1.200.000",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "id": "x1nWjx",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Alasan koreksi · wajib",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Alasan koreksi · wajib"
+                                },
+                                "a0YHVh": {
+                                  "stroke": "$danger"
+                                },
+                                "P9sHXg": {
+                                  "content": "",
+                                  "fill": "$danger",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "h3jtrW",
+                              "name": "Inline error · required decision field",
+                              "fill": "$danger",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Alasan koreksi wajib diisi sebelum melanjutkan.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FwIFc",
+                              "name": "Calculation",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Total contoh setelah koreksi · Rp1.200.000",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "znSGT",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "B8aJs",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "etMJd",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Tinjau koreksi",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Tinjau koreksi"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AqkVX",
+          "x": 40,
+          "y": 1960,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Validasi Reject · alasan wajib · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "jSw1i",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "EfCsV",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "S0KSt",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PNQ1D",
+                      "name": "Validation content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "G4w5bJ",
+                          "name": "Validasi Reject · alasan wajib content",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Au3ZC",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Reject",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "I7kHKm",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Request identity · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nRequester · Maya A. · PT Contoh A"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "h1wDPa",
+                              "name": "Reject consequence",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Pengajuan yang ditolak tidak dapat diedit kembali.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "hpv6D",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Alasan penolakan · wajib",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Alasan penolakan · wajib"
+                                },
+                                "a0YHVh": {
+                                  "stroke": "$danger"
+                                },
+                                "P9sHXg": {
+                                  "content": "",
+                                  "fill": "$danger",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "E1EoBo",
+                              "name": "Inline error · required decision field",
+                              "fill": "$danger",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Alasan penolakan wajib diisi sebelum melanjutkan.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "$font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "dehkf",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Catatan internal · hanya Admin",
+                              "width": "fill_container",
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Catatan internal · hanya Admin"
+                                },
+                                "P9sHXg": {
+                                  "content": "Opsional",
+                                  "fontSize": 14
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h9QQs",
+                              "name": "Actions",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "id": "As00X",
+                                  "type": "ref",
+                                  "ref": "WQYrQ",
+                                  "name": "Batal",
+                                  "descendants": {
+                                    "GvpjL": {
+                                      "content": "Batal"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "MLqV0",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Tinjau penolakan",
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Tinjau penolakan"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fdupv",
+          "x": 510,
+          "y": 1960,
+          "name": "CANDIDATE / ADMIN / PG-06 / Narrow · Koreksi tersimpan dan audit · Data contoh",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#EDEDED",
+          "layout": "none",
+          "children": [
+            {
+              "id": "V7UhHL",
+              "type": "ref",
+              "ref": "yLJBd",
+              "name": "Admin Finance narrow header",
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 96,
+              "descendants": {
+                "e4rWfs": {
+                  "content": "Pemeriksaan Reimbursement"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "DtjFk",
+              "x": 0,
+              "y": 96,
+              "name": "Vertical scroll viewport",
+              "metadata": {
+                "type": "scroll-handoff",
+                "axis": "vertical",
+                "fixedViewport": true
+              },
+              "clip": true,
+              "width": 390,
+              "height": 748,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o2236",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Scroll content",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L6aQuP",
+                      "name": "Corrected content host",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P43pz",
+                          "name": "Koreksi tersimpan content",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 20,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ypEvi",
+                              "name": "Heading",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ringkasan pemeriksaan",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "j8l7Lj",
+                              "type": "ref",
+                              "ref": "R5NHOj",
+                              "name": "Status badge",
+                              "fill": "#E3F0FF",
+                              "descendants": {
+                                "U0zly": {
+                                  "content": "Pending",
+                                  "fill": "#07519C"
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "EKSql",
+                              "name": "Context",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Requester · Maya A. · PT Contoh A\nInvoice · INV-2026-1042 · 24 Okt 2026 · Rp1.200.000",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V4dDLD",
+                              "name": "Assigned approver",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Approver · Sari A.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "OAlcF",
+                              "type": "ref",
+                              "ref": "dDnbj",
+                              "name": "Bukti dapat dibuka",
+                              "width": "fill_container",
+                              "descendants": {
+                                "X2OFDZ": {
+                                  "content": "invoice-parkir.pdf"
+                                },
+                                "wBEwR": {
+                                  "content": "Bukti utama · tersedia"
+                                },
+                                "xUm5L": {
+                                  "content": "Lihat"
+                                }
+                              }
+                            },
+                            {
+                              "id": "OPZvq",
+                              "type": "ref",
+                              "ref": "G1vZd",
+                              "name": "Correction audit · shared summary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "yoc5m": {
+                                  "content": "REIM-000041 · Parking reimbursement\nInvoice · INV-2026-1042\nNominal lama · Rp1.250.000\nNominal baru / total · Rp1.200.000\nAlasan · Nominal disesuaikan dengan invoice.\nActor · Admin Finance · 24 Okt 2026, 10.30\nStatus tetap Pending; koreksi dicatat dalam audit."
+                                }
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "lxOEV",
+                              "name": "Correction",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Koreksi tersimpan. Nilai sebelumnya dan alasan tetap tersedia dalam audit.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q4e48",
+                              "name": "Notes",
+                              "fill": "#66717C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Instruksi publik untuk Requester terpisah dari catatan internal.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xjtP9",
+                              "name": "Finance actions",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "C8CfF",
+                                  "name": "Secondary Finance actions",
+                                  "width": "fill_container",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "id": "eZdNh",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Koreksi Finance",
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Koreksi"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "rLkFN",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Minta Revision",
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Minta Revision"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "IWR5x",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Reject",
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Reject"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "q7duD",
+                                  "type": "ref",
+                                  "ref": "fFmN2",
+                                  "name": "Finance Approved",
+                                  "width": "fill_container",
+                                  "height": 44,
+                                  "descendants": {
+                                    "U7Cbs": {
+                                      "content": "Finance Approved"
+                                    },
+                                    "eq2MD": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }

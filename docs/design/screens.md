@@ -1,10 +1,77 @@
 # Screen design coverage
 
-**Status:** checked against active Pencil canvas, 31 Oct 2026. Business requirements and permissions remain in [`../../PRD.md`](../../PRD.md). Active design source: [`../../design/reimburse.pen`](../../design/reimburse.pen). Canvas controls are static; do not infer interaction or implementation.
+**Status:** initial story inventory checked 2 Nov 2026; scoped PG-06 saved-canvas verification and owner review exports completed 3 Nov 2026. Business requirements and permissions remain in [`../../PRD.md`](../../PRD.md). Active design source: [`../../design/reimburse.pen`](../../design/reimburse.pen). Canvas controls are static; do not infer interaction or implementation.
 
-## Canvas organization — issue #11 (partial)
+## Story Completion: current working index
 
-The organization groups current PG-02, PG-04, PG-05 and PG-06 specimens in separate Desktop/Mobile frames and places reusable source boards in `FOUNDATIONS & COMPONENTS` (`j37CU`). `j5omxK` remains active in PG-02 Desktop. Twenty-six legacy screens are grouped by story and device; PG-05/06 legacy awaits review of PR #10 and PG-07–10 remains `Belum diselaraskan`. The reimbursement flow overview is a separate nearby board. Historical specimens `sB9Ft`, `cmfPt`, and `UnqY7`, with their dependencies, are in `design/reimburse-archive.pen`; remaining mixed legacy material stays active pending classification. See [`design/png/canvas-organization/README.md`](../../design/png/canvas-organization/README.md) for screenshots, verification, and limitations. Historical group descriptions below include the previous hierarchy.
+Read this section first. Later dated delivery notes are evidence/history, not permission to reopen approved baselines. `Approved` requires recorded owner visual approval; a merged PR alone does not establish it.
+
+Initial inventory: 45 top-level containers, 254 active viewport specimens across 24 story/device boards, 85 reusable sources, 1,595 refs and zero missing local ref targets in the saved canvas. Desktop/Mobile scroll positions count as specimens, not new stories. The PG-06 targeted pass below adds four Desktop and twelve narrow specimens, using existing sources only. The saved canvas now contains 14 Desktop + 14 narrow specimens for this story and 270 active viewport specimens overall. The 3 Nov 2026 disk/live check verified both Ready for Owner Review labels; saved totals are 85 reusable sources, 1,694 refs and 43 variables, with zero missing local refs.
+
+| Story / user goal | Desktop main | Mobile / narrow main | Relevant state coverage | Status / approval evidence | Actual gap / blocker | Next action |
+|---|---|---|---|---|---|---|
+| SF8.1 · PG-02 · Requester understands tasks/status | `j5omxK` | `JIPY2` | 10 Desktop / 15 Mobile: attention, empty/loading/error, access, drafts, picker/profile, stress/scroll | **Approved / Frozen visual**; owner baseline recorded below; PR #4/#6 merged | No new blocking finding established for the approved scope | Do not reopen for optional polish or changed document hashes |
+| PG-04 · Requester finds/opens own requests; SF8.4 list export entry | `k0okVa` | `jSSv3` | 13 / 27: filtered/no-results/empty/loading/error, menus, export feedback/denied, historical disabled service, scroll | **Approved / Frozen visual**; owner baseline recorded below; PR #8 merged | Runtime filtering/export/a11y is separate implementation work | Keep baseline; remove stale review gates from current routing |
+| F3/F6 · PG-05/06 · Requester creates and follows reimbursement | `nvoWQ`, `GJQ5m` | `Svvdf`, `YsuVt`; form end `giIk1` | 32 / 38: draft/save error, upload/OCR/link, multiple invoices/removal, validation, duplicate, Revision, cancel, workflow/terminal | **Candidate**; PR #10 merged, not evidence of owner visual approval | Validation `J0Yv9L`/`ptGJ0` announces missing fields while fixtures remain filled; neutral detail messages use danger color; category/Wardrobe coverage needs explicit active mapping | One targeted closure pass, then review the pair; do not redesign shell |
+| F4/F6 · PG-07/08 · Requester submits one recipient and supplies vendor proof | `S5218F`, `ndXmd` | `OdlSF`, `GlDnt`; form end `rqQUv` | 18 / 20: recipient variants `UJEkg`, bank-confirmed pair, review, document validation/Revision, vendor proof, cancel/status | **Candidate**; PR #14 merged, not owner approval | Recipient hit area is 28 px high; file/link/upload recovery is not fully mapped to form; template requirements and bank-confirmation submit gate are product decisions | Complete the reusable evidence/state mapping without inventing requirements; ask only the minimal template/gate decision |
+| F5/F6 · PG-09/10 · Requester submits mapped overtime dates | `vgz3I`, `YLNgQ` | `KOKNM`, `X8Q07`; one-date form `cXKJd` | 18 / 18: one/two dates, review/Revision, invalid time/no rate/below minimum, cancel/status | **Candidate**; PR #14 merged | Two-date Mobile form is 745 px of content in a 626 px viewport without an end-position specimen; missing-proof recovery is not demonstrated; copied cancellation/status treatment differs from PG-06 | Show lower form actions and missing-date-proof validation; preserve sample rate, do not invent a minimum |
+| SF7.1 · PG-04 · Admin Finance finds work | `m4tUMY` | `jSaaB`; lower rows `bVMzc` | 6 / 2: Desktop loading/empty/filtered/error/age; narrow normal/scroll | **Candidate**; issue #15 / PR #16 OPEN | Desktop rows under-specify requester/context; filters have entry controls but no selection specimens; narrow loading/error/filter outcomes are unmapped | After PG-06, close only queue scanning/filter/state gaps in PR #16; age threshold remains a product decision |
+| SF7.2 · PG-06 · Admin Finance reviews reimbursement and confirms decisions | `Kr0gH` | `pSkHH` | **14 / 14, design content saved**: Revision, correction, Reject, four confirmations, missing Approver/private copy, three required-field errors, corrected/audit result | **Ready for Owner Review**, not Approved. Disk/live labels and scoped checks verified; eight 2× PNGs refreshed | No technical blocker established for this scoped visual package; owner visual review pending | Owner reviews three entry-point pairs and two galleries in existing PR #16; no global reaudit |
+| SF7.2 · PG-08 · Admin Finance reviews Payment Request | `L4uNC` | `eGvPW` | 12 / 2: Revision/correction/Reject, confirmations, missing Approver, vendor proof invalid/validated | **Candidate**; PR #16 OPEN | Narrow identity incomplete; confirmations lack the concrete selected fields, old/new/reason and target Approver already shown in PG-06; tax/profile inspection remains entry-level | Reuse `G1vZd` and the closed PG-06 decision pattern; retain Admin-only sensitive access and configured tax rules |
+| SF7.2 · PG-10 · Admin Finance reviews Overtime | `r9jGF` | `WeO1A` | 9 / 2: Revision/rate correction/Reject, confirmations, missing Approver | **Candidate**; PR #16 OPEN | Narrow identity incomplete; confirmation/audit content not yet at PG-06 parity | Carry the same bounded decision fix; preserve `(2 + 2) × Rp100.000 = Rp400.000` correction fixture |
+| SF1.2 · PG-01 · invited user logs in | No active package | No active package | Full login/error/inactive/loading package not established | **Not designed as complete story** | Authentication design still required | Separate later story; not a Finance-review dependency to redraw now |
+| SF8.2 · PG-03 · Admin dashboard | No dedicated package | Desktop required by PRD | PG-04 Finance queue is partial related evidence, not full PG-03 dashboard | **Not designed as complete story** | Metrics/aging dashboard not covered by queue alone | Separate from current queue acceptance |
+| F1/F2 · PG-11–14, PG-16 · Admin manages access/master/rules/import | No active package | Desktop required by PRD | Source components and prototypes are not complete stories | **Not designed as complete stories** | Product requirements exist; designs do not | Plan separate scoped stories after current batch, no speculative config UI |
+| F9 · PG-15 · authorized user searches wardrobe | No complete active package | No complete active package | Permission/nav and proposal source only | **Not designed as complete story** | Search/read/permission states not a reviewed package | Separate story; proposal conditional mapping belongs to F3 |
+| SF8.4/SF8.3 · PG-17/18 · export/detail notifications | Entry points / shared source only | Entry points / shared source only | PG-04 export feedback and notification component are partial coverage | **Not designed as complete stories** | Full detail PDF/notification read/unread/error/deep-link handoff missing | Separate packages; do not block an approved list because downstream runtime is absent |
+| PG-19 · review-only state gallery | Source galleries | Source galleries | References, not a production journey | **Reference** | Not a business story to mark Approved | Reuse relevant states; do not create another blanket gallery |
+
+### Frame classification and reading order
+
+- **Approved baseline:** the four PG-02/04 Desktop/Mobile story boards. Main IDs above are the review entry points; state/scroll frames stay supporting evidence.
+- **Candidates:** PG-05–10 Requester and Admin Finance boards, with role explicitly separated even when they share a PG number. PG IDs identify screens, not complete user stories.
+- **Reusable sources:** `j37CU`, `o0h9YD`, `YHDDV`, `RmBEi`. The latter three sit outside the main source area; they are dependencies, not additional product stories. Do not flatten/copy their contents into competing sources.
+- **Historical/unaligned:** 12 legacy PG-05–10 device boards plus mixed `yMffT` and label-only `edL5x`. Their 26 explicitly grouped legacy specimens are not active alternatives to approve again. Keep unresolved explorations and dependencies; no archive/deletion is authorized by this pass.
+- **References/annotations:** `I0vYbE`, reimbursement flow `t37lr`, approval evidence `x5aDgA`. The approval board describes recorded visual approval, not a new owner decision.
+- **Proposed canvas arrangement, not yet applied globally:** one row per journey/role story, Desktop left and Mobile/narrow right; main → relevant task/error states → confirmations → scroll evidence. Place Requester reimbursement → Payment → Overtime in consecutive rows, Admin queue → Admin service decisions in another section. Keep approved/source/historical sections separate. Current candidate x positions extend from 98,800 to 213,410; this distance is a review-navigation problem, not a reason to alter UI. PG-06's existing adjacent Desktop/narrow boards now name the same verification stage.
+
+### Workflow diagnosis and bounded sequence
+
+1. **Stale gates:** issue #7/#9/#11/#13 remain OPEN despite merged PR #8/#10/#12/#14. Earlier comments are historical. PR #16 alone is OPEN in the inspected PR list. Do not infer approval from merge, or reopen a completed technical check because a screenshot hash changed.
+2. **Fragmented story context:** main, variants, scrolls, components and legacy candidates require manual reconstruction. Use the matrix and paired main IDs, not frame count, as the unit of review.
+3. **Reuse stops at chrome:** 85 sources and zero broken refs show the problem is not a missing design system. Decision-summary content and narrow action layouts still diverge. Fix instances with `G1vZd`, fields/buttons/evidence already available; do not extract a new component for each correction.
+4. **Structural checks miss task information:** a valid ref and unclipped frame can still omit identity, selected fields, reason or the old/new amount. Check those fields once against the story acceptance before owner review.
+5. **No explicit stop:** separate Candidate → Targeted Fix → Technical Verification → Ready for Owner Review → Approved → Frozen. Product questions block only affected acceptance; optional taste/polish does not reopen a baseline.
+
+Execution order: finalize the Admin PG-06 owner review package in active PR #16 → apply the same decision-summary/narrow pattern to Admin PG-08 and PG-10 → close Admin queue scanning/state gaps → owner reviews the scoped Finance batch. Then close existing Requester reimbursement candidates, Payment evidence/recipient gaps and Overtime proof/scroll gaps. Do not start unrelated login/settings/dark theme or a new PR to continue #15/#16.
+
+### First actionable story: Admin Finance PG-06 decision package
+
+**Scope:** issue #15 / existing PR #16, Admin Finance only; light Desktop 1440×960 + narrow 390×844. Existing root IDs `k3Z6yT` / `QkNNL` retained. No Approved screen, variable, reusable source, architecture or production implementation is changed.
+
+**Substantive changes:** persistent request identity on main/narrow review; concrete public instruction and selected group on Revision confirmation; correction confirmation with old/new/total/reason; Reject confirmation with public reason and destructive action; paired narrow forms/confirmations/blocked states; inline required-field validation; saved-correction audit specimen with actor/time/old/new/reason. New values and actor/time remain clearly frame-labelled sample data. Finance Approved remains Finance validation, not business approval; missing Approver/private copy has no forwarding action.
+
+| Review task | Desktop | Narrow | What owner should assess |
+|---|---|---|---|
+| Main review / identity | `Kr0gH` | `pSkHH` | Can the reviewer identify request, Requester, invoice/amount and allowed action without returning to the queue? |
+| Revision form → confirmation | `M18Zn4` → `QdWeP` | `E2LETd` → `Lobuu` | Field group and public instruction are explicit; internal notes remain separate |
+| Correction form → confirmation → saved audit | `a5jkj` → `dRbB4` → `IPbJL` | `Wym3I` → `FyrQ7` → `Fdupv` | Old/new/reason and resulting total can be checked before committing; previous value/audit remain visible |
+| Reject form → confirmation | `SpqpD` → `NORQW` | `Uumk3` → `b84ip` | Public reason and irreversible consequence are clear; final action is destructive, not generic “Konfirmasi” |
+| Finance Approved confirmation | `AvxAT` | `jTy7R` | Checked amount, ticket/invoice and target Approver visible; not confused with Paid/Approved |
+| Missing Approver / private copy | `PRHXV`, `i8by7` | `LeyaV`, `Ngiia` | Block and recovery clear; no unauthorized forwarding |
+| Required public instruction / correction reason / reject reason | `BVkTP`, `CYzIN`, `DNK1L` | `TMFSr`, `k99ii`, `AqkVX` | Error is next to its field, not a banner disconnected from the task |
+
+**Verification performed (3 Nov 2026):** all 28 PG-06 specimens checked with resolved-component bounds, zero enabled layout findings. Twenty-two checks passed for identity, Revision/Koreksi/Reject/Finance Approved confirmations, required-field validation, Approver/private-copy gates and correction/audit content. Saved-file totals: 10,390 nodes, 85 reusable sources, 1,694 refs, 43 variables, zero missing refs. Against `63f0590`, only `k3Z6yT` / `QkNNL` differ; all other root subtrees, variables and reusable sources are identical. This is a scoped comparison, not a new global UI audit. Only existing field/button/evidence/summary/header sources are used. No runtime interaction, authorization, upload, keyboard, focus trap or screen-reader test is implied. Existing Requester terminal specimens are downstream references, not new approval/payment execution UI.
+
+**Persistence evidence:** after owner Save, disk mtime is `2026-11-03 11:08:37 +0700`; SHA-256 is `c4135a4d81fdd16f73f3b3124095f775a45dee9664644a709a203de33abc0a3a`. Disk and live match at `k3Z6yT: d5a5b18d` / `QkNNL: 35abe8b`, both labelled Ready for Owner Review. Exact pre-Save mtime was not recorded; the content/fingerprint change is verified. Earlier save-pending notes are superseded, not evidence of an unsaved design.
+
+**Review evidence:** exactly eight versioned PNGs refreshed from the verified saved canvas: `k3Z6yT`, `QkNNL`, `Kr0gH`, `pSkHH`, `dRbB4`, `FyrQ7`, `IPbJL`, `Fdupv`. The Desktop gallery uses native 2× child renders composited at their saved positions because the direct root exporter caps width at 8,192 px; final size is 12,320×8,560. Other PG-06 state PNGs and all PG-04/08/10 exports remain historical. See [the owner review package](../../design/png/admin-finance-review/README.md#pg-06-ready-for-owner-review).
+
+**Exit gate:** saved canvas, eight PNGs and reviewed handoff belong in one commit on existing branch `design/admin-finance-review` / PR #16. Stop for owner visual review after push; do not merge. Owner approval alone moves this story to Approved/Frozen. Broader PG-08/10/queue gaps do not invalidate this scoped PG-06 package, but the whole #15 batch is not yet ready.
+
+## Canvas organization — issue #11 (historical delivery)
+
+PR #12 is merged; issue #11 remains OPEN at the 2 Nov inspection. The organization groups current PG-02, PG-04, PG-05 and PG-06 specimens in separate Desktop/Mobile frames and places reusable source boards in `FOUNDATIONS & COMPONENTS` (`j37CU`). `j5omxK` remains active in PG-02 Desktop. Twenty-six legacy screens are grouped by story and device; labels mentioning a pending PR #10 review are stale, not a current gate. PG-07–10 legacy remains `Belum diselaraskan`, distinct from the current candidate boards. The reimbursement flow overview is a separate nearby board. Historical specimens `sB9Ft`, `cmfPt`, and `UnqY7`, with their dependencies, are in `design/reimburse-archive.pen`; remaining mixed legacy material stays active pending classification. See [`design/png/canvas-organization/README.md`](../../design/png/canvas-organization/README.md) for screenshots, verification, and limitations. Historical group descriptions below include the previous hierarchy.
 
 ## Canvas groups
 
@@ -94,7 +161,7 @@ Owner approved the latest Mobile visual as baseline. Shared toolbar `ruMUp` repl
 
 Saved JSON verification: 27 fixed viewports, ten reusable content sources, shared row, toolbar/sheet/chip sources and correct nav. Every node and variable from approved Desktop commit `9bea1db` is identical; PG-04/Desktop and Dashboard/Desktop renders remain byte-identical. Source board bounds report no clipping; viewport/status sheet clipping is intentional scroll handoff. Controls are static, not proof of touch, scrolling, keyboard, authorization, filtering or export runtime behavior.
 
-**Stop gate:** owner approved the visual Mobile baseline; this is not permission to merge. Do not merge PR #8 or proceed to another flow without owner approval.
+**Current gate:** owner approved the visual Mobile baseline and PR #8 is now merged (verified 2 Nov 2026). Preserve it as an approved visual baseline; the older no-merge gate above describes its delivery history, not an unresolved review.
 
 ## Reimbursement PG-05/06 Requester · issue #9
 
@@ -124,20 +191,9 @@ PR #16 correction pass retains queue information/actions in a vertical narrow la
 
 Three missing editable specimens were recreated from existing sources: invalid vendor proof `Fwsmh` → `Y9z8O`, validated proof `dMvX0` → `Z31zwX`, and filtered result row `Xpc1p` → `bIgtn` inside `Wjjux`. See the render index for saved-file verification and limitations. The saved correction canvas SHA-256 is `88a2001c0f612085ba774a2afbc0f83cb1e338cb54da76f124dd800ee05903ff`; all local component references resolve and all eight Admin story groups report zero enabled non-scroll layout problems. Four representative Requester baseline renders were byte-identical during the correction pass, not an exhaustive regression.
 
-## Current inspected coverage
+## Historical inspected coverage
 
-| Screen family | Desktop | Mobile | Evidence / limit |
-|---|---|---|---|
-| PG-04 request list | `cmfPt` | `UnqY7` | List, service filters, search; static design. |
-| PG-06 Reimbursement detail | `n5an3` | `BaWKt` | Detail and Revision. |
-| PG-06 cancel and terminal states | `Lo1BS`, `I87wz5`, `SnnT5`, `qlYKJ` | `BA2J6`, `jZKg1`, `O5mE9`, `mqTu5` | Pending cancel, Rejected, Paid, Cancelled variants. |
-| PG-08 Payment Request detail | `U1COM` | `pQbdJ` | Pending vendor proof. |
-| PG-07 Payment Request Revision | `jz5hp` | `MRY0h` | Revision form. |
-| PG-10 Overtime detail | `pi0RS` | `Yf035` | Detail. |
-| PG-09 Overtime Revision | `bV3uk` | `LgYoG` | Revision form. |
-| Requester dashboard and forms | Separate `REDESIGN` frames, exact names in active canvas | Dashboard redesign marked `Belum diselaraskan`; form frames present | Variants, not a selected final direction. |
-
-The table records inspected node IDs, not an exhaustive PRD screen inventory. PRD PG-01, PG-03, PG-11–PG-19 remain product requirements; this inventory does not establish complete designs for them.
+The old table named archived/legacy `cmfPt`, `UnqY7`, `n5an3`, `BaWKt`, `U1COM`, `pQbdJ`, `jz5hp`, `MRY0h`, `pi0RS`, `Yf035`, `bV3uk` and `LgYoG` as current coverage. Those remain historical references, not current review entry points. Use the Story Completion matrix above for active role/device pairings. PRD PG-01, PG-03 and PG-11–19 remain requirements; shared components or prototype examples do not establish complete story designs.
 
 ## Design references and data
 

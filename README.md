@@ -10,6 +10,7 @@ This repository currently contains architecture/documentation scaffolding and de
 - `apps/web/`: Requester/Admin frontend boundary; product data must be accessed through API. Framework and implementation remain undecided.
 - `prototype/`: design/review reference and existing sample UI; not part of production workspace.
 - `design/reimburse.pen`: active design canvas. Design documents and references live under `docs/design/`.
+- Baseline canvas pada commit `63f0590`: SHA-256 `281f9ef3efb162cb0b143e5ff868d63d2cfc30e48fda84cae122274592fc96c4`. Paket terkini dan status review: [`design/png/admin-finance-review/README.md`](design/png/admin-finance-review/README.md).
 - `packages/`: absent until concrete shared code is required.
 
 Root uses npm workspaces. No production commands are available yet; the workspace packages are boundaries only.
