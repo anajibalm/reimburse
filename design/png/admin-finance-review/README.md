@@ -65,7 +65,7 @@ The earlier pass re-exported 30 PNGs: 14 Desktop specimens, 14 Narrow specimens 
 - Galleries (2): `k3Z6yT`, `QkNNL`.
 - Unchanged/not exported during the earlier 30-PNG pass (no Selisih row): `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), `AqkVX` (Reject validation). `k99ii` was exported after that pass for this patch.
 
-Individual Desktop entries are 2880×1920, Narrow 780×1688; full galleries are 12320×8560 and 5800×5820 at native 2×. Direct Desktop frame export is capped at 8192px, so `k3Z6yT.png` is assembled from all 14 current Desktop PNGs and cached heading. `QkNNL.png` is exported from the gallery frame. Scroll positions are specimens, not new business states.
+Individual Desktop entries are 2880×1920, Narrow 780×1688; full galleries are 12320×8560 and 5800×5820 at native 2×. Both galleries are mechanically composed from current individual PNGs plus their cached headings because direct frame export is capped at 8192px: 14 Desktop tiles for `k3Z6yT.png`, 18 Narrow tiles for `QkNNL.png`. No individual export is scaled up. Scroll positions are specimens, not new business states.
 
 **Latest polish, presentation only:** section rhythm remains 32px Desktop / 24px Narrow, divider spacing 16/16 and 12/12, title/content gap 12px. Kr0gH column gap is 32px; total label and right action box both start at y=24. Approver helper uses 156px Desktop indentation / none Narrow. Selisih is a plain neutral-2 key-value row, and audit rows have no nested gray surface; audit amounts stay 13/500. Correction values use horizontal Desktop / vertical Narrow order, corrected 28/700 and gray struck-through previous value, with no right-card hero. Correction cards size to content while the workspace still fills height.
 
