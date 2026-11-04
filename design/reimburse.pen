@@ -154418,7 +154418,7 @@
                       "fill": "#20242A",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Pengajuan: PAY-000018 · Maya Pratama · Freelance\nFee pemeriksaan: Rp4.500.000\nPeriksa Tax treatment dan Approver tujuan sebelum meneruskan. Nama Approver belum dicontohkan.\nSetelah diteruskan: Finance Approved (validasi Finance), bukan Approved atau Paid.",
+                      "content": "Pengajuan: PAY-000018 · Maya Pratama · Freelance\nFee pemeriksaan: Rp4.500.000\nApprover belum tersedia pada specimen ini. Penerusan tidak tersedia sampai Approver ditetapkan. Hubungi Admin pengaturan.\nStatus tetap Pending. Finance Approved adalah validasi Finance, bukan Approved atau Paid.",
                       "fontFamily": "DM Sans",
                       "fontSize": 15,
                       "fontWeight": "normal"
@@ -154444,7 +154444,9 @@
                           "id": "D2GU5",
                           "type": "ref",
                           "ref": "fFmN2",
-                          "name": "Finance Approved",
+                          "name": "Teruskan ke Approver · disabled specimen · Approver belum tersedia",
+                          "enabled": false,
+                          "opacity": 0.45,
                           "descendants": {
                             "U7Cbs": {
                               "content": "Teruskan ke Approver"
