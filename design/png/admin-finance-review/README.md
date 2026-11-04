@@ -4,7 +4,7 @@ PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 rema
 
 ## Patch copy terverifikasi, issue #15
 
-Sumber patch: kanvas **yang di-stage untuk commit**, `design/reimburse.pen`, SHA-256 `7f3413a961d4674c60f3500ba6ef49fee441a629b0bf19e9355b11d14cbed496`. Posisi lokal awal `SpqpD.y = 115` dipertahankan di working tree, tidak dimasukkan commit (nilai committed tetap 100). PNG yang diekspor tidak mencakup `SpqpD`. Verifikasi membandingkan dengan HEAD awal branch sendiri, tidak dengan main.
+Sumber patch: kanvas `design/reimburse.pen` pada commit `d51b5a33902f4be31f53684a84113fc79f2364b4`, SHA-256 `7f3413a961d4674c60f3500ba6ef49fee441a629b0bf19e9355b11d14cbed496`. Posisi lokal `SpqpD.y = 115` dipertahankan unstaged; nilai committed tetap 100. PNG yang diekspor tidak mencakup `SpqpD`. Verifikasi membandingkan dengan HEAD sebelumnya pada branch `design/admin-finance-review`, bukan `main`.
 
 ### Verdict sebelum patch, dari layer editable, bukan PNG
 
@@ -24,7 +24,7 @@ Sumber patch: kanvas **yang di-stage untuk commit**, `design/reimburse.pen`, SHA
 | dRbB4 | jAMMq | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending. Nilai lama, nilai baru dan alasan dicatat dalam audit.` |
 | FyrQ7, d0R8t | zWkOX, wQYR2 (urutan berpasangan) | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.` |
 
-Ekspor patch ini **hanya 13 PNG individual 2×**: `Kr0gH.png`, `IPbJL.png`, `pSkHH.png`, `Fdupv.png`, `El9ow.png`, `phpZn.png`, `a5jkj.png`, `CYzIN.png`, `Wym3I.png`, `k99ii.png`, `dRbB4.png`, `FyrQ7.png`, `d0R8t.png`. **Galeri tidak diekspor** dan kini historis, bukan pratinjau patch ini. Daftar 30/34 PNG di bawah adalah catatan pass terdahulu, bukan ekspor patch ini.
+Ekspor patch ini **14 PNG individual 2×**: `Kr0gH.png`, `IPbJL.png`, `pSkHH.png`, `Fdupv.png`, `El9ow.png`, `phpZn.png`, `a5jkj.png`, `CYzIN.png`, `Wym3I.png`, `k99ii.png`, `dRbB4.png`, `FyrQ7.png`, `d0R8t.png`; k99ii diperbarui tersendiri setelah ditemukan stale. **Dua galeri PG-06 disegarkan** dari PNG individual terkini; tidak ada PNG individual lain diubah oleh penyegaran galeri. Daftar 30/34 PNG di bawah adalah catatan pass terdahulu, bukan ekspor patch ini.
 
 Checklist verifikasi patch:
 - Seluruh node ID dan struktur children dipertahankan; tidak ada node/source reusable baru atau perubahan variabel global. PG-02/PG-04 dan semua root selain dua root PG-06 tidak berubah.
@@ -65,7 +65,7 @@ This pass re-exported exactly **30 PNGs**: 14 Desktop specimens, 14 Narrow speci
 - Galleries (2): `k3Z6yT`, `QkNNL`.
 - Unchanged/not exported (no Selisih row): `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), `AqkVX` (Reject validation).
 
- Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries 12320×8560 / 5800×5820, all native 2×. The direct Desktop gallery export hits the 8192px cap, so its final PNG is composed in sRGB from the 14 already-refreshed native 2× Desktop PNGs and the cached 2× story heading. The heading has identical source data to the unchanged heading in the verification HEAD; it was not re-exported. No image was upscaled. Scroll positions are specimens, not new business states.
+Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries native 2×. Desktop frame export has an 8192px width cap: gallery output is clipped by the exporter to 8192×5692, not the full canvas width. Narrow gallery is 5800×5820. Scroll positions are specimens, not new business states.
 
 **Latest polish, presentation only:** section rhythm remains 32px Desktop / 24px Narrow, divider spacing 16/16 and 12/12, title/content gap 12px. Kr0gH column gap is 32px; total label and right action box both start at y=24. Approver helper uses 156px Desktop indentation / none Narrow. Selisih is a plain neutral-2 key-value row, and audit rows have no nested gray surface; audit amounts stay 13/500. Correction values use horizontal Desktop / vertical Narrow order, corrected 28/700 and gray struck-through previous value, with no right-card hero. Correction cards size to content while the workspace still fills height.
 
