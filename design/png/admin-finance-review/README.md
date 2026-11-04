@@ -2,6 +2,39 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
+## Patch copy terverifikasi, issue #15
+
+Sumber patch: kanvas **yang di-stage untuk commit**, `design/reimburse.pen`, SHA-256 `7f3413a961d4674c60f3500ba6ef49fee441a629b0bf19e9355b11d14cbed496`. Posisi lokal awal `SpqpD.y = 115` dipertahankan di working tree, tidak dimasukkan commit (nilai committed tetap 100). PNG yang diekspor tidak mencakup `SpqpD`. Verifikasi membandingkan dengan HEAD awal branch sendiri, tidak dengan main.
+
+### Verdict sebelum patch, dari layer editable, bukan PNG
+
+1. **TERBUKTI**: helper persis `Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.` berjumlah **8**. Enam berada bersama badge `Pending`: `Kr0gH` → helper `NhIhB`, badge `PaKPd/U0zly`; `IPbJL` → `Iobl2`, `rmnVd/U0zly`; `pSkHH` → `ZoQMK`, `WSb8r/U0zly`; `Fdupv` → `da167`, `j8l7Lj/U0zly`; `El9ow` → `gYGst`, `OWLIP/U0zly`; `phpZn` → `hps4I`, `OTzOD/U0zly`. Dua lainnya: `AvxAT/ffKvn` dan `jTy7R/HQu0d`, frame konfirmasi tanpa badge status; keduanya tidak diubah. Badge Pending tidak diubah.
+2. **TERBUKTI** inkonsistensi istilah, **TIDAK TERBUKTI** bahwa hero memakai kata contoh. Hero/caption persis `Total pengajuan setelah koreksi`: `dRbB4` → `QAiKr`, `y41Z2/heZsY`; `FyrQ7` → `Gpjxo`, `D3blH/heZsY`; `d0R8t` → `tcK08`, `B7x8T/heZsY`. Calculation persis `Total contoh setelah koreksi · Rp1.200.000`: `a5jkj/JhPBo`, `CYzIN/wAeCz`, `Wym3I/N2lBe`, `k99ii/FwIFc`. Hanya Calculation yang diubah.
+3. **TERBUKTI** copy ambigu: `Nominal sebelumnya · tidak diubah` merujuk nilai lama `Rp1.250.000`, bukan nilai pengajuan baru `Rp1.200.000`. Frame/node label/nilai lama/nilai baru: `a5jkj` → `cIRko/g6qurL`, `cIRko/P9sHXg`, `cFuVs/P9sHXg`; `CYzIN` → `avlam/g6qurL`, `avlam/P9sHXg`, `W4AG7R/P9sHXg`; `Wym3I` → `B1mJL/g6qurL`, `B1mJL/P9sHXg`, `zh5KZ/P9sHXg`; `k99ii` → `FsD0w/g6qurL`, `FsD0w/P9sHXg`, `ENP8R/P9sHXg`. Label baru di semua pasangan persis `Nominal pengajuan setelah koreksi`. Nominal tidak diubah.
+4. **TERBUKTI** absen: seluruh teks `dRbB4`, `FyrQ7`, `d0R8t` dibaca; tidak ada Selisih atau nominal Rp50.000 dengan label lain. Nilai lama/baru ada, tetapi bukan baris selisih. Detail hasil koreksi memiliki `Selisih` / `Rp 50.000`: `IPbJL` → `jbOOe`/`XerKQ`; `Fdupv` → `s07No`/`gbq4f`; `phpZn` → `Pcf5b`/`mwps7`. Patch memakai layer konsekuensi konfirmasi yang sudah ada, bukan menambah baris/node.
+5. **TIDAK TERBUKTI**: label tombol destruktif persis `Tolak pengajuan`, bukan nominal: `NORQW/fiCgD/D3xtJ`, `b84ip/MTrUn/D3xtJ`. Tidak diubah. Nominal invoice terpisah: `NORQW/EQhgw` dan `b84ip/e2XnA`, keduanya `Rp 1.250.000`.
+
+### Perubahan, 17 layer teks / 13 frame
+
+| Frame | Node diubah | Teks sesudah patch |
+| --- | --- | --- |
+| Kr0gH, IPbJL, pSkHH, Fdupv, El9ow, phpZn | NhIhB, Iobl2, ZoQMK, da167, gYGst, hps4I (urutan berpasangan) | `Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.` |
+| a5jkj, CYzIN, Wym3I, k99ii | JhPBo, wAeCz, N2lBe, FwIFc (urutan berpasangan) | `Total pengajuan setelah koreksi · Rp1.200.000` |
+| a5jkj, CYzIN, Wym3I, k99ii | cIRko/g6qurL, avlam/g6qurL, B1mJL/g6qurL, FsD0w/g6qurL (urutan berpasangan) | `Nominal sebelum koreksi` |
+| dRbB4 | jAMMq | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending. Nilai lama, nilai baru dan alasan dicatat dalam audit.` |
+| FyrQ7, d0R8t | zWkOX, wQYR2 (urutan berpasangan) | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.` |
+
+Ekspor patch ini **hanya 13 PNG individual 2×**: `Kr0gH.png`, `IPbJL.png`, `pSkHH.png`, `Fdupv.png`, `El9ow.png`, `phpZn.png`, `a5jkj.png`, `CYzIN.png`, `Wym3I.png`, `k99ii.png`, `dRbB4.png`, `FyrQ7.png`, `d0R8t.png`. **Galeri tidak diekspor** dan kini historis, bukan pratinjau patch ini. Daftar 30/34 PNG di bawah adalah catatan pass terdahulu, bukan ekspor patch ini.
+
+Checklist verifikasi patch:
+- Seluruh node ID dan struktur children dipertahankan; tidak ada node/source reusable baru atau perubahan variabel global. PG-02/PG-04 dan semua root selain dua root PG-06 tidak berubah.
+- Perubahan bermakna hanya 17 content/instance-content; editor saat save menormalisasi 106 teks PG-06 dari fontWeight tidak disetel menjadi default `normal`, tanpa perubahan tampilan. Tidak ada perubahan ukuran/layout/desain.
+- Bounds 13 frame: tidak ada clipping di luar delapan perpotongan scroll-content/viewport yang disengaja. Screenshot live representatif `a5jkj`, `dRbB4`, `FyrQ7`, dan section helper `XnJHj` diperiksa untuk alignment, wrapping, keterbacaan, dan layout; screenshot tidak dipakai untuk membuktikan temuan teks.
+- Tidak diverifikasi: runtime/API, persistensi audit, interaksi, keyboard/focus, screen reader, pengukuran contrast WCAG numerik, atau regresi visual menyeluruh seluruh screen. P1 lain tetap di luar scope. Approved baselines tidak dirender ulang. Status tetap Ready for Owner Review, bukan Approved.
+- Tidak menyentuh PR #17, tidak push/merge, tidak mengubah docs lain.
+
+## Catatan historis: spacing/alignment polish
+
 Saved source for the PG-06 spacing/alignment polish, 3 Nov 2026: `design/reimburse.pen`, SHA-256 `2766b3bd5f42b409d14f1821fc5e8c51cd711131c020dc8e4948ffd2496489b4`; observed disk mtime `2026-11-03 22:12:06 +0700`. Disk/live root fingerprints match: `k3Z6yT: 38b29b1d`, `QkNNL: 1831ed5b`. This package is compared with HEAD at verification (`15b66a0`); earlier packages are historical, not the current export source. Full MVP scope in PRD, including master data, settings, permissions, import/export and audit, is unchanged; only the two PG-06 roots change.
 
 ## PG-06 Ready for Owner Review

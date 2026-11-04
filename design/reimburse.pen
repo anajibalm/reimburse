@@ -134425,7 +134425,8 @@
                               "content": "Total pengajuan",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -134557,7 +134558,8 @@
                                           "content": "Requester",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134591,7 +134593,8 @@
                                           "content": "Entity",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134625,7 +134628,8 @@
                                           "content": "Kategori",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134659,7 +134663,8 @@
                                           "content": "No. invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134693,7 +134698,8 @@
                                           "content": "Tanggal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134727,7 +134733,8 @@
                                           "content": "Nominal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -134765,7 +134772,8 @@
                                           "content": "Approver",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "frame",
@@ -134795,10 +134803,11 @@
                                               "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                               "lineHeight": 1.5,
                                               "fontFamily": "$font",
-                                              "fontSize": 12
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
                                             }
                                           ]
                                         }
@@ -134968,7 +134977,8 @@
                                       "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -135260,7 +135270,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -135674,7 +135685,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -135706,7 +135718,7 @@
                       "gap": 6,
                       "descendants": {
                         "g6qurL": {
-                          "content": "Nominal sebelumnya · tidak diubah",
+                          "content": "Nominal sebelum koreksi",
                           "lineHeight": 1.3846153846153846,
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
@@ -135797,7 +135809,7 @@
                       "fill": "#6B7280",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Total contoh setelah koreksi · Rp1.200.000",
+                      "content": "Total pengajuan setelah koreksi · Rp1.200.000",
                       "lineHeight": 1.5,
                       "fontFamily": "DM Sans",
                       "fontSize": 12,
@@ -136063,7 +136075,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -136944,7 +136957,8 @@
                                   "content": "Approver",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "$font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -136977,7 +136991,8 @@
                                       "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -138198,7 +138213,8 @@
                               "content": "Alasan koreksi",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "DM Sans",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -138248,7 +138264,7 @@
                           "fill": "$muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Koreksi tidak meneruskan pengajuan. Status tetap Pending. Nilai lama, nilai baru dan alasan dicatat dalam audit.",
+                          "content": "Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending. Nilai lama, nilai baru dan alasan dicatat dalam audit.",
                           "lineHeight": 1.4285714285714286,
                           "fontFamily": "DM Sans",
                           "fontSize": 14,
@@ -139052,7 +139068,8 @@
                               "content": "Total pengajuan",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -139184,7 +139201,8 @@
                                           "content": "Requester",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139218,7 +139236,8 @@
                                           "content": "Entity",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139252,7 +139271,8 @@
                                           "content": "Kategori",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139286,7 +139306,8 @@
                                           "content": "No. invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139320,7 +139341,8 @@
                                           "content": "Tanggal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139354,7 +139376,8 @@
                                           "content": "Nominal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -139400,7 +139423,8 @@
                                               "content": "Approver",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -139611,7 +139635,8 @@
                                   "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -139652,7 +139677,8 @@
                               "content": "Validasi dan simpan salinan privat sebelum meneruskan. Status berikutnya Finance Approved, bukan business approval atau Paid.",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -139946,7 +139972,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -140375,7 +140402,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -140407,7 +140435,7 @@
                       "gap": 6,
                       "descendants": {
                         "g6qurL": {
-                          "content": "Nominal sebelumnya · tidak diubah",
+                          "content": "Nominal sebelum koreksi",
                           "lineHeight": 1.3846153846153846,
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
@@ -140513,7 +140541,7 @@
                       "fill": "#6B7280",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Total contoh setelah koreksi · Rp1.200.000",
+                      "content": "Total pengajuan setelah koreksi · Rp1.200.000",
                       "lineHeight": 1.5,
                       "fontFamily": "DM Sans",
                       "fontSize": 12,
@@ -140779,7 +140807,8 @@
                               "content": "Nominal invoice",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -141157,7 +141186,8 @@
                               "content": "Total pengajuan setelah koreksi",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -141289,7 +141319,8 @@
                                           "content": "Requester",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141323,7 +141354,8 @@
                                           "content": "Entity",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141357,7 +141389,8 @@
                                           "content": "Kategori",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141391,7 +141424,8 @@
                                           "content": "No. invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141425,7 +141459,8 @@
                                           "content": "Tanggal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141467,7 +141502,8 @@
                                               "content": "Nominal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "id": "mGqLq",
@@ -141522,7 +141558,8 @@
                                           "content": "Selisih",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -141560,7 +141597,8 @@
                                           "content": "Approver",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "frame",
@@ -141590,10 +141628,11 @@
                                               "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                               "lineHeight": 1.5,
                                               "fontFamily": "$font",
-                                              "fontSize": 12
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
                                             }
                                           ]
                                         }
@@ -141982,7 +142021,8 @@
                                       "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -142652,7 +142692,8 @@
                               "content": "Total pengajuan",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -142785,7 +142826,8 @@
                                           "content": "Requester",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -142819,7 +142861,8 @@
                                           "content": "Entity",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -142853,7 +142896,8 @@
                                           "content": "Kategori",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -142887,7 +142931,8 @@
                                           "content": "No. invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -142921,7 +142966,8 @@
                                           "content": "Tanggal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -142955,7 +143001,8 @@
                                           "content": "Nominal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -143001,7 +143048,8 @@
                                               "content": "Approver",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -143025,10 +143073,11 @@
                                           "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                          "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -143189,7 +143238,8 @@
                                       "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -143575,7 +143625,7 @@
                               "gap": 6,
                               "descendants": {
                                 "g6qurL": {
-                                  "content": "Nominal sebelumnya · tidak diubah",
+                                  "content": "Nominal sebelum koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
@@ -143666,7 +143716,7 @@
                               "fill": "#6B7280",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Total contoh setelah koreksi · Rp1.200.000",
+                              "content": "Total pengajuan setelah koreksi · Rp1.200.000",
                               "lineHeight": 1.5,
                               "fontFamily": "DM Sans",
                               "fontSize": 12,
@@ -144904,7 +144954,7 @@
                                   "fill": "#66717C",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.",
+                                  "content": "Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.",
                                   "lineHeight": 1.4285714285714286,
                                   "fontFamily": "DM Sans",
                                   "fontSize": 14,
@@ -145034,7 +145084,8 @@
                                   "content": "Alasan koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -146676,7 +146727,8 @@
                                               "content": "Approver",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -146703,7 +146755,8 @@
                                           "content": "Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -146907,7 +146960,8 @@
                                   "content": "Total pengajuan",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "$font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -147040,7 +147094,8 @@
                                               "content": "Requester",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147074,7 +147129,8 @@
                                               "content": "Entity",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147108,7 +147164,8 @@
                                               "content": "Kategori",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147142,7 +147199,8 @@
                                               "content": "No. invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147176,7 +147234,8 @@
                                               "content": "Tanggal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147210,7 +147269,8 @@
                                               "content": "Nominal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -147256,7 +147316,8 @@
                                                   "content": "Approver",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "type": "text",
@@ -147474,7 +147535,8 @@
                                           "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -147515,7 +147577,8 @@
                                       "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
                                       "lineHeight": 1.3846153846153846,
                                       "fontFamily": "$font",
-                                      "fontSize": 13
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -148377,7 +148440,7 @@
                               "gap": 6,
                               "descendants": {
                                 "g6qurL": {
-                                  "content": "Nominal sebelumnya · tidak diubah",
+                                  "content": "Nominal sebelum koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
@@ -148483,7 +148546,7 @@
                               "fill": "#6B7280",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Total contoh setelah koreksi · Rp1.200.000",
+                              "content": "Total pengajuan setelah koreksi · Rp1.200.000",
                               "lineHeight": 1.5,
                               "fontFamily": "DM Sans",
                               "fontSize": 12,
@@ -149158,7 +149221,8 @@
                                   "content": "Total pengajuan setelah koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "$font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -149291,7 +149355,8 @@
                                               "content": "Requester",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149325,7 +149390,8 @@
                                               "content": "Entity",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149359,7 +149425,8 @@
                                               "content": "Kategori",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149393,7 +149460,8 @@
                                               "content": "No. invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149427,7 +149495,8 @@
                                               "content": "Tanggal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149469,7 +149538,8 @@
                                                   "content": "Nominal invoice",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "id": "I9p7Ni",
@@ -149524,7 +149594,8 @@
                                               "content": "Selisih",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -149570,7 +149641,8 @@
                                                   "content": "Approver",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "type": "text",
@@ -149594,10 +149666,11 @@
                                               "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                               "lineHeight": 1.5,
                                               "fontFamily": "$font",
-                                              "fontSize": 12
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
                                             }
                                           ]
                                         }
@@ -149974,7 +150047,8 @@
                                           "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -150192,7 +150266,8 @@
                               "content": "Total pengajuan",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -150325,7 +150400,8 @@
                                           "content": "Requester",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150359,7 +150435,8 @@
                                           "content": "Entity",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150393,7 +150470,8 @@
                                           "content": "Kategori",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150427,7 +150505,8 @@
                                           "content": "No. invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150461,7 +150540,8 @@
                                           "content": "Tanggal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150495,7 +150575,8 @@
                                           "content": "Nominal invoice",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "$font",
-                                          "fontSize": 13
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -150541,7 +150622,8 @@
                                               "content": "Approver",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -150565,10 +150647,11 @@
                                           "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                          "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -150729,7 +150812,8 @@
                                       "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -150963,7 +151047,7 @@
                                   "fill": "#66717C",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.",
+                                  "content": "Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.",
                                   "lineHeight": 1.4285714285714286,
                                   "fontFamily": "DM Sans",
                                   "fontSize": 14,
@@ -151093,7 +151177,8 @@
                                   "content": "Alasan koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "DM Sans",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -151606,7 +151691,8 @@
                                   "content": "Total pengajuan setelah koreksi",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "$font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -151739,7 +151825,8 @@
                                               "content": "Requester",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -151773,7 +151860,8 @@
                                               "content": "Entity",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -151807,7 +151895,8 @@
                                               "content": "Kategori",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -151841,7 +151930,8 @@
                                               "content": "No. invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -151875,7 +151965,8 @@
                                               "content": "Tanggal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -151917,7 +152008,8 @@
                                                   "content": "Nominal invoice",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "id": "v4GXTX",
@@ -151972,7 +152064,8 @@
                                               "content": "Selisih",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152018,7 +152111,8 @@
                                                   "content": "Approver",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "type": "text",
@@ -152042,10 +152136,11 @@
                                               "fill": "#6B7280",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
-                                              "content": "Status menjadi Finance Approved. Ini validasi Finance, bukan business approval atau Paid.",
+                                              "content": "Setelah diteruskan: Finance Approved (validasi Finance), bukan business approval atau Paid.",
                                               "lineHeight": 1.5,
                                               "fontFamily": "$font",
-                                              "fontSize": 12
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
                                             }
                                           ]
                                         }
@@ -152422,7 +152517,8 @@
                                           "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -152647,7 +152743,8 @@
                                   "content": "Total pengajuan",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "$font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -152780,7 +152877,8 @@
                                               "content": "Requester",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152814,7 +152912,8 @@
                                               "content": "Entity",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152848,7 +152947,8 @@
                                               "content": "Kategori",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152882,7 +152982,8 @@
                                               "content": "No. invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152916,7 +153017,8 @@
                                               "content": "Tanggal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152950,7 +153052,8 @@
                                               "content": "Nominal invoice",
                                               "lineHeight": 1.3846153846153846,
                                               "fontFamily": "$font",
-                                              "fontSize": 13
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
                                             },
                                             {
                                               "type": "text",
@@ -152996,7 +153099,8 @@
                                                   "content": "Approver",
                                                   "lineHeight": 1.3846153846153846,
                                                   "fontFamily": "$font",
-                                                  "fontSize": 13
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
                                                 },
                                                 {
                                                   "type": "text",
@@ -153214,7 +153318,8 @@
                                           "content": "Koreksi Finance wajib menyertakan alasan dan tercatat dalam audit. Instruksi publik terlihat oleh Requester; catatan internal tidak dikirim.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -153255,7 +153360,8 @@
                                       "content": "Validasi dan simpan salinan privat sebelum Finance Approved.",
                                       "lineHeight": 1.3846153846153846,
                                       "fontFamily": "$font",
-                                      "fontSize": 13
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
