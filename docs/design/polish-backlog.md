@@ -46,11 +46,14 @@ Baseline kerja: branch `design/admin-finance-review`, PR #16 · 4 Nov 2026.
 ### PG-10 · Admin Finance Overtime
 
 - **Asal temuan:** `docs/design/screens.md`, Story Completion Matrix SF7.2: identitas Narrow dan isi confirmation/audit belum setara PG-06.
+- **Alasan ditunda:** berada di luar paket visual PG-06 yang diprioritaskan pada PR #16; koreksi perlu mempertahankan fixture `(2 + 2) × Rp100.000 = Rp400.000` dan tidak mengarang konfigurasi tarif.
+- **Bukti render:** [README Admin Finance review](../../design/png/admin-finance-review/README.md#pg-08-and-pg-10-existing-candidates).
+- **Asal temuan:** `docs/design/screens.md`, Story Completion Matrix SF7.2: identitas Narrow dan isi confirmation/audit belum setara PG-06.
 - **Alasan ditunda:** berada di luar paket visual PG-06; koreksi harus mempertahankan fixture `(2 + 2) × Rp100.000 = Rp400.000` dan tidak mengarang konfigurasi tarif.
 - **Bukti render:** [README Admin Finance review](../../design/png/admin-finance-review/README.md#pg-08-and-pg-10-existing-candidates).
 
 ## Bukan backlog
 
 - Belum diputuskan field/template Payment Request per recipient, gate konfirmasi rekening, Entity/akses Entity, ambang age warning, label Requester untuk Return to Admin/Maker Done, dan representasi tanda selisih. Ini pertanyaan produk; lihat [`open-questions.md`](../product/open-questions.md).
-- Auth/login, dashboard Admin PG-03, administrasi master/permission/import, wardrobe search, detail/export/notifications, dan approval/Maker/Releaser journeys adalah story/flow terpisah, bukan polish tambahan yang dapat disisipkan ke item di atas. Scope dan kelengkapan story tetap di [`screens.md`](screens.md).
+- Auth/login, dashboard Admin PG-03, administrasi master/permission/import, wardrobe search, detail/export/notifications, serta approval/Maker/Releaser journeys adalah story terpisah yang belum menjadi item polish dalam bukti backlog ini. Jangan menganggap item tersebut pekerjaan terjadwal; kelengkapan story dapat dilihat di [`screens.md`](screens.md).
 - Perilaku runtime, authorization, upload/OCR, keyboard/focus, screen reader, dan contrast numerik tidak terbukti oleh PNG statis; jangan jadikan render sebagai bukti implementasi.
