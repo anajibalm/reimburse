@@ -1,6 +1,6 @@
 # Backlog polish visual lintas story
 
-Baseline kerja: `docs/polish-backlog@32b6fc24eb00745686aa19f4ddc47da96b9165a9` · 4 Nov 2026.
+Baseline: base PR #18 bc81d2ede286e2763cdddd296a4ac4dd42737b13 · 4 Nov 2026.
 
 ## Aturan masuk
 
@@ -39,7 +39,7 @@ Baseline kerja: `docs/polish-backlog@32b6fc24eb00745686aa19f4ddc47da96b9165a9` �
 
 ### PG-06 · Admin Finance Reimbursement
 
-- **Asal temuan:** review pass PG-06 dan catatan P1 pada [README render Admin Finance](../../design/png/admin-finance-review/README.md#pg-06-ready-for-owner-review): helper terpisah di tiap tombol, label “Koreksi terakhir”, app bar Narrow, lebar nomor `REIM` ([open question](../product/open-questions.md#batas-layar-dan-nomor-contoh)), bentuk Selisih pada konfirmasi vs key-value pada detail, serta breadcrumb vs “← Antrean”.
+- **Asal temuan:** review pass PG-06 dan catatan P1 pada [README render Admin Finance](../../design/png/admin-finance-review/README.md#pg-06-ready-for-owner-review): helper terpisah di tiap tombol, label “Koreksi terakhir”, app bar Narrow, lebar nomor `REIM` (pertanyaan format ada di [`open-questions.md`](../product/open-questions.md#batas-layar-dan-nomor-contoh), penerapan visual dicatat di backlog), bentuk Selisih pada konfirmasi vs key-value pada detail, serta breadcrumb vs “← Antrean”.
 - **Alasan ditunda:** gate backlog: setelah MVP 0.2, kecuali salah satu temuan terbukti memblokir approval berjalan. Jangan mengubah penanda status atau navigasi yang telah siap direview tanpa bukti blocker.
 - **Bukti render:** [README render Admin Finance](../../design/png/admin-finance-review/README.md#pg-06-ready-for-owner-review).
 
@@ -64,5 +64,5 @@ Baseline kerja: `docs/polish-backlog@32b6fc24eb00745686aa19f4ddc47da96b9165a9` �
 ## Bukan backlog
 
 - Belum diputuskan field/template Payment Request per recipient, gate konfirmasi rekening, Entity/akses Entity, ambang age warning, label Requester untuk Return to Admin/Maker Done, lebar nomor `REIM`, dan representasi tanda selisih. Lihat [`open-questions.md`](../product/open-questions.md).
-- `fieldBorder` vs `redesign-control-border`: source conflict remains unresolved; see [Foundations](foundations.md#canvas-values-and-unresolved-token-mapping) and [`open-questions.md`](../product/open-questions.md#konflik-sumber-visual).
+- `fieldBorder` vs `redesign-control-border`: konflik sumber belum terselesaikan; lihat [Foundations](foundations.md#canvas-values-and-unresolved-token-mapping) dan [`open-questions.md`](../product/open-questions.md#konflik-sumber-visual).
 - Perilaku runtime, authorization, upload/OCR, keyboard/focus, screen reader, dan contrast numerik tidak terbukti oleh PNG statis; jangan jadikan render sebagai bukti implementasi.
