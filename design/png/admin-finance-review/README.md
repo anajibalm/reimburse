@@ -1,6 +1,50 @@
 # Admin Finance review · issue #15
 
-PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
+PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-10 remain existing candidates. PG-08 received the limited text/state patch below; it is not a complete decision-flow handoff or an Approved baseline. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
+
+## PG-08 Admin Finance: patch teks/state
+
+Baseline ter-resolve: `main@03d3acb458850a41d678c5b4711ed50d15d38c5e`; branch baru `design/admin-finance-pg08`. Working tree awal bersih. Sumber kanvas patch: `design/reimburse.pen`, SHA-256 `58e993a5a7b161fea8b2923f8b8726f604b41a323eb4edb1eedf391b72691326`. SHA ini hanya dicatat di sini.
+
+### Verifikasi sebelum patch: layer editable, bukan PNG
+
+1. **TERBUKTI: identitas Narrow kurang.** `L4uNC/lin72/kpCLO` = `PAY-000018 · Pending`; `L4uNC/r7hPY` = `Freelance · Maya Pratama · Fee Rp4.500.000`. `eGvPW/S39Jby` hanya `Freelance · Fee Rp4.500.000`. Pembacaan seluruh teks Narrow tidak menemukan nomor pengajuan atau nama penerima: yang hilang dibanding Desktop adalah **PAY-000018** dan **Maya Pratama**, bukan field wajib baru.
+2. **TERBUKTI: konfirmasi Finance Approved umum.** `c0W2bn/y2pz3` = `Validasi Finance selesai. Pengajuan akan diteruskan kepada Approver yang ditetapkan.`; `D2GU5/U7Cbs` = `Finance Approved`. Tidak ada fee pemeriksaan/nama Approver. Pembanding PG-06 `AvxAT`: `Gfoq2` = `Rp1.250.000`; `lEniw` = `Sari A.`; `hOz7b/U7Cbs` = `Teruskan ke Approver`. **TIDAK TERBUKTI** selected fields, nilai lama/baru, dan alasan adalah isi konfirmasi Finance Approved PG-06: itu isi state Revision/koreksi yang berbeda. Patch memperjelas identitas, fee, aksi, serta membedakan validasi Finance dari Approved/Paid. **Nama target Approver PG-08 tetap belum tersedia**, tidak diisi dengan Sari A. dari layanan lain. Copy menyatakan keterbatasan ini; bukan klaim Approver belum terkonfigurasi.
+3. **TERBUKTI: konfirmasi Revision/Reject umum.** `iPcOE/P7c7G` = `Field terpilih dibuka untuk Requester; instruksi publik akan dikirim.`; tombol `h3Mer/U7Cbs` = `Konfirmasi`. Form `LjcEB/kQ4mR` = `Fee dan dokumen`, berada dalam `UVFMr` (Revision selection), dengan `KEiKJ` (Selected checkbox, icon `square-check`). Namun `xdABN/P9sHXg` = `Jelaskan perubahan yang diminta`, masih placeholder. PG-06 `QdWeP/Iqaqm` = `Invoice dan bukti`, `I7hWfo` = `Mohon unggah invoice yang terbaca jelas.`; instruksi itu tidak dipinjam ke Payment Request. `OkzZU/B72Kb` = `Pengajuan yang ditolak tidak dapat diedit. Alasan penolakan akan dicatat.`; tombol `NGXDk/U7Cbs` = `Konfirmasi`; form `xpoXz/x8wNO/P9sHXg` = `Jelaskan alasan penolakan`, masih placeholder. **TIDAK TERBUKTI** Reject seharusnya membuka field: PRD menyatakan Rejected tidak dapat diedit. Patch menampilkan kelompok yang benar-benar dipilih dan kekosongan instruksi/alasan; tidak mengarang isi publik. Tiga tombol konfirmasi incomplete ditandai disabled secara visual/layer-state saja, bukan runtime controls.
+4. **TIDAK TERBUKTI: rate/nominal pajak karangan pada PG-08 yang diperiksa.** `HDq48/NEjaB` = `Fee contoh Rp4.400.000; pajak dihitung sesuai Tax treatment aktif.`; `L4uNC/FDDBH/orwNG` dan `eGvPW/EdEFJ/orwNG` = `Pilih aturan aktif`. Tidak ditemukan rate persen, nominal pajak, atau net payout fiktif. Rp4.500.000/Rp4.400.000 adalah fee contoh. Tax treatment, rate, kalkulasi, dan gate tidak diubah atau ditambahkan.
+5. **TIDAK TERBUKTI: akses dokumen sensitif diperluas pada specimen PG-08.** `L4uNC/xswZY` = `KTP dan rekening · akses Admin · Lihat sesuai izin`; `AmXSS/GvpjL` = `Lihat KTP / rekening · Admin`. `eGvPW/xzKJL` = `KTP dan rekening · Admin · lihat sesuai izin`; `xjs7l/GvpjL` = `Lihat KTP / rekening · Admin`. `HP1TH/vsRO7`, `Y9z8O/uLxB3`, `Z31zwX/emc6l` memakai teks akses Admin yang sama dengan Desktop; tombol `i9qZ1/GvpjL`, `qlAG8/GvpjL`, `d7bGOE/GvpjL` juga `Lihat KTP / rekening · Admin`. Tidak ada specimen PG-08 Approver/Requester yang memperluas izin tersebut. Tidak ada perubahan akses; authorization runtime belum diuji.
+
+Temuan tambahan yang **TERBUKTI**:
+- `WAO0I/v0vcM` = `Nilai lama, nilai baru dan alasan akan dicatat dalam audit.` tidak memuat nilai yang sudah ada pada form koreksi `HDq48`: `Gbn9p/P9sHXg` = `Rp4.500.000`, `nhMIq/P9sHXg` = `Rp4.400.000`, sedangkan `WEV7Z/P9sHXg` = `Jelaskan koreksi` masih placeholder. Patch membawa nilai lama/baru dan menunjukkan alasan belum diisi; status tetap Pending, bukan penerusan ke Approver.
+- `HP1TH/aVG8t/kpCLO`, `Y9z8O/eImma/kpCLO`, `Z31zwX/j5JrJ/kpCLO` semuanya `PAY-000018 · Pending`; badge `taZBi/U0zly`, `CFjdt/U0zly`, `T1SHA/U0zly` semuanya `Pending vendor proof`. Header diselaraskan dengan badge tanpa mengubah badge/gate vendor proof.
+
+### Node diubah dan hasil patch
+
+| Frame | Node | Hasil |
+| --- | --- | --- |
+| eGvPW | S39Jby | `PAY-000018`, lalu `Freelance · Maya Pratama · Fee Rp4.500.000` pada baris berikutnya |
+| c0W2bn | y2pz3, D2GU5/U7Cbs | Identitas dan Fee Rp4.500.000; periksa Tax treatment/Approver; nama Approver belum dicontohkan; setelah diteruskan Finance Approved (validasi Finance), bukan Approved/Paid; aksi `Teruskan ke Approver` |
+| iPcOE | P7c7G, h3Mer/U7Cbs, h3Mer | Identitas, `Field dibuka: Fee dan dokumen. Field lain tidak dibuka.`, instruksi publik belum diisi; setelah dikirim status Revision, catatan internal tidak dikirim; aksi `Minta Revision`, opacity 0.45, nama layer disabled specimen |
+| WAO0I | v0vcM, s8e4r/U7Cbs, s8e4r | Identitas, Fee Rp4.500.000 → Rp4.400.000; alasan belum diisi; koreksi tidak meneruskan, tetap Pending; audit lama/baru/actor/waktu/alasan; aksi `Simpan koreksi`, opacity 0.45, nama layer disabled specimen |
+| OkzZU | B72Kb, NGXDk/U7Cbs, NGXDk | Identitas, alasan penolakan belum diisi; setelah ditolak Rejected/tidak dapat diedit; Reject tidak membuka field Revision; aksi `Tolak pengajuan`, opacity 0.45, nama layer disabled specimen |
+| HP1TH | aVG8t/kpCLO | `PAY-000018 · Pending vendor proof` |
+| Y9z8O | eImma/kpCLO | `PAY-000018 · Pending vendor proof` |
+| Z31zwX | j5JrJ/kpCLO | `PAY-000018 · Pending vendor proof` |
+
+**Batas hasil:** belum ada happy-path konfirmasi dengan instruksi publik/alasan konkret karena form sumber masih placeholder, serta belum ada contoh nama Approver PG-08. Patch tidak menyatakan paritas penuh dengan PG-06 atau kesiapan approval. Tidak ada field wajib/template, rate pajak, atau gate rekening baru. PRD tetap otoritas.
+
+### Ekspor dan pemeriksaan
+
+Hanya **8 frame berubah** yang diekspor, masing-masing PNG native 2×: [eGvPW](eGvPW.png) (780×1688); [c0W2bn](c0W2bn.png), [iPcOE](iPcOE.png), [WAO0I](WAO0I.png), [OkzZU](OkzZU.png), [HP1TH](HP1TH.png), [Y9z8O](Y9z8O.png), [Z31zwX](Z31zwX.png) (2880×1920). Empat PNG konfirmasi sebelumnya belum ada di paket; frame-nya sudah ada, tidak dibuat ulang. Ekspor lama eGvPW/vendor proof berukuran 1×; ekspor baru dirender native 2×, bukan upscale PNG lama. `L4uNC`, `HDq48`, `LjcEB`, `QB9Kq` tidak berubah/tidak diekspor. Galeri `zVZZY`/`U6TVT` tidak diekspor; PNG galerinya tetap historis.
+
+Checklist:
+- Tepat **12 stored nodes** berubah (12 teks/instance-content dan tambahan nama/opacity pada tiga ref tombol yang sama). Tidak ada ID/node/source/ref baru, penghapusan, perubahan children/order, layout/dimensi/typography, atau variabel global.
+- Semua source reusable tetap identik; instance sidebar/header/badge yang sudah ada tetap dipakai (`fTzqJ`, `yLJBd`, `Igbr1`, `R5NHOj`). `G1vZd` dan `F07dGp` dibaca sebagai referensi, tidak diubah atau dipaksakan menjadi instance baru karena batas tanpa node baru. PG-02/PG-04/PG-06 dan semua root non-PG-08 identik baseline.
+- Bounds seluruh 8 frame: nol masalah pada node enabled. Empat temuan clipping berada pada node `enabled:false` yang sudah ada (`hWwD3`, `ZFnld`, `Z8EAWK`, `k0owxg`), bukan konten tampil. Screenshot live eGvPW, empat konfirmasi, dan HP1TH diperiksa untuk wrapping/alignment/overflow. Screenshot bukan dasar verdict teks.
+- Tidak diverifikasi: authorization/API, persistence audit, tax calculation aktual, upload/validasi dokumen, interaksi/disabled runtime, keyboard/focus, screen reader, contrast numerik, atau regresi visual seluruh layanan. Dokumen sensitif di luar scope PG-08 tidak diaudit menyeluruh.
+- Tidak ada perubahan editor tambahan yang ikut di-stage; hanya patch teks/state eksplisit. Tidak menyentuh docs lain, PG-06, PR #17, atau merge.
+
+## Riwayat PG-06
 
 ## Patch copy terverifikasi, issue #15
 

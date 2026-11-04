@@ -154418,7 +154418,7 @@
                       "fill": "#20242A",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Validasi Finance selesai. Pengajuan akan diteruskan kepada Approver yang ditetapkan.",
+                      "content": "Pengajuan: PAY-000018 · Maya Pratama · Freelance\nFee pemeriksaan: Rp4.500.000\nPeriksa Tax treatment dan Approver tujuan sebelum meneruskan. Nama Approver belum dicontohkan.\nSetelah diteruskan: Finance Approved (validasi Finance), bukan Approved atau Paid.",
                       "fontFamily": "DM Sans",
                       "fontSize": 15,
                       "fontWeight": "normal"
@@ -154447,7 +154447,7 @@
                           "name": "Finance Approved",
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Finance Approved"
+                              "content": "Teruskan ke Approver"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -154686,7 +154686,7 @@
                       "fill": "#66717C",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Field terpilih dibuka untuk Requester; instruksi publik akan dikirim.",
+                      "content": "PAY-000018 · Maya Pratama\nField dibuka: Fee dan dokumen. Field lain tidak dibuka.\nInstruksi publik: belum diisi. Kembali dan isi instruksi sebelum meminta Revision.\nSetelah dikirim, status Revision. Catatan internal tidak dikirim ke Requester.",
                       "fontFamily": "DM Sans",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -154712,10 +154712,11 @@
                           "id": "h3Mer",
                           "type": "ref",
                           "ref": "fFmN2",
-                          "name": "Konfirmasi",
+                          "name": "Minta Revision · disabled specimen · instruksi publik belum diisi",
+                          "opacity": 0.45,
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Konfirmasi"
+                              "content": "Minta Revision"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -154826,7 +154827,7 @@
                       "fill": "#66717C",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Nilai lama, nilai baru dan alasan akan dicatat dalam audit.",
+                      "content": "PAY-000018 · Maya Pratama\nFee total sebelumnya: Rp4.500.000\nFee total setelah koreksi: Rp4.400.000\nAlasan koreksi: belum diisi. Kembali dan isi alasan sebelum menyimpan.\nKoreksi tidak meneruskan pengajuan; status tetap Pending. Nilai lama, nilai baru, actor, waktu dan alasan dicatat dalam audit.",
                       "fontFamily": "DM Sans",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -154852,10 +154853,11 @@
                           "id": "s8e4r",
                           "type": "ref",
                           "ref": "fFmN2",
-                          "name": "Konfirmasi",
+                          "name": "Simpan koreksi · disabled specimen · alasan belum diisi",
+                          "opacity": 0.45,
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Konfirmasi"
+                              "content": "Simpan koreksi"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -154966,7 +154968,7 @@
                       "fill": "#66717C",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Pengajuan yang ditolak tidak dapat diedit. Alasan penolakan akan dicatat.",
+                      "content": "PAY-000018 · Maya Pratama\nAlasan penolakan: belum diisi. Kembali dan isi alasan sebelum menolak.\nSetelah ditolak, status Rejected dan pengajuan tidak dapat diedit. Reject tidak membuka field untuk Revision.",
                       "fontFamily": "DM Sans",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -154992,10 +154994,11 @@
                           "id": "NGXDk",
                           "type": "ref",
                           "ref": "fFmN2",
-                          "name": "Konfirmasi",
+                          "name": "Tolak pengajuan · disabled specimen · alasan belum diisi",
+                          "opacity": 0.45,
                           "descendants": {
                             "U7Cbs": {
-                              "content": "Konfirmasi"
+                              "content": "Tolak pengajuan"
                             },
                             "eq2MD": {
                               "enabled": false
@@ -155071,7 +155074,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018 · Pending vendor proof"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -155354,7 +155357,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018 · Pending vendor proof"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -155639,7 +155642,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018 · Pending vendor proof"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -156127,7 +156130,7 @@
                           "fill": "#20242A",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Freelance · Fee Rp4.500.000",
+                          "content": "PAY-000018\nFreelance · Maya Pratama · Fee Rp4.500.000",
                           "fontFamily": "DM Sans",
                           "fontSize": 14,
                           "fontWeight": "normal"
