@@ -1,6 +1,6 @@
 # Backlog polish visual lintas story
 
-Baseline kerja: `docs/polish-backlog@276b8951fe7c171e9ecb7ea70ce3738e575032bb` · 4 Nov 2026.
+Baseline kerja: `docs/polish-backlog@32b6fc24eb00745686aa19f4ddc47da96b9165a9` · 4 Nov 2026.
 
 ## Aturan masuk
 
