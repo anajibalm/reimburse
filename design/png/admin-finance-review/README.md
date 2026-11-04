@@ -24,7 +24,7 @@ Sumber patch: kanvas `design/reimburse.pen` pada commit `d51b5a33902f4be31f53684
 | dRbB4 | jAMMq | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending. Nilai lama, nilai baru dan alasan dicatat dalam audit.` |
 | FyrQ7, d0R8t | zWkOX, wQYR2 (urutan berpasangan) | `Selisih: turun Rp50.000. Koreksi tidak meneruskan pengajuan. Status tetap Pending; file invoice asli tidak diubah.` |
 
-Ekspor patch ini mencakup **13 PNG individual 2×**: `Kr0gH.png`, `IPbJL.png`, `pSkHH.png`, `Fdupv.png`, `El9ow.png`, `phpZn.png`, `a5jkj.png`, `CYzIN.png`, `Wym3I.png`, `k99ii.png`, `dRbB4.png`, `FyrQ7.png`, `d0R8t.png`. Setelah itu, hanya `k99ii.png` diekspor ulang karena frame koreksi narrow memakai teks baru; 12 PNG individual lain tidak disentuh. **Dua galeri PG-06 disegarkan** dari PNG individual saat ini. Daftar 30/34 PNG di bawah adalah catatan pass terdahulu, bukan ekspor patch ini.
+Ekspor patch ini **14 PNG individual 2×**: `Kr0gH.png`, `IPbJL.png`, `pSkHH.png`, `Fdupv.png`, `El9ow.png`, `phpZn.png`, `a5jkj.png`, `CYzIN.png`, `Wym3I.png`, `k99ii.png`, `dRbB4.png`, `FyrQ7.png`, `d0R8t.png`; k99ii diperbarui tersendiri setelah ditemukan stale. **Dua galeri PG-06 disegarkan** dari PNG individual terkini; tidak ada PNG individual lain diubah oleh penyegaran galeri. Daftar 30/34 PNG di bawah adalah catatan pass terdahulu, bukan ekspor patch ini.
 
 Checklist verifikasi patch:
 - Seluruh node ID dan struktur children dipertahankan; tidak ada node/source reusable baru atau perubahan variabel global. PG-02/PG-04 dan semua root selain dua root PG-06 tidak berubah.
@@ -58,14 +58,14 @@ Saved source for the PG-06 spacing/alignment polish, 3 Nov 2026: `design/reimbur
 | End-scroll views | Not applicable | [Detail El9ow](El9ow.png) · [Correction d0R8t](d0R8t.png) · [History phpZn](phpZn.png) · [Gate MFCrl](MFCrl.png) |
 | Full gallery: 14 Desktop / 18 Narrow | [k3Z6yT](k3Z6yT.png) | [QkNNL](QkNNL.png) |
 
-The earlier pass re-exported 30 PNGs: 14 Desktop specimens, 14 Narrow specimens and two galleries. Separately, 34 PNGs differed against `1296b9c`; those counts describe different scopes. This patch then re-exported only `k99ii.png` and refreshed both galleries. No other individual PNG changed.
+This pass re-exported exactly **30 PNGs**: 14 Desktop specimens, 14 Narrow specimens and two galleries. Separately, **34 PNGs differ against `1296b9c`**; the baseline comparison count and this pass's export count describe different scopes and do not replace one another. Full story coverage remains 14 Desktop / 18 Narrow specimens. Four Narrow specimens were not re-exported because they contain no Selisih row: `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), and `AqkVX` (Reject validation). No other story/service export was refreshed.
 
 - Desktop (14): `Kr0gH`, `M18Zn4`, `a5jkj`, `SpqpD`, `AvxAT`, `PRHXV`, `QdWeP`, `dRbB4`, `NORQW`, `i8by7`, `BVkTP`, `CYzIN`, `DNK1L`, `IPbJL`.
 - Narrow (14): `pSkHH`, `Wym3I`, `Uumk3`, `Lobuu`, `FyrQ7`, `b84ip`, `jTy7R`, `LeyaV`, `Ngiia`, `Fdupv`, `El9ow`, `d0R8t`, `phpZn`, `MFCrl`.
 - Galleries (2): `k3Z6yT`, `QkNNL`.
-- Unchanged/not exported during the earlier 30-PNG pass (no Selisih row): `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), `AqkVX` (Reject validation). `k99ii` was exported after that pass for this patch.
+- Unchanged/not exported (no Selisih row): `E2LETd` (Revision form), `TMFSr` (Revision validation), `k99ii` (Correction validation), `AqkVX` (Reject validation).
 
-Individual Desktop entries are 2880×1920, Narrow 780×1688; full galleries are 12320×8560 and 5800×5820 at native 2×. Direct Desktop frame export is capped at 8192px, so `k3Z6yT.png` is assembled from all 14 current Desktop PNGs and cached heading. `QkNNL.png` is exported from the gallery frame. Scroll positions are specimens, not new business states.
+Individual Desktop entries are 2880×1920, Narrow 780×1688; galleries native 2×. Desktop frame export has an 8192px width cap: gallery output is clipped by the exporter to 8192×5692, not the full canvas width. Narrow gallery is 5800×5820. Scroll positions are specimens, not new business states.
 
 **Latest polish, presentation only:** section rhythm remains 32px Desktop / 24px Narrow, divider spacing 16/16 and 12/12, title/content gap 12px. Kr0gH column gap is 32px; total label and right action box both start at y=24. Approver helper uses 156px Desktop indentation / none Narrow. Selisih is a plain neutral-2 key-value row, and audit rows have no nested gray surface; audit amounts stay 13/500. Correction values use horizontal Desktop / vertical Narrow order, corrected 28/700 and gray struck-through previous value, with no right-card hero. Correction cards size to content while the workspace still fills height.
 
