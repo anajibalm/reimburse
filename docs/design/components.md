@@ -1,6 +1,6 @@
 # Reusable components
 
-**Source:** active Pencil canvas [`../../design/reimburse.pen`](../../design/reimburse.pen). **Observed 31 Oct 2026:** 40 reusable component sources, 242 `ref` instances, and no references to missing source components. Earlier counts of 33 sources / 303 references describe a prior canvas snapshot.
+**Source:** active Pencil canvas [`../../design/reimburse.pen`](../../design/reimburse.pen). **Observed in the saved PG-06 owner review package, 3 Nov 2026:** 85 reusable component sources, 1,694 `ref` instances, and no references to missing source components. Before the PG-06 pass, commit `63f0590` contained 85 sources and 1,595 refs. The source definitions are unchanged; new PG-06 specimens instance existing sources. Earlier counts describe prior canvas snapshots.
 
 ## Current source IDs
 
@@ -46,6 +46,7 @@
 | `Component/Sidebar/Rail` | `Odk8q` | Sidebar rail. |
 | `Component/Page/Header` | `gzK11` | Page header. |
 | `Recent status badge 0` | `R5NHOj` | Current canvas source name as observed. |
+| `Component/Status/Badge · with subtext` | `fawD6` | Status badge dengan dua baris: token status PRD dan subteks penjelas. Tata bahasa warna di `screens.md`. |
 
 ## PG-02 Mobile additions, issue #5
 
@@ -87,6 +88,38 @@ PG-04 Mobile reuses the approved PG-02 header composition and existing `IenEv` P
 ## Payment Request and Overtime review corrections · issue #13
 
 Board `o0h9YD` contains the reusable Overtime date entry `IF8Ci`, with distinct date/start/end controls, evidence row and calculated duration/subtotal. PG-09 one-date and two-date form specimens instance it with date-specific overrides. Requester detail sources `F07dGp` (Payment Request) and `amQuh` (Overtime) compose the approved PG-06 `Kc4qh` detail pattern, including status, read-only summary, evidence and history; PG-08/10 main and workflow-status specimens instance them. Cancellation confirmation and validation states stay separate. These remain static candidates, not runtime or authorization evidence.
+
+## Admin Finance shared sources · issue #15 / PR #16
+
+| Source | ID | Use |
+|---|---|---|
+| `Component / Admin Finance sidebar` | `fTzqJ` | Shared Desktop Admin shell, derived from approved Requester sidebar `TFVJz` with Admin role, active queue navigation and operational guidance. |
+| `Component / Admin Finance narrow header` | `yLJBd` | Shared 390 px header retaining approved brand mark, Admin Finance role and page title. |
+| `Component / Admin Finance decision summary` | `G1vZd` | Shared confirmation summary used by Revision `QdWeP` and Finance Approved `AvxAT`. |
+
+Desktop Admin screens continue to instance approved page header `Igbr1`; queue/review status labels instance `R5NHOj`. Narrow queue rows instance `jzecl`, and correction/document actions reuse `WQYrQ`; Payment Request tax treatment reuses `bEhaY`. Sample disclosure is in frame names/handoff, not UI copy. These references establish canvas reuse only, not runtime behavior or authorization.
+
+## Status badge grammar · issue #15 / PR #16
+
+`fawD6` (`Component/Status/Badge · with subtext`) menambahkan baris subteks pada
+badge status. Specimen `vgxDh` memuat 10 instance, satu per status PRD. `ugMIf`
+dan 25 instance lamanya tidak diubah; `fawD6` adalah sumber terpisah.
+
+Tata bahasa warna: `$warning` = Requester harus bertindak (`Revision`,
+`Pending vendor proof`); `$success` = lunas (`Paid`); `$danger` = ditolak
+(`Rejected`); `$muted` = dibatalkan (`Cancelled`); `status-neutral-1` = antre
+(`Pending`); `status-neutral-2` = diproses, menunggu pihak lain (`Finance
+Approved`, `Approved`, `Return to Admin`, `Maker Done`). `$primary` dan `$text`
+tidak dipakai sebagai label badge.
+
+Dua note di `h1ssGO`: `c3kAg4` mencatat `status-neutral-1` 4.60:1 (margin 0.10 di
+atas ambang) sehingga opacity tidak boleh diterapkan pada subtree badge; `Nsqcb`
+mencatat kolom next step wajib terisi karena empat status berbagi
+`status-neutral-2`. `Tgrf0` memuat kutipan tata bahasa warna tersebut.
+
+`x5aDgA` (`REVIEW/README · Approval status`) adalah board bukti-baca yang
+mendaftar status persetujuan tiap story beserta node buktinya. Board ini tidak
+menggantikan PRD dan tidak menetapkan approval baru.
 
 ## Usage boundaries
 

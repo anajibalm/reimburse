@@ -12,11 +12,16 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 - PRD menetapkan field wajib mengikuti template aktif berdasarkan recipient dan Quotation, tetapi tidak merinci daftar field/dokumen untuk tiap kombinasi KOL, Talent, dan Freelance. Varian desain menunjukkan pilihan dan ketergantungan template, bukan menetapkan daftar field baru.
 - PRD menyatakan Requester hanya mengonfirmasi rekening dan KTP/rekening hanya untuk Admin, tetapi tidak menetapkan secara eksplisit apakah konfirmasi yang belum dilakukan memblokir Tinjau atau Submit. Desain tidak menetapkan aturan pemblokiran; keputusan produk tetap diperlukan.
 
+## Finance queue: age warning
+
+- PRD meminta age warning pada antrean Finance, tetapi belum menetapkan ambang usia atau aturan peringatan. Contoh usia dalam desain tidak menetapkan ambang atau kebijakan baru.
+
 ## Nilai dan status yang ditampilkan
 
-- [`../../PRD.md`](../../PRD.md) tidak menentukan apakah nominal pada dashboard/daftar harus tetap jumlah yang dikirim Requester atau berubah setelah koreksi Finance/Admin. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; belum ada keputusan produk yang menyelaraskan keduanya.
+- **TERJAWAB — nominal dashboard/daftar:** keputusan PG-06 menetapkan total setelah koreksi sebagai nilai otoritatif; nominal invoice dan riwayat tetap nilai asli sebagai pembanding. Rujukan: [`foundations.md`, “PG-06 ringkasan pemeriksaan · draft handoff`](../design/foundations.md#pg-06-ringkasan-pemeriksaan--draft-handoff). Keputusan ini mengikat tampilan PG-06; PRD belum diubah. Catatan UX lama memilih nominal saat dikirim, sedangkan layar desain terminal menampilkan nilai akhir; catatan tersebut dipertahankan sebagai riwayat, dan perbedaan kini diselesaikan oleh keputusan ini.
 - PRD memakai status `Return to Admin` dan `Maker Done`, tetapi tidak menetapkan label khusus Requester. Catatan UX lama mengusulkan “Sedang ditinjau” dan “Pembayaran disiapkan”. Pilihan label itu belum masuk PRD.
 - Bentuk dashboard (angka status vs. jumlah proses berjalan), penyajian Draft, stepper riwayat aktual, penempatan Cancel, dan menu profil/logout tercatat pada desain lama. Perlakukan sebagai eksplorasi/arah visual, bukan aturan bisnis, kecuali tertulis dalam PRD.
+- Arah tanda selisih nominal (over-claim vs under-claim) belum ditetapkan PRD. Fixture hanya menunjukkan dua nilai pembanding; fixture tidak menyatakan tanda `+` atau `-` maupun arah selisih.
 
 ## Batas layar dan nomor contoh
 
@@ -26,7 +31,7 @@ PRD tetap sumber aturan bisnis. Dokumen ini hanya mencatat gap yang terlihat saa
 ## Konflik sumber visual
 
 - Canvas `design/reimburse.pen` mendefinisikan `fieldBorder = #858D97` dan menamai `3.36:1` sebagai field boundary; canvas juga mendefinisikan `redesign-control-border = #7F8790`. Foundations/01 menggunakan keterangan nilai pertama. Peran token kedua pada kontrol redesign belum ditetapkan; jangan samakan atau menimpa token tanpa review desain.
-- Canvas memuat flow Requester, screen redesign, dan state PG-02. Owner sudah menyetujui baseline PG-02 Desktop/Mobile; PR #2 → #4 → #6 telah merged berurutan sesuai otorisasi. Persetujuan itu tidak berlaku otomatis pada flow lama berlabel “Belum diselaraskan”. Owner menyetujui kandidat PG-04 Desktop `9bea1db` sebagai baseline; owner juga menyetujui hasil visual PG-04 Mobile terbaru sebagai baseline; PR #8 belum di-merge. Lihat handoff `docs/design/screens.md` untuk node kandidat dan gate review, tanpa menganggap semua varian sepasang atau sinkron.
+- Canvas memuat flow Requester, screen redesign, dan state PG-02. Owner sudah menyetujui baseline PG-02 Desktop/Mobile; PR #2 → #4 → #6 telah merged berurutan sesuai otorisasi. Persetujuan itu tidak berlaku otomatis pada flow lama berlabel “Belum diselaraskan”. Owner menyetujui kandidat PG-04 Desktop `9bea1db` dan visual Mobile sebagai baseline; PR #8 sudah merged. Persetujuan visual tidak otomatis mengizinkan merge PR lain. Lihat handoff `docs/design/screens.md` untuk node kandidat dan gate review, tanpa menganggap semua varian sepasang atau sinkron.
 
 ## Sumber dan keterlacakan
 

@@ -1,6 +1,6 @@
 # Design foundations
 
-**Status:** handoff for review, 31 Oct 2026. The active design source is [`../../design/reimburse.pen`](../../design/reimburse.pen). PRD owns product rules. This file records the current canvas structure and key visual foundations; it does not turn static screens into implemented behavior.
+**Status:** handoff for review, 2 Nov 2026. The active design source is [`../../design/reimburse.pen`](../../design/reimburse.pen). PRD owns product rules. This file records the current canvas structure and key visual foundations; it does not turn static screens into implemented behavior.
 
 ## Active canvas
 
@@ -23,7 +23,46 @@ Foundations/01 displays these values: canvas `#F0F1F2`, surface `#FFFFFF`, elect
 
 The live canvas defines `fieldBorder = #858D97` and `redesign-control-border = #7F8790`. Foundations/01 labels the first `3.36:1 on white` and describes it as meeting the 3:1 non-text boundary threshold. The role and screen mapping of the second token have not been reconciled. Preserve both until design review; do not replace them by inference. The light `line = #E3E6EA` variable is separate from field-border values.
 
+Anotasi `GWrQ6` (`Annotation · Unresolved control border tokens`) ditambahkan ke
+`VD4Fy` untuk mencatat kedua token tersebut beserta pernyataan bahwa pemetaannya
+belum diputuskan. Tidak ada nilai variabel yang diubah. Karena blok anotasi
+menambah tinggi, `VD4Fy` tumbuh 860 → 1050 px dan export
+`reference/FOUNDATIONS-01-Visual-direction-and-tokens.png` diperbarui.
+
 Canvas Foundations/01 also records selected status contrast values: success 4.85:1, warning 4.85:1, and danger 5.75:1 on tinted surfaces. These are canvas notes, not a fresh contrast audit of every rendered screen, state, opacity, or export.
+
+## Token status netral
+
+Dua variabel ditambahkan untuk membedakan status yang menunggu tanpa memakai
+warna semantik atau biru aksi. Keduanya diukur pada `$subtle` `#F7F8FA`:
+
+| Variabel | Nilai | Kontras | Dipakai |
+|---|---|---:|---|
+| `status-neutral-1` | `#65737C` | 4.60:1 | `Pending` (antre, belum diproses Admin) |
+| `status-neutral-2` | `#4D5662` | 7.00:1 | `Finance Approved`, `Approved`, `Return to Admin`, `Maker Done` |
+
+`status-neutral-1` hanya memiliki margin 0.10 di atas ambang 4.5:1 untuk teks
+12 px; opacity atau alpha tidak boleh diterapkan pada subtree yang memuat badge.
+Total variabel kanvas menjadi 43. Nilai tetap draft sampai diuji pada layar
+produk.
+
+## PG-06 ringkasan pemeriksaan · draft handoff
+
+The latest owner-directed PG-06 two-pass brief supersedes the earlier local 22/700 amount rule: hero 28/700 with 34px line-height; invoice and audit amounts 13/500 with 18px line-height; section/card titles 16/600. Text 14px uses 20px line-height, 13px uses 18px. Existing global tokens and Approved boards are untouched. Owner-specified local divider `#EEE` and helper `#6B7280` are scoped to PG-06, not new global colors.
+
+**Pass 1, layout only:** fixed 140px Desktop / 120px Narrow labels, 16px label/value gap, 12px between field rows; 32px Desktop / 24px Narrow section rhythm; heading-to-first-content 12px. Outer card padding is 24px Desktop / 20px Narrow. The final locked divider rule wins over earlier 24/24 and hero-to-divider 20 instructions: 16px above/below Desktop, 12px above/below Narrow, excluding the 1px rule. Approver is the last row in Rincian pengajuan, with its status-gate sub-row and no separate divider/column. Secondary actions have 12px gaps and one helper below them; decision group starts 24px later, Reject–Teruskan are 12px apart in one group. Controls are 44px tall with 16px horizontal padding. File cards use 12px/16px padding, 13/600 filename, 12px state, 2px internal text gap. Form heading/description gap 8px, field gaps 16px, label/input and input/helper 6px, last-field/actions 24px; gray key-value summaries have 16px padding and 8px row gaps. Explicit values such as 20px card padding and 6px input gaps are brief-specific exceptions to the spacing scale.
+
+**Pass 2, copy/state:** Nominal invoice remains visible in every PG-06 specimen at 13/500; only unequal amounts get a difference badge. Corrected hero is Rp1.200.000, comparator Rp1.250.000, with history amounts kept at 13/500 rather than display scale. The single 12/18 helper below group (a) combines the existing correction/audit and public/internal sentences, color `#6B7280`, max-width 60ch. No separate helpers remain beside each secondary action.
+
+Keputusan produk untuk PG-06: total setelah koreksi adalah nilai otoritatif; nominal invoice dan riwayat tetap nilai asli sebagai pembanding.
+
+Draft `$warning-line` still maps to `--warning-line: #98600040`, existing warning hue at approximately 25% alpha. Warning-soft remains `#FFF5E5`. The inline alert has 1px border, radius 8px, padding 12px/16px, 16px info icon, 8px icon/text gap and 13/18 text. The alert sits above the entire decision group, with 24px from group (a) to alert and 12px from alert to the first control. Simpan salinan privat remains a recovery action 16px below the file card and 24px before group (a), not the alert's attachment point.
+
+**Warning grammar extension, draft for owner review:** warning means a party must act before continuation, not only Requester. Until the private copy is saved, forwarding is **visible disabled**, not hidden, in `i8by7`, `Ngiia` and `MFCrl`. Canvas `enabled: true` controls visibility, not native disabled behavior; muted styling and layer name `Finance Approved · Disabled · private-copy-required` express the specimen state. Implementation must use an actual disabled control, not styling alone. Old Desktop gate companion `O4I60g` is removed; `i8by7` remains a blocked variation of the same review page, not a separate gate destination. No permissions/status rules change.
+
+**Latest locked polish:** Selisih is a plain key-value row with 140px Desktop / 120px Narrow label, 16px column gap and 12px row rhythm; its value uses `$status-neutral-2` #4D5662, never amber, with no gray surface. Audit Actor/Waktu/Alasan rows also have no nested surface; monetary history remains 13/500. Approver helper is 12/18 #6B7280, 8px below the Approver value, indented 156px Desktop and unindented Narrow. Kr0gH columns have 24px top insets and a 32px gap. Correction confirmation cards size to content and align to start while the workspace retains its full height: corrected value 28/700 first, previous value 16px Desktop / 14px Narrow, struck through in #6B7280. Desktop comparison is horizontal, Narrow vertical in the same order; no corrected hero remains in the right card. Reason label is 13px muted, value 14px #111. No frames/states or button rules are added or removed by this polish.
+
+**Renderer limitation, not a verified feature:** the Pen schema has neither baseline alignment nor font-feature/tabular-numeral properties. Canvas chip rows use end alignment as a visual approximation with the right edge determined by layout, never an absolute x offset; it does not prove exact first-baseline alignment or tabular digit widths. Scoped draft `.pg06-review` rules in `tokens.css` specify `align-items: baseline` and `font-variant-numeric: tabular-nums` for implementation. These rules are not imported by a product app. Verify baseline, digit widths, keyboard and disabled behavior in the eventual frontend; do not report them as passing canvas tests.
 
 ## Frame sizes observed
 

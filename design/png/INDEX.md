@@ -72,10 +72,24 @@ PNG exports were captured from `../reimburse.pen`. Frame names/IDs reflect expor
 | AREA/03 Desktop flows | [canvas/AREA-03-Desktop-flows.png](canvas/AREA-03-Desktop-flows.png) |
 | AREA/04 Mobile flows | [canvas/AREA-04-Mobile-flows.png](canvas/AREA-04-Mobile-flows.png) |
 | AREA/05 Full-page copies | [canvas/AREA-05-Full-page-copies.png](canvas/AREA-05-Full-page-copies.png) |
-| AREA/06 Review aids | [canvas/AREA-06-Review-aids.png](canvas/AREA-06-Review-aids.png) |
 | Foundations · Visual direction and tokens | [reference/FOUNDATIONS-01-Visual-direction-and-tokens.png](reference/FOUNDATIONS-01-Visual-direction-and-tokens.png) |
 | Foundations · Layout and composition | [reference/FOUNDATIONS-02-Layout-and-composition.png](reference/FOUNDATIONS-02-Layout-and-composition.png) |
 | Requester component foundation | [reference/COMPONENTS-01-Requester-component-foundation.png](reference/COMPONENTS-01-Requester-component-foundation.png) |
 | Requester navigation components | [reference/COMPONENTS-02-Requester-navigation-components.png](reference/COMPONENTS-02-Requester-navigation-components.png) |
+
+> `FOUNDATIONS-01` diekspor ulang 2 Nov 2026 karena `VD4Fy` bertambah tinggi
+> (860 → 1050) untuk memuat anotasi token `GWrQ6`. Bukan export ulang paket PG-06 tanggal 3 Nov.
+
+## Review boards
+
+| Node | PNG |
+|---|---|
+| REVIEW/README · Approval status (`x5aDgA`) | [review/x5aDgA.png](review/x5aDgA.png) |
+| Specimen · Status badge with subtext (`vgxDh`) | [review/vgxDh.png](review/vgxDh.png) |
+
+## Admin Finance review
+
+Render index: [`admin-finance-review/README.md`](admin-finance-review/README.md).
+PG-06 **Ready for Owner Review**, bukan Approved: [tiga pasangan entry point dan dua galeri](admin-finance-review/README.md#pg-06-ready-for-owner-review). Paket dua pass 3 Nov 2026 memperbarui 34 PNG PG-06 yang berubah: 14 Desktop, 18 Narrow dan dua galeri, semuanya native 2×. Gate salinan privat inline berakhir pada primary yang terlihat disabled. Batas renderer baseline/tabular-nums dicatat di README dan handoff. Paket PG-04/08/10 tetap bukti existing.
 
 Legacy PNGs moved, not deleted: [`../png-arsip/`](../png-arsip/).

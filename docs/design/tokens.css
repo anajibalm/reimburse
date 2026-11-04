@@ -22,10 +22,15 @@
   --color-danger: #b42318;
   --color-success-soft: #e9f5ee;
   --color-warning-soft: #fff5e5;
+  --warning-line: #98600040; /* DRAFT PG-06: existing warning hue at 25% alpha */
   --color-danger-soft: #fdecea;
   --color-danger-strong-surface: #3b2b2d;
   --color-danger-strong-text: #ffc5c1;
   --color-danger-strong-dot: #f17c75;
+
+  /* Status netral, issue #15 / PR #16. Keduanya draft. */
+  --status-neutral-1: #65737c; /* antre; 4.60:1 pada #f7f8fa */
+  --status-neutral-2: #4d5662; /* diproses, menunggu pihak lain; 7.00:1 pada #f7f8fa */
 
   /* Typography. Inter is a tentative implementation choice. */
   --font-ui: Inter, system-ui, sans-serif;
@@ -115,4 +120,84 @@
   --z-modal: 40; /* USULAN BARU */
   --motion-duration: 180ms; /* USULAN BARU: within board's 150–220ms */
   --motion-easing: cubic-bezier(0.2, 0, 0, 1); /* USULAN BARU */
+}
+
+/* PG-06 owner-directed draft handoff, not imported by a product app.
+ * These selectors specify renderer features absent from the Pen schema.
+ * Global tokens and Approved canvas source definitions remain unchanged.
+ */
+.pg06-review {
+  --pg06-label-width: 140px;
+  --pg06-section-rhythm: 32px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pg06-review[data-layout="narrow"] {
+  --pg06-label-width: 120px;
+  --pg06-section-rhythm: 24px;
+}
+
+.pg06-review .key-value-row {
+  display: grid;
+  grid-template-columns: var(--pg06-label-width) minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: baseline;
+}
+
+.pg06-review .key-value-fields { row-gap: 12px; }
+.pg06-review .key-label { font-size: 13px; line-height: 18px; }
+.pg06-review .field-value { font-size: 14px; line-height: 20px; }
+.pg06-review .section-heading { font-size: 16px; font-weight: 600; margin-block-end: 12px; }
+.pg06-review .hero-amount { font-size: 28px; font-weight: 700; line-height: 34px; }
+.pg06-review .invoice-amount,
+.pg06-review .audit-amount { font-size: 13px; font-weight: 500; line-height: 18px; }
+
+.pg06-review .section-divider {
+  height: 1px;
+  margin-block: calc(var(--pg06-section-rhythm) / 2);
+  border: 0;
+  background: #eee;
+}
+
+.pg06-review .secondary-helper {
+  max-width: 60ch;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6b7280;
+}
+
+.pg06-review .private-copy-alert {
+  margin-block: 0;
+  padding: 12px 16px;
+  gap: 8px;
+  background: var(--color-warning-soft);
+  border: 1px solid var(--warning-line);
+}
+
+/* Latest locked layout: alert precedes both decision controls. */
+.pg06-review .action-groups { display: flex; flex-direction: column; row-gap: 24px; }
+.pg06-review .decision-group { display: flex; flex-direction: column; row-gap: 12px; }
+.pg06-review .action-groups[data-private-copy="missing"] { row-gap: 12px; }
+.pg06-review .action-groups[data-private-copy="missing"] .secondary-group { padding-block-end: 12px; }
+.pg06-review .approver-helper { margin-block-start: 8px; margin-inline-start: 156px; font-size: 12px; line-height: 18px; color: #6b7280; }
+.pg06-review[data-layout="narrow"] .approver-helper { margin-inline-start: 0; }
+.pg06-review .difference-value { color: var(--status-neutral-2); }
+.pg06-review .difference-row,
+.pg06-review .audit-details { background: none; padding: 0; row-gap: 12px; }
+.pg06-review .amount-and-status { display: flex; gap: 12px; align-items: baseline; }
+.pg06-review .amount-and-status .hero-amount { flex: 1; min-width: 0; }
+.pg06-review .pending-chip { flex-shrink: 0; margin-inline-start: 0; }
+.pg06-review .correction-card { align-self: start; height: auto; min-height: 0; }
+.pg06-review .correction-comparison { display: flex; align-items: start; gap: 32px; }
+.pg06-review[data-layout="narrow"] .correction-comparison { flex-direction: column; gap: 24px; }
+.pg06-review .previous-amount { font-size: 16px; color: #6b7280; text-decoration: line-through; }
+.pg06-review[data-layout="narrow"] .previous-amount { font-size: 14px; }
+.pg06-review .correction-reason-label { font-size: 13px; line-height: 18px; color: var(--color-muted); }
+.pg06-review .correction-reason-value { font-size: 14px; line-height: 20px; color: #111; }
+
+/* The implementation must set disabled, not merely paint an enabled button. */
+.pg06-review .finance-forward:disabled {
+  background: var(--color-surface-subtle);
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
 }
