@@ -1,6 +1,84 @@
 # Admin Finance review · issue #15
 
-PG-06 is **Ready for Owner Review**, not Approved. PG-04 queue and PG-08/10 remain existing candidates, not polished again in this package. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
+PG-06 is **Ready for Owner Review**, not Approved. PG-08 received the scoped hierarchy pass below and remains a draft candidate. PG-04 queue and PG-10 are unchanged. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
+
+## PG-08 hierarchy · branch design/pg08-hierarchy
+
+Baseline: `03d3acb458850a41d678c5b4711ed50d15d38c5e`. **Baseline ini tidak memuat PR #19. Empat perbaikan wajib diimplementasikan ulang dalam pass ini, bukan diwarisi dari #19.** Kanvas terbaru `design/reimburse.pen`, SHA-256 `ad827c7e0da4ed951ac04f3b5ecd9f53bd5b7f3b3625c3603dd13470a5322ac7` (hash terbaru hanya dicatat di sini).
+
+### Diterapkan
+
+- Ringkasan review: `Fee pemeriksaan` 13px abu, `Rp 4.500.000` 28/700 dengan line-height 34, badge di kanan. Divider 1px `#EEE`, 20px setelah baris nominal. Pending memakai abu; Pending vendor proof kuning. Chip 24px, padding 0/10, radius 999, teks 12/500. Kondisi bukti invalid tidak dijadikan status PRD baru.
+- Grid rincian: judul 16/600, jarak 12; label 140px Desktop / 120px Narrow, gap 16, row gap 12. Label 13px `#6B7280`, nilai 14/500 `#111`. Approver row terakhir, tanpa divider tersendiri. `c0W2bn` menampilkan sub-baris `Approver belum tersedia`. Tidak mengarang nama Approver; detail lain memakai penunjuk generik yang sudah ada, `Approver yang ditetapkan`.
+- **Penerima tidak disamakan dengan Requester.** Nama Maya Pratama dari konteks Freelance ditampilkan dalam row Penerima; row Requester transparan `Belum dicontohkan`, sebab tidak ada nama pembuat pengajuan pada sumber. Row tambahan ini hanya memisahkan fakta yang sudah ada, bukan field wajib/template baru.
+- Section `Data identitas & rekening`: row Akses = `Admin · lihat sesuai izin`; tautan `Lihat KTP / rekening` 13px terpisah dari keputusan. Tidak ada perluasan akses peran.
+- Section Dokumen: jarak judul-card 12, file card padding 12/16, nama 13/600, status 12. Nama file dan kondisi validasinya dipertahankan.
+- Area aksi: kolom kanan 320px Desktop, full-width dan bertumpuk di Narrow; tombol 44px, gap dalam grup 12, antar grup 24. Grup sekunder/outline destruktif/utama terpisah. Helper sekunder disatukan dalam satu paragraf 12/18, jarak 8. `Reject` dan label status sebagai CTA diganti hanya sesuai arahan menjadi aksi eksplisit `Tolak pengajuan` / `Teruskan ke Approver`.
+- Alert tepat sebelum area tombol, gap 12, border 1, radius 8, padding 12/16, ikon 16, teks 13/18. Warning memakai `#FEF9E7` sesuai brief; error `#FDECEA`, sukses `#E9F5EE`, dan warna semantic primary/danger/warning/success memakai token existing. Tidak menambah atau mengubah variabel global.
+- Empat konfirmasi: judul 16/600 dan deskripsi 13 abu dengan gap 8; ringkasan kotak abu padding 16 berisi key-value rows, bukan blok teks `\n`. Data Fee lama/baru, kelompok `Fee dan dokumen`, dan placeholder instruksi/alasan berasal dari form yang sudah ada. Placeholder tetap placeholder, bukan instruksi publik/alasan yang dikarang. Peringatan Reject dan gate Approver memakai alert; penjelasan status/audit memakai helper 12/18, gap 12. Tombol berada di kolom keputusan, gap 12 dan offset grup 24.
+- Form Desktop `HDq48` / `LjcEB`: tinggi mengikuti konten; label-input 6, antar field 16, helper kalkulasi 6 dari input baru, grup keputusan offset 24. Fee lama abu dengan label persis `Fee sebelum koreksi (tidak diubah)`, Fee baru aktif; kedua fee berdampingan. Audit/privacy copy dan field wajib yang sudah ada dipertahankan. Tidak ditambahkan form/state Narrow di luar daftar scope; Narrow yang tersedia dan diubah adalah detail `eGvPW`.
+- Padding card 24 Desktop / 20 Narrow; section rhythm 32 / 24. Workspace Desktop tetap penuh, card tidak lagi stretch. Narrow detail menjadi **390×1054**, viewport konten **390×958**, sehingga seluruh konten/aksi tampak pada canvas; tidak ada crop aksi bawah. Galeri Narrow disesuaikan menjadi 2900×1200. Pengecualian 6px/20px berasal dari brief, bukan skala baru.
+- Nominal hanya dinormalisasi menjadi `Rp 4.500.000` / `Rp 4.400.000`. Tidak mengubah nominal, rate pajak, status, field wajib atau gate lain. Tidak mengubah template atau mengklaim read-only/disabled runtime dari gambar.
+
+### Empat perbaikan yang diimplementasikan ulang
+
+| Perbaikan | Node / bukti akhir |
+| --- | --- |
+| Approver unavailable: penerusan tidak dirender | `c0W2bn/D2GU5.enabled:false`; nama `Teruskan ke Approver · disabled specimen · Approver belum tersedia`. Bukan tombol redup. Alert `YONv9/UubXU`: `Penerusan tidak tersedia karena Approver belum ditetapkan. Hubungi Admin pengaturan.` Tidak membuat nama Approver. |
+| Label konfirmasi aksi eksplisit | `iPcOE/h3Mer/U7Cbs` = `Minta Revision`; `WAO0I/s8e4r/U7Cbs` = `Simpan koreksi`; `OkzZU/NGXDk/U7Cbs` = `Tolak pengajuan`. State enabled mengikuti baseline (true), bukan state incomplete/opacity dari buffer PR #19. |
+| Identitas Narrow lengkap | `eGvPW/LjzQt` = `PAY-000018`; `eGvPW/S39Jby` = `Maya Pratama` pada row Penerima. Fee dan Tipe ditampilkan terpisah, tidak dihapus. |
+| Header vendor proof selaras badge | `aVG8t/kpCLO`, `eImma/kpCLO`, `j5JrJ/kpCLO` = `PAY-000018 · Pending vendor proof`, sama dengan badge existing `taZBi`, `CFjdt`, `T1SHA`. Enabled-state validasi/penerusan vendor proof dari baseline dipertahankan. |
+
+### Node dan frame yang berubah
+
+**398 node baru**, **127 existing node berubah properties**, **0 existing node dihapus**, tanpa reusable source baru. Child order/parent diubah hanya dalam 11 frame scope. Kelompok baru berupa layout, grid, label/nilai, divider dan alert. Reusable sources, semua variabel, PG-02/04/06, semua root lain, serta state PG-08 `xpoXz`, `F1maXE`, `QB9Kq` identik baseline. Shell/header/sidebar existing tetap di-instance, tidak diubah sumbernya.
+
+| Frame | Container existing utama | Kelompok baru / node penting |
+| --- | --- | --- |
+| L4uNC | f6A4DU, VXaz8 | g8vApN (info), VUZg9 (aksi), p8f2Oj (grid) |
+| eGvPW | bfBxj, Dm2AX, wbgdR | h4BB9 (info), nqTY3 (aksi), u2CKhG (grid), S6cZX (helper) |
+| HP1TH | AiGBH, gRdVH | I8t36R, H1aWD, KrLiz (warning) |
+| Y9z8O | MD2sP, d5zen | n1fNcX, d3xQCY, zSyso (error) |
+| Z31zwX | TwrCG, w8ggF | Swqwg, j50pH, YBnXc (success) |
+| c0W2bn | gvPjM, P1CE3, D2GU5 | xtLo4 (summary), UsxHo (fee), YONv9 (gate alert) |
+| iPcOE | sYA1i, qAYAA, h3Mer | XUjfh (summary), z1s4M (aksi) |
+| WAO0I | yKjPw, h4nAYL, s8e4r | hZWwM (summary), zGQpr (aksi) |
+| OkzZU | jylI9, f449QP, NGXDk | WZfiP (summary), vNwc2 (alert) |
+| HDq48 | zLcNC, HRcuk | sFUWP (info), ToX0o (fee pair), k8lKy3 (audit alert) |
+| LjcEB | f9eCpT, B93TL | OPv0m (info), aChJk (fields), BfcZJ (privacy alert) |
+
+### Ekspor dan verifikasi
+
+**13 PNG output**, hanya 11 frame berubah dan dua galeri yang memuatnya: `L4uNC.png`, `eGvPW.png`, `c0W2bn.png`, `iPcOE.png`, `WAO0I.png`, `OkzZU.png`, `HDq48.png`, `LjcEB.png`, `HP1TH.png`, `Y9z8O.png`, `Z31zwX.png`, `zVZZY.png`, `U6TVT.png`. Individual Desktop native 2× = 2880×1920; Narrow = 780×2108. PNG di luar daftar tidak ditimpa.
+
+Galeri dikomposisi mekanis native 2×: Desktop **12320×6480**, Narrow **5800×2400**; tile pada koordinat `(2x,2y)` dari schema. Ini menghindari cap exporter 8192px yang sudah teramati pada pass PG-08 sebelumnya (ekspor langsung 12320×6480 menjadi 8192×4309). Input memakai 11 PNG individual terbaru; tiga tile unchanged (`xpoXz`, `F1maXE`, `QB9Kq`) dan dua heading dirender ke cache temporer 2× saja, bukan mengubah output individual di repo. Heading `PgoGm` dan `lftOV` tetap sama. Komposisi sRGB RGBA `Copy`, tidak ada resize/upscale; **14 tile + 2 heading** dibandingkan crop-nya dengan input memakai `magick compare -metric AE`, semuanya **0 (0)**.
+
+Pemeriksaan akhir:
+- `Get` bounds pada semua 11 frame: **0 masalah pada node enabled** setelah reflow geometri final. Screenshot live Desktop detail, vendor invalid, dua form, empat konfirmasi dan Narrow diperiksa untuk hierarchy, wrapping, alignment, keterbacaan dan overflow.
+- Scope diff struktural: old IDs dipertahankan; tidak ada missing refs, sumber reusable/variabel/global atau root frozen berubah. Empat perbaikan wajib diuji dengan assertion terhadap file tersimpan. Detector layout pada `.pen` mengembalikan `[]`; ini bukan pengganti pemeriksaan visual/schema.
+- Buffer live awal memuat state lama yang tidak ada di file baseline. File disinkronkan dari **hanya 11 subtree hasil execute** dan tinggi galeri Narrow, bukan dengan menyalin seluruh buffer. State di luar scope tidak ikut disimpan/di-commit. Tidak ada perubahan editor tambahan di-stage.
+- Tidak diverifikasi: authorization/API, persistensi audit, kalkulasi pajak runtime, interaksi/focus/keyboard/screen reader atau konfigurasi Approver nyata. Disabled/read-only adalah specimen visual; data contoh bukan transaksi nyata. Tidak menyentuh PR #17 atau merge.
+
+### CSS handoff: belum bisa dirender oleh schema Pen
+
+Baseline alignment dan `tabular-nums` **tidak didukung schema Pen dan tidak diklaim terverifikasi**. Canvas memakai alignment `start` pada key-value rows, `center` pada amount/badge. Catatan berikut hanya handoff implementasi, tidak mengubah `docs/design/tokens.css` atau app:
+
+```css
+.pg08-review { font-variant-numeric: tabular-nums; }
+.pg08-review .key-value-row {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: baseline;
+}
+.pg08-review[data-layout="narrow"] .key-value-row {
+  grid-template-columns: 120px minmax(0, 1fr);
+}
+.pg08-review .key-value-grid { row-gap: 12px; }
+.pg08-review .hero-amount { font-size: 28px; line-height: 34px; font-weight: 700; }
+```
+
+## Riwayat PG-06 (tidak diubah pada pass ini)
 
 ## Patch copy terverifikasi, issue #15
 
@@ -84,7 +162,7 @@ Existing candidate, unchanged in this package: [Desktop](m4tUMY.png), [narrow](j
 - PG-08 Payment Request: [Desktop](L4uNC.png) / [narrow](eGvPW.png), [Desktop gallery](zVZZY.png) / [narrow gallery](U6TVT.png).
 - PG-10 Overtime: [Desktop](r9jGF.png) / [narrow](WeO1A.png), [Desktop gallery](V1JYpe.png) / [narrow gallery](RP4Zo.png).
 
-Both are existing candidates, unchanged and not re-exported in this package.
+PG-08 remains a draft candidate; its scoped hierarchy frames and galleries were refreshed in the pass documented above. PG-10 is unchanged and was not re-exported.
 
 ## Shared status handoff
 
