@@ -2,9 +2,45 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-08 received the scoped hierarchy pass below and remains a draft candidate. PG-04 queue and PG-10 are unchanged. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-## PG-08 hierarchy · branch design/pg08-hierarchy
+## PG-08 polish iterasi 3 · Commit 1
 
-Baseline: `03d3acb458850a41d678c5b4711ed50d15d38c5e`. **Baseline ini tidak memuat PR #19. Empat perbaikan wajib diimplementasikan ulang dalam pass ini, bukan diwarisi dari #19.** Kanvas terbaru `design/reimburse.pen`, SHA-256 `ad827c7e0da4ed951ac04f3b5ecd9f53bd5b7f3b3625c3603dd13470a5322ac7` (hash terbaru hanya dicatat di sini).
+Branch/PR tetap `design/pg08-hierarchy` / #20, dari HEAD `7a157d99f0d9daa2a03b83fa72cb4d840f289587`. Working tree awal bersih. Ini hanya item **1, 2, 3, 4, 5, 6, 7, 8, 10**; tidak memasukkan pekerjaan paritas Narrow item 9 ke commit ini. Kanvas terbaru `design/reimburse.pen`, SHA-256 `286777a06fb7b9b403130eef9f88e7498e3ed2f85a66a729ef7370c5e39d5e53` (hash terbaru hanya di sini).
+
+### Diterapkan dan bukti node
+
+1. **Dedup konfirmasi.** Dihapus hanya lima layer duplikat: `k9leZs` (subjudul Finance Approved sama dengan judul), `P7c7G` (footer Revision sama dengan `u7S0fr`), `v0vcM` (footer Koreksi sama dengan `TBTpB`), `xxSEH` dan `B72Kb` (subjudul/footer Reject yang mengulang alert). Judul 16/600 dipertahankan. Alert Reject `vZkQT` sekarang memuat seluruh informasi satu kali: `Isi alasan penolakan sebelum menolak. Setelah ditolak, status Rejected dan pengajuan tidak dapat diedit. Reject tidak membuka field. Alasan penolakan akan dicatat.` Konsekuensi tidak hilang saat dedup.
+2. **Placeholder vs data di summary saja.** `jXEJs`, `f6C1d`, `mHnaM` = `Belum diisi`, 14px italic `#6B7280` untuk instruksi/alasan Finance. Tax summary `Yls9x`, `snGfq`, `DGGKH`, `bl57X` = `Belum dicontohkan`, plain 14px `#111`; Requester tetap `Belum dicontohkan`. Placeholder select di form tetap `Pilih aturan aktif`. Tidak memakai `#9CA3AF`.
+3. **Perubahan fee di atas summary Koreksi.** `DpwNw` / `UvbKe` menampung row fee existing `dqhBg`, `JpG73` yang dipindahkan keluar kotak abu. `kTpaK` = `Fee sebelumnya`, nilai `b4M869` = `Rp 4.500.000`, 13px abu/strikethrough. Garis coret `RmUDw` berada dalam wrapper `Y9Q9Qq`, lebarnya 83px mengikuti lebar teks yang diukur renderer (bukan perkiraan). Ini memastikan coretan ikut tersimpan, karena properti text strikethrough tidak dipertahankan round-trip tool. `BzQ7J` = `Fee setelah koreksi`, `sQeDm` = `Rp 4.400.000`, 24/700. Ikon arah `w4sWk3`; `fnitQ` = `Selisih: turun Rp100.000`, 13px accent. Tidak memakai bentuk negatif. Row Alasan koreksi tetap key-value 14px.
+4. **Data sensitif.** Wrapper row/link `Z79Xez`, `dNMVh`, `HO8X6`, `EGfWO`, `xRGe8`; indent link `fm8E4`, `xKRIt`, `TeFDB`, `B9xUU`, `tJoMe`. Jarak atas 8, indent wrapper 140 Desktop / 120 Narrow ditambah inset internal link 16 agar label link tepat sejajar awal kolom nilai (label width + gap 16). `AmXSS`, `i9qZ1`, `qlAG8`, `d7bGOE`, `xjs7l` tetap link-style 13px. Row Akses dan izin Admin tidak berubah.
+5. **Chip di semua 14 state existing PG-08.** Ditambahkan chip 24px/radius999 pada konfirmasi Revision/Koreksi/Reject (`XrQ6Y`, `PnH9d`, `y8Mkon`), form Revision/Koreksi/Reject (`J6PLH`, `FhMkZ`, `UozSh`), unavailable Approver (`vaop0`) dan Narrow Revision existing (`uz6Iq`); chip review dan Finance Approved existing dipertahankan. Semua konfirmasi masih Pending sebelum aksi, bukan status transisi yang sudah terjadi. Dua belas header Desktop `lin72`, `AqhBn`, `EPUxs`, `qmSrf`, `zfTrP`, `H4iS7`, `jQ7VN`, `W5bhW`, `BMKwh`, `aVG8t`, `eImma`, `j5JrJ` kini hanya `PAY-000018`. Ini menggantikan aturan header vendor-proof pass sebelumnya sesuai item 5 terbaru; status tetap terbaca di chip.
+6. **Form Desktop satu pola.** `HDq48`, `LjcEB`, `xpoXz` memakai kiri form dan kanan 320px, title 16/600, alert lalu tombol. Kolom berbagi padding card 24; offset heading internal menyelaraskan alert ke field pertama. Bukti posisi y relatif layar: `Gbn9p` / `k8lKy3` = **203/203**; `UVFMr` / `BfcZJ` = **229/229**; `x8wNO` / `yV2tL` = **203/203**. Reject memakai `m8oWt9` (info), `e6Mt2t` (aksi), `yV2tL` (alert merah), Batal + Tolak pengajuan. Fee lama `Gbn9p/g6qurL` = `Fee sebelum koreksi`; helper `qZW0T` = `Tidak dapat diubah` (12px); wrapper `wgjCe` gap6. Background read-only tetap abu.
+7. **Tax treatment.** Row Desktop `yWMSu`, `A79Ff`, `Fok13`, `BPwLu` align center, value wrapper 320px, kontrol select tinggi40. Narrow `uK8D9` vertikal: label di atas, select full-width44. Isi pilihan/aturan tidak diubah, tidak menambah rate/gate.
+8. **Dua kasus blocker.** `D2GU5` identik dengan HEAD sebelumnya, tetap `enabled:false`: tidak dirender, sebab tersedia di alert `UubXU`; tidak dijadikan tombol redup. Kasus repairable Finance (`h3Mer`, `s8e4r`, `NGXDk`, `hWwD3`, `Z8EAWK`, `VBqTW`, `KHq1b`, `u1omdq`) diberi opacity0.5 dan nama layer `disabled specimen`; cause ada di alert. Node proof yang sebelumnya tersembunyi kini dirender untuk menggambarkan disabled-visible. **`enabled` di Pen adalah visibilitas layer, bukan kemampuan klik/authorization**: tidak ada callback, aturan bisnis, atau logic aplikasi yang diubah; disabled runtime tetap belum diuji. Alert baru `Zs9JP/YEzvw` dan `XmUUM/kgXdp` meminta instruksi/alasan, bukan gate baru.
+10. **Spacing Narrow utama dipertahankan dan diuji.** `bfBxj.gap=24` (Dokumen ke area aksi), `p8Wgyf.gap=12` (Koreksi ke Minta Revision), `qFm2l.gap=8` (helper), `Dm2AX.gap=24` (helper ke Tolak). Akibat tax bertumpuk/link berindent, ukuran eGvPW menjadi **390×1076**, viewport konten390×980; semua aksi tetap tampak. Header casing Narrow dan restyle Minta Revision ditunda ke item9/commit2.
+
+### Export / checks Commit 1
+
+**14 frame berubah + 2 galeri**, diekspor sebelum commit: `L4uNC.png`, `eGvPW.png`, `c0W2bn.png`, `iPcOE.png`, `WAO0I.png`, `OkzZU.png`, `HDq48.png`, `LjcEB.png`, `xpoXz.png`, `HP1TH.png`, `Y9z8O.png`, `Z31zwX.png`, `F1maXE.png`, `QB9Kq.png`, `zVZZY.png`, `U6TVT.png`. `QB9Kq` hanya menerima chip pada commit ini, bukan pekerjaan item9. Semua tile galeri kini punya perubahan nyata (chip/header/style), bukan ekspor ulang state yang tak berubah.
+
+Individual native2×: Desktop2880×1920, eGvPW780×2152, QB9Kq780×1688. Galeri mekanis sRGB RGBA `Copy`: Desktop12320×6480, Narrow5800×2432; posisi sesuai schema, tanpa resize/upscale. Semua 14 tile + 2 heading crop **AE=0** terhadap input PNG terbaru. Cap8192 pada exporter Desktop tetap dihindari dengan komposisi; heading memakai cache native2×.
+
+Verifikasi: seluruh 14 frame **0 bounds problems pada node tampil**, screenshot representatif dibaca untuk tampilan (bukan untuk menyimpulkan copy/state). Pemeriksaan file memastikan hanya dua root PG-08 berubah, reusable sources/variabel/global dan PG-02/04/06 identik; refs valid; D2GU5 identik; penghapusan hanya lima duplikat di atas. Tidak ada perubahan editor tambahan yang ikut disimpan/di-stage. PNG dan .pen masuk commit yang sama.
+
+**Batas schema:** sticky positioning, baseline alignment, dan `font-variant-numeric: tabular-nums` tidak tersedia sebagai perilaku Pen. Kolom kanan dan posisi alert diterapkan secara statis; tidak diklaim sticky saat scroll atau numeralnya tabular. Catatan CSS implementasi (bukan app code):
+
+```css
+.pg08-review .form-decisions { position: sticky; top: 24px; align-self: start; }
+.pg08-review { font-variant-numeric: tabular-nums; }
+.pg08-review .key-value-row { align-items: baseline; }
+```
+
+Runtime/API/authorization, disabled/read-only behavior, tax calculation, keyboard/focus/screen reader belum diuji. Tidak merge, tidak menyentuh PR #17, tidak membuat branch/PR baru.
+
+**Commit 2 belum dijalankan:** item9 menyebut tujuh frame baru, tetapi enam state tunggal + tiga varian vendor proof = sembilan frame. Menunggu klarifikasi owner agar tidak mengurangi coverage atau membuat jumlah frame yang berbeda dari permintaan.
+
+## Riwayat PG-08 hierarchy · branch design/pg08-hierarchy
+
+Baseline: `03d3acb458850a41d678c5b4711ed50d15d38c5e`. **Baseline ini tidak memuat PR #19. Empat perbaikan wajib diimplementasikan ulang dalam pass ini, bukan diwarisi dari #19.** Sumber pass hierarchy awal `design/reimburse.pen`, SHA-256 historis `ad827c7e0da4ed951ac04f3b5ecd9f53bd5b7f3b3625c3603dd13470a5322ac7`. Hash kanvas terbaru berada pada bagian iterasi 3 di atas.
 
 ### Diterapkan
 

@@ -153525,7 +153525,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -153867,6 +153867,7 @@
                                   "name": "Row · Tax treatment",
                                   "width": "fill_container",
                                   "gap": 16,
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
@@ -153885,7 +153886,7 @@
                                       "type": "frame",
                                       "id": "kfuRS",
                                       "name": "Value · Tax treatment",
-                                      "width": "fill_container",
+                                      "width": 320,
                                       "layout": "vertical",
                                       "children": [
                                         {
@@ -153899,6 +153900,9 @@
                                             "yDbtP": {
                                               "content": "Tax treatment · dipilih Admin",
                                               "enabled": false
+                                            },
+                                            "Moery": {
+                                              "height": 40
                                             },
                                             "orwNG": {
                                               "content": "Pilih aturan aktif",
@@ -153983,66 +153987,95 @@
                             },
                             {
                               "type": "frame",
-                              "id": "Dq33C",
-                              "name": "Row · Akses",
+                              "id": "Z79Xez",
+                              "name": "Access row and aligned link",
                               "width": "fill_container",
-                              "gap": 16,
+                              "layout": "vertical",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "kxrxX",
-                                  "name": "Label · Akses",
-                                  "fill": "#6B7280",
-                                  "textGrowth": "fixed-width",
-                                  "width": 140,
-                                  "content": "Akses",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
                                   "type": "frame",
-                                  "id": "cz2Ec",
-                                  "name": "Value · Akses",
+                                  "id": "Dq33C",
+                                  "name": "Row · Akses",
                                   "width": "fill_container",
-                                  "layout": "vertical",
+                                  "gap": 16,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "xswZY",
-                                      "name": "Sensitive",
-                                      "fill": "#111111",
+                                      "id": "kxrxX",
+                                      "name": "Label · Akses",
+                                      "fill": "#6B7280",
                                       "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Admin · lihat sesuai izin",
-                                      "lineHeight": 1.4285714285714286,
+                                      "width": 140,
+                                      "content": "Akses",
+                                      "lineHeight": 1.3846153846153846,
                                       "fontFamily": "DM Sans",
-                                      "fontSize": 14,
-                                      "fontWeight": "500"
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "cz2Ec",
+                                      "name": "Value · Akses",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "xswZY",
+                                          "name": "Sensitive",
+                                          "fill": "#111111",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Admin · lihat sesuai izin",
+                                          "lineHeight": 1.4285714285714286,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "fm8E4",
+                                  "name": "Sensitive link · value column indent",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "padding": [
+                                    8,
+                                    0,
+                                    0,
+                                    140
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "AmXSS",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Buka dokumen sensitif",
+                                      "width": "fit_content",
+                                      "height": 32,
+                                      "padding": [
+                                        0,
+                                        0,
+                                        0,
+                                        16
+                                      ],
+                                      "fill": "#FFFFFF",
+                                      "strokeWidth": 0,
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Lihat KTP / rekening",
+                                          "fontSize": 13,
+                                          "fill": "$primary",
+                                          "fontWeight": "500"
+                                        }
+                                      }
                                     }
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "id": "AmXSS",
-                              "type": "ref",
-                              "ref": "WQYrQ",
-                              "name": "Buka dokumen sensitif",
-                              "width": "fit_content",
-                              "height": 32,
-                              "padding": 0,
-                              "fill": "#FFFFFF",
-                              "strokeWidth": 0,
-                              "descendants": {
-                                "GvpjL": {
-                                  "content": "Lihat KTP / rekening",
-                                  "fontSize": 13,
-                                  "fill": "$primary",
-                                  "fontWeight": "500"
-                                }
-                              }
                             }
                           ]
                         },
@@ -154331,7 +154364,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -154365,17 +154398,48 @@
                           "gap": 8,
                           "children": [
                             {
-                              "type": "text",
-                              "id": "zxaIT",
-                              "name": "Title",
-                              "fill": "#20242A",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "FKDvC",
+                              "name": "Form title and status",
                               "width": "fill_container",
-                              "content": "Revision",
-                              "lineHeight": 1.25,
-                              "fontFamily": "DM Sans",
-                              "fontSize": 16,
-                              "fontWeight": "600"
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zxaIT",
+                                  "name": "Title",
+                                  "fill": "#20242A",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Revision",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "id": "J6PLH",
+                                  "type": "ref",
+                                  "ref": "R5NHOj",
+                                  "name": "Current status · Pending",
+                                  "height": 24,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "cornerRadius": 999,
+                                  "fill": "#F7F8FA",
+                                  "descendants": {
+                                    "U0zly": {
+                                      "content": "Pending",
+                                      "fontSize": 12,
+                                      "fontWeight": "500",
+                                      "fill": "#4D5662"
+                                    }
+                                  }
+                                }
+                              ]
                             },
                             {
                               "type": "text",
@@ -154492,6 +154556,13 @@
                       "children": [
                         {
                           "type": "frame",
+                          "id": "iytoC",
+                          "name": "Form title offset · align alert to first field",
+                          "width": "fill_container",
+                          "height": 62
+                        },
+                        {
+                          "type": "frame",
                           "id": "BfcZJ",
                           "name": "Form alert",
                           "width": "fill_container",
@@ -154522,7 +154593,7 @@
                               "fill": "$warning",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Instruksi publik dikirim ke Requester. Catatan internal tidak dibagikan.",
+                              "content": "Isi instruksi publik sebelum meminta Revision. Instruksi publik dikirim ke Requester. Catatan internal tidak dibagikan.",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "DM Sans",
                               "fontSize": 13,
@@ -154574,13 +154645,14 @@
                                   "id": "KHq1b",
                                   "type": "ref",
                                   "ref": "fFmN2",
-                                  "name": "Tinjau Revision",
+                                  "name": "Tinjau Revision · disabled specimen · field wajib belum diisi",
                                   "width": "fill_container",
                                   "height": 44,
                                   "padding": [
                                     0,
                                     16
                                   ],
+                                  "opacity": 0.5,
                                   "descendants": {
                                     "U7Cbs": {
                                       "content": "Tinjau Revision",
@@ -154665,7 +154737,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -154699,17 +154771,48 @@
                           "gap": 8,
                           "children": [
                             {
-                              "type": "text",
-                              "id": "bvvtL",
-                              "name": "Title",
-                              "fill": "#20242A",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "ZO8v8",
+                              "name": "Form title and status",
                               "width": "fill_container",
-                              "content": "Koreksi Finance",
-                              "lineHeight": 1.25,
-                              "fontFamily": "DM Sans",
-                              "fontSize": 16,
-                              "fontWeight": "600"
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bvvtL",
+                                  "name": "Title",
+                                  "fill": "#20242A",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Koreksi Finance",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "id": "FhMkZ",
+                                  "type": "ref",
+                                  "ref": "R5NHOj",
+                                  "name": "Current status · Pending",
+                                  "height": 24,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "cornerRadius": 999,
+                                  "fill": "#F7F8FA",
+                                  "descendants": {
+                                    "U0zly": {
+                                      "content": "Pending",
+                                      "fontSize": 12,
+                                      "fontWeight": "500",
+                                      "fill": "#4D5662"
+                                    }
+                                  }
+                                }
+                              ]
                             }
                           ]
                         },
@@ -154729,30 +154832,53 @@
                               "gap": 16,
                               "children": [
                                 {
-                                  "id": "Gbn9p",
-                                  "type": "ref",
-                                  "ref": "jSgCJ",
-                                  "name": "Nilai sebelumnya",
+                                  "type": "frame",
+                                  "id": "wgjCe",
+                                  "name": "Read-only previous fee and helper",
                                   "width": "fill_container",
+                                  "layout": "vertical",
                                   "gap": 6,
-                                  "descendants": {
-                                    "g6qurL": {
-                                      "content": "Fee sebelum koreksi (tidak diubah)",
-                                      "fontSize": 13,
-                                      "lineHeight": 1.3846153846153846,
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container"
+                                  "children": [
+                                    {
+                                      "id": "Gbn9p",
+                                      "type": "ref",
+                                      "ref": "jSgCJ",
+                                      "name": "Nilai sebelumnya",
+                                      "width": "fill_container",
+                                      "gap": 6,
+                                      "descendants": {
+                                        "g6qurL": {
+                                          "content": "Fee sebelum koreksi",
+                                          "fontSize": 13,
+                                          "lineHeight": 1.3846153846153846,
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container"
+                                        },
+                                        "a0YHVh": {
+                                          "fill": "#F7F8FA"
+                                        },
+                                        "P9sHXg": {
+                                          "content": "Rp 4.500.000",
+                                          "fontSize": 14,
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container"
+                                        }
+                                      }
                                     },
-                                    "a0YHVh": {
-                                      "fill": "#F7F8FA"
-                                    },
-                                    "P9sHXg": {
-                                      "content": "Rp 4.500.000",
-                                      "fontSize": 14,
+                                    {
+                                      "type": "text",
+                                      "id": "qZW0T",
+                                      "name": "Previous fee read-only helper",
+                                      "fill": "#6B7280",
                                       "textGrowth": "fixed-width",
-                                      "width": "fill_container"
+                                      "width": "fill_container",
+                                      "content": "Tidak dapat diubah",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "DM Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
-                                  }
+                                  ]
                                 },
                                 {
                                   "type": "frame",
@@ -154839,6 +154965,13 @@
                       "children": [
                         {
                           "type": "frame",
+                          "id": "gJjG9",
+                          "name": "Form title offset · align alert to first field",
+                          "width": "fill_container",
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
                           "id": "k8lKy3",
                           "name": "Form alert",
                           "width": "fill_container",
@@ -154869,7 +155002,7 @@
                               "fill": "$warning",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Nilai lama, nilai baru, actor, waktu dan alasan tersimpan dalam audit.",
+                              "content": "Isi alasan koreksi sebelum melanjutkan. Nilai lama, nilai baru, actor, waktu dan alasan tersimpan dalam audit.",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "DM Sans",
                               "fontSize": 13,
@@ -154921,13 +155054,14 @@
                                   "id": "VBqTW",
                                   "type": "ref",
                                   "ref": "fFmN2",
-                                  "name": "Tinjau koreksi",
+                                  "name": "Tinjau koreksi · disabled specimen · field wajib belum diisi",
                                   "width": "fill_container",
                                   "height": 44,
                                   "padding": [
                                     0,
                                     16
                                   ],
+                                  "opacity": 0.5,
                                   "descendants": {
                                     "U7Cbs": {
                                       "content": "Tinjau koreksi",
@@ -155012,7 +155146,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -155024,99 +155158,227 @@
                   "id": "Xztxj",
                   "name": "Finance Reject form",
                   "width": "fill_container",
-                  "height": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 24,
-                  "layout": "vertical",
-                  "gap": 16,
+                  "gap": 32,
                   "padding": 24,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "eXTIO",
-                      "name": "Title",
-                      "fill": "#20242A",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "m8oWt9",
+                      "name": "Reject form information",
                       "width": "fill_container",
-                      "content": "Reject",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 22,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "cERhH",
-                      "name": "Reject consequence",
-                      "fill": "#66717C",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pengajuan yang ditolak tidak dapat diedit kembali.",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "id": "x8wNO",
-                      "type": "ref",
-                      "ref": "jSgCJ",
-                      "name": "Alasan penolakan · wajib",
-                      "width": "fill_container",
-                      "descendants": {
-                        "g6qurL": {
-                          "content": "Alasan penolakan · wajib"
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "R62FK",
+                          "name": "Reject form title and status",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eXTIO",
+                              "name": "Title",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Reject",
+                              "lineHeight": 1.25,
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "id": "UozSh",
+                              "type": "ref",
+                              "ref": "R5NHOj",
+                              "name": "Current status · Pending",
+                              "height": 24,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "cornerRadius": 999,
+                              "fill": "#F7F8FA",
+                              "descendants": {
+                                "U0zly": {
+                                  "content": "Pending",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "fill": "#4D5662"
+                                }
+                              }
+                            }
+                          ]
                         },
-                        "P9sHXg": {
-                          "content": "Jelaskan alasan penolakan",
-                          "fontSize": 14
+                        {
+                          "type": "frame",
+                          "id": "xE2bZ",
+                          "name": "Reject form fields",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "id": "x8wNO",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Alasan penolakan · wajib",
+                              "width": "fill_container",
+                              "gap": 6,
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Alasan penolakan · wajib",
+                                  "fontSize": 13,
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                },
+                                "P9sHXg": {
+                                  "content": "Jelaskan alasan penolakan",
+                                  "fontSize": 14,
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                }
+                              }
+                            },
+                            {
+                              "id": "OWA5x",
+                              "type": "ref",
+                              "ref": "jSgCJ",
+                              "name": "Catatan internal · hanya Admin",
+                              "width": "fill_container",
+                              "gap": 6,
+                              "descendants": {
+                                "g6qurL": {
+                                  "content": "Catatan internal · hanya Admin",
+                                  "fontSize": 13,
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                },
+                                "P9sHXg": {
+                                  "content": "Opsional",
+                                  "fontSize": 14,
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      }
-                    },
-                    {
-                      "id": "OWA5x",
-                      "type": "ref",
-                      "ref": "jSgCJ",
-                      "name": "Catatan internal · hanya Admin",
-                      "width": "fill_container",
-                      "descendants": {
-                        "g6qurL": {
-                          "content": "Catatan internal · hanya Admin"
-                        },
-                        "P9sHXg": {
-                          "content": "Opsional",
-                          "fontSize": 14
-                        }
-                      }
+                      ]
                     },
                     {
                       "type": "frame",
-                      "id": "AvxOP",
-                      "name": "Actions",
-                      "gap": 10,
+                      "id": "e6Mt2t",
+                      "name": "Reject decisions · 320",
+                      "width": 320,
+                      "layout": "vertical",
+                      "gap": 12,
                       "children": [
                         {
-                          "id": "MqPwi",
-                          "type": "ref",
-                          "ref": "WQYrQ",
-                          "name": "Batal",
-                          "descendants": {
-                            "GvpjL": {
-                              "content": "Batal"
-                            }
-                          }
+                          "type": "frame",
+                          "id": "pPBSX",
+                          "name": "Reject title offset · first field alignment",
+                          "width": "fill_container",
+                          "height": 36,
+                          "layout": "vertical"
                         },
                         {
-                          "id": "u1omdq",
-                          "type": "ref",
-                          "ref": "fFmN2",
-                          "name": "Tinjau penolakan",
-                          "descendants": {
-                            "U7Cbs": {
-                              "content": "Tinjau penolakan"
+                          "type": "frame",
+                          "id": "yV2tL",
+                          "name": "Reject form error alert",
+                          "width": "fill_container",
+                          "fill": "#FDECEA",
+                          "cornerRadius": 8,
+                          "stroke": "$danger",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "IitGo",
+                              "name": "Reject error icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "circle-alert",
+                              "library": "lucide",
+                              "fill": "$danger"
                             },
-                            "eq2MD": {
-                              "enabled": false
+                            {
+                              "type": "text",
+                              "id": "cERhH",
+                              "name": "Reject consequence",
+                              "fill": "$danger",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Isi alasan penolakan sebelum melanjutkan. Pengajuan yang ditolak tidak dapat diedit kembali.",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
-                          }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AvxOP",
+                          "name": "Actions",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "id": "MqPwi",
+                              "type": "ref",
+                              "ref": "WQYrQ",
+                              "name": "Batal",
+                              "width": "fill_container",
+                              "height": 44,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "descendants": {
+                                "GvpjL": {
+                                  "content": "Batal"
+                                }
+                              }
+                            },
+                            {
+                              "id": "u1omdq",
+                              "type": "ref",
+                              "ref": "fFmN2",
+                              "name": "Tinjau penolakan · disabled specimen · field wajib belum diisi",
+                              "opacity": 0.5,
+                              "width": "fill_container",
+                              "height": 44,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "fill": "#FFFFFF",
+                              "stroke": "$danger",
+                              "strokeWidth": 1,
+                              "descendants": {
+                                "U7Cbs": {
+                                  "content": "Tolak pengajuan",
+                                  "fontSize": 14,
+                                  "fill": "$danger"
+                                },
+                                "eq2MD": {
+                                  "enabled": false
+                                }
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
@@ -155187,7 +155449,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -155225,19 +155487,6 @@
                           "fontFamily": "DM Sans",
                           "fontSize": 16,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "k9leZs",
-                          "name": "Confirmation description",
-                          "fill": "#6B7280",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Konfirmasi Finance Approved",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "DM Sans",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -155548,7 +155797,7 @@
                                           "fill": "#111111",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Pilih aturan aktif",
+                                          "content": "Belum dicontohkan",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
@@ -155808,7 +156057,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -155827,16 +156076,47 @@
                   "padding": 24,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "GHF1p",
-                      "name": "Title",
-                      "fill": "#20242A",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "sP3jw",
+                      "name": "State title and current status",
                       "width": "fill_container",
-                      "content": "Approver belum tersedia",
-                      "fontFamily": "DM Sans",
-                      "fontSize": 22,
-                      "fontWeight": "normal"
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GHF1p",
+                          "name": "Title",
+                          "fill": "#20242A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Approver belum tersedia",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "vaop0",
+                          "type": "ref",
+                          "ref": "R5NHOj",
+                          "name": "Current status · Pending",
+                          "height": 24,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "cornerRadius": 999,
+                          "fill": "#F7F8FA",
+                          "descendants": {
+                            "U0zly": {
+                              "content": "Pending",
+                              "fontSize": 12,
+                              "fontWeight": "500",
+                              "fill": "#4D5662"
+                            }
+                          }
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -155936,7 +156216,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -156016,6 +156296,27 @@
                               "gap": 12,
                               "padding": 16,
                               "children": [
+                                {
+                                  "id": "XrQ6Y",
+                                  "type": "ref",
+                                  "ref": "R5NHOj",
+                                  "name": "Confirmation current status · Pending",
+                                  "height": 24,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "cornerRadius": 999,
+                                  "fill": "#F7F8FA",
+                                  "descendants": {
+                                    "U0zly": {
+                                      "content": "Pending",
+                                      "fontSize": 12,
+                                      "fontWeight": "500",
+                                      "fill": "#4D5662"
+                                    }
+                                  }
+                                },
                                 {
                                   "type": "frame",
                                   "id": "AhYeK",
@@ -156231,7 +156532,7 @@
                                           "fill": "#111111",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Pilih aturan aktif",
+                                          "content": "Belum dicontohkan",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
@@ -156318,14 +156619,15 @@
                                           "type": "text",
                                           "id": "jXEJs",
                                           "name": "Value · Instruksi publik",
-                                          "fill": "#111111",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Jelaskan perubahan yang diminta",
+                                          "content": "Belum diisi",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
-                                          "fontWeight": "500"
+                                          "fontWeight": "normal",
+                                          "fontStyle": "italic"
                                         }
                                       ]
                                     }
@@ -156377,19 +156679,6 @@
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "P7c7G",
-                              "name": "Consequences",
-                              "fill": "#6B7280",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Field terpilih dibuka untuk Requester; instruksi publik akan dikirim.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "DM Sans",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -156401,6 +156690,46 @@
                           "layout": "vertical",
                           "gap": 12,
                           "children": [
+                            {
+                              "type": "frame",
+                              "id": "Zs9JP",
+                              "name": "Finance repairable blocker alert",
+                              "width": "fill_container",
+                              "fill": "#FEF9E7",
+                              "cornerRadius": 8,
+                              "stroke": "$warning",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                12,
+                                16
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pIso9",
+                                  "name": "Repairable blocker icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "triangle-alert",
+                                  "library": "lucide",
+                                  "fill": "$warning"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "YEzvw",
+                                  "name": "Repairable blocker cause",
+                                  "fill": "$warning",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Isi instruksi publik sebelum meminta Revision.",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
                             {
                               "type": "frame",
                               "id": "B3CaSg",
@@ -156446,8 +156775,8 @@
                                       "id": "h3Mer",
                                       "type": "ref",
                                       "ref": "fFmN2",
-                                      "name": "Minta Revision",
-                                      "opacity": 1,
+                                      "name": "Minta Revision · disabled specimen · instruksi publik belum diisi",
+                                      "opacity": 0.5,
                                       "height": 44,
                                       "width": "fill_container",
                                       "padding": [
@@ -156541,7 +156870,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -156612,6 +156941,161 @@
                           "children": [
                             {
                               "type": "frame",
+                              "id": "DpwNw",
+                              "name": "Fee change comparison",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "UvbKe",
+                                  "name": "Old to corrected fee",
+                                  "width": "fill_container",
+                                  "gap": 16,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "dqhBg",
+                                      "name": "Confirmation row · Fee sebelum koreksi",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 6,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "kTpaK",
+                                          "name": "Confirmation label · Fee sebelum koreksi",
+                                          "fill": "#6B7280",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Fee sebelumnya",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "hDsJD",
+                                          "name": "Confirmation value · Fee sebelum koreksi",
+                                          "width": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 8,
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "Y9Q9Qq",
+                                              "name": "Previous fee · measured strike-through",
+                                              "width": 83,
+                                              "height": 17,
+                                              "layout": "none",
+                                              "children": [
+                                                {
+                                                  "type": "text",
+                                                  "id": "b4M869",
+                                                  "x": 0,
+                                                  "y": 0,
+                                                  "name": "Value · Fee sebelum koreksi",
+                                                  "fill": "#6B7280",
+                                                  "content": "Rp 4.500.000",
+                                                  "lineHeight": 1.2857142857142858,
+                                                  "fontFamily": "DM Sans",
+                                                  "fontSize": 13,
+                                                  "fontWeight": "normal"
+                                                },
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "RmUDw",
+                                                  "x": 0,
+                                                  "y": 8,
+                                                  "name": "Previous fee strike line · measured text width",
+                                                  "fill": "#6B7280",
+                                                  "width": 83,
+                                                  "height": 1
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "w4sWk3",
+                                      "name": "Fee change direction",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "arrow-right",
+                                      "library": "lucide",
+                                      "fill": "#6B7280"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "JpG73",
+                                      "name": "Confirmation row · Fee setelah koreksi",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 6,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "BzQ7J",
+                                          "name": "Confirmation label · Fee setelah koreksi",
+                                          "fill": "#6B7280",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Fee setelah koreksi",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "gzLmP",
+                                          "name": "Confirmation value · Fee setelah koreksi",
+                                          "width": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 8,
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "sQeDm",
+                                              "name": "Value · Fee setelah koreksi",
+                                              "fill": "#111111",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Rp 4.400.000",
+                                              "lineHeight": 1.25,
+                                              "fontFamily": "DM Sans",
+                                              "fontSize": 24,
+                                              "fontWeight": "700"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "fnitQ",
+                                  "name": "Fee difference",
+                                  "fill": "$primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Selisih: turun Rp100.000",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
                               "id": "hZWwM",
                               "name": "Confirmation summary · gray key-value grid",
                               "width": "fill_container",
@@ -156621,6 +157105,27 @@
                               "gap": 12,
                               "padding": 16,
                               "children": [
+                                {
+                                  "id": "PnH9d",
+                                  "type": "ref",
+                                  "ref": "R5NHOj",
+                                  "name": "Confirmation current status · Pending",
+                                  "height": 24,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "cornerRadius": 999,
+                                  "fill": "#F7F8FA",
+                                  "descendants": {
+                                    "U0zly": {
+                                      "content": "Pending",
+                                      "fontSize": 12,
+                                      "fontWeight": "500",
+                                      "fill": "#4D5662"
+                                    }
+                                  }
+                                },
                                 {
                                   "type": "frame",
                                   "id": "y9dmR",
@@ -156836,97 +157341,7 @@
                                           "fill": "#111111",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Pilih aturan aktif",
-                                          "lineHeight": 1.2857142857142858,
-                                          "fontFamily": "DM Sans",
-                                          "fontSize": 14,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "dqhBg",
-                                  "name": "Confirmation row · Fee sebelum koreksi",
-                                  "width": "fill_container",
-                                  "gap": 16,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "kTpaK",
-                                      "name": "Confirmation label · Fee sebelum koreksi",
-                                      "fill": "#6B7280",
-                                      "textGrowth": "fixed-width",
-                                      "width": 140,
-                                      "content": "Fee sebelum koreksi",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "DM Sans",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "hDsJD",
-                                      "name": "Confirmation value · Fee sebelum koreksi",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 8,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "b4M869",
-                                          "name": "Value · Fee sebelum koreksi",
-                                          "fill": "#111111",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Rp 4.500.000",
-                                          "lineHeight": 1.2857142857142858,
-                                          "fontFamily": "DM Sans",
-                                          "fontSize": 14,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "JpG73",
-                                  "name": "Confirmation row · Fee setelah koreksi",
-                                  "width": "fill_container",
-                                  "gap": 16,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "BzQ7J",
-                                      "name": "Confirmation label · Fee setelah koreksi",
-                                      "fill": "#6B7280",
-                                      "textGrowth": "fixed-width",
-                                      "width": 140,
-                                      "content": "Fee setelah koreksi",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "DM Sans",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "gzLmP",
-                                      "name": "Confirmation value · Fee setelah koreksi",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 8,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "sQeDm",
-                                          "name": "Value · Fee setelah koreksi",
-                                          "fill": "#111111",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Rp 4.400.000",
+                                          "content": "Belum dicontohkan",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
@@ -156968,14 +157383,15 @@
                                           "type": "text",
                                           "id": "f6C1d",
                                           "name": "Value · Alasan koreksi",
-                                          "fill": "#111111",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Jelaskan koreksi",
+                                          "content": "Belum diisi",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
-                                          "fontWeight": "500"
+                                          "fontWeight": "normal",
+                                          "fontStyle": "italic"
                                         }
                                       ]
                                     }
@@ -157027,19 +157443,6 @@
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "v0vcM",
-                              "name": "Consequences",
-                              "fill": "#6B7280",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Nilai lama, nilai baru dan alasan akan dicatat dalam audit.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "DM Sans",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -157051,6 +157454,46 @@
                           "layout": "vertical",
                           "gap": 12,
                           "children": [
+                            {
+                              "type": "frame",
+                              "id": "XmUUM",
+                              "name": "Finance repairable blocker alert",
+                              "width": "fill_container",
+                              "fill": "#FEF9E7",
+                              "cornerRadius": 8,
+                              "stroke": "$warning",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                12,
+                                16
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "G8fqU",
+                                  "name": "Repairable blocker icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "triangle-alert",
+                                  "library": "lucide",
+                                  "fill": "$warning"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kgXdp",
+                                  "name": "Repairable blocker cause",
+                                  "fill": "$warning",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Isi alasan koreksi sebelum menyimpan.",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
                             {
                               "type": "frame",
                               "id": "tmCQK",
@@ -157096,8 +157539,8 @@
                                       "id": "s8e4r",
                                       "type": "ref",
                                       "ref": "fFmN2",
-                                      "name": "Simpan koreksi",
-                                      "opacity": 1,
+                                      "name": "Simpan koreksi · disabled specimen · alasan koreksi belum diisi",
+                                      "opacity": 0.5,
                                       "height": 44,
                                       "width": "fill_container",
                                       "padding": [
@@ -157191,7 +157634,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -157229,19 +157672,6 @@
                           "fontFamily": "DM Sans",
                           "fontSize": 16,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "xxSEH",
-                          "name": "Confirmation description",
-                          "fill": "#6B7280",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Pengajuan yang ditolak tidak dapat diedit.",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "DM Sans",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -157271,6 +157701,27 @@
                               "gap": 12,
                               "padding": 16,
                               "children": [
+                                {
+                                  "id": "y8Mkon",
+                                  "type": "ref",
+                                  "ref": "R5NHOj",
+                                  "name": "Confirmation current status · Pending",
+                                  "height": 24,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "cornerRadius": 999,
+                                  "fill": "#F7F8FA",
+                                  "descendants": {
+                                    "U0zly": {
+                                      "content": "Pending",
+                                      "fontSize": 12,
+                                      "fontWeight": "500",
+                                      "fill": "#4D5662"
+                                    }
+                                  }
+                                },
                                 {
                                   "type": "frame",
                                   "id": "ZpJcM",
@@ -157486,7 +157937,7 @@
                                           "fill": "#111111",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Pilih aturan aktif",
+                                          "content": "Belum dicontohkan",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
@@ -157528,14 +157979,15 @@
                                           "type": "text",
                                           "id": "mHnaM",
                                           "name": "Value · Alasan penolakan",
-                                          "fill": "#111111",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Jelaskan alasan penolakan",
+                                          "content": "Belum diisi",
                                           "lineHeight": 1.2857142857142858,
                                           "fontFamily": "DM Sans",
                                           "fontSize": 14,
-                                          "fontWeight": "500"
+                                          "fontWeight": "normal",
+                                          "fontStyle": "italic"
                                         }
                                       ]
                                     }
@@ -157587,19 +158039,6 @@
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "B72Kb",
-                              "name": "Consequences",
-                              "fill": "#6B7280",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Alasan penolakan akan dicatat.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "DM Sans",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -157643,7 +158082,7 @@
                                   "fill": "$danger",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Pengajuan yang ditolak tidak dapat diedit. Alasan penolakan akan dicatat.",
+                                  "content": "Isi alasan penolakan sebelum menolak. Setelah ditolak, status Rejected dan pengajuan tidak dapat diedit. Reject tidak membuka field. Alasan penolakan akan dicatat.",
                                   "lineHeight": 1.3846153846153846,
                                   "fontFamily": "DM Sans",
                                   "fontSize": 13,
@@ -157696,8 +158135,8 @@
                                       "id": "NGXDk",
                                       "type": "ref",
                                       "ref": "fFmN2",
-                                      "name": "Tolak pengajuan",
-                                      "opacity": 1,
+                                      "name": "Tolak pengajuan · disabled specimen · alasan penolakan belum diisi",
+                                      "opacity": 0.5,
                                       "height": 44,
                                       "width": "fill_container",
                                       "padding": [
@@ -157795,7 +158234,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending vendor proof"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -158137,6 +158576,7 @@
                                   "name": "Row · Tax treatment",
                                   "width": "fill_container",
                                   "gap": 16,
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
@@ -158155,7 +158595,7 @@
                                       "type": "frame",
                                       "id": "QQxvo",
                                       "name": "Value · Tax treatment",
-                                      "width": "fill_container",
+                                      "width": 320,
                                       "layout": "vertical",
                                       "children": [
                                         {
@@ -158169,6 +158609,9 @@
                                             "yDbtP": {
                                               "content": "Tax treatment · dipilih Admin",
                                               "enabled": false
+                                            },
+                                            "Moery": {
+                                              "height": 40
                                             },
                                             "orwNG": {
                                               "content": "Pilih aturan aktif",
@@ -158253,66 +158696,95 @@
                             },
                             {
                               "type": "frame",
-                              "id": "z6IzP",
-                              "name": "Row · Akses",
+                              "id": "dNMVh",
+                              "name": "Access row and aligned link",
                               "width": "fill_container",
-                              "gap": 16,
+                              "layout": "vertical",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "wBZwC",
-                                  "name": "Label · Akses",
-                                  "fill": "#6B7280",
-                                  "textGrowth": "fixed-width",
-                                  "width": 140,
-                                  "content": "Akses",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
                                   "type": "frame",
-                                  "id": "n368Mg",
-                                  "name": "Value · Akses",
+                                  "id": "z6IzP",
+                                  "name": "Row · Akses",
                                   "width": "fill_container",
-                                  "layout": "vertical",
+                                  "gap": 16,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "vsRO7",
-                                      "name": "Sensitive",
-                                      "fill": "#111111",
+                                      "id": "wBZwC",
+                                      "name": "Label · Akses",
+                                      "fill": "#6B7280",
                                       "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Admin · lihat sesuai izin",
-                                      "lineHeight": 1.4285714285714286,
+                                      "width": 140,
+                                      "content": "Akses",
+                                      "lineHeight": 1.3846153846153846,
                                       "fontFamily": "DM Sans",
-                                      "fontSize": 14,
-                                      "fontWeight": "500"
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "n368Mg",
+                                      "name": "Value · Akses",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "vsRO7",
+                                          "name": "Sensitive",
+                                          "fill": "#111111",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Admin · lihat sesuai izin",
+                                          "lineHeight": 1.4285714285714286,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xKRIt",
+                                  "name": "Sensitive link · value column indent",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "padding": [
+                                    8,
+                                    0,
+                                    0,
+                                    140
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "i9qZ1",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Buka dokumen sensitif",
+                                      "width": "fit_content",
+                                      "height": 32,
+                                      "padding": [
+                                        0,
+                                        0,
+                                        0,
+                                        16
+                                      ],
+                                      "fill": "#FFFFFF",
+                                      "strokeWidth": 0,
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Lihat KTP / rekening",
+                                          "fontSize": 13,
+                                          "fill": "$primary",
+                                          "fontWeight": "500"
+                                        }
+                                      }
                                     }
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "id": "i9qZ1",
-                              "type": "ref",
-                              "ref": "WQYrQ",
-                              "name": "Buka dokumen sensitif",
-                              "width": "fit_content",
-                              "height": 32,
-                              "padding": 0,
-                              "fill": "#FFFFFF",
-                              "strokeWidth": 0,
-                              "descendants": {
-                                "GvpjL": {
-                                  "content": "Lihat KTP / rekening",
-                                  "fontSize": 13,
-                                  "fill": "$primary",
-                                  "fontWeight": "500"
-                                }
-                              }
                             }
                           ]
                         },
@@ -158563,15 +159035,14 @@
                               "id": "J0MKu",
                               "name": "Action group C · primary",
                               "width": "fill_container",
-                              "height": "fit_content(0)",
                               "layout": "vertical",
                               "children": [
                                 {
                                   "id": "hWwD3",
                                   "type": "ref",
                                   "ref": "fFmN2",
-                                  "enabled": false,
-                                  "name": "Finance Approved",
+                                  "enabled": true,
+                                  "name": "Teruskan ke Approver · disabled specimen · bukti vendor belum divalidasi",
                                   "width": 320,
                                   "height": 44,
                                   "padding": [
@@ -158580,6 +159051,7 @@
                                   ],
                                   "justifyContent": "center",
                                   "alignItems": "center",
+                                  "opacity": 0.5,
                                   "descendants": {
                                     "U7Cbs": {
                                       "content": "Teruskan ke Approver",
@@ -158664,7 +159136,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending vendor proof"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -159006,6 +159478,7 @@
                                   "name": "Row · Tax treatment",
                                   "width": "fill_container",
                                   "gap": 16,
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
@@ -159024,7 +159497,7 @@
                                       "type": "frame",
                                       "id": "GX5Gy",
                                       "name": "Value · Tax treatment",
-                                      "width": "fill_container",
+                                      "width": 320,
                                       "layout": "vertical",
                                       "children": [
                                         {
@@ -159038,6 +159511,9 @@
                                             "yDbtP": {
                                               "content": "Tax treatment · dipilih Admin",
                                               "enabled": false
+                                            },
+                                            "Moery": {
+                                              "height": 40
                                             },
                                             "orwNG": {
                                               "content": "Pilih aturan aktif",
@@ -159122,66 +159598,95 @@
                             },
                             {
                               "type": "frame",
-                              "id": "I6erjB",
-                              "name": "Row · Akses",
+                              "id": "HO8X6",
+                              "name": "Access row and aligned link",
                               "width": "fill_container",
-                              "gap": 16,
+                              "layout": "vertical",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "FEdcb",
-                                  "name": "Label · Akses",
-                                  "fill": "#6B7280",
-                                  "textGrowth": "fixed-width",
-                                  "width": 140,
-                                  "content": "Akses",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
                                   "type": "frame",
-                                  "id": "kFGnh",
-                                  "name": "Value · Akses",
+                                  "id": "I6erjB",
+                                  "name": "Row · Akses",
                                   "width": "fill_container",
-                                  "layout": "vertical",
+                                  "gap": 16,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "uLxB3",
-                                      "name": "Sensitive",
-                                      "fill": "#111111",
+                                      "id": "FEdcb",
+                                      "name": "Label · Akses",
+                                      "fill": "#6B7280",
                                       "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Admin · lihat sesuai izin",
-                                      "lineHeight": 1.4285714285714286,
+                                      "width": 140,
+                                      "content": "Akses",
+                                      "lineHeight": 1.3846153846153846,
                                       "fontFamily": "DM Sans",
-                                      "fontSize": 14,
-                                      "fontWeight": "500"
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "kFGnh",
+                                      "name": "Value · Akses",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "uLxB3",
+                                          "name": "Sensitive",
+                                          "fill": "#111111",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Admin · lihat sesuai izin",
+                                          "lineHeight": 1.4285714285714286,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "TeFDB",
+                                  "name": "Sensitive link · value column indent",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "padding": [
+                                    8,
+                                    0,
+                                    0,
+                                    140
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "qlAG8",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Buka dokumen sensitif",
+                                      "width": "fit_content",
+                                      "height": 32,
+                                      "padding": [
+                                        0,
+                                        0,
+                                        0,
+                                        16
+                                      ],
+                                      "fill": "#FFFFFF",
+                                      "strokeWidth": 0,
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Lihat KTP / rekening",
+                                          "fontSize": 13,
+                                          "fill": "$primary",
+                                          "fontWeight": "500"
+                                        }
+                                      }
                                     }
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "id": "qlAG8",
-                              "type": "ref",
-                              "ref": "WQYrQ",
-                              "name": "Buka dokumen sensitif",
-                              "width": "fit_content",
-                              "height": 32,
-                              "padding": 0,
-                              "fill": "#FFFFFF",
-                              "strokeWidth": 0,
-                              "descendants": {
-                                "GvpjL": {
-                                  "content": "Lihat KTP / rekening",
-                                  "fontSize": 13,
-                                  "fill": "$primary",
-                                  "fontWeight": "500"
-                                }
-                              }
                             }
                           ]
                         },
@@ -159434,15 +159939,14 @@
                               "id": "eJFoy",
                               "name": "Action group C · primary",
                               "width": "fill_container",
-                              "height": "fit_content(0)",
                               "layout": "vertical",
                               "children": [
                                 {
                                   "id": "Z8EAWK",
                                   "type": "ref",
                                   "ref": "fFmN2",
-                                  "enabled": false,
-                                  "name": "Finance Approved",
+                                  "enabled": true,
+                                  "name": "Finance Approved · disabled specimen · bukti vendor tidak valid",
                                   "width": 320,
                                   "height": 44,
                                   "padding": [
@@ -159451,6 +159955,7 @@
                                   ],
                                   "justifyContent": "center",
                                   "alignItems": "center",
+                                  "opacity": 0.5,
                                   "descendants": {
                                     "U7Cbs": {
                                       "content": "Teruskan ke Approver",
@@ -159535,7 +160040,7 @@
                       "content": "Pemeriksaan payment request"
                     },
                     "kpCLO": {
-                      "content": "PAY-000018 · Pending vendor proof"
+                      "content": "PAY-000018"
                     },
                     "xaXdi": {
                       "enabled": false
@@ -159877,6 +160382,7 @@
                                   "name": "Row · Tax treatment",
                                   "width": "fill_container",
                                   "gap": 16,
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
@@ -159895,7 +160401,7 @@
                                       "type": "frame",
                                       "id": "O8l7SI",
                                       "name": "Value · Tax treatment",
-                                      "width": "fill_container",
+                                      "width": 320,
                                       "layout": "vertical",
                                       "children": [
                                         {
@@ -159909,6 +160415,9 @@
                                             "yDbtP": {
                                               "content": "Tax treatment · dipilih Admin",
                                               "enabled": false
+                                            },
+                                            "Moery": {
+                                              "height": 40
                                             },
                                             "orwNG": {
                                               "content": "Pilih aturan aktif",
@@ -159993,66 +160502,95 @@
                             },
                             {
                               "type": "frame",
-                              "id": "OnrDR",
-                              "name": "Row · Akses",
+                              "id": "EGfWO",
+                              "name": "Access row and aligned link",
                               "width": "fill_container",
-                              "gap": 16,
+                              "layout": "vertical",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "b8YglC",
-                                  "name": "Label · Akses",
-                                  "fill": "#6B7280",
-                                  "textGrowth": "fixed-width",
-                                  "width": 140,
-                                  "content": "Akses",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "DM Sans",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                },
-                                {
                                   "type": "frame",
-                                  "id": "q7pFqc",
-                                  "name": "Value · Akses",
+                                  "id": "OnrDR",
+                                  "name": "Row · Akses",
                                   "width": "fill_container",
-                                  "layout": "vertical",
+                                  "gap": 16,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "emc6l",
-                                      "name": "Sensitive",
-                                      "fill": "#111111",
+                                      "id": "b8YglC",
+                                      "name": "Label · Akses",
+                                      "fill": "#6B7280",
                                       "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Admin · lihat sesuai izin",
-                                      "lineHeight": 1.4285714285714286,
+                                      "width": 140,
+                                      "content": "Akses",
+                                      "lineHeight": 1.3846153846153846,
                                       "fontFamily": "DM Sans",
-                                      "fontSize": 14,
-                                      "fontWeight": "500"
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "q7pFqc",
+                                      "name": "Value · Akses",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "emc6l",
+                                          "name": "Sensitive",
+                                          "fill": "#111111",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Admin · lihat sesuai izin",
+                                          "lineHeight": 1.4285714285714286,
+                                          "fontFamily": "DM Sans",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "B9xUU",
+                                  "name": "Sensitive link · value column indent",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "padding": [
+                                    8,
+                                    0,
+                                    0,
+                                    140
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "d7bGOE",
+                                      "type": "ref",
+                                      "ref": "WQYrQ",
+                                      "name": "Buka dokumen sensitif",
+                                      "width": "fit_content",
+                                      "height": 32,
+                                      "padding": [
+                                        0,
+                                        0,
+                                        0,
+                                        16
+                                      ],
+                                      "fill": "#FFFFFF",
+                                      "strokeWidth": 0,
+                                      "descendants": {
+                                        "GvpjL": {
+                                          "content": "Lihat KTP / rekening",
+                                          "fontSize": 13,
+                                          "fill": "$primary",
+                                          "fontWeight": "500"
+                                        }
+                                      }
                                     }
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "id": "d7bGOE",
-                              "type": "ref",
-                              "ref": "WQYrQ",
-                              "name": "Buka dokumen sensitif",
-                              "width": "fit_content",
-                              "height": 32,
-                              "padding": 0,
-                              "fill": "#FFFFFF",
-                              "strokeWidth": 0,
-                              "descendants": {
-                                "GvpjL": {
-                                  "content": "Lihat KTP / rekening",
-                                  "fontSize": 13,
-                                  "fill": "$primary",
-                                  "fontWeight": "500"
-                                }
-                              }
                             }
                           ]
                         },
@@ -160353,7 +160891,7 @@
       "y": 0,
       "name": "ADMIN FINANCE / PG-08 / Narrow",
       "width": 2900,
-      "height": 1200,
+      "height": 1216,
       "layout": "none",
       "children": [
         {
@@ -160434,16 +160972,47 @@
                       "padding": 20,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "WKhK9",
-                          "name": "Revision heading",
-                          "fill": "#20242A",
-                          "textGrowth": "fixed-width",
+                          "type": "frame",
+                          "id": "LlHmS",
+                          "name": "State title and current status",
                           "width": "fill_container",
-                          "content": "Minta Revision",
-                          "fontFamily": "DM Sans",
-                          "fontSize": 20,
-                          "fontWeight": "normal"
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WKhK9",
+                              "name": "Revision heading",
+                              "fill": "#20242A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Minta Revision",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "id": "uz6Iq",
+                              "type": "ref",
+                              "ref": "R5NHOj",
+                              "name": "Current status · Pending",
+                              "height": 24,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "cornerRadius": 999,
+                              "fill": "#F7F8FA",
+                              "descendants": {
+                                "U0zly": {
+                                  "content": "Pending",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "fill": "#4D5662"
+                                }
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "text",
@@ -160531,7 +161100,7 @@
           "name": "WIP / ADMIN / PG-08 / Narrow · Detail · Data contoh",
           "clip": true,
           "width": 390,
-          "height": 1054,
+          "height": 1076,
           "fill": "#EDEDED",
           "layout": "none",
           "children": [
@@ -160563,7 +161132,7 @@
               },
               "clip": true,
               "width": 390,
-              "height": 958,
+              "height": 980,
               "layout": "none",
               "children": [
                 {
@@ -160897,7 +161466,8 @@
                                       "id": "uK8D9",
                                       "name": "Row · Tax treatment",
                                       "width": "fill_container",
-                                      "gap": 16,
+                                      "layout": "vertical",
+                                      "gap": 8,
                                       "children": [
                                         {
                                           "type": "text",
@@ -160905,7 +161475,7 @@
                                           "name": "Label · Tax treatment",
                                           "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
-                                          "width": 120,
+                                          "width": "fill_container",
                                           "content": "Tax treatment",
                                           "lineHeight": 1.3846153846153846,
                                           "fontFamily": "DM Sans",
@@ -160930,6 +161500,9 @@
                                                 "yDbtP": {
                                                   "content": "Tax treatment · dipilih Admin",
                                                   "enabled": false
+                                                },
+                                                "Moery": {
+                                                  "height": 44
                                                 },
                                                 "orwNG": {
                                                   "content": "Pilih aturan aktif",
@@ -161014,66 +161587,95 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "LNYIf",
-                                  "name": "Row · Akses",
+                                  "id": "xRGe8",
+                                  "name": "Access row and aligned link",
                                   "width": "fill_container",
-                                  "gap": 16,
+                                  "layout": "vertical",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "wAJMk",
-                                      "name": "Label · Akses",
-                                      "fill": "#6B7280",
-                                      "textGrowth": "fixed-width",
-                                      "width": 120,
-                                      "content": "Akses",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "DM Sans",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
                                       "type": "frame",
-                                      "id": "qQbyy",
-                                      "name": "Value · Akses",
+                                      "id": "LNYIf",
+                                      "name": "Row · Akses",
                                       "width": "fill_container",
-                                      "layout": "vertical",
+                                      "gap": 16,
                                       "children": [
                                         {
                                           "type": "text",
-                                          "id": "xzKJL",
-                                          "name": "Sensitive access",
-                                          "fill": "#111111",
+                                          "id": "wAJMk",
+                                          "name": "Label · Akses",
+                                          "fill": "#6B7280",
                                           "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Admin · lihat sesuai izin",
-                                          "lineHeight": 1.4285714285714286,
+                                          "width": 120,
+                                          "content": "Akses",
+                                          "lineHeight": 1.3846153846153846,
                                           "fontFamily": "DM Sans",
-                                          "fontSize": 14,
-                                          "fontWeight": "500"
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "qQbyy",
+                                          "name": "Value · Akses",
+                                          "width": "fill_container",
+                                          "layout": "vertical",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "xzKJL",
+                                              "name": "Sensitive access",
+                                              "fill": "#111111",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Admin · lihat sesuai izin",
+                                              "lineHeight": 1.4285714285714286,
+                                              "fontFamily": "DM Sans",
+                                              "fontSize": 14,
+                                              "fontWeight": "500"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "tJoMe",
+                                      "name": "Sensitive link · value column indent",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        8,
+                                        0,
+                                        0,
+                                        120
+                                      ],
+                                      "children": [
+                                        {
+                                          "id": "xjs7l",
+                                          "type": "ref",
+                                          "ref": "WQYrQ",
+                                          "name": "Buka dokumen sensitif",
+                                          "width": "fit_content",
+                                          "height": 32,
+                                          "padding": [
+                                            0,
+                                            0,
+                                            0,
+                                            16
+                                          ],
+                                          "fill": "#FFFFFF",
+                                          "strokeWidth": 0,
+                                          "descendants": {
+                                            "GvpjL": {
+                                              "content": "Lihat KTP / rekening",
+                                              "fontSize": 13,
+                                              "fill": "$primary",
+                                              "fontWeight": "500"
+                                            }
+                                          }
                                         }
                                       ]
                                     }
                                   ]
-                                },
-                                {
-                                  "id": "xjs7l",
-                                  "type": "ref",
-                                  "ref": "WQYrQ",
-                                  "name": "Buka dokumen sensitif",
-                                  "width": "fit_content",
-                                  "height": 32,
-                                  "padding": 0,
-                                  "fill": "#FFFFFF",
-                                  "strokeWidth": 0,
-                                  "descendants": {
-                                    "GvpjL": {
-                                      "content": "Lihat KTP / rekening",
-                                      "fontSize": 13,
-                                      "fill": "$primary",
-                                      "fontWeight": "500"
-                                    }
-                                  }
                                 }
                               ]
                             },
