@@ -1,13 +1,15 @@
 # Review UI/UX per story dan state
 
+**Bukti:** kanvas 2026-11-04 · hash isi `7f3413a961d4674c60f3500ba6ef49fee441a629b0bf19e9355b11d14cbed496` · commit `03d3acb` · rujukan `main`
+
 ## Batas bukti
 
-- Disusun dari [kanvas tersimpan `a28b2aa`][canvas], README render per folder ([Dashboard][dashboard], [Daftar Desktop][list-desktop], [Daftar Mobile][list-mobile], [Reimbursement][reimbursement], [Payment Request/Overtime][payment-overtime], [Admin Finance][finance]), [screens.md][screens], [ux.md][ux], [components.md][components], [copy.md][copy], [foundations.md][foundations], [fixtures.md][fixtures], [PRD.md][prd], dan [open-questions.md][questions] pada snapshot tersebut.
+- Disusun dari [kanvas][canvas] pada snapshot `a28b2aa`, README render per folder ([Dashboard][dashboard], [Daftar Desktop][list-desktop], [Daftar Mobile][list-mobile], [Reimbursement][reimbursement], [Payment Request/Overtime][payment-overtime], [Admin Finance][finance]), [screens.md][screens], [ux.md][ux], [components.md][components], [copy.md][copy], [foundations.md][foundations], [fixtures.md][fixtures], [PRD.md][prd], dan [open-questions.md][questions] pada snapshot tersebut.
 - Bukan audit visual piksel: spacing, alignment, dan kontras per render tidak diukur ulang. Tidak ada klaim baru tentang kelulusan aksesibilitas visual.
 - Semua layar statis. Runtime, keyboard, screen reader, upload, dan permission belum diuji.
 - Status approval per story merujuk [screens.md][screens], tidak diulang di sini. Kritik ini tidak memberi approval atau membuka ulang baseline.
 
-Dokumen ini membahas masalah tugas dan saran per state, bukan inventaris frame, matriks penyelesaian, atau urutan pengerjaan. Tautan sumber dipatok ke `a28b2aa` karena branch dokumen berangkat dari `main`, terpisah dari PR #16. README render dapat memuat bukti historis; untuk PG-06 Admin Finance, gunakan paket terbaru yang disebut dalam README tersebut. Nama, angka, dan riwayat spesimen adalah data contoh, bukan rekaman transaksi.
+Dokumen ini membahas masalah tugas dan saran per state, bukan inventaris frame, matriks penyelesaian, atau urutan pengerjaan. Disusun dari snapshot `a28b2aa`; tautan sumber memakai `main` supaya tidak menggantung, sehingga isi yang dibaca hari ini bisa lebih baru daripada yang dikritik di sini. README render dapat memuat bukti historis; untuk PG-06 Admin Finance, gunakan paket terbaru yang disebut dalam README tersebut. Nama, angka, dan riwayat spesimen adalah data contoh, bukan rekaman transaksi.
 
 Setiap baris memakai format **state → masalah → saran konkret**. ID hanya diberikan pada temuan yang memerlukan tindak lanjut; baris “tidak ada temuan tambahan” tidak dihitung. Saran pada story yang memiliki baseline tidak otomatis menjadi blocker atau izin mengubah baseline. Risiko implementasi ditulis sebagai hal yang belum ditentukan/diuji, bukan kegagalan runtime yang sudah ditemukan.
 
@@ -195,18 +197,18 @@ Daftar ini hanya gate keputusan atau perlindungan data, bukan salinan Definition
 - Simpan koreksi dan jejak audit secara konsisten sebelum menampilkan hasil sukses; pengulangan aksi tidak boleh mencatat keputusan ganda tanpa kendali.
 - Pisahkan respons instruksi/alasan publik dari catatan internal dan dokumen sesuai permission PRD. Spesimen yang benar tidak membuktikan pembatasan data sudah bekerja.
 
-[canvas]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/reimburse.pen
-[screens]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/screens.md
-[ux]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/ux.md
-[components]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/components.md
-[copy]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/copy.md
-[foundations]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/foundations.md
-[fixtures]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/design/fixtures.md
-[prd]: https://github.com/anajibalm/reimburse/blob/a28b2aa/PRD.md
-[questions]: https://github.com/anajibalm/reimburse/blob/a28b2aa/docs/product/open-questions.md
-[dashboard]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/pg02-mobile/README.md
-[list-desktop]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/pg04-desktop/README.md
-[list-mobile]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/pg04-mobile/README.md
-[reimbursement]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/reimbursement-requester/README.md
-[payment-overtime]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/payment-overtime-requester/README.md
-[finance]: https://github.com/anajibalm/reimburse/blob/a28b2aa/design/png/admin-finance-review/README.md
+[canvas]: https://github.com/anajibalm/reimburse/blob/main/design/reimburse.pen
+[screens]: https://github.com/anajibalm/reimburse/blob/main/docs/design/screens.md
+[ux]: https://github.com/anajibalm/reimburse/blob/main/docs/design/ux.md
+[components]: https://github.com/anajibalm/reimburse/blob/main/docs/design/components.md
+[copy]: https://github.com/anajibalm/reimburse/blob/main/docs/design/copy.md
+[foundations]: https://github.com/anajibalm/reimburse/blob/main/docs/design/foundations.md
+[fixtures]: https://github.com/anajibalm/reimburse/blob/main/docs/design/fixtures.md
+[prd]: https://github.com/anajibalm/reimburse/blob/main/PRD.md
+[questions]: https://github.com/anajibalm/reimburse/blob/main/docs/product/open-questions.md
+[dashboard]: https://github.com/anajibalm/reimburse/blob/main/design/png/pg02-mobile/README.md
+[list-desktop]: https://github.com/anajibalm/reimburse/blob/main/design/png/pg04-desktop/README.md
+[list-mobile]: https://github.com/anajibalm/reimburse/blob/main/design/png/pg04-mobile/README.md
+[reimbursement]: https://github.com/anajibalm/reimburse/blob/main/design/png/reimbursement-requester/README.md
+[payment-overtime]: https://github.com/anajibalm/reimburse/blob/main/design/png/payment-overtime-requester/README.md
+[finance]: https://github.com/anajibalm/reimburse/blob/main/design/png/admin-finance-review/README.md
