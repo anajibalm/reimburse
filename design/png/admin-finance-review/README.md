@@ -2,9 +2,48 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-08 received the scoped hierarchy pass below and remains a draft candidate. PG-04 queue and PG-10 are unchanged. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-## PG-08 polish iterasi 3 · Commit 1
+## PG-08 polish iterasi 3 · Commit 2: paritas Narrow
 
-Branch/PR tetap `design/pg08-hierarchy` / #20, dari HEAD `7a157d99f0d9daa2a03b83fa72cb4d840f289587`. Working tree awal bersih. Ini hanya item **1, 2, 3, 4, 5, 6, 7, 8, 10**; tidak memasukkan pekerjaan paritas Narrow item 9 ke commit ini. Kanvas terbaru `design/reimburse.pen`, SHA-256 `286777a06fb7b9b403130eef9f88e7498e3ed2f85a66a729ef7370c5e39d5e53` (hash terbaru hanya di sini).
+Branch/PR tetap `design/pg08-hierarchy` / #20, melanjutkan `8762aab4d7843d9d2ee59e5d4ea20124bdd8e4a4`. Owner mengonfirmasi **9 frame baru**, bukan 7. Kanvas terbaru `design/reimburse.pen`, SHA-256 `c19b7b743363cb9f51e545420c5d74cdd093ace41d12fceebde44b7ec9af45e3` (hash terbaru hanya di README ini).
+
+**Klarifikasi frame vs file:** `F1maXE`, `QB9Kq`, dan `xpoXz` semuanya **frame lama** yang sudah ada di canvas baseline `03d3acb`; ketiga **file PNG-nya baru ditambahkan ke Git pada commit 1 (`8762aab`)**, bukan frame baru. Sembilan frame yang benar-benar baru pada commit 2 adalah daftar berikut.
+
+| State Narrow baru | Frame ID / PNG | Panel sumber Desktop commit 1 | Ukuran frame / PNG native 2× |
+| --- | --- | --- | --- |
+| Konfirmasi Finance Approved | `zZaog` / `zZaog.png` | `c0W2bn/gvPjM` | 390×844 / 780×1688 |
+| Konfirmasi Revision | `z05UCS` / `z05UCS.png` | `iPcOE/sYA1i` | 390×844 / 780×1688 |
+| Koreksi | `AhKS5` / `AhKS5.png` | `HDq48/zLcNC` | 390×844 / 780×1688 |
+| Konfirmasi Koreksi | `Z7xFI` / `Z7xFI.png` | `WAO0I/yKjPw` | 390×895 / 780×1790 |
+| Reject | `FwnFG` / `FwnFG.png` | `xpoXz/Xztxj` | 390×844 / 780×1688 |
+| Konfirmasi Reject | `e7EmQ` / `e7EmQ.png` | `OkzZU/jylI9` | 390×844 / 780×1688 |
+| Pending vendor proof · menunggu validasi | `mFA4I` / `mFA4I.png` | `HP1TH/AiGBH` | 390×1212 / 780×2424 |
+| Pending vendor proof · tidak valid | `PIWbH` / `PIWbH.png` | `Y9z8O/MD2sP` | 390×1156 / 780×2312 |
+| Pending vendor proof · tervalidasi | `hE9jn` / `hE9jn.png` | `Z31zwX/TwrCG` | 390×1156 / 780×2312 |
+
+### Implementasi dan pewarisan
+
+- Semua sembilan card **disalin dari panel Desktop commit 1**; urutan diadaptasi menjadi judul/subjudul → alert → form/data → tombol. Group intro gap12, antar grup24, action controls full-width44 dengan gap12; grup sekunder/destruktif/utama vendor proof mengikuti urutan sumber. Tidak membuat source reusable/variabel/global baru.
+- Header seluruh **11 state Admin Narrow** kini persis `Pemeriksaan payment request`: sembilan header baru menggunakan instance `yLJBd`; dua existing `B6WHG/e4rWfs` dan `L4sG2D/e4rWfs` juga diseragamkan. Tidak mengubah header Requester/PG-02/04/06 di luar scope.
+- Minta Revision existing `QB9Kq` diperbarui, **bukan frame baru**: card `Wgkuo`, judul `K61MF` 16/600, subjudul `p2Er8` 13px abu, alert `f2fub` sebelum data, action group `ISize`, tombol `SZDZv` full-width44/opacity0.5. Header/copy unik lama dipertahankan kecuali penggantian casing header yang diminta; subtitle/cause memakai copy Desktop. Card internal disusun ulang dengan ID baru untuk geometri bersih; frame ID `QB9Kq` tetap sama.
+- Placeholder `Belum diisi` tetap 14px italic `#6B7280` **hanya** untuk Alasan/Instruksi publik di summary. Requester/Tax treatment summary tetap `Belum dicontohkan` plain14px `#111`. Select form tetap `Pilih aturan aktif`. Semua nilai/copy terlihat pada sembilan card dibandingkan sebagai multiset terhadap panel sumber: **sama persis**, termasuk instruksi publik/alasan yang belum diisi, tanpa mengarang data.
+- Konfirmasi Koreksi `Z7xFI`: fee lama tercoret, fee baru 24/700, dan `Selisih: turun Rp100.000` diwarisi utuh; layout fee menjadi bertumpuk, arah panah ke bawah. Nominal tetap `Rp 4.500.000` / `Rp 4.400.000`. Tidak memakai format selisih negatif.
+- Tombol yang bisa diperbaiki Finance tetap tampil opacity0.5 sesuai sumber; Approver unavailable tetap tidak dirender pada `zZaog`. **Original `D2GU5` tidak diubah**; semua Desktop, termasuk seluruh root `zVZZY`, identik commit 1. Ini specimen visual, bukan disabled/authorization runtime.
+- Tiga varian vendor proof mempertahankan chip `Pending vendor proof`, file/status dokumen, alert warning/error/success dan button state masing-masing dari sumber Desktop. Chip panjang ditempatkan di kanan label fee dan nominal28px mendapat baris penuh agar `Rp 4.500.000` tidak pecah menjadi dua baris. Nilai, warna, font dan state tidak ditafsir ulang.
+- Data sensitif tetap `Admin · lihat sesuai izin`, dengan link berindent 120+16px; label grid120px, gap16. Tax select Narrow label di atas dan full-width44. Tidak ada nama Approver, tarif pajak, field wajib atau gate baru.
+
+### Ekspor dan verifikasi Commit 2
+
+**12 PNG output**: sembilan PNG baru pada tabel, **`QB9Kq.png` dan `eGvPW.png` ikut disegarkan karena dua state existing wajib berubah**, serta **`U6TVT.png`**. Dua PNG existing diperlukan agar galeri tidak memuat header/card lama. Tidak mengekspor ulang Desktop, `F1maXE.png`, `xpoXz.png`, atau galeri Desktop.
+
+Galeri Narrow `U6TVT` sekarang memuat 11 state, layout enam kolom lalu lima kolom pada dua baris; ukuran kanvas **2900×2548**, PNG **5800×5096**. Disusun mekanis sRGB RGBA `Copy` dari 11 PNG individual native2× dan cached heading `lftOV` native2× pada koordinat schema; tidak ada resize/upscale. **11 tile + 1 heading**, semuanya pixel-identik terhadap input (`magick compare -metric AE`: **0 (0)**). Ukuran akhir di bawah cap8192 pada kedua sumbu.
+
+Bounds final **0 masalah pada node tampil** untuk seluruh sembilan frame baru dan dua existing Narrow (`QB9Kq`, `eGvPW`). Screenshot live konfirmasi, form Koreksi/Reject, Revision existing, serta tiga varian bukti diperiksa untuk wrapping/overflow/urutan. Assertion file memverifikasi tepat9 screen baru, header exact, sumber/variabel/refs valid, original D2GU5 dan root Desktop/frozen tetap identik, serta data/copy/control-state diwarisi sumber.
+
+Penyimpanan hanya mengganti subtree `U6TVT`, tidak mengambil state live lain. Tidak ada perubahan editor tambahan yang di-stage. Baseline alignment, tabular numerals dan sticky positioning tetap CSS handoff, **tidak diklaim terverifikasi di Pen**. Runtime/API/authorization, keyboard/focus/screen reader, kalkulasi pajak dan persistence audit belum diuji. Tidak merge; PR #17 tidak disentuh.
+
+## Riwayat PG-08 polish iterasi 3 · Commit 1
+
+Branch/PR tetap `design/pg08-hierarchy` / #20, dari HEAD `7a157d99f0d9daa2a03b83fa72cb4d840f289587`. Working tree awal bersih. Ini hanya item **1, 2, 3, 4, 5, 6, 7, 8, 10**; tidak memasukkan pekerjaan paritas Narrow item 9 ke commit ini. Sumber Commit 1 `design/reimburse.pen`, SHA-256 historis `286777a06fb7b9b403130eef9f88e7498e3ed2f85a66a729ef7370c5e39d5e53`. Hash kanvas terbaru berada pada bagian Commit 2 di atas.
 
 ### Diterapkan dan bukti node
 
@@ -36,7 +75,7 @@ Verifikasi: seluruh 14 frame **0 bounds problems pada node tampil**, screenshot 
 
 Runtime/API/authorization, disabled/read-only behavior, tax calculation, keyboard/focus/screen reader belum diuji. Tidak merge, tidak menyentuh PR #17, tidak membuat branch/PR baru.
 
-**Commit 2 belum dijalankan:** item9 menyebut tujuh frame baru, tetapi enam state tunggal + tiga varian vendor proof = sembilan frame. Menunggu klarifikasi owner agar tidak mengurangi coverage atau membuat jumlah frame yang berbeda dari permintaan.
+**Klarifikasi terselesaikan:** owner mengonfirmasi sembilan frame; paritas Narrow item9 diselesaikan pada Commit 2 di atas, terpisah dari Commit 1 ini.
 
 ## Riwayat PG-08 hierarchy · branch design/pg08-hierarchy
 
