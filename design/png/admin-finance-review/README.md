@@ -2,9 +2,17 @@
 
 PG-06 is **Ready for Owner Review**, not Approved. PG-08 received the scoped hierarchy pass below and remains a draft candidate. PG-04 queue and PG-10 are unchanged. These are static specimens, not proof of working authorization, upload, calculations, submission, keyboard or screen-reader behavior.
 
-## PG-08 polish iterasi 3 · Commit 2: paritas Narrow
+## Urutan kanvas antar-PG
 
-Branch/PR tetap `design/pg08-hierarchy` / #20, melanjutkan `8762aab4d7843d9d2ee59e5d4ea20124bdd8e4a4`. Owner mengonfirmasi **9 frame baru**, bukan 7. Kanvas terbaru `design/reimburse.pen`, SHA-256 `c19b7b743363cb9f51e545420c5d74cdd093ace41d12fceebde44b7ec9af45e3` (hash terbaru hanya di README ini).
+Penataan workspace saja: grup yang tersedia kini berurutan dari atas ke bawah **PG-02 → PG-04 → PG-05 → PG-06 → PG-07 → PG-08 → PG-09 → PG-10**. Pada setiap baris, kolom kiri ke kanan adalah **Requester Desktop → Requester Mobile → Admin Finance Desktop → Admin Finance Narrow**; kolom yang belum punya grup dibiarkan kosong. Urutan root di layer tree mengikuti urutan PG yang sama.
+
+Review/referensi berada di atas; Foundations/components dan flow overview di area kanan terpisah; legacy/belum diselaraskan di paling kanan, tidak bercampur dengan story aktif. Hanya posisi x/y 45 root dan urutan root yang berubah: seluruh ID, children, isi screen, status approval, komponen, variabel, serta logika/state tombol tidak diubah oleh operasi penataan. Buffer editor juga mempertahankan offset lokal lama `SpqpD.y=115` (HEAD:100); selisih ini di luar penataan dan dibiarkan unstaged, bukan diubah/dimasukkan commit oleh pass ini. Selain offset tersebut, pemeriksaan terhadap HEAD memastikan tidak ada perubahan nested-node. Pemeriksaan bounding box: **0 pasangan root overlap**. PNG individual/galeri tidak diekspor ulang karena isi dan koordinat lokalnya tidak berubah. Penataan ini belum di-commit/push.
+
+Kanvas workspace terbaru `design/reimburse.pen`, SHA-256 `7234574d758a77fb184ac7294ec12f6082b22d06bfd80448375550150f346584` (hash terbaru hanya di README ini).
+
+## Riwayat PG-08 polish iterasi 3 · Commit 2: paritas Narrow
+
+Branch/PR tetap `design/pg08-hierarchy` / #20, melanjutkan `8762aab4d7843d9d2ee59e5d4ea20124bdd8e4a4`. Owner mengonfirmasi **9 frame baru**, bukan 7. Sumber Commit 2 `design/reimburse.pen`, SHA-256 historis `c19b7b743363cb9f51e545420c5d74cdd093ace41d12fceebde44b7ec9af45e3`. Hash workspace terbaru berada pada bagian urutan kanvas di atas.
 
 **Klarifikasi frame vs file:** `F1maXE`, `QB9Kq`, dan `xpoXz` semuanya **frame lama** yang sudah ada di canvas baseline `03d3acb`; ketiga **file PNG-nya baru ditambahkan ke Git pada commit 1 (`8762aab`)**, bukan frame baru. Sembilan frame yang benar-benar baru pada commit 2 adalah daftar berikut.
 
